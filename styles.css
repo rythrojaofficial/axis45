@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, Times, 'Times New Roman', serif
+    }
+
+.container {
+    margin: 5%;
+    /*creates blocks*/
+}
+
+.title {
+    text-align: center;
+    color: #263c42;
+    font-size: 300%;
+    /*mostly to center titles */
+}
+
+.section {
+    color: #263c42;
+    font-size: 175%;
+    /*for section titles*/
+}
+header {
+    width: 100%;
+    background-color: rgba(255, 253, 253, 0.938);
+    position: sticky;
+    padding: 50px;
+    top: 0;
+}
+
+.flex-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+
+    /*
+    flex container for button sections
+    flex-direction default row*/ 
+}
+
+.flex-header li {
+    text-transform: capitalize;
+    font-weight: bold;
+    list-style: none;
+}
+
+.flex-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    /*
+    flex container for button sections
+    flex-direction default row*/
+}
+
+/* this selector selects all divs inside of .flex-button-container */
+.flex-button-container div {
+    text-align: center;
+    background-color: white;
+    color:rgba(1, 54, 75, 0.815);
+    border: 10px;
+    border-color: rgba(1, 54, 75, 0.815);
+    text-transform: uppercase;
+    box-shadow: inset 0 0 0 2px rgba(1, 54, 75, 0.815);
+    padding: 6px;
+    border-radius: 300px;
+    font-weight: 700;
+    flex: 1 1 200px;
+
+}
+
+.flex-button-container div:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(1, 54, 75, 0.815);
+}
+
+
+
+.image-block {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.image-block img {
+    width: 100%;
+
+
+}
