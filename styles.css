@@ -2,6 +2,19 @@
     box-sizing: border-box;
     font-family: Georgia, Times, 'Times New Roman', serif
     }
+a {
+    display:inline-block; 
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    /*makes links not stupid purple ugly underline*/
+}
+
+a:hover {
+    color: white;
+}
 
 .container {
     margin: 5%;
@@ -22,17 +35,19 @@
 }
 header {
     width: 100%;
-    background-color: rgba(255, 253, 253, 0.938);
-    position: sticky;
+    background-color: rgb(255, 255, 255);
+    position:static;
     padding: 50px;
+    padding-top: 150px;
     top: 0;
+    
 }
 
 .flex-header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 15px;
 
     /*
@@ -42,8 +57,19 @@ header {
 
 .flex-header li {
     text-transform: capitalize;
-    font-weight: bold;
+    font-weight: 700;
     list-style: none;
+    color: #263c42;
+    padding: 6px;
+    background-color: rgb(255, 255, 255);
+    border-width:.5px;
+    border-color: #263c42;
+    border-radius: 5px;
+}
+
+.flex-header li:hover {
+    background-color: #263c42;
+    
 }
 
 .flex-button-container {
@@ -61,11 +87,11 @@ header {
 .flex-button-container div {
     text-align: center;
     background-color: white;
-    color:rgba(1, 54, 75, 0.815);
+    color:#263c42;
     border: 10px;
-    border-color: rgba(1, 54, 75, 0.815);
-    text-transform: uppercase;
-    box-shadow: inset 0 0 0 2px rgba(1, 54, 75, 0.815);
+    border-color: #263c42;
+    text-transform: capitalize;
+    box-shadow: inset 0 0 0 2px #263c42;
     padding: 6px;
     border-radius: 300px;
     font-weight: 700;
@@ -75,7 +101,7 @@ header {
 
 .flex-button-container div:hover {
     color: rgb(255, 255, 255);
-    background-color: rgba(1, 54, 75, 0.815);
+    background-color: #263c42;
 }
 
 
