@@ -135,3 +135,10 @@ header {
     align-items: center;
     flex-direction: column;
 }
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
