@@ -105,7 +105,8 @@ header {
     width: 100%;
     height: 100%;
     text-transform: uppercase;
-    text-decoration: none
+    text-decoration: none;
+    flex-grow: 1;
 }
 .flex-button-container a:hover{
     color:white;
@@ -141,4 +142,36 @@ header {
     justify-content: center;
     flex-wrap: wrap;
 
+}
+.flex-button-container div {
+    width: 100%;
+}
+
+/*grid*/
+.grid-container {
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-size: 95%;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b6b6b6;
+}
+
+.gridHeader {
+    padding-top: 10px;
+    background-color: #e4e4e4;
+    color: #263c42;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.gridMain {
+    font-size: 100%;
+    font-weight: bold;
 }
