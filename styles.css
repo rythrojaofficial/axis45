@@ -23,8 +23,7 @@ header {
     width: 100%;
     background-color: rgb(255, 255, 255);
     position:static;
-    padding: 50px;
-    padding-top: 75px;
+    padding: 40px;
     top: 0;
     
 }
@@ -174,4 +173,13 @@ header {
 .gridMain {
     font-size: 100%;
     font-weight: bold;
+}
+
+/*current offerings lists*/
+.sessions {
+    font-size: 115%;
+}
+div > ul {
+    font-weight: bold;
+    text-indent: -5%;
 }
