@@ -3,7 +3,7 @@
     font-family: Georgia, Times, 'Times New Roman', serif;
     }
 .container {
-    margin: 5%;
+    padding: 2% 5%;
     /*creates blocks*/
 }
 
@@ -28,6 +28,7 @@
 .section {
     color: #263c42;
     font-size: 175%;
+    margin-top: 0px;
     /*for section titles*/
 }
 header {
@@ -128,6 +129,7 @@ header {
     display: flex;
     height: auto;
     width: 100%;
+    padding: 3%;
 }
 
 .image-block img {
@@ -188,8 +190,19 @@ header {
 
 /*current offerings lists*/
 .sessions {
+    font-size: 110%;
+}
+
+.list-title {
     font-size: 115%;
-}
-div > ul {
     font-weight: bold;
+    line-height: 2em;
 }
+
+.classList{
+    list-style-type: circle;
+    list-style-position: outside;
+}
+    .classList li{
+        margin: .75em;
+    }
