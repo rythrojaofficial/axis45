@@ -129,7 +129,7 @@ header {
     display: flex;
     height: auto;
     width: 100%;
-    padding: 3%;
+    padding: 3% 0%;
 }
 
 .image-block img {
@@ -199,10 +199,16 @@ header {
     line-height: 2em;
 }
 
-.classList{
+.mainList{
     list-style-type: circle;
     list-style-position: outside;
 }
-    .classList li{
+    .mainList li{
         margin: .75em;
     }
+
+/*address spacing*/
+#address > p {
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
