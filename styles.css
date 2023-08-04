@@ -1,3 +1,7 @@
+
+/*=================
+    Global Styles
+    ==============*/
 * {
     box-sizing: border-box;
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -6,6 +10,7 @@
     padding: 2% 5%;
     /*creates blocks*/
 }
+
 
 .title {
     margin-top: 0px;
@@ -70,7 +75,7 @@ header {
     background-color: #263c42;
 }
 
-.flex-header li:hover {
+.flex-header li:hover{
     background-color: #ffffff;
     border-width:.5px;
     border-color: #263c42;
@@ -106,7 +111,7 @@ header {
 
 }
 
-.flex-button-container div:hover {
+.flex-button-container div:hover{
     color: rgb(255, 255, 255);
     background-color: #263c42;
 }
