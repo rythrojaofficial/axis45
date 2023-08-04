@@ -6,9 +6,13 @@
     box-sizing: border-box;
     font-family: Georgia, Times, 'Times New Roman', serif;
     }
-.container {
+.container,
+.gray-container{
     padding: 2% 5%;
     /*creates blocks*/
+}
+.gray-container{
+    background-color: #e4e4e4;
 }
 
 
@@ -142,8 +146,8 @@ header {
 
 
 }
-
-#footer {
+/* footer */
+.footer {
     display: flex;
     color: white;
     background-color: #263c42 ;
@@ -153,6 +157,13 @@ header {
     align-items: center;
     flex-direction: column;
 }
+
+    #foot-line-one{
+        margin-bottom: 0;
+    }
+    #foot-line-two{
+        margin-top: 0;
+    }
 
 .flex-container{
     display: flex;
