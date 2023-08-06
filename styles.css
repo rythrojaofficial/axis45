@@ -167,12 +167,14 @@ header {
 
 .flex-container{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 
 }
+.flex-container div,
 .flex-button-container div {
+    flex: 1 1 400px;
     width: 100%;
+    margin: .5em;
 }
 
 /*grid*/
@@ -227,4 +229,24 @@ header {
 #address > p {
     margin-top: 3px;
     margin-bottom: 0px;
+}
+
+/* opening/closing checklist */
+.checklist-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.gray-checklist,
+.white-checklist{
+    flex:1 1 400px;
+    margin: .5em;
+}
+
+.gray-checklist{
+    background-color: #e4e4e4;
+}
+
+.white-checklist{
+    background-color: #ffffff;
 }
