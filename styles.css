@@ -33,6 +33,17 @@
     font-size: 250%;
     padding: 20px;
     }
+    .title-notes {
+        font-size: small;
+        color: #263c42;
+        font-style: italic;
+        margin-top: 0px;
+        background-color: #bdd3b6;
+        text-align: center;
+        color: #263c42;
+        font-size: smaller;
+        padding-bottom: 20px;
+    }
 
 .section {
     color: #263c42;
@@ -183,6 +194,7 @@ header {
     display: grid;
     grid-template-columns: auto auto auto auto;
     font-size: 95%;
+    overflow-x: scroll;
 }
 
 .grid-container > div {
@@ -250,3 +262,9 @@ header {
 .white-checklist{
     background-color: #ffffff;
 }
+
+.flex-card{
+    flex:1 1 300px;
+    margin: .5em;
+}
+
