@@ -216,6 +216,7 @@ header {
 .gridMain {
     font-size: 100%;
     font-weight: bold;
+    position: sticky;
 }
 
 /*current offerings lists*/
