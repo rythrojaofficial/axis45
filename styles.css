@@ -40,11 +40,38 @@
         margin-top: 0px;
         background-color: #bdd3b6;
         text-align: center;
-        color: #263c42;
         font-size: smaller;
         padding-bottom: 20px;
     }
-
+    .update-news {
+        font-size: small;
+        color:#263c42;
+        font-style: italic;
+        background-color: #bdd3b6;
+        text-align: center;
+        font-size: smaller;
+        padding: 20px;
+    }
+        .update-news a{
+            text-decoration: none;
+            color: inherit;
+        }
+        .update-news:hover{
+                border-style: solid;
+                border-color: #86a37e;
+                font-weight: bold;
+            }
+        .first-line{
+            margin-top: 0px;
+        }
+        .middle-line{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+            
+        .last-line{
+            margin-bottom: 0px;
+       }
 .section {
     color: #263c42;
     font-size: 175%;
@@ -189,6 +216,7 @@ header {
 }
 
 /*grid*/
+/*Memberships*/
 .grid-container {
     justify-content: flex-start;
     display: grid;
@@ -218,6 +246,7 @@ header {
     font-weight: bold;
     position: sticky;
 }
+
 
 /*current offerings lists*/
 .sessions {
