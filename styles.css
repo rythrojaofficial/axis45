@@ -298,3 +298,11 @@ header {
     margin: .5em;
 }
 
+/* show more checkbox */
+.more {
+    display: none;
+}
+.show-more:checked + .more {
+    display: block;
+}
+
