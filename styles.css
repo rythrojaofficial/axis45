@@ -306,3 +306,19 @@ header {
     display: block;
 }
 
+/* =====
+in-page links
+===== */
+/* use on span to make in-page jumps within text*/
+.text-links{
+    color:#3979da
+}
+    .text-links a{
+        color: inherit;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .text-links a:hover{
+        text-decoration: underline;
+    }
+
