@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <!-- ============
+        header with links
+    ================= -->
     <header>
         <ul class="flex-header">
             <li><a href="./index.html">Home</a></li>
@@ -17,21 +20,30 @@
             <li><a href="https://seatricks.teamapp.com/events?_list=v1">Events Calendar</a></li>
             </ul>
     </header>
+    <!-- title  -->
     <h1 class="title">Current Offerings</h1>
 
+    <!-- about  -->
     <div class="container">
-        <p>Axis 45 hosts open sessions, 
-            classes, workshops, and events.  
+        <p>Axis 45 hosts <span class="text-links"><a href="#open-sessions">open sessions</a></span>, 
+            <span class="text-links"><a href="#classes">classes</a></span>, workshops, and events.  Theres a 
+            <span class="text-links"><a href="#offerings"> full listing and descriptions</a></span> below.  
+            If you can't make the times below, you might want to request <span class="text-links"><a href="#off-hours">Off-hours practice times</a></span>.
             Here's what you need to know!</p>
         
-        <p>Check our Calendar for meet-ups 
+        <p>Our Calendar has the most up-to-date info for meet-ups 
             and updates on recurring events.</p>
             <div class="flex-button-container">
                 <div><a href="https://seatricks.teamapp.com/events?_list=v1">Events Calendar</a></div>
                 <div><a href="./memberships.html">Memberships</a></div>
             </div>   
     </div>
-<div class="sessions">
+
+    
+<div class="sessions" id="classes">
+    <!-- =========
+        classes  
+    ============-->
     <div class="container">
         <h3 class="section">Classes</h3>
         <ul class="mainList"><span class="list-title">4-Week Sessions</span>
@@ -47,7 +59,10 @@
             <li>3:00-4:00pm Sunday Stretch ($20)</li>
         </ul>
     </div>
-    <div class="gray-container">
+    <!-- ============
+        open sessions 
+    =============== -->
+    <div class="gray-container" id="open-sessions">
         <h3 class="section">Open Sessions</h3>
         <ul class="mainList">
             <li>4-6pm Sunday Open Breakdance Session</li>
@@ -59,7 +74,10 @@
             <li>7-9pm Friday Open Tricking Session</li>
         </ul>
     </div>
-    <div class="container">
+    <!-- ============
+    regular Offerings
+    ============== -->
+    <div class="container" id="offerings">
         <ul class="mainList"><span class="list-title">Regular Offerings:</span>
             <li><strong>Open Tricking (120m):</strong> No instruction provided. 
                 This is for people looking to TRAIN. You warm up on your own. 
@@ -101,7 +119,10 @@
             </li>
         </ul>
     </div>
-    <div class="gray-container">
+    <!-- ====================
+    off hours practice times
+    ==================== -->
+    <div class="gray-container" id="off-hours">
         <h3>Off-hours practice times:</h3>
         <p>
             Please message @Seattletricking on Instagram to inquire about Off-hours 
@@ -115,6 +136,7 @@
         </p>
     </div>
 
+    <!-- buttons -->
     <div class="container">
         <div class="flex-button-container">
             <div><a href="./memberships.html">Pricing & Memberships</a></div>
@@ -122,6 +144,7 @@
         </div>   
     </div>
 
+    <!-- footer  -->
     <div class="footer">
         <p id="foot-line-one">7701 230th St SW</p>
         <p id="foot-line-two">Edmonds, WA 98026</p>
