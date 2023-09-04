@@ -311,7 +311,7 @@ in-page links
 ===== */
 /* use on span to make in-page jumps within text*/
 .text-links{
-    color:#3979da
+    color:#263c42
 }
     .text-links a{
         color: inherit;
@@ -320,5 +320,6 @@ in-page links
     }
     .text-links a:hover{
         text-decoration: underline;
+        color:#3c702d
     }
 
