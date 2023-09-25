@@ -58,7 +58,8 @@
             color: inherit;
         }
 
-        .news-card {
+        .news-card,
+        .news-card-unlinked {
             justify-content: center;
             font-size: small;
             color:#263c42;
