@@ -230,36 +230,39 @@ header {
     margin: .5em;
 }
 
-/*grid*/
-/*Memberships*/
-.grid-container {
-    justify-content: flex-start;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    font-size: 95%;
+/* Membershipts table  */
+.table-container{
     overflow-x: scroll;
 }
-
-.grid-container > div {
-    text-align: center;
-    padding: 10px 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #b6b6b6;
-}
-
-.gridHeader {
+.table-column-header{
     padding-top: 10px;
     background-color: #e4e4e4;
     color: #263c42;
     font-size: 125%;
     font-weight: bold;
 }
-
-.gridMain {
+.table-row-header{
     font-size: 100%;
     font-weight: bold;
-    position: sticky;
+}
+#memberships-table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+}
+#memberships-table th, td {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+#memberships-table tr {
+    text-align: center;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b6b6b6;
+}
+#memberships-table p,
+#memberships-table .pricing{
+    font-style: italic;
 }
 
 
