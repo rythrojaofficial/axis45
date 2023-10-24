@@ -242,7 +242,7 @@ header {
     font-weight: bold;
 }
 .table-row-header{
-    font-size: 110%;
+    font-size: 85%;
     font-weight: bold;
     position: sticky;
     left: 0;
