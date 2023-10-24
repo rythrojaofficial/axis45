@@ -238,7 +238,7 @@ header {
     padding-top: 10px;
     background-color: #e4e4e4;
     color: #263c42;
-    font-size: 125%;
+    font-size: 115%;
     font-weight: bold;
 }
 .table-row-header{
@@ -252,26 +252,31 @@ header {
     
 }
 #memberships-table {
-    border-collapse: separate;
-    border: 2px solid rgb(200,200,200);
+    border-collapse: collapse;
 }
-#memberships-table th, td {
-    border: 1px  rgb(190,190,190);
-    border-style: inset;
-    padding: 10px 20px;
+#memberships-table tr,td,th{
+    border: 2px solid rgb(202, 202, 202);
+    width: 8em;
+    height: 3em;
+    
 }
+
 #memberships-table td{
     z-index: -1;
+    vertical-align: center;
 }
 #memberships-table tr {
     text-align: center;
-    padding: 10px 20px;
-    border-color: #b6b6b6;
 }
 
 #memberships-table p,
 #memberships-table .pricing{
     font-style: italic;
+    
+}
+#memberships-table p{
+    font-size: 85%;
+    margin-top: 0px;
 }
 
 
