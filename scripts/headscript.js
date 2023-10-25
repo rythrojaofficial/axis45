@@ -6,41 +6,44 @@ const homeList = document.getElementById('home-link');
 const homeLink = document.createElement('a');
     homeLink.href = 'https://seattletricking.com';
     homeLink.innerText = 'Home';
-    homeList.appendChild(homeLink);
+    
     
 const currentOfferingsList = document.getElementById('current-offerings-link');
 const currentOfferingsLink = document.createElement('a');
     currentOfferingsLink.href = 'https://seattletricking.com/current-offerings';
     currentOfferingsLink.innerText = 'Current Offerings';
-    currentOfferingsList.appendChild(currentOfferingsLink);
+    
 
 const membershipsList = document.getElementById('memberships-link');
 const membershipsLink = document.createElement('a');
     membershipsLink.href = 'https://www.seattletricking.com/memberships';
     membershipsLink.innerText = 'Memberships';
-    membershipsList.appendChild(membershipsLink);
+    
 
 const waiversList = document.getElementById('waivers-link');
 const waiversLink = document.createElement('a');
     waiversLink.href = 'https://www.seattletricking.com/waivers';
     waiversLink.innerText = 'waivers';
-    waiversList.appendChild(waiversLink);
+    
 
 const faqList = document.getElementById('faq-link');
 const faqLink = document.createElement('a');
-    faqLink.href = 'https://www.seattletricking.com/waivers';
+    faqLink.href = 'https://www.seattletricking.com/faq';
     faqLink.innerText = 'faq';
-    faqList.appendChild(faqLink);
+    
 
 const upcomingList = document.getElementById('upcoming-link');
 const upcomingLink = document.createElement('a');
     upcomingLink.href = 'https://www.seattletricking.com/upcoming';
     upcomingLink.innerText = 'upcoming';
+    
+
+    homeList.appendChild(homeLink);
+    currentOfferingsList.appendChild(currentOfferingsLink);
+    membershipsList.appendChild(membershipsLink);
+    waiversList.appendChild(waiversLink);
+    faqList.appendChild(faqLink);
     upcomingList.appendChild(upcomingLink);
-
-
-
-
 // ---------------
 // add footer 
 // --------------
@@ -62,5 +65,12 @@ footer.appendChild(footLine2);
 
 
 
+// ============
+// enable icons from iconify
+// ============
 
+const iconEnable = document.createElement('script');
+    iconEnable.setAttribute('type', 'module');
+    iconEnable.src = 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js';
+    document.body.appendChild(iconEnable);
 
