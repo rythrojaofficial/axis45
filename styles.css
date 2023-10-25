@@ -6,6 +6,13 @@
     box-sizing: border-box;
     font-family: Georgia, Times, 'Times New Roman', serif;
     }
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
 .container,
 .gray-container{
     padding: 2% 5%;
@@ -358,6 +365,11 @@ in-page links
 
 iframe#calendar{
     filter: hue-rotate(225deg) grayscale(40%);
+    
+}
+
+.inline-icon {
+    
     
 }
 
