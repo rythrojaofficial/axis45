@@ -237,7 +237,7 @@ header {
     margin: .5em;
 }
 
-/* Membershipts table  */
+/* Memberships table  */
 .table-container{
     overflow-x: scroll;
 }
@@ -247,6 +247,7 @@ header {
     color: #263c42;
     font-size: 115%;
     font-weight: bold;
+   
 }
 .table-row-header{
     font-size: 85%;
@@ -255,25 +256,24 @@ header {
     left: 0;
     background-color: aliceblue;
     border: 2px rgb(190,190,190);
-    
-    
 }
 #memberships-table {
     border-collapse: collapse;
+    
 }
 #memberships-table tr,td,th{
-    border: 2px solid rgb(202, 202, 202);
+    border: 1px solid rgb(202, 202, 202);
     width: 8rem;
     height: 3rem;
-    
 }
 
 #memberships-table td{
     z-index: -1;
-    vertical-align: center;
+    vertical-align: middle;
 }
 #memberships-table tr {
     text-align: center;
+    
 }
 
 #memberships-table p,
