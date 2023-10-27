@@ -234,7 +234,7 @@ header {
 .flex-button-container div {
     flex: 1 1 400px;
     width: 100%;
-    margin: .5em;
+    margin: 0 .5rem;
 }
 
 /* Memberships table  */
@@ -295,7 +295,7 @@ header {
 .list-title {
     font-size: 115%;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 2rem;
 }
 
 .mainList{
@@ -303,7 +303,7 @@ header {
     list-style-position: outside;
 }
     .mainList li{
-        margin: .75em;
+        margin: .75rem;
     }
 
 /*address spacing*/
@@ -321,7 +321,7 @@ header {
 .gray-checklist,
 .white-checklist{
     flex:1 1 400px;
-    margin: .5em;
+    margin: .5rem;
 }
 
 .gray-checklist{
@@ -334,7 +334,7 @@ header {
 
 .flex-card{
     flex:1 1 300px;
-    margin: .5em;
+    margin: .5rem;
 }
 
 /* show more checkbox */
@@ -365,11 +365,6 @@ in-page links
 
 iframe#calendar{
     filter: hue-rotate(225deg) grayscale(40%);
-    
-}
-
-.inline-icon {
-    
     
 }
 
