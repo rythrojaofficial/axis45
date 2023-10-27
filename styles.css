@@ -320,6 +320,7 @@ header {
 .white-checklist{
     flex:1 1 400px;
     margin: .5rem;
+    overflow: auto;
 }
 
 .gray-checklist{
