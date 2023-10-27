@@ -74,15 +74,14 @@ body{
             font-size: small;
             color:#263c42;
             font-style: italic;
-            background-color: #bdd3b6;
+            background:repeat url(./images/subtle_white_mini_waves.png);
             text-align: center;
             font-size: smaller;
             padding: 20px;
+            border-radius: 30px;
         }
         .news-card:hover{
-                border-style: solid;
-                border-color: #86a37e;
-                font-weight: bold;
+            color: #3c702d;
             }
         .first-line{
             margin-top: 0px;
@@ -137,13 +136,13 @@ header {
     text-transform: capitalize;
     font-weight: 700;
     list-style: none;
-    color: #ffffff;
+    color: #bdd3b6;
     padding: 6px;
     background-color: #263c42;
 }
 
 .flex-header li:hover{
-    background-color: #ffffff;
+    background-color: #bdd3b6;
     border-width:.5px;
     border-color: #263c42;
     border-radius: 5px;
