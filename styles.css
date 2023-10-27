@@ -27,7 +27,7 @@ body{
 
 /* title areas  */
 .title {
-    margin-top: 0px;
+    margin: 0px;
     background-color: #bdd3b6;
     text-align: center;
     color: #263c42;
@@ -36,7 +36,6 @@ body{
     /*mostly to center titles */
 }
     .subtitle {
-    margin-top: 0px;
     background-color:#ffffff;
     text-align: center;
     color: #263c42;
