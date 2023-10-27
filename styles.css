@@ -237,7 +237,7 @@ header {
 
 /* Memberships table  */
 .table-container{
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 .table-column-header{
     padding-top: 10px;
