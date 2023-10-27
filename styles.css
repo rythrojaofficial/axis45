@@ -59,7 +59,7 @@ body{
     .update-news {
         display: flex;
         flex-wrap: wrap;
-        gap: 8px;
+        gap: .5rem;
         justify-content: center;
         
     }
@@ -128,7 +128,7 @@ header {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
+    gap: .5rem;
 
     /*
     flex container for button sections
@@ -156,7 +156,7 @@ header {
 .flex-button-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: .5rem;
     flex-wrap: wrap;
     
     /*
@@ -169,14 +169,11 @@ header {
     text-align: center;
     background-color: white;
     color:#263c42;
-    border: 10px;
-    border-color: #263c42;
-    text-transform: capitalize;
-    box-shadow: inset 0 0 0 2px #263c42;
-    padding: 6px;
-    border-radius: 300px;
+    box-shadow: inset 0 0 0 .15rem #263c42;
+    padding: .35rem;
+    border-radius: 1rem;
     font-weight: 700;
-    flex: 1 1 200px;
+    flex:auto;
 
 }
 
@@ -186,12 +183,9 @@ header {
 }
 .flex-button-container a {
     display:inline-block; 
-    color: inherit;
     width: 100%;
     height: 100%;
     text-transform: uppercase;
-    text-decoration: none;
-    flex-grow: 1;
 }
 .flex-button-container a:hover{
     color:white;
