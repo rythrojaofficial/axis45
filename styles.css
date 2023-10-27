@@ -70,6 +70,7 @@ body{
 
         .news-card,
         .news-card-unlinked {
+            flex:auto;
             justify-content: center;
             font-size: small;
             color:#263c42;
@@ -79,6 +80,8 @@ body{
             font-size: smaller;
             padding: 20px;
             border-radius: 30px;
+            width: fit-content;
+            
         }
         .news-card:hover{
             color: #3c702d;
