@@ -67,8 +67,7 @@ body{
             color: inherit;
         }
 
-        .news-card,
-        .news-card-unlinked {
+        .news-card{
             flex:auto;
             justify-content: center;
             font-size: small;
@@ -163,7 +162,7 @@ header {
     flex-direction default row*/
 }
 
-/* this selector selects all divs inside of .flex-button-container */
+/* offerings and memberships buttons  */
 .flex-button-container div {
     text-align: center;
     background-color: white;
