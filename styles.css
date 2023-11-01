@@ -368,7 +368,14 @@ iframe#calendar{
 
 /* return to top button */
 #button-to-top{
-    position:sticky;
+    position:fixed;
+    left:.5rem;
+    top: 5rem;
+    
+
+}
+#button-to-top:hover{
+    filter:opacity(120%);
     
 }
 
