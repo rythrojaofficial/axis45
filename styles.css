@@ -16,21 +16,28 @@ body{
     margin:0;
 }
 
+:root {
+    --primary-color: #263c42;
+    --secondary-color: #bdd3b6;
+    --background-gray: #e4e4e4;
+    --links-hover: #3c702d; 
+}
+
 .container,
 .gray-container{
     padding: 2% 5%;
     /*creates blocks*/
 }
 .gray-container{
-    background-color: #e4e4e4;
+    background-color: var(--background-gray);
 }
 
 /* title areas  */
 .title {
     margin: 0px;
-    background-color: #bdd3b6;
+    background-color: var(--secondary-color);
     text-align: center;
-    color: #263c42;
+    color: var(--primary-color);
     font-size: 300%;
     padding: 20px;
     /*mostly to center titles */
@@ -38,16 +45,16 @@ body{
     .subtitle {
     background-color:#ffffff;
     text-align: center;
-    color: #263c42;
+    color: var(--primary-color);
     font-size: 250%;
     padding: 20px;
     }
     .title-notes {
         font-size: small;
-        color: #263c42;
+        color: var(--primary-color);
         font-style: italic;
         margin-top: 0px;
-        background-color: #bdd3b6;
+        background-color: var(--secondary-color);
         text-align: center;
         font-size: smaller;
         padding-bottom: 20px;
@@ -71,7 +78,7 @@ body{
             flex:auto;
             justify-content: center;
             font-size: small;
-            color:#263c42;
+            color: var(--primary-color);
             font-style: italic;
             background:repeat url(./images/subtle_white_mini_waves.png);
             text-align: center;
@@ -98,14 +105,14 @@ body{
 
 /*for section titles*/
 .section {
-    color: #263c42;
+    color: var(--primary-color);
     font-size: 175%;
     margin-top: 0px;
 }
 /* header  */
 header {
     width: 100%;
-    background-color: #263c42;
+    background-color: var(--primary-color);
     position:static;
     padding: 40px;
     
@@ -137,17 +144,17 @@ header {
     text-transform: capitalize;
     font-weight: 700;
     list-style: none;
-    color: #bdd3b6;
+    color: var(--secondary-color);
     padding: 6px;
-    background-color: #263c42;
+    background-color: var(--primary-color);
 }
 
 .flex-header li:hover{
-    background-color: #bdd3b6;
+    background-color: var(--secondary-color);
     border-width:.5px;
-    border-color: #263c42;
+    border-color: var(--primary-color);
     border-radius: 5px;
-    color: #263c42
+    color: var(--primary-color);
     
 }
 
@@ -166,8 +173,8 @@ header {
 .flex-button-container div {
     text-align: center;
     background-color: white;
-    color:#263c42;
-    box-shadow: inset 0 0 0 .15rem #263c42;
+    color: var(--primary-color);
+    box-shadow: inset 0 0 0 .15rem var(--primary-color);
     padding: .35rem;
     border-radius: 1rem;
     font-weight: 700;
@@ -177,7 +184,7 @@ header {
 
 .flex-button-container div:hover{
     color: rgb(255, 255, 255);
-    background-color: #263c42;
+    background-color: var(--primary-color);
 }
 .flex-button-container a {
     display:inline-block; 
@@ -207,7 +214,7 @@ header {
 .footer {
     display: flex;
     color: white;
-    background-color: #263c42 ;
+    background-color: var(--primary-color);
     margin:0;
     line-height: 1;
     justify-content: center;
@@ -240,8 +247,8 @@ header {
 }
 .table-column-header{
     padding-top: 10px;
-    background-color: #e4e4e4;
-    color: #263c42;
+    background-color: var(--background-gray);
+    color: var(--primary-color);
     font-size: 115%;
     font-weight: bold;
    
@@ -323,7 +330,7 @@ header {
 }
 
 .gray-checklist{
-    background-color: #e4e4e4;
+    background-color: var(--background-gray);
 }
 
 .white-checklist{
@@ -348,7 +355,7 @@ in-page links
 ===== */
 /* use on span to make in-page jumps within text*/
 .text-links{
-    color:#263c42
+    color:var(--primary-color);
 }
     .text-links a{
         color: inherit;
@@ -357,7 +364,7 @@ in-page links
     }
     .text-links a:hover{
         text-decoration: underline;
-        color:#3c702d
+        color: var(--links-hover)
     }
 
 
