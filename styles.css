@@ -246,7 +246,6 @@ header {
     overflow-x: auto;
 }
 .table-column-header{
-    padding-top: 10px;
     background-color: var(--background-gray);
     color: var(--primary-color);
     font-size: 115%;
@@ -259,7 +258,7 @@ header {
     position: sticky;
     left: 0;
     background-color: aliceblue;
-    border: 2px rgb(190,190,190);
+    border: .25rem rgb(190,190,190);
 }
 #memberships-table {
     border-collapse: collapse;
@@ -267,17 +266,20 @@ header {
 }
 #memberships-table tr,td,th{
     border: 1px solid rgb(202, 202, 202);
-    width: 8rem;
     height: 3rem;
 }
 
 #memberships-table td{
     z-index: -1;
-    vertical-align: middle;
-}
-#memberships-table tr {
-    text-align: center;
     
+}
+
+#memberships-table tr{
+    text-align: center;
+}
+#table-spacer{
+    text-align: center;
+    min-width: 9rem;
 }
 
 #memberships-table p,
