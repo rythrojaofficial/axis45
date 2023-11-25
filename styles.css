@@ -111,16 +111,13 @@ body{
 }
 /* header  */
 header {
-    width: 100%;
     background-color: var(--primary-color);
-    position:static;
     padding: 40px;
     
     
 }
 /* links in header  */
 .flex-header a{
-    display:inline-block; 
     color: inherit;
     width: 100%;
     height: 100%;
@@ -128,10 +125,12 @@ header {
     text-decoration: none;
     /*makes links not stupid purple ugly underline*/
 }
-.flex-header {
+#reorder-nav{
+    display: none;
+}
+header :nth-child(2){
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     gap: .5rem;
 
@@ -139,6 +138,28 @@ header {
     flex container for button sections
     flex-direction default row*/ 
 }
+header :nth-child(3){
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width: 600px){
+    header > :nth-child(2){
+        flex-direction: column;
+
+    }
+    #reorder-nav{
+        display: flex;
+    }
+    }
+    header :nth-child(3){
+        justify-content: start;
+    }
+    
+    
+
+
 
 .flex-header li {
     text-transform: capitalize;
