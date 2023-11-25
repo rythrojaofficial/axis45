@@ -152,10 +152,11 @@ header :nth-child(3){
     #reorder-nav{
         display: flex;
     }
-    }
+    
     header :nth-child(3){
         justify-content: start;
     }
+}
     
     
 

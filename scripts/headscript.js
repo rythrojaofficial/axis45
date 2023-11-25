@@ -95,8 +95,7 @@ navIcon('venmo-nav', 'logo-venmo', 'https://www.venmo.com/u/seattletricking')
 
 let reorderBtn = document.getElementById("reorder-nav");
 let links = document.getElementById('navLinks');
-    reorderBtn = addEventListener ('click', ()=>{
-
+    reorderBtn.addEventListener ('click', ()=>{
         if(links.style.display === "none"){
             links.style.display = "flex";
         }
@@ -104,7 +103,7 @@ let links = document.getElementById('navLinks');
         else{
             links.style.display = "none";
         }
-    })
+    }, false)
 
 // ---------------
 // add footer 
