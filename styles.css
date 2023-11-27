@@ -75,8 +75,8 @@ body{
         }
 
         .news-card{
-            flex:auto;
-            justify-content: center;
+            flex:auto; */
+            justify-content: center; 
             font-size: small;
             color: var(--primary-color);
             font-style: italic;
@@ -91,17 +91,14 @@ body{
         .news-card:hover{
             color: #3c702d;
             }
-        .first-line{
-            margin-top: 0px;
-        }
+        .first-line,
         .middle-line{
             margin-top: 0px;
-            margin-bottom: 0px;
         }
-            
+        .middle-line
         .last-line{
             margin-bottom: 0px;
-       }
+        }
 
 /*for section titles*/
 .section {
