@@ -109,7 +109,7 @@ body{
 /* header  */
 header {
     background-color: var(--primary-color);
-    padding: 40px;
+    padding: 1rem;
     
     
 }
