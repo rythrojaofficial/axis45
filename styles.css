@@ -39,7 +39,7 @@ body{
     text-align: center;
     color: var(--primary-color);
     font-size: 300%;
-    padding: 20px;
+    padding: 1rem;
     /*mostly to center titles */
 }
     .subtitle {
@@ -47,7 +47,7 @@ body{
     text-align: center;
     color: var(--primary-color);
     font-size: 250%;
-    padding: 20px;
+    padding: .3rem;
     }
     .title-notes {
         font-size: small;
