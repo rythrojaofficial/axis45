@@ -10,6 +10,7 @@ function createFlexHeader(){
         flexHeaderLinks.id = "navLinks";
     let flexHeaderIcons = document.createElement("ul");
         flexHeaderIcons.className = "flex-header";
+        flexHeaderIcons.id = "navIcons";
     let home1 = document.createElement("li");
         home1.id="home-link";
     let current = document.createElement("li");
@@ -95,13 +96,16 @@ navIcon('venmo-nav', 'logo-venmo', 'https://www.venmo.com/u/seattletricking')
 
 let reorderBtn = document.getElementById("reorder-nav");
 let links = document.getElementById('navLinks');
+let icons = document.getElementById('navIcons')
     reorderBtn.addEventListener ('click', ()=>{
         if(links.style.display === "none"){
             links.style.display = "flex";
+            icons.style.flexDirection = "column";
         }
         
         else{
             links.style.display = "none";
+            icons.style.flexDirection = "row";
         }
     }, false)
 

@@ -142,6 +142,9 @@ header :nth-child(3){
 }
 
 @media only screen and (max-width: 600px){
+    header{
+        display: flex;
+    }
     header > :nth-child(2){
         flex-direction: column;
         display: none;
