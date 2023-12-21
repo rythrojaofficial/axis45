@@ -1,3 +1,19 @@
+// =======================
+// update next foundations 
+// =======================
+
+function updateFoundations(nextDate){
+    let instancesOfNextFoundationsDate = [...document.querySelectorAll('.next-foundations-date')];
+    instancesOfNextFoundationsDate.forEach(element => {
+        element.innerText = nextDate;
+    });
+    
+}
+// =edit=date==========vvvvvvvvv======
+let nextFoundations = '1/4/2024';
+// ====================^^^^^^^^^======
+updateFoundations(nextFoundations);
+
 //==============
 //  addNavHeader 
 // =============   
