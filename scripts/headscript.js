@@ -143,4 +143,14 @@ const iconEnable = document.createElement('script');
     iconEnable.src = 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js';
     document.body.appendChild(iconEnable);
 
+function stampTime(){
+    return new Date(Date.now())
+}
+
+if (document.getElementById('stamp-time')){
+    const hiddenTime = document.querySelector('#stamp-time');
+    haveRead.addEventListener('click', ()=>{
+        hiddenTime.value = stampTime();
+    })
+}
 
