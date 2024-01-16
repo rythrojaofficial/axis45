@@ -1,0 +1,877 @@
+[33mcommit c9ba170a9bc08383f56083d9db2bede4940f50e7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jan 15 16:22:47 2024 -0800
+
+     update next foundations
+
+[33mcommit 407054e7ab42b954e9a7729f99ecffb9ff7abff5[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Jan 10 16:04:20 2024 -0800
+
+     weather update
+
+[33mcommit 55848ea98e479bf3b5d1319b01d25bba8cc960e7[m[33m ([m[1;32mforms-notbroken[m[33m)[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jan 8 16:37:57 2024 -0800
+
+     news update pdx trickers cancel due to icy weather
+
+[33mcommit 0f3c5c746480cd3da9fb1404f3a8df6d1b564fcc[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sat Jan 6 15:22:28 2024 -0800
+
+     news pdx trickers in town, aj sesh
+
+[33mcommit 18a3c997b10f172e123e9891265138dc3fb9dafc[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Jan 2 13:07:31 2024 -0800
+
+    change news link from upcoming to current offerings
+
+[33mcommit 481ed938e3d213a0b3fdc15a84e5b09bacb6d13f[m
+Merge: 25aeaf8 fe232af
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Jan 2 13:04:08 2024 -0800
+
+    Merge branch 'main' of github.com:rythrojaofficial/axis45
+
+[33mcommit 25aeaf8aaa836abd183c3ab2213a320d2872f021[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Jan 2 13:02:48 2024 -0800
+
+     update current and index with open seshs
+
+[33mcommit fe232af18ad17d792fda4cfeeef1176964dc2033[m
+Author: rythrojaofficial <131824590+rythrojaofficial@users.noreply.github.com>
+Date:   Sat Dec 30 14:27:29 2023 -0800
+
+    Update index.html
+
+[33mcommit 277514b8004fa31934ccc3fa1edc02b4d11631d9[m
+Author: rythrojaofficial <131824590+rythrojaofficial@users.noreply.github.com>
+Date:   Sat Dec 30 14:24:05 2023 -0800
+
+    Update index.html
+    
+    uncaught </> on div in news
+
+[33mcommit d00a3181b5a01eb4999d03c9dbcce597a1a1c945[m
+Author: rythrojaofficial <131824590+rythrojaofficial@users.noreply.github.com>
+Date:   Sat Dec 30 14:20:52 2023 -0800
+
+    Update index.html
+    
+    news NYE update
+
+[33mcommit d1b822724e110748fd758d66d7cd3af804bdac51[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Dec 27 12:34:22 2023 -0800
+
+     news update aj wednesday sesh
+
+[33mcommit d33dfb4caa457d514c62ed404a288f10e89ba53e[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sun Dec 24 09:17:18 2023 -0800
+
+    update news trixmas
+
+[33mcommit df485c069abb0040cfb97034b79ec6fabbf3679a[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sun Dec 24 09:11:25 2023 -0800
+
+    update news for christmas
+
+[33mcommit d9c559b4418b6b06cf3b7dab9ea7f8f6825fc743[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Thu Dec 21 11:00:30 2023 -0800
+
+    use constructors, arrays, and objects to reduce redundancy in creating the navBars
+
+[33mcommit 44c4d897b138c0d83e2e885d93a4fd559db6c6a5[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Thu Dec 21 08:00:19 2023 -0800
+
+     add query selector and create update foundations function to headscript to enable quick across the board updates to the next foundations date
+
+[33mcommit baea32d39b9a6fc5b0bd6462f6bdee82fef0dec4[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Dec 12 14:28:00 2023 -0800
+
+    update news cards
+
+[33mcommit 5f1bdec5e5565aba278ed5a33918423c65cedd48[m
+Author: Jared <jared@mercenarytricking.com>
+Date:   Tue Nov 28 09:42:25 2023 -0800
+
+    update padding for title and subtitle to rem from px
+
+[33mcommit 707c47946496d2c9b12ac74ed49296d4dae11a2f[m
+Author: Jared <jared@mercenarytricking.com>
+Date:   Tue Nov 28 09:32:11 2023 -0800
+
+    update padding for header from px to rem
+
+[33mcommit f27a8dbf3b6dcf79fb25c67ed5340a6081ae342d[m
+Author: Jared <jared@mercenarytricking.com>
+Date:   Tue Nov 28 09:27:23 2023 -0800
+
+    put nav reorder in the same line as icons using flex, add icon reordering to scripts using flexDirection
+
+[33mcommit d211125a36a19b739b8c3c42758c7695d7347ca8[m
+Author: rythrojaofficial <jared@mercenarytricking.com>
+Date:   Mon Nov 27 12:26:34 2023 -0800
+
+    consolidate last line, middle line css for news
+
+[33mcommit e0d1fae0c74f7207d32f2f1ce09c800df8873e04[m
+Author: rythrojaofficial <jared@mercenarytricking.com>
+Date:   Sun Nov 26 21:27:43 2023 -0800
+
+    add gina news 12/9
+
+[33mcommit 750f8b0f3362a2188ee526ed34f29f04a61b7505[m
+Author: rythrojaofficial <jared@mercenarytricking.com>
+Date:   Sun Nov 26 21:11:55 2023 -0800
+
+    update foundations cycle
+
+[33mcommit 506af5220b9fbfb5d537b6187fecdf2f24c286e2[m
+Author: rythrojaofficial <jared@mercenarytricking.com>
+Date:   Fri Nov 24 18:34:33 2023 -0800
+
+     make sure the default display is none on mobile
+
+[33mcommit 299a12d7d42d3d9dcd0110e95eb386277e2bde44[m
+Author: rythrojaofficial <jared@mercenarytricking.com>
+Date:   Fri Nov 24 18:28:52 2023 -0800
+
+     zero in on addeventlistener on the button
+
+[33mcommit 380f55e0ffc8da434328e1d737f6a84d0a40e938[m
+Author: rythrojaofficial <jared@mercenarytricking.com>
+Date:   Fri Nov 24 18:04:02 2023 -0800
+
+    add nav dropdown functionality finally
+
+[33mcommit c28647aebb22066a2d439fc457afe8c65e60d4fb[m
+Author: rythrojaofficial <jared@mercenarytricking.com>
+Date:   Fri Nov 24 14:25:34 2023 -0800
+
+    waivers height to 800px
+
+[33mcommit 0d982ea12c789441b883147925e2b9d0c9d10cfe[m
+Author: rythrojaofficial <jared@mercenarytricking.com>
+Date:   Fri Nov 24 14:18:16 2023 -0800
+
+    min width for memberships table
+
+[33mcommit 51037f4826271710f4e036bc15c330f4d154eff5[m
+Author: rythrojaofficial <jared@mercenarytricking.com>
+Date:   Wed Nov 22 14:07:14 2023 -0800
+
+    news late november
+
+[33mcommit 231a333c253dd716d7eb220f8df1f93759f54731[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Nov 6 11:40:35 2023 -0800
+
+    remove expired events
+
+[33mcommit 700623300a6e35efc9937dcaf147e363ab359f09[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Nov 6 11:28:10 2023 -0800
+
+    add the add to tally button and stripe dashboard link
+
+[33mcommit c74992a45803fa97ec0a3bd05b2f68a755ff3b11[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Nov 1 13:26:50 2023 -0700
+
+    add css variables for colors and replace them in styles.css
+
+[33mcommit af57bfc55050b7b0b37fdb36c493cb8593f34a51[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Nov 1 12:35:05 2023 -0700
+
+    fix up arrow link in admin
+
+[33mcommit a1d9b0ba75d179a6ff70d1b9ef70bb333a925ad7[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Nov 1 12:31:00 2023 -0700
+
+    forgot to save previous
+
+[33mcommit 617c0b6b0ad0647d1bc096331ccc4d502569437a[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Nov 1 12:26:47 2023 -0700
+
+    add return to top functionality using a fixed icon and #a
+
+[33mcommit e4ccd1a1d2f112598d3d7229fa4855d222d68b11[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 31 17:15:48 2023 -0700
+
+     add boudlerfest to news
+
+[33mcommit 1a8e651aeb36446a9234ff34ff28ba0f01bb5795[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 31 12:03:49 2023 -0700
+
+    clean up css selectors
+
+[33mcommit 391286894ead7a68e0da4974b582c8092ee3f5a4[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 31 11:57:20 2023 -0700
+
+     add link to the teamapp in the upcoming events page
+
+[33mcommit df7662031c7185ac17712519eb7d17e6d595a6c0[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 31 11:46:13 2023 -0700
+
+     change links in current-offerings.html to be absolute links rather than relative links
+
+[33mcommit 2125f995a7ac7f1735022f04790054ffc7ce6aa1[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 31 11:42:20 2023 -0700
+
+     News updates 10/31
+
+[33mcommit 0f21ac5b4c3455f97a9489853499a86c03b18172[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 13:08:09 2023 -0700
+
+    add overflow to checklists on admin
+
+[33mcommit 7b69854a5dbfa75c94b65551559f31e5538d4566[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 13:04:47 2023 -0700
+
+    overflow to auto rather than scroll on memberships table
+
+[33mcommit 498ec07fc28daab3dcd7ab585942b54284bac6e5[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 13:00:51 2023 -0700
+
+    remove unecessary margins from title and subtitle classes
+
+[33mcommit 46a7525c51d67975a5711f2025a54ef6d6a8df19[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 12:58:07 2023 -0700
+
+    update admin page with icons.update checklists and add navigation tags to the top
+
+[33mcommit 3765de3360c6af8eeea1c96eed7b33979cb13103[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 11:42:26 2023 -0700
+
+    replace index properties with rem in place of px, notably flex buttons and header links
+
+[33mcommit a0e672f685406b2b20701fb35c3383334f0fd449[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 11:21:18 2023 -0700
+
+    add flex auto to fix the cards resizing issue.
+    put news inside a container to get it off the edge
+
+[33mcommit 70618bc71c45b8fdb637aee858ef45e4fc5c6c85[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 11:06:26 2023 -0700
+
+    add mini waves background texture
+
+[33mcommit 9395b985eacf9a65336e9ec9336f8118ff088626[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 11:02:58 2023 -0700
+
+    Add repeating background to news cards.
+    Change header hover colors to light green to match theme
+
+[33mcommit 03e88742c908214a4bad240277ddb581385dbbb1[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 10:43:06 2023 -0700
+
+    finally remove body  margin
+
+[33mcommit ea533ece39e2bb562a77f378194ebab633aacad6[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 09:30:26 2023 -0700
+
+    apply classical humanist font stack, priority on noto sans
+
+[33mcommit 869fed09aaca019f9987115dc62444497de81852[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 09:00:37 2023 -0700
+
+    remove em in favor of REM which is relative only to the root font size and not each parent's font size.
+    remove unused icon styles
+
+[33mcommit 2f5ee4ccec900db49df496382da54abd2572a88d[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 08:44:02 2023 -0700
+
+    current offerings header was within an extra ul node.  Removed that extra node to be synchronous with the other tabs
+
+[33mcommit e2918f28915bd04e53d5ac11454a390137192d7d[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Oct 27 08:37:30 2023 -0700
+
+     simplify text in memberships table, adjust styles of table to 1px lines and vertical line to middle
+
+[33mcommit f0f471e8378b756d78e5f4fa635facc66970ad84[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Thu Oct 26 07:49:28 2023 -0700
+
+     Add nav icon functionality to current-offerings.html using  the header and flex header tags
+
+[33mcommit 6f58f5acc5a4743137f15d1d70ec16d3e221305a[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Oct 25 15:58:02 2023 -0700
+
+    update news card carnevolar last week of shows
+
+[33mcommit 4801f932b3ae3299a6d5a5123300855a8f903200[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Oct 25 15:52:34 2023 -0700
+
+    update pages with new socials links.
+    add navIcon function to create socials links in nav bar
+
+[33mcommit 4b7b53db8fe49b249a6eef17964ed32a3e80fe6c[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Oct 25 14:42:37 2023 -0700
+
+    Add venmo icon to faq, style to text-links
+
+[33mcommit 433125e1460982aee99cd6502624d610b23d6663[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Oct 25 14:17:05 2023 -0700
+
+    enable iconify svgs by appending a script tag
+
+[33mcommit dc795911f7bf8c3209893f5ad19772a723506811[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 24 18:05:40 2023 -0700
+
+    remove extra header on upcoming
+
+[33mcommit 1dfdca423ffa05f6899ca701bc66c03dd4576970[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 24 17:56:58 2023 -0700
+
+    create headers using js to better upkeep links
+
+[33mcommit 2ffaa28631968e90be2b9aeda2bbaf667994092c[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 24 09:10:21 2023 -0700
+
+    adjust width sizing and border on memberships table
+
+[33mcommit 67bce22e6df88698c1a883e4773f822a2d01d930[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 24 09:06:26 2023 -0700
+
+    set memberships table width, borders for better ui on mobile
+
+[33mcommit 42387892e1295fbf898d88a1046c4b7e9a5feb1d[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 24 08:37:55 2023 -0700
+
+    replace text div footers with dom manipulation appended footer using js
+
+[33mcommit 1ea58363eb122023d2173271731220985b1ca478[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sun Oct 22 13:32:39 2023 -0700
+
+    redo memberships table as a tble element to replace the previous grid element in html and css
+
+[33mcommit d8bd517d35d877401b90b842974ed0e13b99e0d1[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Oct 16 13:36:23 2023 -0700
+
+    calendar from jaredc
+
+[33mcommit b33825cad55018676f2697d7d7aa3938748ee8ab[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Oct 16 13:17:59 2023 -0700
+
+    renew calendar
+
+[33mcommit bdc6cd170fbe06e9e14fe17c2e0abccad4b703fe[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Oct 16 12:54:48 2023 -0700
+
+    update news card with carnevolar
+
+[33mcommit 71dc03b1982019bee6e2bb6363a2cbe8ad83c4ae[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sun Oct 15 12:24:31 2023 -0700
+
+    set calendar to agenda
+
+[33mcommit 310aa858ff75af0daa586decf3af26f208b0e98a[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sun Oct 15 12:00:56 2023 -0700
+
+    update events calendar tab for index.html
+
+[33mcommit 9a65b36a33e68a2c2040b0588daef3b11895205f[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sun Oct 15 11:52:09 2023 -0700
+
+    Add google calendar integration with the teamApp events calendar
+    -update the events calendar tab to link to upcoming.html
+
+[33mcommit 4a566623e1daafde54dc92d812a6ffddd6610488[m
+Merge: 0413c91 3285e05
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Oct 11 14:58:53 2023 -0700
+
+    Merge branch 'main' of github.com:rythrojaofficial/axis45
+
+[33mcommit 0413c9161aa791b99dc4cc746c05c4e318ed999b[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Oct 11 14:55:59 2023 -0700
+
+    remove momentum news card, add pdx tricksgiving news card
+
+[33mcommit 3285e05c5d3c92219c62f9a2319a1b0e9a470049[m
+Author: rythrojaofficial <131824590+rythrojaofficial@users.noreply.github.com>
+Date:   Fri Oct 6 16:43:21 2023 -0700
+
+    Update admin.html
+    
+    update title for checklists
+
+[33mcommit 56c61b3531946d1441d821668db947d56ae1510f[m
+Author: rythrojaofficial <131824590+rythrojaofficial@users.noreply.github.com>
+Date:   Fri Oct 6 07:56:06 2023 -0700
+
+    Update admin.html
+    
+    update procedures for slava and to reflect current sitch
+
+[33mcommit 674b9f4dcb9d163a04c6eb894a9bc73710d95295[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Oct 3 11:05:49 2023 -0700
+
+    Update date for next class cycle
+
+[33mcommit e5732882e32c59d0c94e0edb5a9fb4d705bc9908[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Sep 27 23:52:34 2023 -0700
+
+    fix aj link
+
+[33mcommit 98c547b8553bc59b70e4bb895167f9d35d7ada25[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Sep 27 23:43:31 2023 -0700
+
+    add news aj sampler
+
+[33mcommit 8d2cac47641bc2ea8ee024305c37c744c9745381[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Sep 25 14:58:47 2023 -0700
+
+    9.25 news updates
+
+[33mcommit 0dc5372b8100fabe3ae0cbf828e7f1f2c86ebfbd[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Sep 19 22:02:03 2023 -0700
+
+    add flex-wrap to news
+
+[33mcommit 2f5f5f4e4357bb073aaf0f5ea67bef8326fefe3e[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Sep 19 07:40:33 2023 -0700
+
+    update news aj lands triple cork
+
+[33mcommit 6e4b3f731904fc0c895e581c6875e121ef8718ba[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Sep 18 11:36:18 2023 -0700
+
+    update news to include vancouver field trip
+
+[33mcommit 34dc583a0a24cf8449612e30ec12d13cc4ecd02c[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sat Sep 16 18:22:53 2023 -0700
+
+    remove resurfacing card
+
+[33mcommit 4a307d832dceba3628ec1cb4e46afe8e6bfaf2f2[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sat Sep 9 20:19:42 2023 -0700
+
+    comment label admin html
+    
+    revert waivers from jotform to google forms
+
+[33mcommit f07727fcf1c5f8007a58e3c5e703e56268cad923[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sat Sep 9 20:11:06 2023 -0700
+
+    Add card functionality to News bar
+        -flex properties
+        -gap
+        -class for news-card
+    new news
+        -parking lot closures
+
+[33mcommit 334d1a4327a405f8c76ea34b4695a294f1367ddd[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Sep 6 14:01:18 2023 -0700
+
+    add comment to test
+
+[33mcommit e10f5d21e0f399bd7de4e2bd424661d8fc62fcb4[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Sep 6 13:49:37 2023 -0700
+
+    Add link to registration
+
+[33mcommit aa635cb647619ae67888d9cc2082b0b67dba973a[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Sep 4 14:46:36 2023 -0700
+
+    fix link from current offerings to tricking foundations
+
+[33mcommit c58aad2b2f22fc6d61e18dfa1f51b7eca699098c[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Sep 4 14:42:01 2023 -0700
+
+    Add jump to sections for current offerings
+
+[33mcommit db34277b6d58930434668936174d68e183f822d3[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Sep 4 12:13:51 2023 -0700
+
+    Fix links from home to tricking-foundations in the news, from tricking foundations to home
+
+[33mcommit bdf7988f6b545eea3c028c671703919c96805e7b[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Sep 4 12:11:18 2023 -0700
+
+    Add Tricking Foundations Class modeled after labor day  mini registtration
+
+[33mcommit 6644bde6d8fe4e529851a63dcf02597cef373f86[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Sep 4 10:20:20 2023 -0700
+
+    update text-links color and hover color
+
+[33mcommit a39143be2e3149e81c312c05e7defb514ce853a2[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Sep 4 10:13:19 2023 -0700
+
+    Make archived directory in events
+        -move labordaymini and hawaii-trickers-pre-orders to archived
+    
+    Update news
+        -remove labordaymini stuff
+        -add class info
+    
+    Add text-link decoration functionality
+        -add text-links decoration to spans
+
+[33mcommit d7981b05f4a6ea3d54844e4b04b235d3f3972911[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Sep 1 23:39:12 2023 -0700
+
+    typo on points for swing king
+
+[33mcommit 49a0a435423550a39cd4f5623065830f5d8fa7e8[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Sep 1 23:29:39 2023 -0700
+
+    add times
+
+[33mcommit 65a480d34bb1ff6fa9d97f8c51a5d63d7ecd161f[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Thu Aug 31 22:59:52 2023 -0700
+
+    Update details for mini events
+    Add checkbox read more functionality to html and css
+
+[33mcommit ada090dc9b42fd944094f3366b10affcd03c41b7[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Aug 22 14:18:16 2023 -0700
+
+    typo scores
+
+[33mcommit dbd4dc6f6c572ceab05cfd74de1cdd7fe62f9a0d[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Aug 22 14:16:52 2023 -0700
+
+    point typo
+
+[33mcommit 6c16caae71a2fa232d67d608702d4d64f30aff8e[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Aug 22 12:25:43 2023 -0700
+
+    fix links
+    add news section for index and styles
+
+[33mcommit 4630123a707f87ac37e00b77e63b3f136587de70[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Aug 22 11:19:00 2023 -0700
+
+    added info for rules and empower
+
+[33mcommit 0d3a45f0075bf8c7771fc1bccd497658276ed555[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Aug 21 23:22:04 2023 -0700
+
+    Add main rules
+
+[33mcommit 730411d8cc9a3c8a61ad34d0b62eff35f6bf05b7[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Aug 21 23:05:54 2023 -0700
+
+    fix title capitalization
+
+[33mcommit 1c34af374f650ca5cfe904a846c0006bc924e66c[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Aug 21 23:02:54 2023 -0700
+
+    fix pricing
+
+[33mcommit 7d579322544e827d81fa1fe9b3eaa642395de66b[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Aug 21 22:55:15 2023 -0700
+
+    fix swing king rules
+
+[33mcommit a1e636357a6fba958f4edda2c7896c96a607ac7b[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Aug 21 22:53:28 2023 -0700
+
+    fix schedule
+
+[33mcommit bc3f70f488ea556f21e2307304511bd292a8b5e6[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Aug 21 13:38:55 2023 -0700
+
+    Add schedule, registration, rules for labor day mini
+
+[33mcommit 1a08465dcfcb8cb5451042c797cec4f03ce6852a[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Aug 9 16:13:57 2023 -0700
+
+    Add jump to functionality in memberships and labordaymini
+    Add scrolling to grid in memberships
+    Make Waivers link relative
+
+[33mcommit 90489824ca3ad0aa8cc74f19e2812ef03f19a367[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sun Aug 6 20:36:22 2023 -0700
+
+    fix html links on memberships
+
+[33mcommit ca81e40bfdf658d0e9e4267954ed4126843fbd9a[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sun Aug 6 20:33:36 2023 -0700
+
+    fix links from html
+
+[33mcommit 8f32370e54b11b2ba46845d65da211e9d146e7dc[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Sat Aug 5 17:43:02 2023 -0700
+
+    Add opening, closing, injury checklist to admin page
+
+[33mcommit e592599fa50ae9d39b9e7f849e552e6f680b3320[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Aug 4 12:10:05 2023 -0700
+
+    Replace inline css with styles.css for footer and gray containers
+
+[33mcommit e92aa968a8dc82ba52be4559b2d57ac16dfbf103[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Aug 4 11:38:48 2023 -0700
+
+    resize admin forms, update styles for readability
+
+[33mcommit feab5802a74072b2e26bfba66dc107e7e410d74e[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Thu Aug 3 16:36:34 2023 -0700
+
+     update buttons to pricing and memberships
+
+[33mcommit 56ea90a9e44af19eb5259b3802a2d048ec934b74[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Thu Aug 3 13:28:35 2023 -0700
+
+    Fix buttons
+        pages were linked to /pages
+        moved pages to /axis45 to make urls cleaner
+
+[33mcommit b69a83074710452de323d67da47b95fd5218c02e[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Thu Aug 3 13:16:12 2023 -0700
+
+    Add faq
+        -update pages
+        -move pages from pages folder to ./axis45 for ease of use
+        -create faq
+
+[33mcommit d52110818e571274cb9bfd91b0a215712508b430[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Thu Aug 3 08:51:11 2023 -0700
+
+    Update current offerings
+        -list spacing and circling
+
+[33mcommit 97ddfe1fe479f0e9e6d51fa9e1d46f02f33bc854[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Wed Aug 2 17:17:05 2023 -0700
+
+    add color to headers, add flex functionality to index
+
+[33mcommit 174722257e71a6c9fb8ec0425aef0f8358b91289[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 31 23:23:22 2023 -0700
+
+    Add footer to all pages
+    Style Current offerings
+
+[33mcommit 8b0686b312ca50aa5aa1fba584389bc79f9ca1ef[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 31 18:30:17 2023 -0700
+
+    Add grids to membership page and accompanying styling to css
+
+[33mcommit dd59b0afc1d82d2fefe6c0c09d4338c79820f494[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Jul 28 16:21:06 2023 -0700
+
+    Add flex functionality to admin page
+
+[33mcommit f3bdfd956df1d950144b1ff045a49031eae819a7[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Fri Jul 28 11:44:52 2023 -0700
+
+    Fix buttons
+        change ".a" properties to .flex-header a
+    Add Footer with Address
+
+[33mcommit 867552a3d9982a70201830f49a1f302f4549dcdc[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Thu Jul 27 10:30:29 2023 -0700
+
+    resize image
+
+[33mcommit e01af79a279f82450da340312fa71900dd0bbc36[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Jul 25 20:57:39 2023 -0700
+
+    move pre orders to secret pages
+
+[33mcommit e1f857eb5156b9210fc554d616eed805385c5641[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Jul 25 20:44:18 2023 -0700
+
+    add admin page
+
+[33mcommit 38949027a3a91c903444c9040d0305ff0032a0b4[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Jul 25 20:10:26 2023 -0700
+
+    reduce header size
+
+[33mcommit e49ce515c7d91b75ea9aea2d7d2b86c6ac777213[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Tue Jul 25 20:06:46 2023 -0700
+
+    fix link styling
+
+[33mcommit bc89d474b5e15287ee4a181ef38cd616c7ee68ef[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 17:53:21 2023 -0700
+
+    change title from shirt to merch
+
+[33mcommit b00bf29787c9e6ce44c4378f9310bf824e908b55[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 17:51:01 2023 -0700
+
+    add shorts picture
+
+[33mcommit 714100f030ae498c05076d125c82d3ea331fcfdd[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 17:32:52 2023 -0700
+
+    .
+
+[33mcommit cf0479be9f875a8e41b1db1ad1c7a5ba80d4d64a[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 17:01:14 2023 -0700
+
+    fix permissions
+
+[33mcommit f219f8b480c9050353d06cfa0c0468ebe8fd78ef[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 16:53:40 2023 -0700
+
+    fix height
+
+[33mcommit 0843b34017f622d4b6a15c8af836a3e01138478e[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 16:47:27 2023 -0700
+
+    fix forms box
+
+[33mcommit 6de0a775e8592ac092731864a75f37a994ca79ef[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 16:39:33 2023 -0700
+
+    add pre-orders form
+
+[33mcommit 799187cd5070bb9a550444ad98e320cb7911f398[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 16:22:56 2023 -0700
+
+    add images and pages
+
+[33mcommit 02088d7c7d3c816def5703773ace8c78fc34c9da[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 16:13:20 2023 -0700
+
+    correct index page
+
+[33mcommit a9de7f0199f5e186b43f73d431e955360a977cd9[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 16:09:34 2023 -0700
+
+    copy styles
+
+[33mcommit 12c0bd4334d5820b93b60fb8c12ca40ad4e07dd5[m
+Merge: f592791 38b9d3d
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 16:07:17 2023 -0700
+
+    Merge branch 'main' of github.com:rythrojaofficial/axis45
+
+[33mcommit f5927919b05a27bd7b3d40ca83507d64c304b39a[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 16:04:18 2023 -0700
+
+    copying index
+
+[33mcommit 38b9d3df0ed4b8109096b9ceb353795e7cc6ee92[m
+Author: rythrojaofficial <131824590+rythrojaofficial@users.noreply.github.com>
+Date:   Mon Jul 24 16:03:08 2023 -0700
+
+    Create CNAME
+
+[33mcommit b77023f9b3267e1095864c5601b2fe77d9a8fb04[m
+Author: rythroja <jared@mercenarytricking.com>
+Date:   Mon Jul 24 16:01:15 2023 -0700
+
+    add index and styles
+
+[33mcommit 650c9149852067098c4a7d780bb858fd71ea61e2[m
+Author: rythrojaofficial <131824590+rythrojaofficial@users.noreply.github.com>
+Date:   Mon Jul 24 15:58:02 2023 -0700
+
+    Initial commit
