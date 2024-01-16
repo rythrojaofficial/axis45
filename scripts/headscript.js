@@ -149,8 +149,9 @@ function stampTime(){
 
 if (document.getElementById('stamp-time')){
     const hiddenTime = document.querySelector('#stamp-time');
+    let time = stampTime();
     haveRead.addEventListener('click', ()=>{
-        hiddenTime.value = stampTime();
+        hiddenTime.value = time;
     })
 }
 
