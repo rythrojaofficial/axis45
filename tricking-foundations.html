@@ -109,19 +109,19 @@ Registration box
     <!-- add a link just in case they it doesn't display  -->
     <div class="section">Register Now!</div>
     <form method="POST" action="https://script.google.com/macros/s/AKfycbxjP9aHQTVpf0wuVg8kpPo2KxpDcsyzsKl-XFk_eRQ/dev">
-        <input type="text" name="timestamp" id="stamp-time" hidden>
+        <input type="text" name="timestamp" id="stamp-time" hidden >
         <br>
-        <input type="text" name="Name" id="" placeholder="Full Name">
+        <input type="text" name="Name" id="" placeholder="Full Name" required>
         <br>
-        <input type="email" name="Email" id="" placeholder="Email">
+        <input type="email" name="Email" id="" placeholder="Email" required>
         <br>
         <input type="text" name="Instagram" id="" value="@">
         <br>
         <label for="DOB">Participant Date of Birth</label>
         <br>
-        <input type="date" name="DOB" id="">
+        <input type="date" name="DOB" id="" required>
         <br>
-        <select name="Registration" id="">
+        <select name="Registration" id="" required>
             <option value="">Select Registration Month</option>
             <option value="01-January">01-January</option>
             <option value="02-February">02-February</option>
@@ -153,7 +153,7 @@ Registration box
         <div>
             
         </div>
-        <input type="checkbox" id="Have-Read" name="Have-Read" >
+        <input type="checkbox" id="Have-Read" name="Have-Read" required>
         <label for="Have-Read">I have read the <span class="text-links"><a href="www.seattletricking.com/faq">faq regarding parking, payment, and finding us</a></span></label>
         <br>
         <button type="submit" id="form-submit">Submit</button>
