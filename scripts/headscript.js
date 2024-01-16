@@ -2,44 +2,40 @@
 // update next foundations 
 // =======================
 
-            // =edit=date==========vvvvvvvvv======
-            let nextFoundations = '1/4/2024';
-            // ====================^^^^^^^^^======
 function updateFoundations(nextDate){
     let instancesOfNextFoundationsDate = [...document.querySelectorAll('.next-foundations-date')];
     instancesOfNextFoundationsDate.forEach(element => {
         element.innerText = nextDate;
     });
+    
 }
+// =edit=date==========vvvvvvvvv======
+let nextFoundations = '2/1/2024';
+// ====================^^^^^^^^^======
 updateFoundations(nextFoundations);
 
 //==============
 //  addNavHeader 
 // =============   
+let myHeader = document.createElement("header");
+let flexHeaderReorder = document.createElement("ul");
+    flexHeaderReorder.className = "flex-header";
+let flexHeaderLinks = document.createElement("ul");
+    flexHeaderLinks.className = "flex-header";
+    flexHeaderLinks.id = "navLinks";
+let flexHeaderIcons = document.createElement("ul");
+    flexHeaderIcons.className = "flex-header";
+    flexHeaderIcons.id = "navIcons";
+
 const navbarTextList = [];
 const navbarIconList = [];
-const navbarHeaderList = [];
-// constructors
-function NavText(name, id, link){
-    this.name = name;
-    this.id = id;
-    this.link = link;
-    navbarTextList.push(this);
-}
-function NavIcon(icon, id, link){
-    this.icon = icon;
-    this.id = id;
-    this.link = link;
-    navbarIconList.push(this);
-}
-//nav headers
-const myHeader = document.createElement("header");
-const flexHeaderReorder = document.createElement('ul');
-const flexHeaderLinks = document.createElement('ul');
-    flexHeaderLinks.id = 'navLinks';
-const flexHeaderIcons = document.createElement('ul');
-    flexHeaderIcons.id = 'navIcons';
-navbarHeaderList.push(flexHeaderReorder, flexHeaderLinks, flexHeaderIcons);
+    // constructors
+    function NavText(name, id, link){
+        this.name = name;
+        this.id = id;
+        this.link = link;
+        navbarList.push(this);
+    }
 // navs text link
 const navHome = new NavText('home', 'home-link', 'https://www.seattletricking.com');
 const navCurrent = new NavText('current offerings','current-offerings-link', 'https://www.seattletricking.com/current-offerings');
@@ -48,15 +44,8 @@ const navMemberships = new NavText('memberships', 'memberships-link', 'https://w
 const navWaivers = new NavText('waivers', 'waivers-link', 'https://www.seattletricking.com/waivers');
 const navFaq = new NavText('faq', 'faq-link', 'https://www.seattletricking.com/faq');
 //nav icon links
-const navInsta = new NavIcon('logo-instagram', 'insta-nav', 'https://www.instagram.com/seattletricking');
-const navFb = new NavIcon( 'logo-facebook', 'facebook-nav', 'https://www.facebook.com/groups/432112633636377');
-const navYoutube = new NavIcon( 'logo-youtube', 'youtube-nav', 'https://www.youtube.com/@mercenarytricking2852/videos');
-const navVenmo = new NavIcon( 'logo-venmo', 'venmo-nav', 'https://www.venmo.com/u/seattletricking');
 
 function addNav(){
-    navbarHeaderList.forEach(header =>{
-            header.classList.add('flex-header')
-    })
     navbarTextList.forEach(nav =>{
         let li = document.createElement('li');
             li.id = nav.id;
@@ -65,40 +54,106 @@ function addNav(){
             a.href = nav.link;
         li.appendChild(a);
         flexHeaderLinks.appendChild(li);
+        
     })
-
-    navbarIconList.forEach(nav =>{
-        let li = document.createElement('li');
-        let a = document.createElement('a');
-            a.href = nav.link;
-            a.id = nav.id;
-        let icon = document.createElement('ion-icon');
-            icon.setAttribute('size', 'large');
-            icon.setAttribute('name', nav.icon);
-        a.appendChild(icon);
-        li.appendChild(a);
-        flexHeaderIcons.appendChild(li);
-    })
-
-    let reorder = document.createElement("li")
-        reorder.id = "reorder-nav";
-        flexHeaderReorder.appendChild(reorder);
-    let reorderIcon = document.createElement('ion-icon');
-        reorderIcon.setAttribute('size', 'large');
-        reorderIcon.setAttribute('name', 'menu-outline');
-
-        reorder.appendChild(reorderIcon);
-        flexHeaderReorder.appendChild(reorder);
-
-    // append the lists to myHeader 
-    navbarHeaderList.forEach(header =>{
-        myHeader.appendChild(header);
-    })
-    // add header to body 
+    myHeader.appendChild(flexHeaderLinks)
     document.body.prepend(myHeader);
 
 }
 addNav();
+
+function createFlexHeader(){
+    // let myHeader = document.createElement("header");
+    // let flexHeaderReorder = document.createElement("ul");
+    //     flexHeaderReorder.className = "flex-header";
+    // let flexHeaderLinks = document.createElement("ul");
+    //     flexHeaderLinks.className = "flex-header";
+    //     flexHeaderLinks.id = "navLinks";
+    // let flexHeaderIcons = document.createElement("ul");
+    //     flexHeaderIcons.className = "flex-header";
+    //     flexHeaderIcons.id = "navIcons";
+    // let home1 = document.createElement("li");
+    //     home1.id="home-link";
+    // let current = document.createElement("li");
+    //     current.id = "current-offerings-link";
+    // let upcoming = document.createElement("li");
+    //     upcoming.id = "upcoming-link";
+    // let memberhsips = document.createElement("li");
+    //     memberhsips.id = "memberships-link";
+    // let waivers = document.createElement("li");
+    //     waivers.id = "waivers-link";
+    // let faq = document.createElement("li");
+    //     faq.id = "faq-link";
+    let insta = document.createElement("li");
+        insta.id = "insta-nav";
+    let fb = document.createElement("li");
+        fb.id = "facebook-nav";
+    let youtube = document.createElement("li");
+        youtube.id = "youtube-nav";
+    let venmo = document.createElement("li");
+        venmo.id = "venmo-nav";
+
+    let reorder = document.createElement("li")
+        reorder.id = "reorder-nav";
+    flexHeaderReorder.appendChild(reorder);
+    
+    flexHeaderLinks.appendChild(home1);
+    flexHeaderLinks.appendChild(current);
+    flexHeaderLinks.appendChild(upcoming);
+    flexHeaderLinks.appendChild(memberhsips);
+    flexHeaderLinks.appendChild(waivers);
+    flexHeaderLinks.appendChild(faq);
+
+    flexHeaderIcons.appendChild(insta);
+    flexHeaderIcons.appendChild(fb);
+    flexHeaderIcons.appendChild(youtube);
+    flexHeaderIcons.appendChild(venmo);
+
+    myHeader.appendChild(flexHeaderReorder);
+    myHeader.appendChild(flexHeaderLinks);
+    myHeader.appendChild(flexHeaderIcons);
+    document.body.prepend(myHeader);
+
+}
+function navLink(id, text, link){
+    let myList = document.getElementById(id);
+    let myLink = document.createElement('a');
+        myLink.href = link;
+        myLink.innerText = text;
+    myList.appendChild(myLink);
+}
+function navIcon(id, icon, link){
+    let myList = document.getElementById(id);
+    let myLink = document.createElement('a');
+        myLink.href = link;
+        
+    let myIcon = document.createElement('ion-icon');
+        myIcon.setAttribute('size', 'large');
+        myIcon.setAttribute('name', icon)
+    myLink.appendChild(myIcon);
+    myList.appendChild(myLink);
+
+}
+function navReorder(id, icon){
+    let myList = document.getElementById(id);
+    let myIcon = document.createElement('ion-icon');
+        myIcon.setAttribute('size', 'large');
+        myIcon.setAttribute('name', icon)
+
+    myList.appendChild(myIcon);
+}
+// createFlexHeader();
+navReorder('reorder-nav', 'menu-outline');
+// navLink('home-link', 'home', 'https://www.seattletricking.com');
+// navLink('current-offerings-link', 'current offerings', 'https://www.seattletricking.com/current-offerings');
+// navLink('memberships-link', 'memberships', 'https://www.seattletricking.com/memberships');
+// navLink('waivers-link', 'waivers', 'https://www.seattletricking.com/waivers');
+// navLink('faq-link', 'faq', 'https://www.seattletricking.com/faq');
+// navLink('upcoming-link', 'upcoming events', 'https://www.seattletricking.com/upcoming');
+navIcon('insta-nav', 'logo-instagram', 'https://www.instagram.com/seattletricking');
+navIcon('facebook-nav', 'logo-facebook', 'https://www.facebook.com/groups/432112633636377')
+navIcon('youtube-nav', 'logo-youtube', 'https://www.youtube.com/@mercenarytricking2852/videos')
+navIcon('venmo-nav', 'logo-venmo', 'https://www.venmo.com/u/seattletricking')
 
 let reorderBtn = document.getElementById("reorder-nav");
 let links = document.getElementById('navLinks');
@@ -107,7 +162,9 @@ let icons = document.getElementById('navIcons')
         if(links.style.display === "none"){
             links.style.display = "flex";
             icons.style.flexDirection = "column";
-        }else{
+        }
+        
+        else{
             links.style.display = "none";
             icons.style.flexDirection = "row";
         }
