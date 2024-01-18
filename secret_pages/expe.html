@@ -36,6 +36,12 @@
             border-radius: .3rem;
             border: none;
         }
+        #submission-field{
+            background-color: rgb(81, 231, 114)
+        }
+        #submission-field:hover{
+            background-color: rgb(22, 216, 64);
+        }
     </style>
 </head>
 <body>
@@ -88,10 +94,10 @@
                 <legend>receipt?</legend>
                 <input type="file" name="receipt" id="">
             </fieldset> -->
-            <fieldset>
-                <button type="submit">submit</button> 
+            <fieldset id='submission-field'>
+                <button type="submit">Submit</button> 
             </fieldset>
-            
+            <div>note: it takes 2-4s to submit, please don't double send :)</div>
     </form>
     <div></div>
     </div>   
