@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expenses</title>
+    <style>
+        *{box-sizing: border-box;}
+        body{ margin-left: 0px;
+                padding-left: 0px;
+            background-color: rgb(208, 224, 231);}
+        
+        .form-container{
+            display: grid;
+            grid-template-columns: auto 75vw auto;
+            margin-top: 5vh;
+
+        }
+
+        fieldset{
+            background-color: rgb(239, 245, 248);
+            margin: .25rem;
+            border-radius: .3rem;
+            border: none;
+            width: 100%;
+        }
+
+        input{
+            border-radius: .25rem ;
+            border-style: none;
+            background-color: rgb(189, 231, 231);
+        }
+        button{
+            background-color: rgba(240, 248, 255, 0);
+            width: 100%;
+            border-radius: .3rem;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.seattletricking.com/secret_pages/admin"></a>
+    <div class="form-container">
+        <div></div>
+        <form method="POST" action="https://script.google.com/a/macros/mercenarytricking.com/s/AKfycbwH5xlnjAFWOBZMxgkyufT91AadEMQTr0HewHiid0u7QuT4ufqNusPQtVbnPvaC10Ou/exec
+            ">
+            <fieldset required>
+                <legend>who</legend>
+                <div><input type="radio" name="who" value='jared'>jd</div>
+                <div><input type="radio" name="who" value="krissy">ky</div>
+                <div><input type="radio" name="who" value="aj">aj</div>
+                <div><input type="radio" name="who" value="stc">stc</div>
+                <div><input type="radio" name="who" value="other" id="other-who">other <input type="text" id="listed-other-who"></div>
+            </fieldset>
+            <fieldset>
+                <legend>exp date</legend>
+                <input type="date" name="expense-date" id="">
+            </fieldset>
+            <fieldset>
+                <legend>price</legend>
+                <input type="number" name="price" id="">
+            </fieldset>
+            <fieldset>
+                <legend>expense</legend>
+                <input type="text" name="expense" id="">
+            </fieldset>
+            <fieldset>
+                <legend>location</legend>
+                <input type="text" name="purchase-location" id="">
+            </fieldset>
+            <fieldset>
+                <legend>payment</legend>
+                <div><input type="radio" name="payment-method" value="disc">disc</div>
+                <div><input type="radio" name="payment-method" value="citi">citi</div>
+                <div><input type="radio" name="payment-method" value="venmo">venmo</div>
+                <div><input type="radio" name="payment-method" value="cash">cash</div>
+                <div><input type="radio" name="payment-method" value="becu">becu</div>
+                <div><input type="radio" name="payment-method" value="kvisa">kvisa</div>
+                <div><input type="radio" name="payment-method" value="kmaster">kmaster</div>
+                <div><input type="radio" name="payment-method" value="kusb">kusb</div>
+                <div><input type="radio" name="payment-method" id="other-payment" value="other">other <input type="text" id="listed-other-payment"></div>
+            </fieldset>
+            <fieldset>
+                
+                <div><input type="checkbox" name="was-contribution" value="yes">This was a contribution ie. rent supplement</div>
+            </fieldset>
+            <fieldset>
+                <legend>receipt?</legend>
+                <input type="file" name="receipt" id="">
+            </fieldset>
+            <fieldset>
+                <button type="submit">submit</button> 
+            </fieldset>
+            
+    </form>
+    <div></div>
+    </div>   
+    
+    <script>
+
+        // creates event listners that change value of other option
+        const _other = (function(){
+            function createOtherOption(idbutton, idlisted){
+                let other = document.getElementById(idbutton);
+                let listed = document.getElementById(idlisted);
+                let newListener = listed.addEventListener('input', (e)=>{
+                    other.value = listed.value;
+                })
+            }
+            let whoOther = createOtherOption('other-who', 'listed-other-who');
+            let paymentOther = createOtherOption('other-payment', 'listed-other-payment')
+
+        })()
+        
+        
+    </script>
+</body>
+</html>
