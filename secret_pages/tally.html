@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tally</title>
+    <link rel="stylesheet" href="secretstyles.css">
+</head>
+<body>
+    
+    <a href="https://www.seattletricking.com/secret_pages/admin"> return to admin</a>
+    <div class="form-container">
+        <div></div>
+        <form method="POST" action="https://script.google.com/macros/s/AKfycbxHb30pVIipaVaUE64fbvZkv3mzODW81SdZdVkoZVBEsPMtd9Te_RjkEe8Bhy4zJJMV/exec
+            ">
+            <fieldset>
+                <legend>date</legend>
+                <input type="date" name="expense-date" id="">
+            </fieldset>
+            <fieldset required>
+                <legend>tallied by</legend>
+                <div><input type="radio" name="who" value='jared'>jd</div>
+                <div><input type="radio" name="who" value="krissy">ky</div>
+                <div><input type="radio" name="who" value="aj">aj</div>
+                <div><input type="radio" name="who" value="other" id="other-who">other <input type="text" class='other-option' id="listed-other-who"></div>
+            </fieldset>
+            <fieldset id="tally-container">
+                <select name="member" id="members" multiple>
+                    <!-- <option value=""></option>
+                    <option value=""></option> -->
+                    <!-- populate with js  -->
+                    
+                </select>
+                <fieldset id='checkbox-options'>
+                    <!-- <div> -->
+                        <!-- <input type="checkbox"> --> 
+                        <!-- <label for="theabove"></label> -->
+                    <!-- </div> -->
+                        
+                    <!-- populate with js -->
+                    
+                </fieldset>
+            </fieldset>
+            
+            
+            <fieldset>
+                
+                <div><input type="checkbox" name="was-contribution" value="yes">This was a contribution ie. rent supplement</div>
+            </fieldset>
+            <fieldset id='submission-field'>
+                <button type="submit">Submit</button> 
+            </fieldset>
+            <div>note: it takes 2-4s to submit, please don't double send :)</div>
+    </form>
+    <div></div>
+    </div>   
+    <script src="../scripts/secretscripts.js"></script>
+    <script>
+
+        // creates event listners that change value of other option
+        const _other = (function(){
+            function createOtherOption(idbutton, idlisted){
+                let other = document.getElementById(idbutton);
+                let listed = document.getElementById(idlisted);
+                let newListener = listed.addEventListener('input', (e)=>{
+                    other.value = listed.value;
+                })
+            }
+            // let whoOther = createOtherOption('other-who', 'listed-other-who');
+            // let paymentOther = createOtherOption('other-payment', 'listed-other-payment')
+
+        })()
+        
+        
+    </script>
+</body>
+</html>
