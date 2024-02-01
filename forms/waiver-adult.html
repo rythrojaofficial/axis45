@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundations Registration</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Noto Sans', Optima, Candara, source-sans-pro, sans-serif;
+            }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+
+        }
+        body{
+            margin:0;
+        }
+
+        :root {
+            --primary-color: #263c42;
+            --secondary-color: #bdd3b6;
+            --background-gray: #e4e4e4;
+            --links-hover: #3c702d; 
+        }
+        body{
+            display: grid;
+            grid-template-columns: auto 95vw auto;
+            margin-left: 0px;
+            padding-left:0px;
+            background-color: rgb(228, 228, 228);
+        }
+        select,
+        fieldset,
+        textarea,
+        input,
+        #form-submit{
+            border-radius: .3rem;
+            border: none;
+            line-height: 1.5rem;
+            margin: .25rem
+        }
+
+        .fine-print{
+            font-size: .75rem;
+        }
+        select
+        {
+            background-color: white;
+        }
+        #form-submit{background-color: rgb(132, 240, 132);}
+        #form-submit:hover{ background-color: rgb(19, 226, 25);}
+        .form-wrapper{
+            display: grid;
+            grid-template-columns: auto 75vw auto;
+        }
+
+        .text-links{
+            color:var(--primary-color);
+        }
+            .text-links a{
+                color: inherit;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            .text-links a:hover{
+                text-decoration: underline;
+                color: var(--links-hover)
+            }
+
+        .section {
+            color: var(--primary-color);
+            font-size: 175%;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+        <form method="POST" 
+         action="  REPLACE WITH #
+        ">
+            <div class="section">Your Info</div>
+                <div>
+                    <fieldset>
+                        <label for="Name"></label>
+                        <input type="text" name="Name" id="" placeholder="Full Name" required>
+                        <input type="email" name="Email" id="" placeholder="Email" required>   <br>     
+                        <input type="number" name="PhoneNumber" id="" placeholder="Phone number" required maxlength="15" minlength="7">
+                        <input type="text" name="Instagram" id="" placeholder="Instagram @">                
+                        
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Emergency Contact</legend>
+                        <input type="text" name="EmergencyContact" id="" placeholder="Contact Name" required>
+                        <input type="text" name="EmergencyRelation" id="" placeholder="Contact Relationship" required>
+                        <input type="number" name="EmergencyPhone" id="" placeholder="Contact Phone number" required maxlength="15" minlength="7">
+                    </fieldset>
+
+                    <fieldset>
+                        <div>
+                            <input type="date" name="DOB" value="2000-01-01" required id="">
+                            <label for="DOB">Date of Birth</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" name="Confirm18Plus" value="I am over 18 years old" id="" required>
+                            <label for="Confirm18Plus" >I am over 18 years old</label>
+                        </div>
+                    </fieldset>
+                </div>
+                
+                <button type="button">Next</button>
+               
+
+               
+
+                
+
+            <div class="section">Release of Liability Waiver</div>
+             <!-- .fine-print>fieldset>p*2 -->
+               
+                <div class="fine-print">
+                    <fieldset>
+                        <p>The term “RELEASEES” encompasses Seattle Tricking Collective, their officers, officials, agents, and/or employees, other participants, sponsoring agencies, sponsors, advertisers, and if applicable, owners and lessors of premises used to conduct the event.
+                        </p>
+                        <p>In consideration of being allowed to participate in any way in Seattle Tricking Collective (STC) training sessions, related events and activities, the undersigned acknowledges, appreciates, and agrees that:</p>
+                        <ol>
+                            <li>The risks of bodily injury and illness (ex: communicable diseases such as MRSA, influenza, and COVID-19) from the activities involved in this program are significant, including the potential for permanent paralysis and death, and while particular rules, equipment, and personal discipline may reduce these risks, the risks of serious injury and illness do exist;</li>
+                            <li>I KNOWINGLY AND FREELY ASSUME ALL SUCH RISKS, both known and unknown, EVEN IF ARISING FROM THE NEGLIGENCE OF THE RELEASEES or others, and assume full responsibility for my participation;</li>
+                            <li>I willingly agree to comply with the stated and customary terms and conditions for participation. I represent that I understand the nature of Tricking and Acrobatic-related activities and represent that I am qualified, in good health, and in proper physical and mental condition to participate in such activities. If I observe any unusual significant hazard during my presence or participation, I will remove myself from participation and bring such to the attention of the nearest STC owner immediately;</li>
+                            <li>I, for myself and on behalf of my heirs, assigns, personal representatives and next of kin, HEREBY RELEASE AND HOLD HARMLESS Seattle Tricking Collective, their officers, officials, agents, and/or employees, other participants, sponsoring agencies, sponsors, advertisers, and if applicable, owners and lessors of premises used to conduct the event (“RELEASEES”), WITH RESPECT TO ANY AND ALL INJURY, ILLNESS, DISABILITY, DEATH, or loss or damage to person or property, WHETHER ARISING FROM THE NEGLIGENCE OF THE RELEASEES OR OTHERWISE, to the fullest extent permitted by law.</li>
+                        </ol>
+                        <p>By typing my full name below, I confirm that I HAVE READ THIS RELEASE OF LIABILITY AND ASSUMPTION OF RISK AGREEMENT, FULLY UNDERSTAND ITS TERMS, UNDERSTAND THAT I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY SIGNING IT, AND SIGN IT FREELY AND VOLUNTARILY WITHOUT ANY INDUCEMENT.</p>
+                        <input type="text" name="LiabilitySign" placeholder="e-signature">
+                    </fieldset>
+                </div>
+
+            <div class="section">Photo and Video Release</div>
+                <div class="fine-print">
+                    <fieldset>
+                        <div class="fine-print">
+                            
+                            <p>In consideration of participation in Open practices, Classes, Workshops, and Events with STC (excluding private lessons), the undersigned agrees that their likeness or the likeness of their child may be photographed or videotaped and that such image may be edited and/or published in an outlet used to promote or publicize Seattle Tricking Collective.</p>
+                            <p>By typing my full name below, I confirm that I have carefully read, understand, and agree to the above photo and video release policy</p>
+                            <input type="text" name="ConfirmPhotoVideo" placeholder="e-signature" id="">
+                        </div>
+                        <p></p>
+                        <p></p>
+                    </fieldset>
+                </div>
+                
+                
+            
+           
+            <button type="submit" id="form-submit">Submit</button>  
+        </form>
+        <div></div>   
+    </div>
+</body>
+</html>
