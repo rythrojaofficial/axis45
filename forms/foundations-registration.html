@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundations Registration</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Noto Sans', Optima, Candara, source-sans-pro, sans-serif;
+            }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+
+        }
+        body{
+            margin:0;
+        }
+
+        :root {
+            --primary-color: #263c42;
+            --secondary-color: #bdd3b6;
+            --background-gray: #e4e4e4;
+            --links-hover: #3c702d; 
+        }
+        body{
+            display: grid;
+            grid-template-columns: auto 95vw auto;
+            margin-left: 0px;
+            padding-left:0px;
+            background-color: rgb(228, 228, 228);
+        }
+        select,
+        fieldset,
+        textarea,
+        input,
+        #form-submit{
+            border-radius: .3rem;
+            border: none;
+            line-height: 1.5rem;
+            margin: .25rem
+        }
+        select
+        {
+            background-color: white;
+        }
+        #form-submit{background-color: rgb(132, 240, 132);}
+        #form-submit:hover{ background-color: rgb(19, 226, 25);}
+        .form-wrapper{
+            display: grid;
+            grid-template-columns: auto 75vw auto;
+        }
+
+        .text-links{
+            color:var(--primary-color);
+        }
+            .text-links a{
+                color: inherit;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            .text-links a:hover{
+                text-decoration: underline;
+                color: var(--links-hover)
+            }
+
+        .section {
+            color: var(--primary-color);
+            font-size: 175%;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+        <form method="POST" 
+        action="https://script.google.com/macros/s/AKfycbwvkRFssz5W8EqjJT_faWYP6-r436mYuxrFA52xGE8b7JH0lqwmgrZf3FTo-2NbXLDk/exec
+        ">
+            <div class="section">Register Now!</div>
+                <input type="text" name="Name" id="" placeholder="Full Name" required>
+                <br>
+                <input type="email" name="Email" id="" placeholder="Email" required>
+                <br>
+                <input type="text" name="Instagram" id="" value="@">
+                <br>
+                <label for="DOB">Participant Date of Birth</label>
+                <br>
+                <input type="date" name="DOB" id="" value="2000-01-01" required>
+                <br>
+                <select name="Registration" id="" required>
+                    <option value="">Select Registration Month</option>
+                    <option value="01-January">01-January</option>
+                    <option value="02-February">02-February</option>
+                    <option value="03-March">03-March</option>
+                    <option value="04-April">04-April</option>
+                    <option value="05-May">05-May</option>
+                    <option value="06-June">06-June</option>
+                    <option value="07-July">07-July</option>
+                    <option value="08-August">08-August</option>
+                    <option value="09-September">09-September</option>
+                    <option value="10-October">10-October</option>
+                    <option value="11-November">11-November</option>
+                    <option value="12-December">12-December</option>
+                </select>
+                <br>
+                <label for="you-should-know">List any pre-existing conditions (if any)</label>
+                <br>
+                <textarea name="you-should-know" placeholder="eg. rotator cuff injury last march" id="" cols="30" rows="5"></textarea>
+                <fieldset>
+                    <legend>Select Class Option</legend>
+                
+                    <input type="radio" name="tricking-classes" id="" value="foundations-and-flipping" checked>
+                    <label for="foundations-and-flipping">Tricking Foundations & Flipping Progressions</label>
+                    <br>
+                    <input type="radio" name="tricking-classes" id="" value="foundations-only">
+                    <label for="foundations-only">Tricking Foundations Only</label>
+                    <br>
+                    <input type="radio" name="tricking-classes" id="" value="flipping-only">
+                    <label for="flipping-only">Flipping Progressions Only</label>
+                
+                </fieldset>
+                <div>
+                    
+                </div>
+            <input type="checkbox" id="Have-Read" name="Have-Read" value="I-have-read" required>
+            <label for="Have-Read" >I have read the <span class="text-links"><a href="faq">faq regarding parking, payment, and finding us</a></span></label>
+            <br>
+            <button type="submit" id="form-submit">Submit</button>  
+        </form>
+        <div></div>   
+    </div>
+</body>
+</html>
