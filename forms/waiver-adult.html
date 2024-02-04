@@ -22,6 +22,7 @@
         :root {
             --primary-color: #263c42;
             --secondary-color: #bdd3b6;
+            --tertiary-color: #386b79;
             --background-gray: #e4e4e4;
             --links-hover: #3c702d; 
         }
@@ -32,11 +33,18 @@
             padding-left:0px;
             background-color: rgb(228, 228, 228);
         }
+        form{
+            grid-column-start: 2;
+        }
         select,
         fieldset,
         textarea,
         input,
-        #form-submit{
+        .form-submit,
+        .navigation-button,
+        .button-container,
+        #step-tontainer
+        {
             border-radius: .3rem;
             border: none;
             line-height: 1.5rem;
@@ -50,11 +58,24 @@
         {
             background-color: white;
         }
-        #form-submit{background-color: rgb(132, 240, 132);}
-        #form-submit:hover{ background-color: rgb(19, 226, 25);}
-        .form-wrapper{
-            display: grid;
-            grid-template-columns: auto 75vw auto;
+        .form-submit{
+            background-color: rgb(51, 204, 51);
+            color: white;
+            width: 80%
+        }
+        .form-submit:hover{ background-color: rgb(19, 226, 25);}
+        .navigation-button{
+            background-color: #63abbe;
+            color: white;
+            width: 80%;
+        }
+        .navigation-button:hover{
+            background-color: var(--tertiary-color);
+            
+        }
+
+        .button-container{
+            display: flex;
         }
 
         .text-links{
@@ -75,10 +96,21 @@
             font-size: 175%;
             margin-top: 0px;
         }
+
+        .steps {
+            color: var(--tertiary-color);
+        }
+        #step-container{
+            display: grid;
+            grid-template-columns: repeat(10, .04fr);
+            grid-column-start: ;
+        }
+
     </style>
 </head>
 <body>
-    <div></div>
+
+    
         <form method="POST" 
          action="  REPLACE WITH #
         ">
@@ -302,35 +334,55 @@
             
 
  
-             
-            <button type="button" id="previous-button">Previous</button>
-            <button type="button" id="next-button">Next</button> 
-            <button type="submit" id="form-submit-button">Submit</button> 
+             <div class="button-container">  
+                <button type="button" id="previous-button" class="navigation-button">Previous</button>
+                <button type="button" id="next-button" class="navigation-button">Next</button> 
+                <button type="submit" id="form-submit-button" class="form-submit">Submit</button> 
+             </div>
+            
+
+            <!-- Circles which indicates the steps of the form: -->
+            <div id="step-container">
+                <!-- populated by javascript  -->
+            </div>
         </form>
-        <div></div>  
         
     </div>
+
 
 
     
 
     <script>
-        let myVariables = (function(){
-            let currentTab = 0;
-            return{currentTab}
+        let tabs = (function(){
+            // this anonymous self staring function initializes and handles the step count
+            let count = 0;
+            return{count}
         })()
         setTabs();
         render();
 
         let myButtons = (function buttonListeners() {
-
+            // This anonymous self starting function initializes and handles next/previous button logic
+            
+            // default hide previous button and submit button page 1
+            let submitButton = document.getElementById('form-submit-button');
             let previousButton = document.getElementById('previous-button');
+                submitButton.style.display = 'none';
                 previousButton.style.display = 'none';
+                
                 previousButton.addEventListener('click', ()=>{
-                    switch (myVariables.currentTab){
+                    switch (tabs.count){
+                        // navigating backwards, remove previous button 1 before the first page
                         case 1: 
                             setTabs().navigate(-1);
                             previousButton.style.display = 'none';                  
+                            break;
+                        // navigating backwards, return next button after the last page, remove submit button
+                        case setTabs().tabList.length -1:
+                            setTabs().navigate(-1);
+                            nextButton.style.display = 'inline';
+                            submitButton.style.display = 'none'
                             break;
                         default:
                             setTabs().navigate(-1);
@@ -340,14 +392,18 @@
                 })
             let nextButton = document.getElementById('next-button');
                 nextButton.addEventListener('click', ()=>{
-                    switch(myVariables.currentTab){
+                    switch(tabs.count){
                         case 0:
+                            // navigating forwards, return previous button after the first click
                             setTabs().navigate(1);
                             previousButton.style.display = 'inline'
                             break;
                         case setTabs().tabList.length - 2:
+                            // navigating forwards, remove next button after the second to last page
+                            // add submit button 
                             setTabs().navigate(1);
                             nextButton.style.display = 'none'
+                            submitButton.style.display = 'inline'
                             break;
                         default:
                             setTabs().navigate(1);
@@ -355,7 +411,8 @@
                     }
                     
                 })
-            let submitButton = document.getElementById('form-submit-button');
+            
+
 
             return{
                 previous: previousButton,
@@ -365,17 +422,16 @@
         })();
     
         
-        // showTab(setTabs().tab);
 
         function setTabs(){
             // display (or not) previous 
             function privateChangeTab(n){
-                myVariables.currentTab += n;
-                render(myVariables.currentTab);
+                tabs.count += n;
+                render(tabs.count);
             }
             return{
                 navigate: privateChangeTab,
-                tab: myVariables.currentTab,
+                tab: tabs.count,
                 tabList: Array.from(document.querySelectorAll('.tab')),
             }
         }
@@ -388,32 +444,38 @@
                     tab.style.display='none';
             })
             // displays only current tab
-            t.tabList[t.tab].style.display = 'block'
+            t.tabList[t.tab].style.display = 'block';
 
-            //  if (myVariables.currentTab === 0) {
-            //     setTabs().previousButton.style.display = 'none';
-            // } else {
-            //     setTabs().previousButton.style.display = 'inline';
-            // }
-            // // display (or not) next and submit buttons
-            // if (n === (tabsArray.length - 1)){
-            //     setTabs().submitButton.style.display = 'inline';
-            //     setTabs().nextButton.style.display = 'none';
-            // }    
+            // updates step displays
+            createSteps()
         }
-        function showTab(n){
-            // hide all tabs, display current tab only
-            // let tabsArray = Array.from(document.querySelectorAll('.tab'))
-            //     tabsArray.forEach(tab => {
-            //         tab.style.display='none';
-            //     });
-            //     tabsArray[n].style.display='block';
-                
+
+        function createSteps(){
+            let container = document.getElementById('step-container');
+                container.innerHTML = '';
             
-           
-            
+
+            for (let i = 0; i < setTabs().tabList.length; i++){
+                let newDisc = document.createElement('ion-icon');
+                    newDisc.classList.add('steps');
+                container.appendChild(newDisc);
+
+                switch (tabs.count){
+                    case i:
+                        newDisc.setAttribute('name', 'ellipse');
+                        break;
+                    default:
+                        newDisc.setAttribute('name', 'ellipse-outline');
+                        break;
+                }       
+            }
+
         }
+
 
     </script>
+
+    <!-- enable ionicons -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
