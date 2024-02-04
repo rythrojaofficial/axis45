@@ -25,6 +25,7 @@
             --tertiary-color: #386b79;
             --background-gray: #e4e4e4;
             --links-hover: #3c702d; 
+            --Red: rgb(224, 79, 79)
         }
         body{
             display: grid;
@@ -51,6 +52,14 @@
             margin: .25rem
         }
 
+        .invalid{
+            border: solid 1px var(--Red);
+        }
+        label::after{
+            content: '*';
+            color: var(--Red)
+        }
+
         .fine-print{
             font-size: .75rem;
         }
@@ -69,6 +78,7 @@
             color: white;
             width: 80%;
         }
+    
         .navigation-button:hover{
             background-color: var(--tertiary-color);
             
@@ -103,9 +113,11 @@
         #step-container{
             display: grid;
             grid-template-columns: repeat(10, .04fr);
-            grid-column-start: ;
         }
-
+        .please-fill{
+            font-size: .7rem;
+            color: var(--Red);
+        }
     </style>
 </head>
 <body>
@@ -118,7 +130,7 @@
                 <div class="section">Your Info</div>
                 <div>
                     <fieldset>
-                        <label for="Name"></label>
+                        
                         <input type="text" name="Name" id="" placeholder="Full Name" required>
                         <input type="email" name="Email" id="" placeholder="Email" required>   <br>     
                         <input type="number" name="PhoneNumber" id="" placeholder="Phone number" required maxlength="15" minlength="7">
@@ -140,7 +152,7 @@
                         </div>
     
                         <div>
-                            <input type="checkbox" name="Confirm18Plus" value="I am over 18 years old" id="" required>
+                            <input type="checkbox" name="Confirm18Plus" value="checked" id="" required>
                             <label for="Confirm18Plus" >Confirm I am 18 or older</label>
                         </div>
                     </fieldset>
@@ -332,7 +344,7 @@
                 </fieldset>
             </div>
             
-
+            <div class="please-fill"></div>
  
              <div class="button-container">  
                 <button type="button" id="previous-button" class="navigation-button">Previous</button>
@@ -392,7 +404,8 @@
                 })
             let nextButton = document.getElementById('next-button');
                 nextButton.addEventListener('click', ()=>{
-                    switch(tabs.count){
+                    if (validation().count === validation().outOf){
+                        switch(tabs.count){
                         case 0:
                             // navigating forwards, return previous button after the first click
                             setTabs().navigate(1);
@@ -409,6 +422,8 @@
                             setTabs().navigate(1);
                             break; 
                     }
+                    }else pleaseFill();
+                    
                     
                 })
             
@@ -440,7 +455,7 @@
             // hides all tabs first
                 let t = setTabs();
                 t.tabList.forEach((tab)=>{
-                    console.log(tab);
+
                     tab.style.display='none';
             })
             // displays only current tab
@@ -472,7 +487,58 @@
 
         }
 
+        function validation(){
+            let empty;
+            let nValids = 0;
+            let tabs = setTabs().tabList;
+            let thisTab = setTabs().tabList[setTabs().tab];
+            let thisTabInputs = thisTab.querySelectorAll("input");
+            
 
+            for (let i = 0; i < thisTabInputs.length; i++){
+                let isValid = true;
+                let x = thisTabInputs[i];
+                
+                switch (true){
+                    case(x.type === 'checkbox'
+                        && x.checked):
+                        nValids++
+                        break;
+                    case(x.type === 'date'):
+                        nValids++
+                        break;
+                    case(
+                        (x.type === 'text'
+                        || x.type === 'number'
+                        || x.type === 'email')
+                        && x.value !== ''
+                        ):
+                        nValids++
+                        break;
+                    default:
+                        break;
+                }
+                console.log({
+                    i: x.value
+                }
+                )
+            }
+            console.log(
+                {
+                    'valid': nValids,
+                    'out of': thisTabInputs.length
+                }
+                    )
+            return {
+                    count: nValids,
+                    outOf: thisTabInputs.length
+                };
+        }
+        function pleaseFill(){
+            document.querySelector('.please-fill').innerText =
+            '*please check that all form elements are filled'
+        }
+    
     </script>
 
     <!-- enable ionicons -->
