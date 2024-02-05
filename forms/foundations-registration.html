@@ -135,12 +135,54 @@
     <script>
         let theForm = document.getElementById('the-form');
         let submitButton = document.getElementById('form-submit');
-            submitButton.addEventListener('submit', ()=>{
-                submitButton.style.display = 'none';
-                let submitMessage = document.createElement('div');
-                    submitMessage.innerText = 'Submitting, please wait :)'
-                theForm.appendChild(submitMessage);
+            submitButton.addEventListener('click', ()=>{
+                if(formValidation === true){
+                    submitButton.style.display = 'none';
+                    let submitMessage = document.createElement('div');
+                        submitMessage.innerText = 'Submitting, please wait :)';
+
+                    theForm.appendChild(submitMessage);
+                }
+                
             })
+
+        function formValidation(theForm){
+            let nValids = 0;
+            let theInputs = Array.from(document.querySelectorAll('input'));
+            
+                for (let i = 0; i < theInputs.length; i++){
+                    let x = theInputs[i];
+                    
+                    switch (true){
+                        case(x.type === 'checkbox'
+                            && x.checked):
+                            nValids++
+                            break;
+                        case(x.type === 'date'):
+                            nValids++
+                            break;
+                        case(
+                            (x.type === 'text'
+                            || x.type === 'number'
+                            || x.type === 'email')
+                            && x.value !== ''
+                            ):
+                            nValids++
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            if (nValids === theInputs.length){
+                return true;
+            }else return false
+
+
+            
+
+        }
+        formValidation()
+        
     </script>
 </body>
 </html>
