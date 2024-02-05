@@ -118,6 +118,11 @@
             font-size: .7rem;
             color: var(--Red);
         }
+
+        #replace-submit{
+            display: none; 
+            width: 100%
+        }
     </style>
 </head>
 <body>
@@ -350,6 +355,7 @@
                 <button type="button" id="previous-button" class="navigation-button">Previous</button>
                 <button type="button" id="next-button" class="navigation-button">Next</button> 
                 <button type="submit" id="form-submit-button" class="form-submit">Submit</button> 
+                <div id="replace-submit">Submitting form . . .</div>
              </div>
             
 
@@ -379,6 +385,10 @@
             
             // default hide previous button and submit button page 1
             let submitButton = document.getElementById('form-submit-button');
+                submitButton.addEventListener('click',  ()=>{
+                    submitButton.style.display = 'none';
+                    document.getElementById('replace-submit').style.display = 'inline';
+                });
             let previousButton = document.getElementById('previous-button');
                 submitButton.style.display = 'none';
                 previousButton.style.display = 'none';
@@ -539,6 +549,8 @@
             document.querySelector('.please-fill').innerText =
             '*please check that all form elements are filled'
         }
+
+
     
     </script>
 
