@@ -405,6 +405,7 @@
             let nextButton = document.getElementById('next-button');
                 nextButton.addEventListener('click', ()=>{
                     if (validation().count === validation().outOf){
+                        document.querySelector('.please-fill').innerText = '';
                         switch(tabs.count){
                         case 0:
                             // navigating forwards, return previous button after the first click
