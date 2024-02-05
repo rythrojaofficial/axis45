@@ -75,7 +75,8 @@
 </head>
 <body>
     <div></div>
-        <form method="POST" 
+        <form id="the-form"
+        method="POST" 
         action="https://script.google.com/macros/s/AKfycbwvkRFssz5W8EqjJT_faWYP6-r436mYuxrFA52xGE8b7JH0lqwmgrZf3FTo-2NbXLDk/exec
         ">
             <div class="section">Register Now!</div>
@@ -131,5 +132,15 @@
         </form>
         <div></div>   
     </div>
+    <script>
+        let theForm = document.getElementById('the-form');
+        let submitButton = document.getElementById('form-submit');
+            submitButton.addEventListener('submit', ()=>{
+                submitButton.style.display = 'none';
+                let submitMessage = document.createElement('div');
+                    submitMessage.innerText = 'Submitting, please wait :)'
+                theForm.appendChild(submitMessage);
+            })
+    </script>
 </body>
 </html>
