@@ -24,6 +24,7 @@
             --secondary-color: #bdd3b6;
             --background-gray: #e4e4e4;
             --links-hover: #3c702d; 
+            --red:rgb(224, 79, 79);
         }
         body{
             display: grid;
@@ -70,6 +71,11 @@
             color: var(--primary-color);
             font-size: 175%;
             margin-top: 0px;
+        }
+
+        .please-fill{
+            color: var(--red);
+            font-size: .7rem;
         }
     </style>
 </head>
@@ -128,6 +134,8 @@
             <input type="checkbox" id="Have-Read" name="Have-Read" value="I-have-read" required>
             <label for="Have-Read" >I have read the <span class="text-links"><a href="faq">faq regarding parking, payment, and finding us</a></span></label>
             <br>
+            <div class="please-fill"></div>
+            <div id="submit-message"></div>
             <button type="submit" id="form-submit">Submit</button>  
         </form>
         <div></div>   
@@ -136,52 +144,61 @@
         let theForm = document.getElementById('the-form');
         let submitButton = document.getElementById('form-submit');
             submitButton.addEventListener('click', ()=>{
-                if(formValidation === true){
+                if(formValidation().numberValid === formValidation().totalRequiredMinus2radio){
                     submitButton.style.display = 'none';
-                    let submitMessage = document.createElement('div');
-                        submitMessage.innerText = 'Submitting, please wait :)';
+                    let submitMessage = document.getElementById('submit-message');
+                        submitMessage.innerText = 'Submitting, please wait a few moments :)';
 
                     theForm.appendChild(submitMessage);
+                }else {
+                    document.querySelector('.please-fill').innerText = 
+                    '*please check that all form elements are filled';
                 }
                 
             })
 
-        function formValidation(theForm){
+        function formValidation(){
             let nValids = 0;
             let theInputs = Array.from(document.querySelectorAll('input'));
+                theInputs.push(document.querySelector('textarea'), document.querySelector('select'))
             
                 for (let i = 0; i < theInputs.length; i++){
                     let x = theInputs[i];
-                    
+
                     switch (true){
                         case(x.type === 'checkbox'
                             && x.checked):
                             nValids++
                             break;
-                        case(x.type === 'date'):
-                            nValids++
-                            break;
                         case(
                             (x.type === 'text'
-                            || x.type === 'number'
-                            || x.type === 'email')
+                            ||x.type === 'date'
+                            || x.type === 'select-one')
                             && x.value !== ''
                             ):
                             nValids++
+                            break;                           
+                        case (x.type === 'email'):
+                            if (x.value.includes('@') &&
+                                x.value.includes('.'))
+                            nValids++
                             break;
+                        case(x.type === 'radio'):
+                            nValids += 1/3
+                            break;
+                        case(x.type === 'textarea'):
+                            nValids++;
+                            break; 
                         default:
                             break;
                     }
                 }
-            if (nValids === theInputs.length){
-                return true;
-            }else return false
 
-
-            
-
+            return({
+                'numberValid': Math.round(nValids),
+                 'totalRequiredMinus2radio': theInputs.length - 2
+            })
         }
-        formValidation()
         
     </script>
 </body>
