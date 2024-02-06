@@ -8,10 +8,12 @@
 </head>
 <body>
     
-    <a href="https://www.seattletricking.com/secret_pages/admin"> return to admin</a>
+    <div>
+        <a href="https://www.seattletricking.com/secret_pages/admin"> return to admin</a>
+    </div>
     <div class="form-container">
-        <div></div>
-        <form method="POST" action="https://script.google.com/macros/s/AKfycbxHb30pVIipaVaUE64fbvZkv3mzODW81SdZdVkoZVBEsPMtd9Te_RjkEe8Bhy4zJJMV/exec
+        <form id="expense-form"
+        method="POST" action="https://script.google.com/macros/s/AKfycbxHb30pVIipaVaUE64fbvZkv3mzODW81SdZdVkoZVBEsPMtd9Te_RjkEe8Bhy4zJJMV/exec
             ">
             <fieldset required>
                 <legend>who</legend>
@@ -57,12 +59,11 @@
                 <legend>receipt?</legend>
                 <input type="file" name="receipt" id="">
             </fieldset> -->
-            <fieldset id='submission-field'>
-                <button type="submit">Submit</button> 
-            </fieldset>
-            <div>note: it takes 2-4s to submit, please don't double send :)</div>
-    </form>
-    <div></div>
+            <div>
+                <button id='submit-button'type="submit">Submit</button> 
+                <div id="submitting">Submitting. . . please wait :)</div>
+            </div>
+        </form>
     </div>   
     
     <script>
@@ -80,6 +81,30 @@
             let paymentOther = createOtherOption('other-payment', 'listed-other-payment')
 
         })()
+
+        const _submitting = (function(){
+            // replaces the submit button 
+            let replaceSubmit = document.getElementById('submitting');
+                replaceSubmit.style.display = 'none';
+
+            let submitButtton = document.getElementById('submit-button');
+                submitButtton.addEventListener('click', ()=>{
+                    let requiredFields = Array.from(document.getElementById('expense-form').querySelectorAll("[required]"))
+                        requiredFields.forEach(element => {
+                            if (element.value !== ''){
+                                _replaceXwithY(submitButtton, replaceSubmit)
+                            }
+                        });
+
+                })
+
+                    
+        })()
+
+        function _replaceXwithY(x,y){
+            x.style.display = 'none';
+            y.style.display = 'block';
+        }
         
         
     </script>
