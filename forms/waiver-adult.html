@@ -25,7 +25,9 @@
             --tertiary-color: #386b79;
             --background-gray: #e4e4e4;
             --links-hover: #3c702d; 
-            --Red: rgb(224, 79, 79)
+            --Red: rgb(224, 79, 79);
+            --Yellow:rgb(219, 200, 28);
+            --Green:rgb(111, 228, 111);
         }
         body{
             display: grid;
@@ -78,6 +80,7 @@
             color: white;
             width: 80%;
         }
+        
     
         .navigation-button:hover{
             background-color: var(--tertiary-color);
@@ -123,6 +126,14 @@
             display: none; 
             width: 100%
         }
+
+
+        input:invalid{
+            border-style: solid;
+            border-width: 1px;
+            border-color: var(--Yellow);
+        }    
+
     </style>
 </head>
 <body>
@@ -135,7 +146,7 @@
                 <div class="section">Your Info</div>
                 <div>
                     <fieldset>
-                        
+                        <legend>Contact</legend>
                         <input type="text" name="Name" id="" placeholder="Full Name" required>
                         <input type="email" name="Email" id="" placeholder="Email" required>   <br>     
                         <input type="number" name="PhoneNumber" id="" placeholder="Phone number" required maxlength="15" minlength="7">
@@ -152,8 +163,9 @@
 
                     <fieldset>
                         <div>
-                            <input type="date" name="DOB" value="2000-01-01" required id="">
-                            <label for="DOB">Date of Birth</label>
+                            <label for="DOB">Date of Birth</label> <br>
+                            <input type="date" name="DOB"  required id="">
+                            
                         </div>
     
                         <div>
@@ -178,7 +190,7 @@
                             <li>I, for myself and on behalf of my heirs, assigns, personal representatives and next of kin, HEREBY RELEASE AND HOLD HARMLESS Seattle Tricking Collective, their officers, officials, agents, and/or employees, other participants, sponsoring agencies, sponsors, advertisers, and if applicable, owners and lessors of premises used to conduct the event (“RELEASEES”), WITH RESPECT TO ANY AND ALL INJURY, ILLNESS, DISABILITY, DEATH, or loss or damage to person or property, WHETHER ARISING FROM THE NEGLIGENCE OF THE RELEASEES OR OTHERWISE, to the fullest extent permitted by law.</li>
                         </ol>
                         <p>By typing my full name below, I confirm that I HAVE READ THIS RELEASE OF LIABILITY AND ASSUMPTION OF RISK AGREEMENT, FULLY UNDERSTAND ITS TERMS, UNDERSTAND THAT I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY SIGNING IT, AND SIGN IT FREELY AND VOLUNTARILY WITHOUT ANY INDUCEMENT.</p>
-                        <input type="text" name="LiabilitySign" placeholder="e-signature">
+                        <input type="text" name="LiabilitySign" placeholder="e-signature" required>
                     </fieldset>
                 </div>
             </div>
@@ -345,7 +357,7 @@
                         </p>
                     </div>
                     <input type="text" required name="ParticipationAgreementSign" placeholder="e-signature">
-                    <input type="date" required name="SignDate" id="">
+                    <input type="date" required name="SignDate" id="" placeholder="date signed">
                 </fieldset>
             </div>
             
@@ -384,10 +396,16 @@
             // This anonymous self starting function initializes and handles next/previous button logic
             
             // default hide previous button and submit button page 1
+            let replaceSubmit = document.getElementById('replace-submit');
             let submitButton = document.getElementById('form-submit-button');
                 submitButton.addEventListener('click',  ()=>{
-                    submitButton.style.display = 'none';
-                    document.getElementById('replace-submit').style.display = 'inline';
+                    if (validation().count === validation().outOf){
+                        document.querySelector('.please-fill').innerText = '';
+                        submitButton.style.display = 'none';
+                        replaceSubmit.style.display = 'inline';
+        
+                        }else pleaseFill();
+                    
                 });
             let previousButton = document.getElementById('previous-button');
                 submitButton.style.display = 'none';
@@ -404,7 +422,8 @@
                         case setTabs().tabList.length -1:
                             setTabs().navigate(-1);
                             nextButton.style.display = 'inline';
-                            submitButton.style.display = 'none'
+                            submitButton.style.display = 'none';
+                            replaceSubmit.style.display = 'none';
                             break;
                         default:
                             setTabs().navigate(-1);
@@ -499,50 +518,53 @@
         }
 
         function validation(){
-            let empty;
             let nValids = 0;
             let tabs = setTabs().tabList;
             let thisTab = setTabs().tabList[setTabs().tab];
-            let thisTabInputs = thisTab.querySelectorAll("input");
+            let requiredInputs = Array.from(thisTab.querySelectorAll("[required]"));
             
 
-            for (let i = 0; i < thisTabInputs.length; i++){
-                let isValid = true;
-                let x = thisTabInputs[i];
+            for (let i = 0; i < requiredInputs.length; i++){
+                let x = requiredInputs[i];
                 
                 switch (true){
                     case(x.type === 'checkbox'
-                        && x.checked):
+                        && x.checked
+                        ):
                         nValids++
                         break;
-                    case(x.type === 'date'):
-                        nValids++
-                        break;
-                    case(
-                        (x.type === 'text'
+                    case((x.type === 'text'
                         || x.type === 'number'
-                        || x.type === 'email')
+                        || x.type === 'date')
                         && x.value !== ''
                         ):
                         nValids++
+                        break;
+                    case(x.type === 'email'):
+                        if((x.value.includes('@') === true)
+                            && (x.value.includes('.') === true)
+                            ){
+                            nValids++
+                        }else {
+                        }
                         break;
                     default:
                         break;
                 }
                 console.log({
-                    i: x.value
+                    'x':x.type
                 }
                 )
             }
             console.log(
                 {
                     'valid': nValids,
-                    'out of': thisTabInputs.length
+                    'out of': requiredInputs.length
                 }
                     )
             return {
                     count: nValids,
-                    outOf: thisTabInputs.length
+                    outOf: requiredInputs.length
                 };
         }
         function pleaseFill(){
