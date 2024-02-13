@@ -3,7 +3,7 @@
 // =======================
 
             // =edit=date==========vvvvvvvvv======
-            let nextFoundations = '2/1/2024';
+            let nextFoundations = '3/7/2024';
             // ====================^^^^^^^^^======
 function updateFoundations(nextDate){
     let instancesOfNextFoundationsDate = [...document.querySelectorAll('.next-foundations-date')];
