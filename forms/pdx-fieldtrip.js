@@ -133,8 +133,11 @@ class RadioElement {
 // on load 
 let wrapper = new HtmlElement('form',
     document.querySelector('body'),
-    { class: 'wrapper',
-    action: 'https://script.google.com/macros/s/AKfycby9n3m3vgXHCM3fhm1siapiRC5GfNMZQae9s5WX_JPPKzb0GBu-juNIOVAnX2bvt-wRjQ/exec'} 
+    {   
+        method: 'POST',
+        action: 'https://script.google.com/macros/s/AKfycby9n3m3vgXHCM3fhm1siapiRC5GfNMZQae9s5WX_JPPKzb0GBu-juNIOVAnX2bvt-wRjQ/exec',
+        class: 'wrapper'
+    } 
 )
 addForm()
 
@@ -436,9 +439,9 @@ function addSubmit(){
     { id: 'submit-button' },
     'Submit')
 
-    submit.element.addEventListener('click', ()=>{
-        wrapper.element.innerHTML = '';
-        wrapper.element.textContent = 'Submitting. . . Please stay on page :)'
-    })
+    // submit.element.addEventListener('click', ()=>{
+    //     wrapper.element.innerHTML = '';
+    //     wrapper.element.textContent = 'Submitting. . . Please stay on page :)'
+    // })
 }
 
