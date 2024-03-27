@@ -422,7 +422,7 @@ function addPdxToSea(){
     let returningLocationSea = new HtmlElement('fieldset', transportationPreferenceToSea.element);
             let legendLeavingLocationSea = new HtmlElement('legend',
             returningLocationSea.element,{},
-            'What neighborhood/general area are you leaving from'
+            'What neighborhood/general area are you returning to'
             )
             let inputReturningLocationSea = new HtmlElement('input',
             returningLocationSea.element,
@@ -440,8 +440,8 @@ function addSubmit(){
     'Submit')
 
     submit.element.addEventListener('click', ()=>{
-        wrapper.element.innerHTML = '';
-        wrapper.element.textContent = 'Submitting. . . Please stay on page :)'
+        submit.element.innerHTML = '';
+        submit.element.textContent = 'Submitting. . . Please stay on page :)'
     })
 }
 
