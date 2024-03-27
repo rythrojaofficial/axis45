@@ -439,9 +439,9 @@ function addSubmit(){
     { id: 'submit-button' },
     'Submit')
 
-    // submit.element.addEventListener('click', ()=>{
-    //     wrapper.element.innerHTML = '';
-    //     wrapper.element.textContent = 'Submitting. . . Please stay on page :)'
-    // })
+    submit.element.addEventListener('click', ()=>{
+        wrapper.element.innerHTML = '';
+        wrapper.element.textContent = 'Submitting. . . Please stay on page :)'
+    })
 }
 
