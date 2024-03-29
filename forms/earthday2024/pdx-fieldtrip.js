@@ -462,7 +462,8 @@ function addSubmit(){
     'Submit')
 
     submit.element.addEventListener('click', ()=>{
-        wrapper.element.removeChild(submit.element)
+        submit.element.textContent = '';
+        // wrapper.element.removeChild(submit.element)
         let replacementSubmit = new HtmlElement('div',
         wrapper.element,{ id: 'submit-replacement'},
         "Submitting. . . Please stay on page :)")
