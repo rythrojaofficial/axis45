@@ -132,6 +132,7 @@ class RadioElement {
     addBreak(){
         let newBr = new HtmlElement('br',this.parent)
     }
+
 }
 
 // on load 
@@ -467,4 +468,5 @@ function addSubmit(){
         "Submitting. . . Please stay on page :)")
     })
 }
+
 
