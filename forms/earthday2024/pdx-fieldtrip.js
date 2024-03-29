@@ -462,9 +462,9 @@ function addSubmit(){
     'Submit')
 
     submit.element.addEventListener('click', ()=>{
-        submit.element.hidden = true;
+        document.querySelector('.wrapper').style.display = 'none';
         let replacementSubmit = new HtmlElement('div',
-        wrapper.element,{ id: 'submit-replacement'},
+        document.querySelector('body'),{ id: 'submit-replacement'},
         "Submitting. . . Please stay on page :)")
     })
 }
