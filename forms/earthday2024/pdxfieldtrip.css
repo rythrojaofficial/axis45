@@ -44,6 +44,7 @@ legend{
 
 input,
 select{
+    padding:.25rem;
     margin: .25rem;
     font-size: .95rem;
     border-radius: .5rem;
