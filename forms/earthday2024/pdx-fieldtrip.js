@@ -114,6 +114,7 @@ class RadioElement {
             newLabel.for = this.properties.value;
             newLabel.textContent = this.properties.value;
         this.parent.appendChild(newLabel);
+        this.addBreak()
         
     }
 
@@ -128,6 +129,9 @@ class RadioElement {
     addLabel(){
         this.add()
     }
+    addBreak(){
+        let newBr = new HtmlElement('br',this.parent)
+    }
 }
 
 // on load 
@@ -139,18 +143,35 @@ let wrapper = new HtmlElement('form',
         class: 'wrapper'
     } 
 )
+addCss()
 addForm()
 
 // functions
+function addCss(){
+    let link = new HtmlElement('link',
+    document.querySelector('head'),
+    {
+        rel: 'stylesheet',
+        href: 'pdxfieldtrip.css'
+    })
+}
 function addForm(){
+    addTitle();
     addContact();
     addEmergency();
     addSeaToPdx();
     addPdxToSea();  
     addSubmit();  
 }
+function addTitle(){
+    let title = new HtmlElement('div',
+    wrapper.element,
+    { class: 'title' },
+    'Earth Day PDX Field Trip Carpool Survey')
+}
 function addContact(){
-    let infoFieldset = new HtmlElement('fieldset', wrapper.element);
+    let infoFieldset = new HtmlElement('fieldset', wrapper.element,
+    {class: 'fields'});
         let infoLegend = new HtmlElement('legend', 
         infoFieldset.element,{},
         'Contact Info')
@@ -161,7 +182,7 @@ function addContact(){
             type: 'text',
             name: 'Name',
             id:'input-name',
-            placeholder: 'Name'
+            placeholder: 'Name',
         });
         // phone number
         let infoPhone = new HtmlElement('input',
@@ -194,7 +215,7 @@ function addContact(){
 }
 function addEmergency(){
     // emergency Contact
-    let infoEmergency = new HtmlElement('fieldset', wrapper.element);
+    let infoEmergency = new HtmlElement('fieldset', wrapper.element, {class: 'fields'});
         let infoEmergencyLegend = new HtmlElement('legend', 
         infoEmergency.element,{},
         'Emergency Contact Info')
@@ -225,7 +246,7 @@ function addEmergency(){
 }
 function addSeaToPdx(){
     // Transportation sea->pdx
-    let transportationPreferenceToPdx = new HtmlElement('fieldset', wrapper.element);
+    let transportationPreferenceToPdx = new HtmlElement('fieldset', wrapper.element, {class: 'fields'});
         let LegendTransportationPreferenceToPdx = new HtmlElement('legend',
         transportationPreferenceToPdx.element,{},
         'Transportation SEA -> PDX')
@@ -326,7 +347,7 @@ function addSeaToPdx(){
 }
 function addPdxToSea(){
     // Transportation sea->pdx
-    let transportationPreferenceToSea = new HtmlElement('fieldset', wrapper.element);
+    let transportationPreferenceToSea = new HtmlElement('fieldset', wrapper.element, {class: 'fields'});
         let LegendTransportationPreferenceToSea = new HtmlElement('legend',
         transportationPreferenceToSea.element,{},
         'Transportation PDX -> SEA')
@@ -442,7 +463,7 @@ function addSubmit(){
     submit.element.addEventListener('click', ()=>{
         wrapper.element.removeChild(submit.element)
         let replacementSubmit = new HtmlElement('div',
-        wrapper.element,{},
+        wrapper.element,{ id: 'submit-replacement'},
         "Submitting. . . Please stay on page :)")
     })
 }

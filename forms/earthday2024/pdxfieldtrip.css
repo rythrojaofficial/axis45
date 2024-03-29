@@ -1,0 +1,82 @@
+*{ 
+    box-sizing: border-box;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+:root {
+    --main-color: rgb(46, 55, 68);
+    --focus-color: rgb(209, 245, 233);
+    --button-color: rgb(13, 204, 45);
+    --button-hover: rgb(10, 69, 87);
+  }
+body {
+    background-image: url('upfeathers.png');
+  }
+.wrapper {
+    display: grid;
+    grid-template-columns: auto 90vw auto;
+
+}
+
+.title{
+    grid-column-start: 2;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+fieldset{
+   border: none;
+}
+
+
+legend{
+    color: var(--main-color);
+    font-size: 1.15rem;
+}
+.fields {
+    background-image: url();
+    grid-column-start: 2;
+    border: solid .125rem var(--main-color);
+    border-radius: .5rem; 
+    margin-top: 1rem;
+    padding: .5rem
+}
+
+input,
+select{
+    margin: .25rem;
+    font-size: .95rem;
+    border-radius: .5rem;
+    border:none;
+    background-color: rgb(231, 245, 252);
+}
+
+input:focus,
+select:focus{
+    background-color: var(--focus-color);
+    outline: none;
+}
+
+#submit-button,
+#submit-replacement{
+    color: var(--button-hover);
+    grid-column-start: 2;
+    border: none;
+    border-radius: .25rem;
+    font-size: 1rem;
+    padding: .5rem;
+    margin-top:.5rem;
+    margin-bottom: .5rem;
+}
+
+#submit-button{
+    background-color: var(--button-color);
+    letter-spacing: .8rem;
+    font-weight: 800;
+}
+#submit-button:hover,
+#submit-button:focus{
+    color: var(--button-color);
+    background-color: var(--button-hover);
+}
+
