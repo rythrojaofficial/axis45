@@ -77,6 +77,9 @@
             color: var(--red);
             font-size: .7rem;
         }
+        :required{
+            border: solid 2px rgb(224, 224, 174) ;
+        }
     </style>
 </head>
 <body>
@@ -86,17 +89,17 @@
         action="https://script.google.com/macros/s/AKfycbwvkRFssz5W8EqjJT_faWYP6-r436mYuxrFA52xGE8b7JH0lqwmgrZf3FTo-2NbXLDk/exec
         ">
             <div class="section">Register Now!</div>
-                <input type="text" name="Name" id="" placeholder="Full Name" required>
+                <input type="text" name="Name" id="input-name" placeholder="Full Name" required>
                 <br>
-                <input type="email" name="Email" id="" placeholder="Email" required>
+                <input type="email" name="Email" id="input-email" placeholder="Email" required>
                 <br>
-                <input type="text" name="Instagram" id="" value="@">
+                <input type="text" name="Instagram" id="input-instagram"  placeholder="Instagram @">
                 <br>
                 <label for="DOB">Participant Date of Birth</label>
                 <br>
-                <input type="date" name="DOB" id="" value="2000-01-01" required>
+                <input type="date" name="DOB" id="input-dob" value="2000-01-01" required>
                 <br>
-                <select name="Registration" id="" required>
+                <select name="Registration" id="input-registration-month" required>
                     <option value="">Select Registration Month</option>
                     <option value="01-January">01-January</option>
                     <option value="02-February">02-February</option>
@@ -114,7 +117,7 @@
                 <br>
                 <label for="you-should-know">List any pre-existing conditions (if any)</label>
                 <br>
-                <textarea name="you-should-know" placeholder="eg. rotator cuff injury last march" id="" cols="30" rows="5"></textarea>
+                <textarea name="you-should-know" placeholder="eg. rotator cuff injury last march" id="input-pre-existing" cols="30" rows="5"></textarea>
                 <fieldset>
                     <legend>Select Class Option</legend>
                 
@@ -144,7 +147,7 @@
         let theForm = document.getElementById('the-form');
         let submitButton = document.getElementById('form-submit');
             submitButton.addEventListener('click', ()=>{
-                if(formValidation().numberValid === formValidation().totalRequiredMinus2radio){
+                if(formValidation().numberValid > formValidation().totalRequiredMinus2radio - 0.5){
                     submitButton.style.display = 'none';
                     let submitMessage = document.getElementById('submit-message');
                         submitMessage.innerText = 'Submitting, please wait a few moments :)';
@@ -161,39 +164,48 @@
             let nValids = 0;
             let theInputs = Array.from(document.querySelectorAll('input'));
                 theInputs.push(document.querySelector('textarea'), document.querySelector('select'))
-            
+                // console.log(theInputs)
                 for (let i = 0; i < theInputs.length; i++){
                     let x = theInputs[i];
-
+                    
                     switch (true){
                         case(x.type === 'checkbox'
                             && x.checked):
                             nValids++
+                            // console.log('checkbox')
                             break;
                         case(
-                            (x.type === 'text'
-                            ||x.type === 'date'
+                            (x.type === 'date'
+                            ||x.id === 'input-name'
                             || x.type === 'select-one')
                             && x.value !== ''
                             ):
                             nValids++
+                            // console.log('text, date, select')
                             break;                           
                         case (x.type === 'email'):
                             if (x.value.includes('@') &&
                                 x.value.includes('.'))
                             nValids++
+                            // console.log('email')
                             break;
                         case(x.type === 'radio'):
                             nValids += 1/3
+                            // console.log('radio')
                             break;
-                        case(x.type === 'textarea'):
+                        case(x.type === 'textarea'
+                            || x.id === 'input-instagram'):
                             nValids++;
+                            // console.log('textarea')
                             break; 
                         default:
                             break;
                     }
+                    
                 }
-
+                // console.log({'nvalids': nValids, 
+                // 'totalrequiredminus2radio': theInputs.length - 2})
+                
             return({
                 'numberValid': Math.round(nValids),
                  'totalRequiredMinus2radio': theInputs.length - 2
