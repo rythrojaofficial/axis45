@@ -147,6 +147,7 @@
         let theForm = document.getElementById('the-form');
         let submitButton = document.getElementById('form-submit');
             submitButton.addEventListener('click', ()=>{
+                document.querySelector('.please-fill').innerText = '';
                 if(formValidation().numberValid > formValidation().totalRequiredMinus2radio - 0.5){
                     submitButton.style.display = 'none';
                     let submitMessage = document.getElementById('submit-message');
