@@ -1,14 +1,12 @@
 // =======================
 // update next foundations 
 // =======================
+import { nextFoundations } from "./updateNews.js";
 
-            // =edit=date==========vvvvvvvvv======
-            let nextFoundations = '4/4/2024';
-            // ====================^^^^^^^^^======
 function updateFoundations(nextDate){
     let instancesOfNextFoundationsDate = [...document.querySelectorAll('.next-foundations-date')];
-    instancesOfNextFoundationsDate.forEach(element => {
-        element.innerText = nextDate;
+    instancesOfNextFoundationsDate.forEach(instance => {
+        instance.textContent = nextDate;
     });
 }
 updateFoundations(nextFoundations);
