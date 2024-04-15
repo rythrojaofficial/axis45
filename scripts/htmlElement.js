@@ -115,6 +115,7 @@ export class InputElement{
             }
             this.parent.appendChild(newElement);
         }
+        
         this.element = newElement;
         this.labelElement = newLabelElement;
         

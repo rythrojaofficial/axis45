@@ -19,6 +19,7 @@
             margin:0;
         }
 
+
         :root {
             --primary-color: #263c42;
             --secondary-color: #bdd3b6;
@@ -28,11 +29,37 @@
         }
         body{
             display: grid;
-            grid-template-columns: auto 95vw auto;
+            grid-template-columns: auto 90vw auto;
+            grid-template-rows: 2.5vh auto 2.5vh;
             margin-left: 0px;
             padding-left:0px;
             background-color: rgb(228, 228, 228);
         }
+
+        form{
+            grid-column-start: 2;
+            grid-row-start: 2;
+        }
+        .title,
+        .subtitle{
+            color: var(--primary-color);
+        }
+        .title{
+            font-size: 1.5rem;
+        }
+        .subtitle{
+            font-size: 1.25rem;
+        }
+        .incidentSection{
+            padding: 1rem;
+            
+
+        }
+        input,
+        textarea{ 
+            width: 100%
+        }
+
         select,
         fieldset,
         textarea,
@@ -49,10 +76,6 @@
         }
         #form-submit{background-color: rgb(132, 240, 132);}
         #form-submit:hover{ background-color: rgb(19, 226, 25);}
-        .form-wrapper{
-            display: grid;
-            grid-template-columns: auto 75vw auto;
-        }
 
         .text-links{
             color:var(--primary-color);
@@ -85,77 +108,5 @@
 <body>
     
 </body>
-<script type="module" src="../../scripts/htmlElement.js"></script>
     <script type="module" src="./incident-report.js"></script>
-    <script>
-        let theForm = document.getElementById('the-form');
-        let submitButton = document.getElementById('form-submit');
-            submitButton.addEventListener('click', ()=>{
-                document.querySelector('.please-fill').innerText = '';
-                if(formValidation().numberValid > formValidation().totalRequiredMinus2radio - 0.5){
-                    submitButton.style.display = 'none';
-                    let submitMessage = document.getElementById('submit-message');
-                        submitMessage.innerText = 'Submitting, please wait a few moments :)';
-
-                    theForm.appendChild(submitMessage);
-                }else {
-                    document.querySelector('.please-fill').innerText = 
-                    '*please check that all form elements are filled';
-                }
-                
-            })
-
-        function formValidation(){
-            let nValids = 0;
-            let theInputs = Array.from(document.querySelectorAll('input'));
-                theInputs.push(document.querySelector('textarea'), document.querySelector('select'))
-                // console.log(theInputs)
-                for (let i = 0; i < theInputs.length; i++){
-                    let x = theInputs[i];
-                    
-                    switch (true){
-                        case(x.type === 'checkbox'
-                            && x.checked):
-                            nValids++
-                            // console.log('checkbox')
-                            break;
-                        case(
-                            (x.type === 'date'
-                            ||x.id === 'input-name'
-                            || x.type === 'select-one')
-                            && x.value !== ''
-                            ):
-                            nValids++
-                            // console.log('text, date, select')
-                            break;                           
-                        case (x.type === 'email'):
-                            if (x.value.includes('@') &&
-                                x.value.includes('.'))
-                            nValids++
-                            // console.log('email')
-                            break;
-                        case(x.type === 'radio'):
-                            nValids += 1/3
-                            // console.log('radio')
-                            break;
-                        case(x.type === 'textarea'
-                            || x.id === 'input-instagram'):
-                            nValids++;
-                            // console.log('textarea')
-                            break; 
-                        default:
-                            break;
-                    }
-                    
-                }
-                // console.log({'nvalids': nValids, 
-                // 'totalrequiredminus2radio': theInputs.length - 2})
-                
-            return({
-                'numberValid': Math.round(nValids),
-                 'totalRequiredMinus2radio': theInputs.length - 2
-            })
-        }
-        
-    </script>
 </html>
