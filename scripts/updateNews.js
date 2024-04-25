@@ -1,6 +1,6 @@
 import { HtmlElement } from "./htmlElement.js";
 // ===vvvvv==Foundations==vvvvv========= 
-export let nextFoundations = '4/4/2024'
+export let nextFoundations = '5/2/2024'
 // ====^^^^===============^^^^==========
 let  newsContainer = document.querySelector('.update-news');
 class NewsCard{
@@ -51,14 +51,15 @@ let loopkicks = new NewsCard(
 
 
 // Recurring News 
-let injuryScreen = new NewsCard(
-    'April Injury Screen',
-    [
-        'Gina will be back on Friday April 12!',
-        'Injury screen is free with membership or Drop-in',
-        'First come first served :-)'
-    ]
-)
+
+// let injuryScreen = new NewsCard(
+//     'April Injury Screen',
+//     [
+//         'Gina will be back on Friday April 12!',
+//         'Injury screen is free with membership or Drop-in',
+//         'First come first served :-)'
+//     ]
+// )
 let Foundations = new NewsCard(
     'Next 4-week Tricking Foundations Class',
     [
