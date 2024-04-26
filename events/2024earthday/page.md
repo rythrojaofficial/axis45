@@ -44,7 +44,7 @@ If sleeping over at either at the Gym/Erick’s make sure you bring your own pil
 |Car    | Day | Time  | To      | Driver |seat 2|seat 3|seat 4|seat 5|
 | - | -|  - | - | - | - | - | - | - |
 | Jared | Sat | 11:59pm   | Greenwood | Jared  | Krissy   | Scott (West Seattle) | Nate (UW) | x |
-| Dylan | Sun | other     | UW        | Dylan  | Taylor (UW)  | x | x | x |
+| Dylan | Sat | 11:59PM     | UW        | Dylan  | Taylor (UW)  | x | x | x |
 | Jonah | Sun | 10am?     | Edmonds   | Jonah  | Charlie (Northgate) | Jon (Maple Valley) | - | - |
 | Jeremy| Sun | other     | Tukwila   | Jeremy | Jon (Maple Valley)     | - | - | x |
 
