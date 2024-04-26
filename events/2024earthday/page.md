@@ -1,12 +1,16 @@
 # Earth Day 2024 Field Trip
+
 - 4/26 update:
     - Planning to be at the gym by 5:30pm, no later than 6 if you’re competing/judging
-    - dont forget to check the following checklists below!
-        - Driver/Passenger 
-        - Tickets/Waiver
-        - Things to Bring
+    - ==dont forget to check the following lists below!==
+        - [Driver/Passenger](#driver-checklist)
+        - [Tickets/Waiver](#tickets-and-waiver-checklist)
+        - [Things to Bring](#things-to-bring-checklist)
 
-**Updates go here :)**
+**Updates go above :)** 
+___  
+
+
 
 What’s up Road Trippers! PDX Tricking has [invited](https://docs.google.com/document/d/1CNeEMOGY-I3WvGw91sKMb-Zu0rW3dz9SqcELI3s2hGU/edit) us over for the Earth Day Invitational for a day of competitions, prizes, and tricks!
 
@@ -14,8 +18,16 @@ If you’re ever lost, in trouble, or your plans change drastically, call/text j
 
 For non-emergency chats, use the groupchat on insta
 
-## Accomodations
-If sleeping over at either at the Gym/Erick’s make sure you bring your own pillow, sleepybag, blanket, and towel to make it easy on your host.
+# Accomodations
+If sleeping over Erick’s make sure you bring sleeping gear to make it easy on your host.
+### Sleepover Checklist
+- towel
+- sleeping bag/blanket
+- pillow
+- toiletries
+
+
+
 
 # Transport
 #### Driver Checklist
@@ -31,7 +43,7 @@ If sleeping over at either at the Gym/Erick’s make sure you bring your own pil
 - Be ready to venmo/cashapp/cash $15 upon request on pickup.
 
 
-### Cars to PDX:
+### Transport to PDX 
 |Car    | Day | Time  | from      | Driver |seat 2|seat 3|seat 4|seat 5|
 | - | -|  - | - | - | - | - | - | - |
 | Jared | Sat | 9am   | Greenwood | Jared  | Krissy   | Scott (West Seattle) | - | x |
@@ -40,14 +52,14 @@ If sleeping over at either at the Gym/Erick’s make sure you bring your own pil
 | Dylan | Sat | 9am   | UW        | Dylan  | Taylor (UW)  | x | x | x |
 
 
-### Cars to Sea:
+### Transport to SEA
 |Car    | Day | Time  | To      | Driver |seat 2|seat 3|seat 4|seat 5|
 | - | -|  - | - | - | - | - | - | - |
 | Jared | Sat | 11:59pm   | Greenwood | Jared  | Krissy   | Scott (West Seattle) | Nate (UW) | x |
 | Dylan | Sat | 11:59PM     | UW        | Dylan  | Taylor (UW)  | x | x | x |
 | Jonah | Sun | 10am?     | Edmonds   | Jonah  | Charlie (Northgate) | Jon (Maple Valley) | - | - |
 | Jeremy| Sun | other     | Tukwila   | Jeremy | Jon (Maple Valley)     | - | - | x |
-
+---
 ## Tickets and Waiver Checklist
 - [Competitor Signup](https://docs.google.com/forms/d/1Y-vnRN5slzcqnLL8XDMnZW1VEtJoQ7kw7apJ3bj_Ods/viewform?edit_requested=true)
 
@@ -66,13 +78,7 @@ If sleeping over at either at the Gym/Erick’s make sure you bring your own pil
 - massage tools, hypervolt, rollers
 - bands, ace wrap, braces/ibuprofin , allergy meds JUST IN CASE
 - Small bit of cash $20-$50 JUST IN CASE of an emergency
-
-### If sleeping over
-- towel
-- sleeping bag/blanket
-- pillow
-- toiletries
-
+---
 ## About the Event 
 [Invitational Letter](https://docs.google.com/document/d/1CNeEMOGY-I3WvGw91sKMb-Zu0rW3dz9SqcELI3s2hGU/edit)
 
