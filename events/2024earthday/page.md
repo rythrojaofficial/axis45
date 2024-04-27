@@ -48,7 +48,7 @@ If sleeping over Erick’s make sure you bring sleeping gear to make it easy on 
 |Car    | Day | Time  | from      | Driver |seat 2|seat 3|seat 4|seat 5|
 | - | -|  - | - | - | - | - | - | - |
 | Jared | Sat | 9am   | Greenwood | Jared  | Krissy   | Scott (West Seattle) | dylan (UW) | x |
-| Jonah | Sat | 9am   | Edmonds   | Jonah  | - | - | - | x |
+| Jonah | Sat | 9am   | Edmonds   | Jonah  | Charlie(Northgate) | - | - | x |
 | Jeremy| Sat | 9am   | Tukwila   | Jeremy | Jon (Maple Valley)     | - | - | x |
 
 
