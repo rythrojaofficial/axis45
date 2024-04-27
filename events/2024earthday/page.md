@@ -1,5 +1,6 @@
 # Earth Day 2024 Field Trip
 
+- 4/27 update: dylan going with jared, no nate due to school stuff!
 - 4/26 update:
     - Planning to be at the gym by 5:30pm, no later than 6 if you’re competing/judging
     - ==dont forget to check the following lists below!==
@@ -46,19 +47,18 @@ If sleeping over Erick’s make sure you bring sleeping gear to make it easy on 
 ### Transport to PDX 
 |Car    | Day | Time  | from      | Driver |seat 2|seat 3|seat 4|seat 5|
 | - | -|  - | - | - | - | - | - | - |
-| Jared | Sat | 9am   | Greenwood | Jared  | Krissy   | Scott (West Seattle) | - | x |
-| Jonah | Sat | 9am   | Edmonds   | Jonah  | Charlie (Northgate) | Nate (UW) | - | - |
+| Jared | Sat | 9am   | Greenwood | Jared  | Krissy   | Scott (West Seattle) | dylan (UW) | x |
+| Jonah | Sat | 9am   | Edmonds   | Jonah  | - | - | - | x |
 | Jeremy| Sat | 9am   | Tukwila   | Jeremy | Jon (Maple Valley)     | - | - | x |
-| Dylan | Sat | 9am   | UW        | Dylan  | Taylor (UW)  | x | x | x |
+
 
 
 ### Transport to SEA
 |Car    | Day | Time  | To      | Driver |seat 2|seat 3|seat 4|seat 5|
 | - | -|  - | - | - | - | - | - | - |
-| Jared | Sat | 11:59pm   | Greenwood | Jared  | Krissy   | Scott (West Seattle) | Nate (UW) | x |
-| Dylan | Sat | 11:59PM     | UW        | Dylan  | Taylor (UW)  | x | x | x |
+| Jared | Sat | 11:59pm   | Greenwood | Jared  | Krissy   | Scott (West Seattle) | Dylan (UW) | x |
 | Jonah | Sun | 10am?     | Edmonds   | Jonah  | Charlie (Northgate) | Jon (Maple Valley) | - | - |
-| Jeremy| Sun | other     | Tukwila   | Jeremy | Jon (Maple Valley)     | - | - | x |
+| Jeremy| Sun | other     | Tukwila   | Jeremy | -     | - | - | x |
 ---
 ## Tickets and Waiver Checklist
 - [Competitor Signup](https://docs.google.com/forms/d/1Y-vnRN5slzcqnLL8XDMnZW1VEtJoQ7kw7apJ3bj_Ods/viewform?edit_requested=true)
