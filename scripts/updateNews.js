@@ -30,15 +30,18 @@ class NewsCard{
     }
 
 }
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Actual New News 
-let earthDay = new NewsCard(
-    'Earth Day Tricking Invitational in Portland!',
-    [
-        'Saturday April 27th at 6pm',
-        'Click here for carpool survey, registration, and full details'
-    ], 
-    'https://seatricks.teamapp.com/clubs/559888/events/24614775-earth-day-invitational-field-trip-pdx-gathering?_detail=v1&_expires_at=1714521599'
-)
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// let earthDay = new NewsCard(
+//     'Earth Day Tricking Invitational in Portland!',
+//     [
+//         'Saturday April 27th at 6pm',
+//         'Click here for carpool survey, registration, and full details'
+//     ], 
+//     'https://seatricks.teamapp.com/clubs/559888/events/24614775-earth-day-invitational-field-trip-pdx-gathering?_detail=v1&_expires_at=1714521599'
+// )
 let loopkicks = new NewsCard(
     'Loopkicks 2024 Gathering fieldtrip!',
     [
@@ -46,7 +49,7 @@ let loopkicks = new NewsCard(
         'Early Bird weekend prices of $99 thru march 30!'
 
     ],
-    'https://www.loopkickstricking.com/gathering-registration'
+    './events/2024loopkicks/page'
 )
 
 
