@@ -45,8 +45,8 @@ class NewsCard{
 let loopkicks = new NewsCard(
     'Loopkicks 2024 Gathering fieldtrip!',
     [
-        'Lots of Seattle peeps tryna attend loopkicks 2024!',
-        'Early Bird weekend prices of $99 thru march 30!'
+        'Quite a few Seattle peeps tryna attend loopkicks 2024!',
+        'click here for trip and Gathering info!'
 
     ],
     './events/2024loopkicks/page'
