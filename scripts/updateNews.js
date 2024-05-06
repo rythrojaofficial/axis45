@@ -1,6 +1,6 @@
 import { HtmlElement } from "./htmlElement.js";
 // ===vvvvv==Foundations==vvvvv========= 
-export let nextFoundations = '5/2/2024'
+export let nextFoundations = '6/6/2024'
 // ====^^^^===============^^^^==========
 let  newsContainer = document.querySelector('.update-news');
 class NewsCard{
@@ -49,6 +49,15 @@ let loopkicks = new NewsCard(
         'click here for trip and Gathering info!'
     ],
     './events/2024loopkicks/page'
+)
+
+let rickyShirt = new NewsCard(
+    "Ricky's got a new shirt",
+    [
+        'If you climb rocks or wear shirts. . .',
+        'order here!'
+    ],
+    'https://www.rtmvmt.com/'
 )
 
 
