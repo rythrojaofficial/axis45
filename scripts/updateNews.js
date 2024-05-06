@@ -47,7 +47,6 @@ let loopkicks = new NewsCard(
     [
         'Quite a few Seattle peeps tryna attend loopkicks 2024!',
         'click here for trip and Gathering info!'
-
     ],
     './events/2024loopkicks/page'
 )
