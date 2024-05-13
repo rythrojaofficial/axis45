@@ -42,27 +42,37 @@ class NewsCard{
 //     ], 
 //     'https://seatricks.teamapp.com/clubs/559888/events/24614775-earth-day-invitational-field-trip-pdx-gathering?_detail=v1&_expires_at=1714521599'
 // )
-let meanyDance = new NewsCard(
-    'Cie Hervé KOUBI: The Barbarian Nights',
-    [
-        'French Dance/Tricking company in town!',
-        'Performing 8pm at Meany Center at UW May 9,10,11',
-        "I'm thinking Saturday 🤔",
-        'more info here!'
-    ],
-    './events/2024barbariannights/page'
+// let meanyDance = new NewsCard(
+//     'Cie Hervé KOUBI: The Barbarian Nights',
+//     [
+//         'French Dance/Tricking company in town!',
+//         'Performing 8pm at Meany Center at UW May 9,10,11',
+//         "I'm thinking Saturday 🤔",
+//         'more info here!'
+//     ],
+//     './events/2024barbariannights/page'
 
-)
-let loopkicks = new NewsCard(
+// )
+let loopkicks24 = new NewsCard(
     'Loopkicks 2024 Gathering fieldtrip!',
     [
         'Quite a few Seattle peeps tryna attend loopkicks 2024!',
+        'Jul 19-21, Santa Clara',
         'click here for trip and Gathering info!'
     ],
     './events/2024loopkicks/page'
 )
 
-let rickyShirt = new NewsCard(
+let rcg24 = new NewsCard(
+    'Rose City Gathering',
+    [
+        'Our Portland Homies main summer Gathering',
+        'click here for trip and gathering info!'
+    ],'./events/2024rcg/page'
+)
+
+
+let rickyShirt24 = new NewsCard(
     "Ricky's got a new shirt",
     [
         'If you climb rocks or wear shirts. . .',
