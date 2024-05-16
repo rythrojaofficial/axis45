@@ -32,6 +32,7 @@ body{
     background-color: var(--background-gray);
 }
 
+
 /* title areas  */
 .title {
     margin: 0px;
@@ -75,7 +76,7 @@ body{
         }
 
         .news-card{
-            flex:auto; */
+            flex:auto; 
             justify-content: center; 
             font-size: small;
             color: var(--primary-color);
@@ -374,6 +375,7 @@ header :nth-child(3){
 .show-more:checked + .more {
     display: block;
 }
+.show-more-hide-conditionally-visible{ display: none; }
 
 /* =====
 in-page links
