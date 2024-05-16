@@ -89,9 +89,13 @@ body{
             width: fit-content;
             
         }
-        .news-card:hover{
+        .news-card :hover{
             color: #3c702d;
             }
+        .news-card iframe{
+            border-radius: 1rem;
+            border: none;
+        }
         .first-line,
         .middle-line{
             margin-top: 0px;
@@ -376,6 +380,14 @@ header :nth-child(3){
     display: block;
 }
 .show-more-hide-conditionally-visible{ display: none; }
+.news-card > .show-more > button{
+    border: none;
+    background-color: #d2e3ec;
+    border-radius: .25rem;
+}
+.show-more > button :hover{
+
+}
 
 /* =====
 in-page links

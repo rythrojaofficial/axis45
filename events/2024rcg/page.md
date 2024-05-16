@@ -1,9 +1,9 @@
-# Rose City Gathering 3 Field Trip
+<!-- # Rose City Gathering 3 Field Trip -->
 
-**Updates go above :)** 
+**Updates go here! :)** 
 ___  
 
-Hello Seattle Trickers!  It's that time of year again! RCG3 is right around the corner.  Battles, workshops, night show, etc.  This one will have a true gathering vibe, don't miss your chance to chill with aspentree, dyounggod, and MORE!
+It's that time of year again! RCG3 is right around the corner.  Battles, workshops, night show, etc.  This one will have a true gathering vibe, don't miss your chance to chill with aspentree, dyounggod, Nick Vail, and MORE!
 ___
 ## Information
 >🗓️ **Gathering Dates**: July 26-28, 2024 (Fri-Sun)

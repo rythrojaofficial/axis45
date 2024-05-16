@@ -1,9 +1,9 @@
-# Loopkicks Field Trip
+<!-- # Loopkicks Field Trip -->
 
-**Updates go above :)** 
+**Updates go here! :)** 
 ___  
 
-Seattle Trickers!  There are more than a few of us headed to Santa Clara this July for the 20th anniversary of LOOPKICKS Gathering, the longest running tricking event ever.  Workshops, battles, night show, sessions, and of course gathering shenannigans.  Regardless of where you are in your tricking journey, you should consider attending! 👍
+There are more than a few of us headed to Santa Clara this July for the 20th anniversary of LOOPKICKS Gathering, the longest running tricking event ever.  Workshops, battles, night show, sessions, and of course gathering shenannigans.  Regardless of where you are in your tricking journey, you should consider attending! 👍
 ___
 ## Information
 >🗓️ **Gathering Dates**: July 19-21, 2024 (Fri-Sun)
@@ -17,7 +17,7 @@ ___
 
 >🛎️ **Accomodations**: *No Gym Overnighters*
 >
->Pdx trickers have are arranging an Airbnb.  If you are interested in being part of that, dm @seattletricking ASAP.
+>Pdx trickers are arranging an Airbnb.  If you are interested in being part of that, dm @seattletricking asap! 
 
 ## Packing list
 > - ID.  Dont forget a form of Id just in case

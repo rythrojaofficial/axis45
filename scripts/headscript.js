@@ -155,3 +155,6 @@ if (document.getElementById('stamp-time')){
     })
 }
 
+// Populate readMore's
+import { populateReadMore } from "./showMore.js";
+populateReadMore()

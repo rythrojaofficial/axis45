@@ -4,9 +4,10 @@ export let nextFoundations = '6/6/2024'
 // ====^^^^===============^^^^==========
 let  newsContainer = document.querySelector('.update-news');
 class NewsCard{
-    constructor(title, detailsArray=[], href=''){
+    constructor(title, detailsArray=[], md = '', href=''){
         this.title = title;
         this.details = detailsArray;
+        this.md = md;
         this.link = href; 
         this.addCard();
     }
@@ -15,6 +16,16 @@ class NewsCard{
         let wrapper = new HtmlElement('div', newsContainer, { class: 'news-card' });
         let newA = new HtmlElement('a', wrapper.element, { href: this.link });
         let newH2 = new HtmlElement('h2', newA.element, {}, this.title);
+        if(this.md !== ''){ 
+            let showmore = new HtmlElement('div', wrapper.element, {class: 'show-more'});
+            let fullDetails = new HtmlElement('div', showmore.element, {}, '')
+            let newIframe = new HtmlElement('iframe', showmore.element, 
+            {
+                src: this.md,
+                width: '100%',
+                height: '500px'
+             })
+        }
         
         for (let i = 0; i < this.details.length; i++){
             switch (i){
@@ -56,19 +67,18 @@ class NewsCard{
 let loopkicks24 = new NewsCard(
     'Loopkicks 2024 Gathering fieldtrip!',
     [
-        'Quite a few Seattle peeps tryna attend loopkicks 2024!',
-        'Jul 19-21, Santa Clara',
-        'click here for trip and Gathering info!'
+        'Jul 19-21, Santa Clara CA',
+        '20th Anniversary!'
     ],
-    './events/2024loopkicks/page'
+    './events/2024loopkicks/page.html'
 )
 
 let rcg24 = new NewsCard(
-    'Rose City Gathering',
+    'Rose City Gathering 3 fieldtrip!',
     [
-        'Our Portland Homies main summer Gathering',
-        'click here for trip and gathering info!'
-    ],'./events/2024rcg/page'
+        'Jul 26-28, Beaverton OR',
+        'The Portland Homies main summer Gathering'
+    ],'./events/2024rcg/page.html'
 )
 
 
@@ -77,7 +87,7 @@ let rickyShirt24 = new NewsCard(
     [
         'If you climb rocks or wear shirts. . .',
         'order here!'
-    ],
+    ],'',
     'https://www.rtmvmt.com/'
 )
 
@@ -97,6 +107,6 @@ let Foundations = new NewsCard(
     [
         `Beginning Thursday ${nextFoundations}`,
         'full info and registration here!'
-    ],
+    ],'',
     'https://www.seattletricking.com/tricking-foundations'
 )
