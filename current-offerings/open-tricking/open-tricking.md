@@ -1,6 +1,6 @@
 # [7PM] Axis 45 Open Tricking
 
->**When**: Monday & Fridays 7:00-9:00pm
+>**When**: *Monday & Fridays* 7:00-9:00pm
 
 >**Address:** [Axis 45: Seattle Tricking & Acrobatics](https://maps.app.goo.gl/ppzaxzfGn4A4g5Vg7)
 >7701 230th St SW, Edmonds, WA 98026, USA
