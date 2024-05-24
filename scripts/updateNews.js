@@ -27,13 +27,6 @@ class NewsCard{
                     height: '500px',
                     class: 'md-converted-frame'
                 }, this.md)
-            // let newIframe = new HtmlElement('iframe', showmore.element, 
-            // {
-            //     src: this.md,
-            //     sandbox: 'allow-same-origin',
-            //     width: '100%',
-            //     height: '500px'
-            //  })
         }
         
         for (let i = 0; i < this.details.length; i++){
@@ -60,8 +53,7 @@ let loopkicks24 = new NewsCard(
         'Jul 19-21, Santa Clara CA',
         '20th Anniversary!'
     ],
-    './events/2024loopkicks/page.md',
-    './events/2024loopkicks/page.html'
+    './events/2024loopkicks/page.md'
 )
 
 let rcg24 = new NewsCard(
@@ -69,8 +61,7 @@ let rcg24 = new NewsCard(
     [
         'Jul 26-28, Beaverton OR',
         'The Portland Homies main summer Gathering'
-    ],'./events/2024rcg/page.md',
-    './events/2024rcg/page.html'
+    ],'./events/2024rcg/page.md'
 )
 // let earthDay = new NewsCard(
 //     'Earth Day Tricking Invitational in Portland!',
