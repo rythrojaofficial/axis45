@@ -6,7 +6,7 @@
 >7701 230th St SW, Edmonds, WA 98026, USA
 
 >**Pricing**: $20 Drop-ins
-> [Membership pricing also available](www.seattletricking.com/memberships)
+> [Membership pricing also available](htt[ps://www.seattletricking.com/memberships)
 
 ## Open Tricking (120m)
 **No instruction provided.** This is for people looking to *train*. You warm up on your own.  You ahve your own training schedule.  You focus on what you want to do; expect others to do the same.  In general, the floor shall remain open and free of mats. *Experience Recommended 🤙*
