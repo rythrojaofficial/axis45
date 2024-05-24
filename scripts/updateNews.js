@@ -1,4 +1,5 @@
-import { HtmlElement } from "./htmlElement.js";
+import { HtmlElement, mdElement } from "./htmlElement.js";
+import { mdConvert } from "./markdown-parse.js";
 // ===vvvvv==Foundations==vvvvv========= 
 export let nextFoundations = '6/6/2024'
 // ====^^^^===============^^^^==========
@@ -17,14 +18,22 @@ class NewsCard{
         let newA = new HtmlElement('a', wrapper.element, { href: this.link });
         let newH2 = new HtmlElement('h2', newA.element, {}, this.title);
         if(this.md !== ''){ 
+            
             let showmore = new HtmlElement('div', wrapper.element, {class: 'show-more'});
-            let fullDetails = new HtmlElement('div', showmore.element, {}, '')
-            let newIframe = new HtmlElement('iframe', showmore.element, 
-            {
-                src: this.md,
-                width: '100%',
-                height: '500px'
-             })
+            let fullDetails = new HtmlElement('div', showmore.element, {}, ''); 
+            let newMdFrame = new mdElement(showmore.element, 
+                {
+                    width: '100%',
+                    height: '500px',
+                    class: 'md-converted-frame'
+                }, this.md)
+            // let newIframe = new HtmlElement('iframe', showmore.element, 
+            // {
+            //     src: this.md,
+            //     sandbox: 'allow-same-origin',
+            //     width: '100%',
+            //     height: '500px'
+            //  })
         }
         
         for (let i = 0; i < this.details.length; i++){
@@ -41,10 +50,28 @@ class NewsCard{
     }
 
 }
+
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Actual New News 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+let loopkicks24 = new NewsCard(
+    'Loopkicks 2024 Gathering fieldtrip!',
+    [
+        'Jul 19-21, Santa Clara CA',
+        '20th Anniversary!'
+    ],
+    './events/2024loopkicks/page.md',
+    './events/2024loopkicks/page.html'
+)
 
+let rcg24 = new NewsCard(
+    'Rose City Gathering 3 fieldtrip!',
+    [
+        'Jul 26-28, Beaverton OR',
+        'The Portland Homies main summer Gathering'
+    ],'./events/2024rcg/page.md',
+    './events/2024rcg/page.html'
+)
 // let earthDay = new NewsCard(
 //     'Earth Day Tricking Invitational in Portland!',
 //     [
@@ -64,22 +91,7 @@ class NewsCard{
 //     './events/2024barbariannights/page'
 
 // )
-let loopkicks24 = new NewsCard(
-    'Loopkicks 2024 Gathering fieldtrip!',
-    [
-        'Jul 19-21, Santa Clara CA',
-        '20th Anniversary!'
-    ],
-    './events/2024loopkicks/page.html'
-)
 
-let rcg24 = new NewsCard(
-    'Rose City Gathering 3 fieldtrip!',
-    [
-        'Jul 26-28, Beaverton OR',
-        'The Portland Homies main summer Gathering'
-    ],'./events/2024rcg/page.html'
-)
 
 
 let rickyShirt24 = new NewsCard(

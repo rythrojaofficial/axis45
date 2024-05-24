@@ -322,3 +322,38 @@ export class ButtonElement{
 
     }
 }
+
+import { mdConvert } from "./markdown-parse.js";
+export class mdElement{
+    constructor(parent, propertiesObject={}, mdfile){
+        this.element = '';
+        this.type = 'div';
+        this.parent = parent;
+        this.properties = propertiesObject;
+        this.md = mdfile
+        
+        this.add();
+    }
+    add(){
+        let newElement = document.createElement(this.type);
+            
+        if (JSON.stringify(this.properties !== '{}')) {
+            this.addProperties(newElement, this.properties);
+        } 
+        if (this.parent){
+            this.parent.appendChild(newElement);
+        }
+        this.element = newElement;
+        if (this.md !== ''){
+            mdConvert(this.element, this.md);
+        }
+        
+    }
+
+    addProperties(element, object){
+        
+        for (let property in object){
+            element.setAttribute(`${property}`, object[property]);
+        }
+    }
+}

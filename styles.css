@@ -90,9 +90,9 @@ body{
             width: fit-content;
             
         }
-        .news-card :hover{
+        /* .news-card :hover{
             color: #3c702d;
-            }
+            } */
         .news-card iframe{
             border-radius: 1rem;
             border: none;
@@ -432,4 +432,24 @@ iframe#calendar{
     filter:opacity(120%);
     
 }
+/*  MD FRAME ONLY */
+.md-converted-frame{
+    border-radius: 1rem;
+            border: none;
+    background-color: white;
+    color: black;
+    text-align: start;
+    padding: 2rem;
+    
+}
 
+.md-converted-frame a {
+    color: #3c702d;
+}
+.md-converted-frame blockquote{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(247, 245, 242);
+}
+
+/* END MD FRAME */

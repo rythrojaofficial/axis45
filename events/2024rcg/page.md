@@ -7,9 +7,12 @@ It's that time of year again! RCG3 is right around the corner.  Battles, worksho
 ___
 ## Information
 >🗓️ **Gathering Dates**: July 26-28, 2024 (Fri-Sun)
+>
 >🧭 **Gym Address**: [11000 SW 11th St #420, Beaverton, OR 97005](https://maps.app.goo.gl/hW1TofDNsL7oW3k77)
+>
 >🔗 **Gathering Website**: https://www.pdxtricking.org/events
->🎟️ **Ticketing Options**: **Coming soon**
+>
+>🎟️ **Ticketing Options**: [Early Bird $90 for the weekend](https://www.pdxtricking.org/bounties)
 
 >**Carpool Info**: carpool survey coming soon
 
