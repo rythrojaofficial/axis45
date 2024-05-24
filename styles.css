@@ -435,11 +435,11 @@ iframe#calendar{
 /*  MD FRAME ONLY */
 .md-converted-frame{
     border-radius: 1rem;
-            border: none;
+    border: none;
     background-color: white;
     color: black;
     text-align: start;
-    padding: 2rem;
+    padding: 1.5rem;
     
 }
 
@@ -447,7 +447,9 @@ iframe#calendar{
     color: #3c702d;
 }
 .md-converted-frame blockquote{
-    padding: 1rem;
+    margin-left: 0px;
+    padding-top: .5rem;
+    padding-bottom:.5rem;
     border-radius: 1rem;
     background-color: rgb(247, 245, 242);
 }

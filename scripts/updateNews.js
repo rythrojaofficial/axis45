@@ -15,7 +15,12 @@ class NewsCard{
 
     addCard(){
         let wrapper = new HtmlElement('div', newsContainer, { class: 'news-card' });
-        let newA = new HtmlElement('a', wrapper.element, { href: this.link });
+        if(this.link !== ''){
+            let newA = new HtmlElement('a', wrapper.element, { href: this.link });
+        }else {
+            let newA = new HtmlElement('a', wrapper.element, {})
+        }
+        ;
         let newH2 = new HtmlElement('h2', newA.element, {}, this.title);
         if(this.md !== ''){ 
             
@@ -23,11 +28,13 @@ class NewsCard{
             let fullDetails = new HtmlElement('div', showmore.element, {}, ''); 
             let newMdFrame = new mdElement(showmore.element, 
                 {
-                    width: '100%',
-                    height: '500px',
+                    width: '100vw',
+                    height: '50vh',
+                    scroll: 'auto',
                     class: 'md-converted-frame'
                 }, this.md)
         }
+        
         
         for (let i = 0; i < this.details.length; i++){
             switch (i){
