@@ -155,6 +155,12 @@ if (document.getElementById('stamp-time')){
     })
 }
 
+// Current offerings
+import { createOfferingsIframes } from "./current-offerings.js";
+if (document.querySelector('h1.title').textContent === 'Current Offerings'){
+    createOfferingsIframes();
+} 
+
 // Populate readMore's
 import { populateReadMore } from "./showMore.js";
 populateReadMore()
