@@ -15,12 +15,7 @@ class NewsCard{
 
     addCard(){
         let wrapper = new HtmlElement('div', newsContainer, { class: 'news-card' });
-        if(this.link !== ''){
-            let newA = new HtmlElement('a', wrapper.element, { href: this.link });
-        }else {
-            let newA = new HtmlElement('a', wrapper.element, {})
-        }
-        ;
+        let newA = new HtmlElement('a', wrapper.element, { href: this.link });
         let newH2 = new HtmlElement('h2', newA.element, {}, this.title);
         if(this.md !== ''){ 
             
