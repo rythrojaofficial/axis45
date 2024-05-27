@@ -2,7 +2,7 @@
 
 **Start Time**: 5:30pm
 
-**Hot Pot**: Tentatively 9ish at [Qiao Lin Hotpot](https://maps.app.goo.gl/5vd7NK9rKCioDFLw7)
+**Hot Pot**: Tentatively 9ish at [Qiao Lin Hotpot](https://maps.app.goo.gl/5vd7NK9rKCioDFLw7) Backup plan: [Chengdu](https://maps.app.goo.gl/vmq2NFnMurXRdfy5A)
 
 **addl info**: Parking is validated in the connected garage, NOT across at the regal theater. [Menu Here](https://qiaolinhotpot.com/menu/)
 
