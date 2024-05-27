@@ -6,7 +6,7 @@ import { ButtonElement } from "./htmlElement.js";
 // second child always invisible
 // button generated automagically
 // +++++++++++++++++++
-export function populateReadMore(){
+export function populateShowMore(){
     let showMoreArray = Array.from(document.getElementsByClassName('show-more'));
     let options = {
     showMore: 'show more',
