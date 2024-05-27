@@ -50,7 +50,7 @@ class NewsCard{
 // Actual New News 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 let memorial24 = new NewsCard(
-    'Memorial day week hours',
+    'Updated Hours: Memorial Day week',
     [
         'Monday and Thursday Hours adjusted!'
     ],

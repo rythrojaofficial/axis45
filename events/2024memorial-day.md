@@ -4,7 +4,7 @@
 
 **Hot Pot**: Tentatively 9ish at [Qiao Lin Hotpot](https://maps.app.goo.gl/5vd7NK9rKCioDFLw7)
 
-**addl info**: Parking is validated in the connected garage, NOT across at the regal theater.
+**addl info**: Parking is validated in the connected garage, NOT across at the regal theater. [Menu Here](https://qiaolinhotpot.com/menu/)
 
 ### Thursday: No classes!
 
