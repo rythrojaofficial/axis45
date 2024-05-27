@@ -49,13 +49,20 @@ class NewsCard{
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Actual New News 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+let memorial24 = new NewsCard(
+    'Memorial day week hours',
+    [
+        'Monday and Thursday Hours adjusted!'
+    ],
+    './events/2024memorial-day.md'
+)
 let loopkicks24 = new NewsCard(
     'Loopkicks 2024 Gathering fieldtrip!',
     [
         'Jul 19-21, Santa Clara CA',
         '20th Anniversary!'
     ],
-    './events/2024loopkicks/page.md'
+    './events/2024loopkicks.md'
 )
 
 let rcg24 = new NewsCard(
@@ -63,7 +70,7 @@ let rcg24 = new NewsCard(
     [
         'Jul 26-28, Beaverton OR',
         'The Portland Homies main summer Gathering'
-    ],'./events/2024rcg/page.md'
+    ],'./events/2024rcg.md'
 )
 // let earthDay = new NewsCard(
 //     'Earth Day Tricking Invitational in Portland!',
