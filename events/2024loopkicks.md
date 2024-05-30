@@ -20,7 +20,8 @@ ___
 
 >🛎️ **Accomodations**: *No Gym Overnighters*
 >
->Pdx trickers are arranging an Airbnb.  If you are interested in being part of that, dm @seattletricking asap! 
+>Jared's got an Airbnb in starbird friday- Sunday that can host 6 with 3 queen beds (the math says you will likely share a bed 😅).  If you are interested in being part of that, dm @seattletricking asap! price: 315 total,  split evenly. 
+>1. Jared 2. Ariel 3. DylanY 4. Michael 5. *available* 6 *available*
 
 ## Packing list
 > - ID.  Dont forget a form of Id just in case
