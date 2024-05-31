@@ -129,18 +129,22 @@ export function todaysSessions(){
         ,Saturday:''
         ,Sunday:['guidedFlexibility', 'openBreakdance']
     }
-    let todaysDate = new Date().toLocaleDateString('en-US', { weekday: 'long' })
+    let todaysDay = new Date().toLocaleDateString('en-US', { weekday: 'long' })
+    let tomorrowsDate = new Date();
+        tomorrowsDate.setDate(tomorrowsDate.getDate() + 1)
+    let tomorrowsDay = tomorrowsDate.toLocaleDateString('en-US', { weekday: 'long' })
+    console.log(tomorrowsDay)
     let targetElement = document.getElementById('todays-offerings');
     let div = new HtmlElement('div', targetElement, { id: 'offerings'})
     let ul = new HtmlElement('ul', div.element, {});
 
 
-    if (dateLibrary[todaysDate] !== ''){
-        dateLibrary[todaysDate].forEach((session)=>{
+    if (dateLibrary[todaysDay] !== ''){
+        dateLibrary[todaysDay].forEach((session)=>{
             let li = new HtmlElement('li', ul.element, {}, session)
         })
-    }else if (dateLibrary[todaysDate] === ''){
-
+    }else if (dateLibrary[todaysDay] === ''){
+        let li = new HtmlElement('li', ul.element, {}, `Usually nothing on ${todaysDay}, check back on ${tomorrowsDay} `)
     }
 
 
