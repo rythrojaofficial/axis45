@@ -83,7 +83,6 @@ body{
             justify-content: center; 
             font-size: small;
             color: var(--primary-color);
-            font-style: italic;
             background:repeat url(./images/subtle_white_mini_waves.png);
             text-align: center;
             font-size: smaller;
@@ -91,6 +90,9 @@ body{
             border-radius: 30px;
             width: fit-content;
             
+        }
+        .news-card > a {
+            font-style: italic;
         }
         .news-card > #todays-offerings > #offerings > ul{
             list-style-position: inside;
