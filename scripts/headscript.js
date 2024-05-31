@@ -154,12 +154,20 @@ if (document.getElementById('stamp-time')){
         hiddenTime.value = time;
     })
 }
+// today's session
+import { todaysSessions } from "./current-offerings.js";
+
+
 
 // Current offerings
 import { createOfferingsMDFrames } from "./current-offerings.js";
-if (document.querySelector('h1.title').textContent === 'Current Offerings'){
+let h1Title = document.querySelector('h1.title');
+if (h1Title.textContent === 'Current Offerings'
+    || h1Title.textContent === 'AXIS 45'){
+    todaysSessions()
     createOfferingsMDFrames();
 } 
+
 
 // Populate readMore's
 import { populateShowMore } from "./showMore.js";

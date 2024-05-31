@@ -90,6 +90,13 @@ body{
             width: fit-content;
             
         }
+        .news-card > #todays-offerings > #offerings > ul{
+            list-style-position: inside;
+            padding-left: 0px;
+        }
+        .news-card > #todays-offerings > #offerings > ul > li{
+            list-style-type: none;
+        }
         /* .news-card :hover{
             color: #3c702d;
             } */

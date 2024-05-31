@@ -72,6 +72,7 @@ let offeringsLibrary = {
 )
 }
 
+
 export function createOfferingsMDFrames(){
     
     let offeringsArray = Array.from(document.querySelectorAll('#offerings > ul > li'));
@@ -116,4 +117,31 @@ export function createOfferingsMDFrames(){
         )
 
     })
+}
+
+export function todaysSessions(){
+    let dateLibrary = {
+        Monday: ['openTricking']
+        ,Tuesday:['guidedTricking', 'trickingExercise']
+        ,Wednesday: ''
+        ,Thursday: ['trickingFoundations', 'flippingProgressions']
+        ,Friday:['openTricking']
+        ,Saturday:''
+        ,Sunday:['guidedFlexibility', 'openBreakdance']
+    }
+    let todaysDate = new Date().toLocaleDateString('en-US', { weekday: 'long' })
+    let targetElement = document.getElementById('todays-offerings');
+    let div = new HtmlElement('div', targetElement, { id: 'offerings'})
+    let ul = new HtmlElement('ul', div.element, {});
+
+
+    if (dateLibrary[todaysDate] !== ''){
+        dateLibrary[todaysDate].forEach((session)=>{
+            let li = new HtmlElement('li', ul.element, {}, session)
+        })
+    }else if (dateLibrary[todaysDate] === ''){
+
+    }
+
+
 }

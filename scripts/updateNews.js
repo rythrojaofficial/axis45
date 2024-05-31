@@ -17,10 +17,10 @@ class NewsCard{
         let wrapper = new HtmlElement('div', newsContainer, { class: 'news-card' });
         let newA = new HtmlElement('a', wrapper.element, { href: this.link });
         let newH2 = new HtmlElement('h2', newA.element, {}, this.title);
-        if(this.md !== ''){ 
+        if(this.md !== '' && this.md !== 'offerings'){ 
             
             let showmore = new HtmlElement('div', wrapper.element, {class: 'show-more'});
-            let fullDetails = new HtmlElement('div', showmore.element, {}, ''); 
+            let displayedDetails = new HtmlElement('div', showmore.element, {}, ''); 
             let newMdFrame = new mdElement(showmore.element, 
                 {
                     width: '100vw',
@@ -28,6 +28,12 @@ class NewsCard{
                     scroll: 'auto',
                     class: 'md-converted-frame'
                 }, this.md)
+        }
+        else if (this.md === 'offerings'){
+            let newMdFrame = new HtmlElement('div', wrapper.element, 
+                {id: 'todays-offerings'})
+    
+
         }
         
         
@@ -45,16 +51,15 @@ class NewsCard{
     }
 
 }
+let todaysDate = new Date().toLocaleDateString('en-US', { weekday: 'long' })
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Actual New News 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
-let memorial24 = new NewsCard(
-    'Updated Hours: Memorial Day week',
-    [
-        'Monday and Thursday Hours adjusted!'
-    ],
-    './events/2024memorial-day.md'
+let todaysSessions = new NewsCard(
+    `${todaysDate}'s Sessions ⬇️`,
+    [],'offerings', ''
+
 )
 let loopkicks24 = new NewsCard(
     'Loopkicks 2024 Gathering fieldtrip!',
@@ -72,6 +77,13 @@ let rcg24 = new NewsCard(
         'The Portland Homies main summer Gathering'
     ],'./events/2024rcg.md'
 )
+// let memorial24 = new NewsCard(
+//     'Updated Hours: Memorial Day week',
+//     [
+//         'Monday and Thursday Hours adjusted!'
+//     ],
+//     './events/2024memorial-day.md'
+// )
 // let earthDay = new NewsCard(
 //     'Earth Day Tricking Invitational in Portland!',
 //     [
