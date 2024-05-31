@@ -11,7 +11,7 @@
 We reccomend 2 cycles of *Tricking Foundations* in preparation for *Guided Tricking*.
 
 **Reminders**:
-1. **Frequently Asked Questions**: Don't forget to read our [FAQ](https://www.seattletricking.com/faq) regarding, parking, finding us, payment, waivers, and more.
+1. **Frequently Asked Questions**: Don't forget to read our [FAQ](./faq.html) regarding, parking, finding us, payment, waivers, and more.
 2. **Floor Etiquite**: Always be aware of others on or around the floor.
     - *Tricking Foundations* participants will have floor priority.
 
