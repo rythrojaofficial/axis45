@@ -26,11 +26,11 @@ let trickingFoundations = new Offering('tricking-foundations',
     ,'60m', expLibrary[0]
     )
 let flippingProgressions = new Offering('flipping-progressions', 
-    'Rolls, Handstands, and Drills tailored to Frontflips, Backflips, and Sideflips'
+    'Primarily focused on Frontflips, Backflips, and Sideflips.'
     ,'60m', expLibrary[0]
     )
 let guidedTricking = new Offering('guided-tricking', 
-    "If you don't already have a robust training regimen, we've got you covered.  Monthly warm-up followed by intermediate Technical Sequences and flipping progressions."
+    "Suits trickers through intermediate ranges.  If you don't already have a robust training regimen, we've got you covered."
     ,'90m', expLibrary[1]
     )
 let trickingExercise = new Offering('tricking-exercise', 
@@ -38,7 +38,7 @@ let trickingExercise = new Offering('tricking-exercise',
     ,'60m', expLibrary[0]
     )
 let guidedFlexibility = new Offering('guided-flexibility', 
-    "Full body stretch including a front splits series, a middle splits series, and shoulder series."
+    "Full body stretch including a front splits series, a middle splits series, and shoulder mini-series."
     ,'120m', expLibrary[0]
     )
 let openTricking = new Offering('open-tricking', 
@@ -49,10 +49,10 @@ let openBreakdance = new Offering('open-breakdance',
     'Like open Tricking, but usually with break beats :D.  No instruction provided.'
     ,'120m', expLibrary[2]
     )
-let workshops = new Offering('workshops', 
-    'Rotating menu of comprehensive topics.'
-    ,'60-120m', expLibrary[3]
-)
+// let workshops = new Offering('workshops', 
+//     'Rotating menu of comprehensive topics.'
+//     ,'60-120m', expLibrary[3]
+// )
 
 
 

@@ -1,12 +1,20 @@
-# [7PM] Axis 45 Open Tricking
+**Type**: Drop-in Tricking Session
 
-**When**: *Monday & Fridays* 7:00-9:00pm
+**Price**: $20
 
-**Address:** [Axis 45: Seattle Tricking & Acrobatics](https://maps.app.goo.gl/ppzaxzfGn4A4g5Vg7)
-7701 230th St SW, Edmonds, WA 98026, USA
+**Start time**: Monday/Friday 7:00-9:00PM
 
-**Pricing**: $20 Drop-ins
-[Membership pricing also available](htt[ps://www.seattletricking.com/memberships)
+Train what you want to train, how you want to train!  
 
-## Open Tricking (120m)
-**No instruction provided.** This is for people looking to *train*. You warm up on your own.  You ahve your own training schedule.  You focus on what you want to do; expect others to do the same.  In general, the floor shall remain open and free of mats. *Experience Recommended 🤙*
+Train hard or train light.
+
+Try things you've seen online in videos or tutorials.
+
+Play a game of TRICK with friends.
+
+**Reminders**: 
+- Please exercise proper floor etiquite.  Always be aware of others on or around the floor.
+- Trickers are friendly and requesting quick feedback is encouraged!  
+    - Just remember everyone is there to train, not specifically to give you a whole lesson 😉
+
+**Deals**: For [Monthly Members](https://wwww.seattletricking.com/memberships), *Tricking Open Session* counts toward your monthly *Tricking Session* tally. 
