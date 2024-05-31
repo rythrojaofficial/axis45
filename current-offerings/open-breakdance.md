@@ -4,8 +4,6 @@
 
 **Start time**: Sunday 5:00-7:00PM
 
-Like Tricking Open session, but with Break beats!
-
 Train what you want to train, how you want to train!  
 
 Train hard or train light.
