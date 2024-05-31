@@ -18,7 +18,7 @@ class Offering{
 let expLibrary = [
     'No Experience Required ✔️',
     'Introductory Experience Recommended 👌',
-    'Experience Recommended 💪',
+    'Some Experience Recommended 💪',
     'Experience levels vary'
 ]
 
@@ -133,7 +133,6 @@ export function todaysSessions(){
     let tomorrowsDate = new Date();
         tomorrowsDate.setDate(tomorrowsDate.getDate() + 1)
     let tomorrowsDay = tomorrowsDate.toLocaleDateString('en-US', { weekday: 'long' })
-    console.log(tomorrowsDay)
     let targetElement = document.getElementById('todays-offerings');
     let div = new HtmlElement('div', targetElement, { id: 'offerings'})
     let ul = new HtmlElement('ul', div.element, {});

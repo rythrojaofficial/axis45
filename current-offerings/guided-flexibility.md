@@ -10,6 +10,11 @@ We all know stretching will make our tricks look and feel better.  We all know s
 
 But it's hard to stay motivated, know how much to stretch, or even what to stretch.
 
-*Guided Flexibilty* has got you covered.  
+*Guided Flexibilty* has got you covered. 
+
+**Reminders**:
+1. **Frequently Asked Questions**: Don't forget to read our [FAQ](https://www.seattletricking.com/faq) regarding, parking, finding us, payment, waivers, and more.
+2. **Floor Etiquite**: Always be aware of others on or around the floor.
+    - *Guided Flexibility* participants will have floor priority.
 
 **Deals**: For [Monthly Members](https://wwww.seattletricking.com/memberships), *Guided Flexibility* counts toward your monthly *Stretch/Exercise* tally. 

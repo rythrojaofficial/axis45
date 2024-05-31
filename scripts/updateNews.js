@@ -57,7 +57,7 @@ let todaysDate = new Date().toLocaleDateString('en-US', { weekday: 'long' })
 // Actual New News 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 let todaysSessions = new NewsCard(
-    `${todaysDate}'s Sessions ⬇️`,
+    `${todaysDate}'s Axis Sessions ⬇️`,
     [],'offerings', ''
 
 )
