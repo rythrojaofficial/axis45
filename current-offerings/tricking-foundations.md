@@ -15,4 +15,4 @@ We reccomend 2 cycles of *Tricking Foundations* in preparation for *Guided Trick
 2. **Floor Etiquite**: Always be aware of others on or around the floor.
     - *Tricking Foundations* participants will have floor priority.
 
-**Deals**: Can be bundled with 4 weeks of flipping progresions for $220 total (savings of $60). [Monthly Memberships](https://wwww.seattletricking.com/memberships) come with an additional 25% discount on these classes.
+**Deals**: Can be bundled with 4 weeks of flipping progresions for $220 total (savings of $60). [Monthly Memberships](./memberships.html) come with an additional 25% discount on these classes.
