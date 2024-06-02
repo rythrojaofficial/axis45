@@ -56,11 +56,11 @@ let todaysDate = new Date().toLocaleDateString('en-US', { weekday: 'long' })
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Actual New News 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// let todaysSessions = new NewsCard(
-   // `${todaysDate}'s Axis Sessions ⬇️`,
-     // [],'offerings', ''
+let todaysSessions = new NewsCard(
+   `${todaysDate}'s Axis Sessions ⬇️`,
+     [],'offerings', ''
 
-// )
+ )
 let loopkicks24 = new NewsCard(
     'Loopkicks 2024 Gathering fieldtrip!',
     [
