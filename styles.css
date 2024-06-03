@@ -101,6 +101,16 @@ body{
         .news-card > #todays-offerings > #offerings > ul > li{
             list-style-type: none;
         }
+        #offerings ol{
+            list-style-position: outside;
+            padding-left: 0px;
+            margin-left: 1em;
+        }
+        #offerings ol > li > ul {
+            list-style-position: outside;
+            padding-left: 2em;
+            list-style-type: disc;
+        }
         /* .news-card :hover{
             color: #3c702d;
             } */

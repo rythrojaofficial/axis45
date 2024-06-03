@@ -72,61 +72,65 @@ let offeringsLibrary = {
 )
 }
 
+let noSessionMessage = 'No sessions scheduled today at Axis, enjoy the day off! 🙂';
+
 
 export function createOfferingsMDFrames(){
     
     let offeringsArray = Array.from(document.querySelectorAll('#offerings > ul > li'));
     offeringsArray.forEach((li)=>{
-        let currentOffering = offeringsLibrary[li.textContent];
-        // get text from li
-        li.textContent = '';
-        // clear text from li
-        let showMore = new HtmlElement('div',
-            li,
-            { class: 'show-more', id: currentOffering.id }
-        )
-        let previewOffering = new HtmlElement('div',
-            showMore.element)
-            let offeringTitle = new HtmlElement('strong',
-            previewOffering.element,
-            {},`${currentOffering.days} ${currentOffering.title} (${currentOffering.duration}): `
-
+        if (li.textContent !== noSessionMessage){
+            let currentOffering = offeringsLibrary[li.textContent];
+            // get text from li
+            li.textContent = '';
+            // clear text from li
+            let showMore = new HtmlElement('div',
+                li,
+                { class: 'show-more', id: currentOffering.id }
             )
-            let offeringDescription = new HtmlElement('span',
-            previewOffering.element,
-            {},
-            currentOffering.description
-            )
-            let space = new BreakElement(previewOffering.element);
-            let offeringExp = new HtmlElement('span',
+            let previewOffering = new HtmlElement('div',
+                showMore.element)
+                let offeringTitle = new HtmlElement('strong',
                 previewOffering.element,
-                {
-                    style: 'font-style: italic'
-                },currentOffering.experience
-            )
-        let mdFrame = new mdElement(
-            showMore.element,
-            { 
-                width: '100vw', 
-                height: '50vh',
-                scroll: 'auto',
-                class: 'md-converted-frame',
-                style: 'border = none', 
-            }, 
-            currentOffering.mdpage
-        )
+                {},`${currentOffering.days} ${currentOffering.title} (${currentOffering.duration}): `
 
+                )
+                let offeringDescription = new HtmlElement('span',
+                previewOffering.element,
+                {},
+                currentOffering.description
+                )
+                let space = new BreakElement(previewOffering.element);
+                let offeringExp = new HtmlElement('span',
+                    previewOffering.element,
+                    {
+                        style: 'font-style: italic'
+                    },currentOffering.experience
+                )
+            let mdFrame = new mdElement(
+                showMore.element,
+                { 
+                    width: '100vw', 
+                    height: '50vh',
+                    scroll: 'auto',
+                    class: 'md-converted-frame',
+                    style: 'border = none', 
+                }, 
+                currentOffering.mdpage
+            )
+        }
     })
 }
+
 
 export function todaysSessions(){
     let dateLibrary = {
         Monday: ['openTricking']
         ,Tuesday:['guidedTricking', 'trickingExercise']
-        ,Wednesday: ''
+        ,Wednesday: [noSessionMessage]
         ,Thursday: ['trickingFoundations', 'flippingProgressions']
         ,Friday:['openTricking']
-        ,Saturday:''
+        ,Saturday:[noSessionMessage]
         ,Sunday:['guidedFlexibility', 'openBreakdance']
     }
     let todaysDay = new Date().toLocaleDateString('en-US', { weekday: 'long' })
@@ -137,14 +141,9 @@ export function todaysSessions(){
     let div = new HtmlElement('div', targetElement, { id: 'offerings'})
     let ul = new HtmlElement('ul', div.element, {});
 
-
-    if (dateLibrary[todaysDay] !== ''){
-        dateLibrary[todaysDay].forEach((session)=>{
-            let li = new HtmlElement('li', ul.element, {}, session)
-        })
-    }else if (dateLibrary[todaysDay] === ''){
-        let li = new HtmlElement('li', ul.element, {}, `Usually nothing on ${todaysDay}, check back on ${tomorrowsDay} `)
-    }
+    dateLibrary[todaysDay].forEach((session)=>{
+        let li = new HtmlElement('li', ul.element, {}, session)
+    })
 
 
 }
