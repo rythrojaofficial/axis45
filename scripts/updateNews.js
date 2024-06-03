@@ -15,7 +15,16 @@ class NewsCard{
 
     addCard(){
         let wrapper = new HtmlElement('div', newsContainer, { class: 'news-card' });
-        let newA = new HtmlElement('a', wrapper.element, { href: this.link });
+        let newA;
+        switch (this.link){
+            case '':
+                newA = new HtmlElement('div', wrapper.element, {});
+                break;
+            default:
+                newA = new HtmlElement('a', wrapper.element, { href: this.link });
+                break;
+        }
+        
         let newH2 = new HtmlElement('h2', newA.element, {}, this.title);
         if(this.md !== '' && this.md !== 'offerings'){ 
             
@@ -52,15 +61,15 @@ class NewsCard{
 
 }
 let todaysDate = new Date().toLocaleDateString('en-US', { weekday: 'long' })
-
+let todaysSessions = new NewsCard(
+    `${todaysDate}'s Axis Sessions ⬇️`,
+      [],'offerings', ''
+ 
+  )
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Actual New News 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
-let todaysSessions = new NewsCard(
-   `${todaysDate}'s Axis Sessions ⬇️`,
-     [],'offerings', ''
 
- )
 let loopkicks24 = new NewsCard(
     'Loopkicks 2024 Gathering fieldtrip!',
     [
@@ -106,14 +115,14 @@ let rcg24 = new NewsCard(
 
 
 
-let rickyShirt24 = new NewsCard(
-    "Ricky's got a new shirt",
-    [
-        'If you climb rocks or wear shirts. . .',
-        'order here!'
-    ],'',
-    'https://www.rtmvmt.com/'
-)
+// let rickyShirt24 = new NewsCard(
+//     "Ricky's got a new shirt",
+//     [
+//         'If you climb rocks or wear shirts. . .',
+//         'order here!'
+//     ],'',
+//     'https://www.rtmvmt.com/'
+// )
 
 
 // Recurring News 

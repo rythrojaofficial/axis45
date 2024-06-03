@@ -111,13 +111,9 @@ body{
             padding-left: 2em;
             list-style-type: disc;
         }
-        /* .news-card :hover{
+        .news-card a :hover{
             color: #3c702d;
-            } */
-        .news-card iframe{
-            border-radius: 1rem;
-            border: none;
-        }
+            }
         .first-line,
         .middle-line{
             margin-top: 0px;
