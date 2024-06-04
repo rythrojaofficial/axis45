@@ -134,8 +134,8 @@ class RadioElement {
     }
 
 }
-
 // on load 
+export function PopulateForm(){
 let wrapper = new HtmlElement('form',
     document.querySelector('body'),
     {   
@@ -467,6 +467,7 @@ function addSubmit(){
         document.querySelector('body'),{ id: 'submit-replacement'},
         "Submitting. . . Please stay on page :)")
     })
+}
 }
 
 

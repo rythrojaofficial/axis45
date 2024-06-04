@@ -69,6 +69,14 @@ let todaysSessions = new NewsCard(
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Actual New News 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+let Foundations = new NewsCard(
+    'Next 4-week Tricking Foundations Class',
+    [
+        `Beginning Thursday ${nextFoundations}`,
+        'full info and registration here!'
+    ],'',
+    'https://www.seattletricking.com/tricking-foundations'
+)
 
 let loopkicks24 = new NewsCard(
     'Loopkicks 2024 Gathering fieldtrip!',
@@ -135,11 +143,4 @@ let rcg24 = new NewsCard(
 //         'First come first served :-)'
 //     ]
 // )
-let Foundations = new NewsCard(
-    'Next 4-week Tricking Foundations Class',
-    [
-        `Beginning Thursday ${nextFoundations}`,
-        'full info and registration here!'
-    ],'',
-    'https://www.seattletricking.com/tricking-foundations'
-)
+
