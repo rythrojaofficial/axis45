@@ -1,4 +1,5 @@
 import { HtmlElement, mdElement } from "./htmlElement.js";
+import { calculateNextFoundations } from "./calculateNextFoundation.js";
 
 let utcdate = new Date()
 let today = {
@@ -7,39 +8,9 @@ let today = {
     ,mm: utcdate.getMonth()+1
     ,yy: utcdate.getFullYear()
 }
-function calculateNextFoundations(){
-    let  firstDayOfMonth = new Date(today.yy, today.mm-1, 1)
-        ,firstDayOfNextMonth = new Date(today.yy, today.mm, 1)
-        ,currentDay
-        ,thursdayArray = []
 
-        switch (true){
-            case today.dd <= 11:
-                currentDay = firstDayOfMonth
-                break;
-            case today.dd > 11:
-                currentDay = firstDayOfNextMonth
-                break;
-        }
-        
-        for (let i = 0; i < 11; i++){
-            currentDay.setDate(1+i);
-            let currentDayWeekday = currentDay.toLocaleDateString('en-US', { weekday: 'long' });
-            if (currentDayWeekday === 'Thursday'){
-                let thursdays = new Date(currentDay.setDate(1+i))
-                thursdayArray.push(thursdays)
-        }  
-    }
-    let output ={
-        dd: thursdayArray[0].getDate()
-        ,mm: thursdayArray[0].getMonth()+1
-    } 
-    let outputDate = `${output.mm}/${output.dd}`
-    return outputDate
-
-}
 // ===vvvvv==Foundations==vvvvv========= 
-export let nextFoundations = calculateNextFoundations()
+export let nextFoundations = calculateNextFoundations(today.yy, today.mm, today.dd)
 // ====^^^^===============^^^^==========
 let  newsContainer = document.querySelector('.update-news');
 class NewsCard{
