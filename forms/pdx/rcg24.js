@@ -300,23 +300,6 @@ let accomodations = [
         ] // if necessary from type 
         ,required: true // true or false
     },
-    {
-        // Where are you planning to sleep Sunday night?
-        question: 'Where are you planning to sleep Sunday night?'
-        ,name: '' // if necessary
-        ,label: '' // if necessary label
-        ,placeholder: '' // if necessary
-        ,description: '' // if necessary
-        ,type: 'radio' // text, name, email, number, checkbox, date, select, radio 
-        ,appendedOptions: [
-            'Gym-sleepover no matter what'
-            ,'Gym-sleepover unless someone has an Airbnb'
-            ,'Airbnb I personally booked'
-            ,'Airbnb someone else has booked (confirmed)'
-            ,"N/A: won't be there or have a private setup"
-        ] // if necessary from type 
-        ,required: true // true or false
-    },
 ]
 sections.push(accomodations)
 
