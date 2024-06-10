@@ -38,13 +38,31 @@ let theForm = {
 }
 
 export function populateForm(formObject, targetElement){
-    let formWrapper = new HtmlElement('div', targetElement)
+    if (formObject.styleSheet !== ''){
+        let newStyleSheet = new HtmlElement('link', document.querySelector('head'), 
+            { 
+                rel: 'stylesheet'
+                ,href: formObject.styleSheet  
+            }    
+        )
+    }
+    if (formObject.font !== ''){
+        let newStyleSheet = new HtmlElement('link', document.querySelector('head'), 
+            { 
+                rel: 'stylesheet'
+                ,href: formObject.font  
+            }    
+        )
+    }
+    let formWrapper = new HtmlElement('div', targetElement, { class: 'form-wrapper'})
     let form = new HtmlElement('form', formWrapper.element
         ,{
             id: formObject.id
             ,method: formObject.method
             ,action: formObject.action
-        }, formObject.title)
+        })
+    let formTitle = new HtmlElement('h2', form.element, {class: 'form-title'}, formObject.title)
+    let formDescription = new HtmlElement('p', form.element, {}, formObject.description)
     // populateSections(formObject.sectionArray, form.element)
     populateSections(formObject, form.element)
     populateSubmit(formObject, form.element)
@@ -56,10 +74,10 @@ export function populateForm(formObject, targetElement){
 
 }
 function populateSubmit(formObject, parentElement){
-    let submitWrapper = new HtmlElement('div', parentElement)
+    let submitWrapper = new HtmlElement('div', parentElement, {class: 'submit-wrapper'})
 
-    let submitButton = new HtmlElement('button', submitWrapper.element,{}, 'Submit');
-    let submitMessageSpan = new HtmlElement('span', submitWrapper.element)
+    let submitButton = new HtmlElement('button', submitWrapper.element,{ id: 'submit-button'}, 'Submit');
+    let submitMessageSpan = new HtmlElement('span', submitWrapper.element, { class: 'submit-message'})
         submitButton.element.addEventListener('click', ()=>{
             switch (validateForm(formObject.id)){
                 case true:
@@ -75,7 +93,6 @@ function populateSubmit(formObject, parentElement){
 function populateInputs(inputObject, parentElement){
     
     let theName = (inputObject.name !== '') ? inputObject.name : inputObject.question;
-    // let input;
     if (inputObject.label !== ''){
         let label = new HtmlElement('label', parentElement,{for: theName}, inputObject.label)
     }
@@ -108,13 +125,15 @@ function populateInputs(inputObject, parentElement){
                 )
             break;
         case 'radio':
+            let newRadioLabel = new HtmlElement('label', parentElement, {}, theName);
             let newRadio = new HtmlElement('div', parentElement, 
                 {
                     name: theName
                     ,label: inputObject.label
                     ,placeholder: inputObject.placeholder
-                }, theName
+                }
                 )
+
             inputObject.appendedOptions.forEach((option)=>{
             let newRadioDiv = new HtmlElement('div', newRadio.element)
                 switch(option){
@@ -155,12 +174,13 @@ function populateInputs(inputObject, parentElement){
             })
             break;
         case 'checkbox':
+            let newCheckboxLabel = new HtmlElement('label', parentElement, {}, theName)
             let newCheckbox = new HtmlElement('div', parentElement, 
                 {
                     name: theName
                     ,label: inputObject.label
                     ,placeholder: inputObject.placeholder
-                }, theName
+                }
                 )
             inputObject.appendedOptions.forEach((option)=>{
                 let newCheckboxDiv = new HtmlElement('div', newCheckbox.element)
@@ -189,14 +209,16 @@ function populateInputs(inputObject, parentElement){
                 }
                 )
             break;
-    }
+    };
+
+    console.log(theName);
     
 }
 function populateSections(formObject, parentElement){
     
     let sectionArray = formObject.sectionArray
     sectionArray.forEach((sec)=>{
-        let newSection = new HtmlElement('fieldset', parentElement)
+        let newSection = new HtmlElement('fieldset', parentElement, { id: sec[0].legend.replace(/ /g,"-")})
             ,newLegend = new HtmlElement('legend', newSection.element, {}, sec[0].legend)
         sec.slice(1).forEach((obj)=>{
                 populateInputs(obj, newSection.element)

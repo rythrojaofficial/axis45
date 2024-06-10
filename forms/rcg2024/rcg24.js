@@ -8,8 +8,8 @@ let contactPrompts = [
         // name
         question: 'Full Name'
         ,name: '' // if necessary
-        ,label: '' // if necessary label
-        ,placeholder: 'Full Name' // if necessary
+        ,label: 'Full Name' // if necessary label
+        ,placeholder: '' // if necessary
         ,description: '' // if necessary
         ,type: 'text' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [] // if necessary from type 
@@ -19,8 +19,8 @@ let contactPrompts = [
         // email
         question: 'Email'
         ,name: '' // if necessary
-        ,label: '' // if necessary label or legend
-        ,placeholder: 'Email' // if necessary
+        ,label: 'Email' // if necessary label or legend
+        ,placeholder: '' // if necessary
         ,description: '' // if necessary
         ,type: 'email' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [] // if necessary from type 
@@ -30,10 +30,10 @@ let contactPrompts = [
         // Phone Number
         question: 'Phone Number'
         ,name: '' // if necessary
-        ,label: '' // if necessary label or legend
-        ,placeholder: 'Phone Number' // if necessary
+        ,label: 'Phone Number' // if necessary label or legend
+        ,placeholder: '' // if necessary
         ,description: '' // if necessary
-        ,type: 'number' // text, name, email, number, checkbox, date, select, radio 
+        ,type: 'text' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [] // if necessary from type 
         ,required: true // true or false
     },
@@ -41,8 +41,8 @@ let contactPrompts = [
         // Instagram
         question: 'Instagram'
         ,name: '' // if necessary
-        ,label: '' // if necessary label or legend
-        ,placeholder: '@Instagram' // if necessary
+        ,label: '@Instagram' // if necessary label or legend
+        ,placeholder: '' // if necessary
         ,description: '' // if necessary
         ,type: 'text' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [] // if necessary from type 
@@ -50,10 +50,21 @@ let contactPrompts = [
     },
     {
         // Emergency Contact
-        question: 'Emergency Contact'
+        question: 'Emergency Contact Name'
         ,name: '' // if necessary
-        ,label: '' // if necessary label or legend
-        ,placeholder: 'Emergency Contact' // if necessary
+        ,label: 'Emergency Contact Name' // if necessary label or legend
+        ,placeholder: '' // if necessary
+        ,description: '' // if necessary
+        ,type: 'text' // text, name, email, number, checkbox, date, select, radio 
+        ,appendedOptions: [] // if necessary from type 
+        ,required: true // true or false
+    },
+    {
+        // Emergency Contact
+        question: 'Emergency Contact Relationship'
+        ,name: '' // if necessary
+        ,label: 'Emergency Contact Relationship' // if necessary label or legend
+        ,placeholder: '' // if necessary
         ,description: '' // if necessary
         ,type: 'text' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [] // if necessary from type 
@@ -63,10 +74,10 @@ let contactPrompts = [
         // Emergency Contact Number
         question: 'Emergency Contact Number'
         ,name: '' // if necessary
-        ,label: '' // if necessary label or legend
-        ,placeholder: 'Emergency Contact Number' // if necessary
+        ,label: 'Emergency Contact Number' // if necessary label or legend
+        ,placeholder: '' // if necessary
         ,description: '' // if necessary
-        ,type: 'number' // text, name, email, number, checkbox, date, select, radio 
+        ,type: 'text' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [] // if necessary from type 
         ,required: true // true or false
     }
@@ -75,13 +86,13 @@ let contactPrompts = [
 sections.push(contactPrompts)
 
 let drive1stWay = [
-    { legend: 'Transportation ' },
+    { legend: 'SEA -> PDX' },
     {
         // SEA -> PDX
-        question: 'SEA -> PDX'
+        question: 'Transportation to PDX'
         ,name: '' // if necessary
         ,label: '' // if necessary label
-        ,placeholder: 'SEA -> PDX' // if necessary
+        ,placeholder: '' // if necessary
         ,description: '' // if necessary
         ,type: 'radio' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [
@@ -95,7 +106,7 @@ let drive1stWay = [
     },
     {
         // When do you plan on leaving?
-        question: 'When do you plan on leaving?'
+        question: 'When do you plan on leaving SEA?'
         ,name: '' // if necessary
         ,label: '' // if necessary label
         ,placeholder:'' // if necessary
@@ -113,7 +124,7 @@ let drive1stWay = [
     },
     {
         // How many total seats do you have (including you)
-        question: 'How many total seats do you have (including you)'
+        question: 'How many total seats do you have (including you) to PDX'
         ,name: '' // if necessary
         ,label: '' // if necessary label
         ,placeholder:'' // if necessary
@@ -133,9 +144,9 @@ let drive1stWay = [
     },
     {
         // What neighborhood/area are you leaving from
-        question: 'What neighborhood/area are you leaving from'
+        question: 'What neighborhood/area are you leaving from?'
         ,name: '' // if necessary
-        ,label: 'What neighborhood/area are you leaving from' // if necessary label
+        ,label: 'What neighborhood/area are you leaving from?' // if necessary label
         ,placeholder:'' // if necessary
         ,description: '' // if necessary
         ,type: 'text' // text, name, email, number, checkbox, date, select, radio 
@@ -148,13 +159,13 @@ let drive1stWay = [
 sections.push(drive1stWay)
 
 let drive2ndWay = [
-    { legend: 'Transportation ' },
+    { legend: 'PDX -> SEA' },
     {
         // PDX -> SEA
-        question: 'PDX -> SEA'
+        question: 'Transportation to SEA'
         ,name: '' // if necessary
         ,label: '' // if necessary label
-        ,placeholder: 'PDX -> SEA' // if necessary
+        ,placeholder: '' // if necessary
         ,description: '' // if necessary
         ,type: 'radio' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [
@@ -168,7 +179,7 @@ let drive2ndWay = [
     },
     {
         // When do you plan on leaving?
-        question: 'When do you plan on leaving?'
+        question: 'When do you plan on leaving PDX?'
         ,name: '' // if necessary
         ,label: '' // if necessary label
         ,placeholder:'' // if necessary
@@ -185,7 +196,7 @@ let drive2ndWay = [
     },
     {
         // How many total seats do you have (including you)
-        question: 'How many total seats do you have (including you)'
+        question: 'How many total seats do you have (including you) to SEA'
         ,name: '' // if necessary
         ,label: '' // if necessary label
         ,placeholder:'' // if necessary
@@ -205,9 +216,9 @@ let drive2ndWay = [
     },
     {
         // What neighborhood/area are you returning to
-        question: 'What neighborhood/area are you returning to'
+        question: 'What neighborhood/area are you returning to?'
         ,name: '' // if necessary
-        ,label: 'What neighborhood/area are you returning to' // if necessary label
+        ,label: 'What neighborhood/area are you returning to?' // if necessary label
         ,placeholder:'' // if necessary
         ,description: '' // if necessary
         ,type: 'text' // text, name, email, number, checkbox, date, select, radio 
@@ -219,7 +230,7 @@ let drive2ndWay = [
 ]
 sections.push(drive2ndWay)
 let accomodations = [
-    { legend: 'Accomodations ' },
+    { legend: 'Accomodations' },
     {
         // Are you personally booking an Airbnb?
         question: 'Which days are you personally booking an Airbnb?'
@@ -232,6 +243,25 @@ let accomodations = [
             'Friday Night'
             ,'Saturday Night'
             ,'Sunday Night'
+        ] // if necessary from type 
+        ,required: false // true or false
+    },
+    {
+        // If you have your own Airbnb and want to share, how many spots do you have (including you)?
+        question: 'If booking an Airbnb, how many spots do you have (including you)?'
+        ,name: '' // if necessary
+        ,label: 'If booking an Airbnb, how many spots do you have (including you)?' // if necessary label
+        ,placeholder: '' // if necessary
+        ,description: '' // if necessary
+        ,type: 'select' // text, name, email, number, checkbox, date, select, radio 
+        ,appendedOptions: [
+            '0 spots: No Airbnb'
+            ,'1 spot total'
+            ,'2 spots total'
+            ,'3 spots total'
+            ,'4 spots total'
+            ,'5 spots total'
+            ,'6 spots total'
         ] // if necessary from type 
         ,required: false // true or false
     },
@@ -283,35 +313,19 @@ let accomodations = [
         ] // if necessary from type 
         ,required: true // true or false
     },
-    {
-        // If you have your own Airbnb and want to share, how many spots do you have (including you)?
-        question: 'If you have your own Airbnb and want to share, how many spots do you have (including you)?'
-        ,name: '' // if necessary
-        ,label: 'If you have your own Airbnb and want to share, how many spots do you have (including you)?' // if necessary label
-        ,placeholder: '' // if necessary
-        ,description: '' // if necessary
-        ,type: 'select' // text, name, email, number, checkbox, date, select, radio 
-        ,appendedOptions: [
-            '0 spots: No Airbnb'
-            ,'1 spot total'
-            ,'2 spots total'
-            ,'3 spots total'
-            ,'4 spots total'
-            ,'5 spots total'
-            ,'6 spots total'
-        ] // if necessary from type 
-        ,required: false // true or false
-    },
 ]
 sections.push(accomodations)
 
 //  form Information
 let title = 'RCG Field Trip Carpool Survey'
 let rcgForm = {
-    title: title
+    method: 'POST'
+    ,action: 'https://script.google.com/macros/s/AKfycbzfnG0OPY7t8ubVq5qNXP89aqRWI7_5EVbI7uLYxcIWEHzGqGBwWPiNXNWSey7aIFW6kQ/exec'
+    ,styleSheet: '../css-sheets/test.css'
+    ,font: 'https://fonts.google.com/specimen/Fira+Sans?stroke=Sans+Serif'
+    ,title: title
     ,id: title.replace(/ /g,"-")
-    ,method: 'POST'
-    ,action: '#'
+    ,description: 'July 26-28'
     ,sectionArray: sections
     ,submitMessage: 'Submitting. . . Please Wait 🙂'
     ,submitError: '*Please check fields'

@@ -1,0 +1,69 @@
+@import url('//fonts.googleapis.com/css?family=Libre+Franklin');
+*{ 
+    box-sizing: border-box;
+    font-family: 'Libre Franklin';
+}
+
+:root{
+    /* --font: 'fonty'; */
+    --border-radius: .5rem;
+    --submit-color: rgb(110, 221, 110);
+    --submit-hover-color: rgb(23, 145, 23);
+    --submit-message-color: rgb(67, 158, 194);
+    --light-gray: rgb(243, 243, 243);
+
+}
+.form-wrapper{
+    display: grid;
+    grid-template-columns: auto 80vw auto;
+    text-align: center;
+}
+
+form{
+    font-size: 1rem;
+    grid-column-start: 2;
+    line-height: 1.75rem;
+}
+fieldset{
+    text-align: left;
+    border-radius: var(--border-radius);    
+    display: grid;
+}
+fieldset > label{
+    font-size: 1.05rem;
+}
+input{
+    border: none;
+    /* border-top: none;
+    border-right: none;
+    border-left: none; */
+    line-height: 1.25rem;
+    background-color: var(--light-gray);
+    border-radius: var(--border-radius);
+}
+input[type="radio"],
+input[type="checkbox"]{
+    margin-left: 2rem;
+}
+.submit-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 1rem);
+    text-align: center;
+}
+#submit-button{
+    margin-top: .5rem;
+    border: none;
+    grid-column: span 3;
+    grid-row: span 3;
+    /* height: 2rem;; */
+    border-radius: var(--border-radius);
+    background-color: var(--submit-color);
+}
+#submit-button:hover{
+    background-color: var(--submit-hover-color);
+}
+.submit-message{
+    color: var(--submit-message-color);
+    
+}
