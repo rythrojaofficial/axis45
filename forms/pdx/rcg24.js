@@ -234,7 +234,7 @@ let accomodations = [
     { legend: 'Accomodations' },
     {
         // Are you personally booking an Airbnb?
-        question: 'Which days are you personally booking an Airbnb?'
+        question: 'Which days (if any) are you personally booking an Airbnb?'
         ,name: '' // if necessary
         ,label: '' // if necessary label
         ,placeholder: '' // if necessary
