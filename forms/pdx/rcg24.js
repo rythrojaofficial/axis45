@@ -188,6 +188,7 @@ let drive2ndWay = [
         ,appendedOptions: [
             'Sunday Morning'
             ,'Sunday Noonish'
+            ,'Sunday Afternoon'
             ,'Sunday Night'
             ,'other'
             
@@ -275,6 +276,7 @@ let accomodations = [
         ,type: 'radio' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [
             'Gym-sleepover no matter what'
+            ,'Gym-sleepover unless someone has an Airbnb' 
             ,'Airbnb I personally booked'
             ,'Airbnb someone else has booked (confirmed)'
             ,"N/A: won't be there or have a private setup"
@@ -291,6 +293,7 @@ let accomodations = [
         ,type: 'radio' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [
             'Gym-sleepover no matter what'
+            ,'Gym-sleepover unless someone has an Airbnb'
             ,'Airbnb I personally booked'
             ,'Airbnb someone else has booked (confirmed)'
             ,"N/A: won't be there or have a private setup"
@@ -307,6 +310,7 @@ let accomodations = [
         ,type: 'radio' // text, name, email, number, checkbox, date, select, radio 
         ,appendedOptions: [
             'Gym-sleepover no matter what'
+            ,'Gym-sleepover unless someone has an Airbnb'
             ,'Airbnb I personally booked'
             ,'Airbnb someone else has booked (confirmed)'
             ,"N/A: won't be there or have a private setup"
