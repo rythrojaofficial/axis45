@@ -81,8 +81,8 @@ function populateSubmit(formObject, parentElement){
         submitButton.element.addEventListener('click', ()=>{
             switch (validateForm(formObject.id)){
                 case true:
-                    submitMessageSpan.element.textContent = formObject.submitMessage
-                    submitButton.element.style = 'display: hidden'
+                    submitMessageSpan.element.textContent = formObject.submitMessage;
+                    submitButton.element.style.visibility = 'hidden'
                     break;
                 default:
                     submitMessageSpan.element.textContent = formObject.submitError

@@ -232,21 +232,21 @@ let drive2ndWay = [
 sections.push(drive2ndWay)
 let accomodations = [
     { legend: 'Accomodations' },
-    {
-        // Are you personally booking an Airbnb?
-        question: 'Which days (if any) are you personally booking an Airbnb?'
-        ,name: '' // if necessary
-        ,label: '' // if necessary label
-        ,placeholder: '' // if necessary
-        ,description: '' // if necessary
-        ,type: 'checkbox' // text, name, email, number, checkbox, date, select, radio 
-        ,appendedOptions: [
-            'Friday Night'
-            ,'Saturday Night'
-            ,'Sunday Night'
-        ] // if necessary from type 
-        ,required: false // true or false
-    },
+    // {
+    //     // Are you personally booking an Airbnb?
+    //     question: 'Which days (if any) are you personally booking an Airbnb?'
+    //     ,name: '' // if necessary
+    //     ,label: '' // if necessary label
+    //     ,placeholder: '' // if necessary
+    //     ,description: '' // if necessary
+    //     ,type: 'checkbox' // text, name, email, number, checkbox, date, select, radio 
+    //     ,appendedOptions: [
+    //         'Friday Night'
+    //         ,'Saturday Night'
+    //         ,'Sunday Night'
+    //     ] // if necessary from type 
+    //     ,required: false // true or false
+    // },
     {
         // If you have your own Airbnb and want to share, how many spots do you have (including you)?
         question: 'If booking an Airbnb, how many spots do you have (including you)?'
