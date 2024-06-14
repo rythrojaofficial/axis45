@@ -18,7 +18,20 @@ let today = {
 }
 
 // ===vvvvv==Foundations==vvvvv========= 
-export let nextFoundations = calculateNextFoundations(today.yy, today.mm, today.dd)
+export function nextFoundationsDate(){
+    let nextFoundations;
+
+    let manualFoundations = {
+        date: '7/11',
+        message: 'due to 4th of july 🇺🇸'
+    }
+
+    if (manualFoundations.date === ''){
+        return calculateNextFoundations(today.yy, today.mm, today.dd)
+    }else return `${manualFoundations.date} ${manualFoundations.message}`
+}
+export 
+
 // ====^^^^===============^^^^==========
 let  newsContainer = document.querySelector('.update-news');
 class NewsCard{
@@ -111,7 +124,7 @@ let rcg24 = new NewsCard(
 let Foundations = new NewsCard(
     'Next 4-week Tricking Foundations Class',
     [
-        `Beginning Thursday ${nextFoundations}`,
+        `Beginning Thursday ${nextFoundationsDate()}`,
         'full info and registration here!'
     ],'',
     'https://www.seattletricking.com/tricking-foundations'

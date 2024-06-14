@@ -1,15 +1,14 @@
 // =======================
 // update next foundations 
 // =======================
-import { nextFoundations } from "./updateNews.js";
-
+import { nextFoundationsDate } from "./updateNews.js";
 function updateFoundations(nextDate){
     let instancesOfNextFoundationsDate = [...document.querySelectorAll('.next-foundations-date')];
     instancesOfNextFoundationsDate.forEach(instance => {
         instance.textContent = nextDate;
     });
 }
-updateFoundations(nextFoundations);
+updateFoundations(nextFoundationsDate());
 
 //==============
 //  addNavHeader 
