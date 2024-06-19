@@ -1,4 +1,5 @@
 import { HtmlElement, mdElement, BreakElement } from "./htmlElement.js";
+import { thisWednesdaySesh } from "./updateNews.js";
 
 class Offering {
   constructor(
@@ -35,7 +36,7 @@ let offeringsLibrary = {
     "Classic open session. No instruction provided. ",
     "120m",
     expLibrary[2],
-    "Monday/Friday"
+    "Monday/Friday/(& some Wednesdays!)"
   ),
   trickingFoundations: new Offering(
     "tricking-foundations",
@@ -141,11 +142,22 @@ export function createOfferingsMDFrames() {
   });
 }
 
+function isWednesdaySesh() {
+  switch (thisWednesdaySesh) {
+    case true:
+      return "openTricking";
+      break;
+    case false:
+      return noSessionMessage;
+      break;
+  }
+}
+
 export function todaysSessions() {
   let dateLibrary = {
     Monday: ["openTricking"],
     Tuesday: ["guidedTricking", "trickingExercise"],
-    Wednesday: [noSessionMessage],
+    Wednesday: [isWednesdaySesh()],
     Thursday: ["trickingFoundations", "flippingProgressions"],
     Friday: ["openTricking"],
     Saturday: [noSessionMessage],

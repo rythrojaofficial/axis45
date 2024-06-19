@@ -6,6 +6,9 @@ let emergencyNews = {
   md: "./events/emergencyNews.md",
 };
 
+// is a wednesday sesh happening? has aj confirmed?
+export let thisWednesdaySesh = true;
+
 import { HtmlElement, mdElement } from "./htmlElement.js";
 import { calculateNextFoundations } from "./calculateNextFoundation.js";
 
