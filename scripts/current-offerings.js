@@ -35,8 +35,8 @@ let offeringsLibrary = {
     "open-tricking",
     "Classic open session. No instruction provided. ",
     "120m",
-    expLibrary[2],
-    "Monday/Friday/(& some Wednesdays!)"
+    expLibrary[2]
+    // "Monday/Friday/(& some Wednesdays!)"
   ),
   trickingFoundations: new Offering(
     "tricking-foundations",
