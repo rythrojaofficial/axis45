@@ -7,6 +7,7 @@ let emergencyNews = {
 };
 
 // is a wednesday sesh happening? has aj confirmed?
+// currentofferings.js will use this info
 export let thisWednesdaySesh = true;
 
 import { HtmlElement, mdElement } from "./htmlElement.js";

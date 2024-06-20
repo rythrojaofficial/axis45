@@ -142,6 +142,7 @@ export function createOfferingsMDFrames() {
   });
 }
 
+// courtesy of updateNews.js
 function isWednesdaySesh() {
   switch (thisWednesdaySesh) {
     case true:
