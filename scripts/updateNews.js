@@ -8,7 +8,7 @@ let emergencyNews = {
 
 // is a wednesday sesh happening? has aj confirmed?
 // currentofferings.js will use this info
-export let thisWednesdaySesh = true;
+export let thisWednesdaySesh = false;
 
 import { HtmlElement, mdElement } from "./htmlElement.js";
 import { calculateNextFoundations } from "./calculateNextFoundation.js";
