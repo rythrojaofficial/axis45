@@ -1,7 +1,7 @@
 let emergencyNews = {
-  active: false,
-  title: "",
-  firstLine: "",
+  active: true,
+  title: "No practices4th or july thursday :)",
+  firstLine: "see yall friday!",
   secondLine: "",
   md: "./events/emergencyNews.md",
 };
