@@ -11,8 +11,7 @@ export let noSesh = {
 // Emergency News
 export let emergencyNews = {
   active: false,
-  title: "",
-  firstLine: "",
-  secondLine: "",
+  title: "blue",
+  messages: ["school", "rules"],
   md: "./events/emergencyNews.md",
 };

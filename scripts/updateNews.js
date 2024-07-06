@@ -116,7 +116,7 @@ import { emergencyNews } from "./update-news-stipulations.js";
 if (emergencyNews.active === true) {
   let emergencyNewsActive = new NewsCard(
     emergencyNews.title,
-    [emergencyNews.firstLine, emergencyNews.secondLine],
+    emergencyNews.messages,
     emergencyNews.md
   );
 }
