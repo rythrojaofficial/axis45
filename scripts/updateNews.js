@@ -1,11 +1,3 @@
-let emergencyNews = {
-  active: false,
-  title: "",
-  firstLine: "",
-  secondLine: "",
-  md: "./events/emergencyNews.md",
-};
-
 // is a wednesday sesh happening? has aj confirmed?
 // currentofferings.js will use this info
 export let thisWednesdaySesh = false;
@@ -34,7 +26,7 @@ export function nextFoundationsDate() {
     return calculateNextFoundations(today.yy, today.mm, today.dd);
   } else return `${manualFoundations.date} ${manualFoundations.message}`;
 }
-export // ====^^^^===============^^^^==========
+// ====^^^^===============^^^^==========
 let newsContainer = document.querySelector(".update-news");
 class NewsCard {
   constructor(title, detailsArray = [], md = "", href = "") {
@@ -100,16 +92,27 @@ class NewsCard {
     }
   }
 }
+import { noSesh } from "./update-news-stipulations.js";
+if (noSesh.cancelled === true) {
+  let todaysSessions = new NewsCard(
+    `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
+    noSesh.messages,
+    "",
+    ""
+  );
+} else {
+  let todaysSessions = new NewsCard(
+    `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
+    [],
+    "offerings",
+    ""
+  );
+}
 
-let todaysSessions = new NewsCard(
-  `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
-  [],
-  "offerings",
-  ""
-);
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Actual New News
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+import { emergencyNews } from "./update-news-stipulations.js";
 if (emergencyNews.active === true) {
   let emergencyNewsActive = new NewsCard(
     emergencyNews.title,
