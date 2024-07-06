@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+let emergencyNews = {
+  active: false,
+  title: "",
+  firstLine:"",
+  secondLine: "",
+  md: "./events/emergencyNews.md",
+};
+
+>>>>>>> d5e0fd320b8efff6dbeab8ef2591ad3698f77385
 // is a wednesday sesh happening? has aj confirmed?
 // currentofferings.js will use this info
 export let thisWednesdaySesh = false;
