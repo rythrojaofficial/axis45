@@ -167,8 +167,9 @@ footer.className = "footer";
 footLine1.id = "foot-line-one";
 footLine2.id = "foot-line-two";
 
-footLine1.innerText = "7701 230th St SW";
-footLine2.innerText = "Edmonds, WA 98026";
+// footLine1.innerText = "7701 230th St SW";
+// footLine2.innerText = "Edmonds, WA 98026";
+footLine1.textContent = "Axis 45: Home of Seattle Tricking";
 
 document.body.appendChild(footer);
 footer.appendChild(footLine1);
@@ -200,15 +201,20 @@ if (document.getElementById("stamp-time")) {
 // today's session
 import { todaysSessions } from "./current-offerings.js";
 
-// Current offerings
+// load certian things by page
 import { createOfferingsMDFrames } from "./current-offerings.js";
+import { populateContactForm } from "../forms/contact/contact.js";
 let h1Title = document.querySelector("h1.title");
-if (
-  h1Title.textContent === "Current Offerings" ||
-  h1Title.textContent === "AXIS 45"
-) {
-  todaysSessions();
-  createOfferingsMDFrames();
+switch (h1Title.textContent) {
+  case "Current Offerings" || "AXIS 45":
+    todaysSessions();
+    createOfferingsMDFrames();
+    break;
+  case "Contact":
+    populateContactForm();
+    break;
+  default:
+    break;
 }
 
 // Populate readMore's

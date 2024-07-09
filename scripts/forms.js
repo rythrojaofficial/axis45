@@ -1,5 +1,8 @@
 import { HtmlElement } from "./htmlElement.js";
 
+// ++++++++++++++++++
+// ==Start Template==
+// ++++++++++++++++++
 let sectionPrompts = [
   { legend: "" },
   {
@@ -35,6 +38,9 @@ let theForm = {
   action: "#",
   // ,sectionArray: sectionsArray
 };
+// ++++++++++++++++
+// ==End Template==
+// ++++++++++++++++
 
 export function populateForm(formObject, targetElement) {
   if (formObject.styleSheet !== "") {
@@ -120,7 +126,7 @@ function populateInputs(inputObject, parentElement) {
   }
   switch (inputObject.type) {
     case "textarea":
-      input = new HtmlElement("textarea", parentElement, {
+      let textArea = new HtmlElement("textarea", parentElement, {
         name: theName,
         label: inputObject.label,
         placeholder: inputObject.placeholder,
