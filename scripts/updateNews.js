@@ -106,7 +106,6 @@ switch (noSesh.cancelled) {
     );
     break;
   case false:
-    populateTodaysSessions();
     let todaysSessions = new NewsCard(
       `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
       [],
@@ -145,7 +144,11 @@ let Foundations = new NewsCard(
   "",
   "https://www.seattletricking.com/tricking-foundations"
 );
-
+let closures = new NewsCard(
+  "Upcoming Closures due to events!",
+  ["Loopkicks and RCG weeks"],
+  "./events/2024julyclosures.md"
+);
 let loopkicks24 = new NewsCard(
   "Loopkicks 2024 Gathering fieldtrip!",
   ["Jul 19-21, Santa Clara CA", "20th Anniversary!"],

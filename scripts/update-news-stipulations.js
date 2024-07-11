@@ -1,9 +1,9 @@
 // If today's session is canceled
 export let noSesh = {
   cancelled: false,
+  days: [],
   messages: [
-    "Friday practice canceled",
-    "Nothing Scheduled!",
+    "Practices canceled due to Loopkicks Gathering",
     "Enjoy the day off :-)",
   ],
 };
