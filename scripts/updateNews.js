@@ -1,4 +1,4 @@
-export let thisWednesdaySesh = false;
+export let thisWednesdaySesh = true;
 // is a wednesday sesh happening? has aj confirmed?
 // currentofferings.js will use this info
 
@@ -121,6 +121,16 @@ if (emergencyNews.active === true) {
   );
 }
 
+let Foundations = new NewsCard(
+  "Next 4-week Tricking Foundations Class",
+  [
+    `Beginning Thursday ${nextFoundationsDate()}`,
+    "full info and registration here!",
+  ],
+  "",
+  "https://www.seattletricking.com/tricking-foundations"
+);
+
 let loopkicks24 = new NewsCard(
   "Loopkicks 2024 Gathering fieldtrip!",
   ["Jul 19-21, Santa Clara CA", "20th Anniversary!"],
@@ -133,15 +143,6 @@ let rcg24 = new NewsCard(
   "./events/2024rcg.md"
 );
 
-let Foundations = new NewsCard(
-  "Next 4-week Tricking Foundations Class",
-  [
-    `Beginning Thursday ${nextFoundationsDate()}`,
-    "full info and registration here!",
-  ],
-  "",
-  "https://www.seattletricking.com/tricking-foundations"
-);
 // let memorial24 = new NewsCard(
 //     'Updated Hours: Memorial Day week',
 //     [
