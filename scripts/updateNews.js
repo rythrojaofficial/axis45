@@ -113,12 +113,16 @@ if (noSesh.cancelled === true) {
 // Actual New News
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 import { emergencyNews } from "./update-news-stipulations.js";
-if (emergencyNews.active === true) {
-  let emergencyNewsActive = new NewsCard(
-    emergencyNews.title,
-    emergencyNews.messages,
-    emergencyNews.md
-  );
+switch (emergencyNews.active) {
+  case true:
+    let emergencyNewsActive = new NewsCard(
+      emergencyNews.title,
+      emergencyNews.messages,
+      emergencyNews.md
+    );
+    break;
+  default:
+    console.log("error emergencynews updatejs");
 }
 
 let Foundations = new NewsCard(
