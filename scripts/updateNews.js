@@ -93,20 +93,25 @@ class NewsCard {
   }
 }
 import { noSesh } from "./update-news-stipulations.js";
-if (noSesh.cancelled === true) {
-  let todaysSessions = new NewsCard(
-    `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
-    noSesh.messages,
-    "",
-    ""
-  );
-} else {
-  let todaysSessions = new NewsCard(
-    `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
-    [],
-    "offerings",
-    ""
-  );
+switch (noSesh.cancelled) {
+  case true:
+    let todaysSessionsNone = new NewsCard(
+      `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
+      noSesh.messages,
+      "",
+      ""
+    );
+    break;
+  case false:
+    let todaysSessions = new NewsCard(
+      `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
+      [],
+      "offerings",
+      ""
+    );
+    break;
+  default:
+    console.log("error noSesh.cancelled updatenews.js");
 }
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -120,6 +125,8 @@ switch (emergencyNews.active) {
       emergencyNews.messages,
       emergencyNews.md
     );
+    break;
+  case false:
     break;
   default:
     console.log("error emergencynews updatejs");
