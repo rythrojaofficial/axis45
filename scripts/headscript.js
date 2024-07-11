@@ -199,15 +199,16 @@ if (document.getElementById("stamp-time")) {
   });
 }
 // today's session
-import { todaysSessions } from "./current-offerings.js";
+import { populateTodaysSessions } from "./current-offerings.js";
 
 // load certian things by page
 import { createOfferingsMDFrames } from "./current-offerings.js";
 import { populateContactForm } from "../forms/contact/contact.js";
 let h1Title = document.querySelector("h1.title");
 switch (h1Title.textContent) {
+  case "AXIS 45":
+    populateTodaysSessions();
   case "Current Offerings" || "AXIS 45":
-    todaysSessions();
     createOfferingsMDFrames();
     break;
   case "Contact":

@@ -4,6 +4,7 @@ export let thisWednesdaySesh = true;
 
 import { HtmlElement, mdElement } from "./htmlElement.js";
 import { calculateNextFoundations } from "./calculateNextFoundation.js";
+import { populateTodaysSessions } from "./current-offerings.js";
 
 let utcdate = new Date();
 let today = {
@@ -28,6 +29,7 @@ export function nextFoundationsDate() {
 }
 // ====^^^^===============^^^^==========
 let newsContainer = document.querySelector(".update-news");
+
 class NewsCard {
   constructor(title, detailsArray = [], md = "", href = "") {
     this.title = title;
@@ -92,6 +94,7 @@ class NewsCard {
     }
   }
 }
+
 import { noSesh } from "./update-news-stipulations.js";
 switch (noSesh.cancelled) {
   case true:
@@ -103,6 +106,7 @@ switch (noSesh.cancelled) {
     );
     break;
   case false:
+    populateTodaysSessions();
     let todaysSessions = new NewsCard(
       `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
       [],
