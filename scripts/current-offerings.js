@@ -144,13 +144,11 @@ export function createOfferingsMDFrames() {
 
 // courtesy of updateNews.js
 function isWednesdaySesh() {
-  // console.log('test')
   switch (thisWednesdaySesh) {
     case true:
       return "openTricking";
       break;
     case false:
-      // console.log("test");
       return noSessionMessage;
       break;
     default:
@@ -159,11 +157,11 @@ function isWednesdaySesh() {
   }
 }
 // (thisWednesdaySesh) ? 'openTricking' : noSessionMessage
-export function todaysSessions() {
+export function populateTodaysSessions() {
   let dateLibrary = {
     Monday: ["openTricking"],
     Tuesday: ["guidedTricking", "trickingExercise"],
-    Wednesday: ["openTricking"],
+    Wednesday: [isWednesdaySesh()],
     Thursday: ["trickingFoundations", "flippingProgressions"],
     Friday: ["openTricking"],
     Saturday: [noSessionMessage],
