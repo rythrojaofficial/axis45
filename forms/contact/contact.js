@@ -23,9 +23,9 @@ let contactPrompts = [
     label: "Email (if looking for a response)", // if necessary label or legend
     placeholder: "", // if necessary
     description: "", // if necessary
-    type: "email", // text, name, email, number, checkbox, date, select, radio
+    type: "text", // text, name, (use text for email)email, (use text for phone nubmers)number, checkbox, date, select, radio
     appendedOptions: [], // if necessary from type
-    required: true, // true or false
+    required: false, // true or false
   },
   {
     // title
@@ -43,8 +43,10 @@ sections.push(contactPrompts);
 let title = "Any Questions, Comments, or Suggestions are welcome!";
 let contactForm = {
   method: "POST",
-  action: "/",
-  styleSheet: "",
+  action:
+    "https://script.google.com/macros/s/AKfycbyfdfv0mFJ7UMjWgDw2VLewix3V9MsC1NawjQ0BnsOAC1Npr9ArJuKpk1cCE1235W5E_A/exec",
+  noValidate: false, // true or false
+  styleSheet: "./forms/css-sheets/test.css",
   font: "",
   title: title,
   id: title.replace(/ /g, "-"),
@@ -52,7 +54,6 @@ let contactForm = {
   sectionArray: sections,
   submitMessage: "Submitting. . . Please Wait 🙂",
   submitError: "*Please check fields",
-  // ,sectionArray: sectionsArray
 };
 export function populateContactForm() {
   populateForm(contactForm, formParent);

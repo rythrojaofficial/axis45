@@ -12,12 +12,12 @@ let sectionPrompts = [
     label: "", // if necessary label or legend
     placeholder: "", // if necessary
     description: "", // if necessary
-    type: "text", // text, name, email, number, checkbox, date, select, radio
+    type: "text", // text, name, (use text for email)email, (use text for phone nubmers)number, checkbox, date, select, radio
     appendedOptions: [], // if necessary from type
     required: true, // true or false
   },
 ];
-
+// ====++++Select and radio options go in appended options +++++++++++================
 let selectOptions = [
   "", //first option is the select placeholder
   "",
@@ -31,13 +31,22 @@ let radioOptions = [
   "",
   "", //options name
 ];
-
-let theForm = {
-  title: "",
-  method: "POST",
-  action: "#",
-  // ,sectionArray: sectionsArray
-};
+// let title = "some form title";
+// let theForm = {
+//   method: "POST",
+//   action: "/",
+//   noValidate: true, // true or false
+//   styleSheet: "./forms/css-sheets/test.css",
+//   font: "",
+//   title: title,
+//   id: title.replace(/ /g, "-"), //replace spaces with dashes
+//   description: "",
+// sectionArray: sections,
+// submitMessage: "Submitting. . . Please Wait 🙂",
+// submitError: "*Please check fields",
+// ,sectionArray: sectionsArray
+// ,sectionArray: sectionsArray
+// };
 // ++++++++++++++++
 // ==End Template==
 // ++++++++++++++++
@@ -71,6 +80,9 @@ export function populateForm(formObject, targetElement) {
     method: formObject.method,
     action: formObject.action,
   });
+  if (formObject.noValidate === true) {
+    form.addProperties(form.element, { novalidate: true });
+  }
   let formTitle = new HtmlElement(
     "h2",
     form.element,
@@ -98,16 +110,20 @@ function populateSubmit(formObject, parentElement) {
     { id: "submit-button" },
     "Submit"
   );
+
   let submitMessageSpan = new HtmlElement("span", submitWrapper.element, {
     class: "submit-message",
   });
-  submitButton.element.addEventListener("click", () => {
+  submitButton.element.addEventListener("click", (e) => {
     switch (validateForm(formObject.id)) {
       case true:
         submitMessageSpan.element.textContent = formObject.submitMessage;
         submitButton.element.style.visibility = "hidden";
+        // window.history.back();
         break;
       default:
+        // e.preventDefault();
+        // window.history.back();
         submitMessageSpan.element.textContent = formObject.submitError;
         break;
     }
@@ -130,8 +146,10 @@ function populateInputs(inputObject, parentElement) {
         name: theName,
         label: inputObject.label,
         placeholder: inputObject.placeholder,
-        required: inputObject.required,
       });
+      if (inputObject.required) {
+        textArea.element.setAttribute("required", true);
+      }
       break;
     case "select":
       let newSelect = new HtmlElement("select", parentElement, {
@@ -139,8 +157,10 @@ function populateInputs(inputObject, parentElement) {
         id: `select-${theName}`,
         label: inputObject.label,
         placeholder: inputObject.placeholder,
-        required: inputObject.required,
       });
+      if (inputObject.required) {
+        newSelect.element.setAttribute("required", true);
+      }
       // let newOption = new HtmlElement('option', newSelect.element, {}, 'blablah')
       inputObject.appendedOptions.forEach((option) => {
         let newOption = new HtmlElement(
@@ -246,12 +266,14 @@ function populateInputs(inputObject, parentElement) {
         type: inputObject.type,
         label: inputObject.label,
         placeholder: inputObject.placeholder,
-        required: inputObject.required,
       });
+      if (inputObject.required) {
+        newInput.element.setAttribute("required", true);
+      }
       break;
   }
 
-  console.log(theName);
+  // console.log(theName);
 }
 function populateSections(formObject, parentElement) {
   let sectionArray = formObject.sectionArray;

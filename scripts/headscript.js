@@ -70,6 +70,11 @@ const navFaq = new NavText(
   "faq-link",
   "https://www.seattletricking.com/faq"
 );
+const navContact = new NavText(
+  "contact",
+  "contact-link",
+  "https://www.seattletricking.com/contact"
+);
 //nav icon links
 const navInsta = new NavIcon(
   "logo-instagram",
