@@ -135,15 +135,6 @@ switch (emergencyNews.active) {
     console.log("error emergencynews updatejs");
 }
 
-let Foundations = new NewsCard(
-  "Next 4-week Tricking Foundations Class",
-  [
-    `Beginning Thursday ${nextFoundationsDate()}`,
-    "full info and registration here!",
-  ],
-  "",
-  "https://www.seattletricking.com/tricking-foundations"
-);
 let closures = new NewsCard(
   "Upcoming Closures due to events!",
   ["Loopkicks and RCG weeks"],
@@ -159,6 +150,16 @@ let rcg24 = new NewsCard(
   "Rose City Gathering 3 fieldtrip!",
   ["Jul 26-28, Beaverton OR", "The Portland Homies main summer Gathering"],
   "./events/2024rcg.md"
+);
+
+let Foundations = new NewsCard(
+  "Next 4-week Tricking Foundations Class",
+  [
+    `Beginning Thursday ${nextFoundationsDate()}`,
+    "full info and registration here!",
+  ],
+  "",
+  "https://www.seattletricking.com/tricking-foundations"
 );
 
 // let memorial24 = new NewsCard(
