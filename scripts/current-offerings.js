@@ -61,7 +61,7 @@ let offeringsLibrary = {
   ),
   trickingExercise: new Offering(
     "tricking-exercise",
-    "July: Bring running shoes and a hoodie! 🏃 Prepare your body for the rigors of tricking.  Plyometrics, strength, balance, and more.",
+    "July: Bring running shoes! 🏃 Prepare your body for the rigors of tricking.  Plyometrics, strength, balance, and more.",
     "60m",
     expLibrary[0],
     "Tuesday"
