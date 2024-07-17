@@ -8,8 +8,8 @@ There are more than a few of us headed to Santa Clara this July for the 20th ann
 
 ---
 
-## Information
-
+> ## Information
+>
 > 🗓️ **Gathering Dates**: July 19-21, 2024 (Fri-Sun)
 >
 > 🧭 **Gym Address**: [2790 El Camino Real, Santa Clara, CA 95051](https://www.google.com/maps/place/Loopkicks+Tricking/@37.3511595,-121.9770156,17z/data=!3m1!4b1!4m6!3m5!1s0x808fcbb1a4f785c7:0x38f83d64d579bc3f!8m2!3d37.3511595!4d-121.9770156!16s%2Fg%2F11f6dl8gbw?entry=ttu)
@@ -34,25 +34,32 @@ There are more than a few of us headed to Santa Clara this July for the 20th ann
 
 > **Transportation**:
 >
-> 1. Jared's car: 275 rental total, split evenly from friday-Monday, 5 seats, toyota corolla Friday 10am-Monday 8am at SJC
+> 1. Jared's car: $200 rental total, split evenly from friday-Monday, 5 seats, toyota corolla Friday 10am-Monday 8am at SJC
 > 2. Justin's car: owns it, 6ish seats SUV
 
 > **Who's in?**:
 >
 > - Aj, Jared, Krissy, Michael, DylanY, Ariel, Grace, Lex, Brian,Justin, DylanJ
 
-## Packing list
+> ## Packing list
+>
+> 1.  ID. Dont forget a form of Id just in case
+> 1.  at least one extra pair of clothes than days there
+> 1.  clothes/towel for hot tub/pool/beach
+> 1.  phone charger/cord, portable battery
+> 1.  Camera if you roll like that
+> 1.  water bottle
+> 1.  massage tools, hypervolt, rollers
+> 1.  JUST IN CASE:
+>     - bands
+>     - ace wrap
+>     - braces/ibuprofin
+>     - allergy meds
+> 1.  Small bit of cash $50-$200 in case of emergency
 
-> 1. ID. Dont forget a form of Id just in case
-> 1. at least one extra pair of clothes than days there
-> 1. clothes/towel for hot tub/pool/beach
-> 1. phone charger/cord, portable battery
-> 1. Camera if you roll like that
-> 1. water bottle
-> 1. massage tools, hypervolt, rollers
-> 1. JUST IN CASE:
->    - bands
->    - ace wrap
->    - braces/ibuprofin
->    - allergy meds
-> 1. Small bit of cash $50-$200 in case of emergency
+> ## Weather
+>
+> 91/62 on Friday  
+> 82/60 on Saturday  
+> 78/60 on Sunday  
+> 87/64 on Monday
