@@ -1,6 +1,8 @@
 <!-- # Loopkicks Field Trip -->
 
+in case you get lost!
 **Updates in our [discord](https://discord.gg/mGM4Htgj)**
+or dm @seattletricking on instagram
 
 ---
 
@@ -24,7 +26,7 @@ There are more than a few of us headed to Santa Clara this July for the 20th ann
 
 > 🛎️ **Accomodations**: _No Gym Overnighters_
 >
-> Jared's got an Airbnb 10m south of LK by car friday-Sunday that can host 6 with 3 queen beds (the math says you will likely share a bed 😅). If you are interested in being part of that, dm @seattletricking asap! price: 315 total, split evenly.
+> Jared's got an Airbnb 10m south of LK by car friday-Sunday that can host 6 with 3 queen beds (the math says you will likely share a bed 😅). If you are interested in being part of that, put it in our [discord](https://discord.gg/mGM4Htgj) or dm @seattletricking asap! price: 315 total, split evenly.
 >
 > 1.  Jared 2. Krissy 3. DylanY 4. Michael 5. Ariel 6 _available_
 > 2.  CMU crew are at the hotel
