@@ -1,6 +1,6 @@
 <!-- # Loopkicks Field Trip -->
 
-**Updates go here! :)**
+**Updates in our [discord](https://discord.gg/mGM4Htgj)**
 
 ---
 
@@ -34,12 +34,12 @@ There are more than a few of us headed to Santa Clara this July for the 20th ann
 
 > **Transportation**:
 >
-> 1. Jared's car: $200 rental total, split evenly from friday-Monday, 5 seats, toyota corolla Friday 10am-Monday 8am at SJC
-> 2. Justin's car: owns it, 6ish seats SUV
+> 1. Jared's Truck: $200 rental total, split evenly from friday-Monday, 5 seats, toyota corolla Friday 10am-Monday 8am at SJC
+> 2. Justin's Suv: owns it, 6ish seats SUV
 
 > **Who's in?**:
 >
-> - Aj, Jared, Krissy, Michael, DylanY, Ariel, Grace, Lex, Brian,Justin, DylanJ
+> - Aj, Jared, Krissy, Michael, DylanY, Ariel, Grace, Lex, Brian, Justin, DylanJ
 
 > ## Packing list
 >
