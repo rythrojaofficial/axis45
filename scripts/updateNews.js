@@ -19,8 +19,8 @@ export function nextFoundationsDate() {
   let nextFoundations;
 
   let manualFoundations = {
-    date: "7/11",
-    message: "due to 4th of july 🇺🇸",
+    date: "8/8",
+    message: "due to 4th of july 🇺🇸 pushing back things 1 week :)",
   };
 
   if (manualFoundations.date === "") {

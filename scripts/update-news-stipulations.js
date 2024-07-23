@@ -3,7 +3,7 @@ export let noSesh = {
   cancelled: false,
   days: [],
   messages: [
-    "Practices canceled due to Loopkicks Gathering",
+    "Practices canceled due to Rose City Gathering",
     "Enjoy the day off :-)",
   ],
 };
