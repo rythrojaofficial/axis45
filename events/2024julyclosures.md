@@ -1,9 +1,9 @@
-### Loopkicks Gathering Weekend:
+<!-- ~~### Loopkicks Gathering Weekend:~~
 
-- Thursday July 18: Foundations and Flipping as Normal
-- Friday July 19: Open Tricking 7-9 with Jeremy & Slava!
-- **Sunday July 21: Guided Flexibility & Open Breaking Canceled unless otherwise specified**
-- Monday July 22: Open Tricking as Normal
+- ~~Thursday July 18: Foundations and Flipping as Normal~~
+- ~~Friday July 19: Open Tricking 7-9 with Jeremy & Slava!~~
+- ~~**Sunday July 21: Guided Flexibility & Open Breaking Canceled unless otherwise specified**~~
+- ~~Monday July 22: Open Tricking as Normal~~ -->
 
 ### Rose City Gathering Weekend:
 

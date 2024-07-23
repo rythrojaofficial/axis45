@@ -137,14 +137,14 @@ switch (emergencyNews.active) {
 
 let closures = new NewsCard(
   "Upcoming Closures due to events!",
-  ["Loopkicks and RCG weeks"],
+  ["RCG3 this week!"],
   "./events/2024julyclosures.md"
 );
-let loopkicks24 = new NewsCard(
-  "Loopkicks 2024 Gathering fieldtrip!",
-  ["Jul 19-21, Santa Clara CA", "20th Anniversary!"],
-  "./events/2024loopkicks.md"
-);
+// let loopkicks24 = new NewsCard(
+//   "Loopkicks 2024 Gathering fieldtrip!",
+//   ["Jul 19-21, Santa Clara CA", "20th Anniversary!"],
+//   "./events/2024loopkicks.md"
+// );
 
 let rcg24 = new NewsCard(
   "Rose City Gathering 3 fieldtrip!",
