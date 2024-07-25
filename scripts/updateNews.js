@@ -1,4 +1,4 @@
-export let thisWednesdaySesh = true;
+export let thisWednesdaySesh = false;
 // is a wednesday sesh happening? has aj confirmed?
 // currentofferings.js will use this info
 
