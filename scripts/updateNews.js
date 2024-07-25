@@ -1,10 +1,5 @@
-export let thisWednesdaySesh = false;
-// is a wednesday sesh happening? has aj confirmed?
-// currentofferings.js will use this info
-
 import { HtmlElement, mdElement } from "./htmlElement.js";
 import { calculateNextFoundations } from "./calculateNextFoundation.js";
-import { populateTodaysSessions } from "./current-offerings.js";
 
 let utcdate = new Date();
 let today = {

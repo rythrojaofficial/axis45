@@ -15,3 +15,6 @@ export let emergencyNews = {
   messages: ["school", "rules"],
   md: "./events/emergencyNews.md",
 };
+
+// Wednesdays
+export let thisWednesdaySesh = false;
