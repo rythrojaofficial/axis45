@@ -9,5 +9,5 @@
 
 - Thursday July 25: Foundations and Flipping as Normal
 - **Friday July 26: Open Tricking Canceled unless otherwise specified**
-- Sunday July 28: Guided Flexibility & Open Breaking as normal with Slava
+- **Sunday July 28: Guided Flexibility & Open Breaking with Slava stretch starting at noon!**
 - Monday July 29: Open Tricking as Normal
