@@ -1,6 +1,6 @@
 // If today's session is canceled
 export let noSesh = {
-  cancelled: false,
+  cancelled: true,
   days: [],
   messages: [
     "Practices canceled due to Rose City Gathering",
