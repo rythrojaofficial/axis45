@@ -3,8 +3,8 @@ export let noSesh = {
   cancelled: true,
   days: [],
   messages: [
-    "normal Practice canceled due to Rose City Gathering",
-    "word on the street is slava might sesh 4-6ish, dm him to confirm tho",
+    "normal Practices canceled due to Rose City Gathering",
+    "slava planning on stretching Sunday 12noon",
   ],
 };
 
