@@ -130,22 +130,22 @@ switch (emergencyNews.active) {
     console.log("error emergencynews updatejs");
 }
 
-let closures = new NewsCard(
-  "Upcoming Closures due to events!",
-  ["RCG3 this week!"],
-  "./events/2024julyclosures.md"
-);
+// let closures = new NewsCard(
+//  "Upcoming Closures due to events!",
+//   ["RCG3 this week!"],
+//   "./events/2024julyclosures.md"
+// );
 // let loopkicks24 = new NewsCard(
 //   "Loopkicks 2024 Gathering fieldtrip!",
 //   ["Jul 19-21, Santa Clara CA", "20th Anniversary!"],
 //   "./events/2024loopkicks.md"
 // );
 
-let rcg24 = new NewsCard(
-  "Rose City Gathering 3 fieldtrip!",
-  ["Jul 26-28, Beaverton OR", "The Portland Homies main summer Gathering"],
-  "./events/2024rcg.md"
-);
+// let rcg24 = new NewsCard(
+ //  "Rose City Gathering 3 fieldtrip!",
+ //  ["Jul 26-28, Beaverton OR", "The Portland Homies main summer Gathering"],
+ //  "./events/2024rcg.md"
+// );
 
 let Foundations = new NewsCard(
   "Next 4-week Tricking Foundations Class",
