@@ -130,6 +130,11 @@ switch (emergencyNews.active) {
     console.log("error emergencynews updatejs");
 }
 
+let laborDay24 = new NewsCard(
+  "Labor Day Mini",
+  ["8/31, Axis 45"],
+  "./events/2024-laborday-mini.md"
+);
 // let closures = new NewsCard(
 //  "Upcoming Closures due to events!",
 //   ["RCG3 this week!"],
@@ -142,9 +147,9 @@ switch (emergencyNews.active) {
 // );
 
 // let rcg24 = new NewsCard(
- //  "Rose City Gathering 3 fieldtrip!",
- //  ["Jul 26-28, Beaverton OR", "The Portland Homies main summer Gathering"],
- //  "./events/2024rcg.md"
+//  "Rose City Gathering 3 fieldtrip!",
+//  ["Jul 26-28, Beaverton OR", "The Portland Homies main summer Gathering"],
+//  "./events/2024rcg.md"
 // );
 
 let Foundations = new NewsCard(
