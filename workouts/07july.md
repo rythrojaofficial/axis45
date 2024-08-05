@@ -1,6 +1,6 @@
 # July
 
-## Warm-Up
+## Warm-Up Muay Thai inspired
 
 1. Raiz Arm Swing
 1. Muay Thai block
