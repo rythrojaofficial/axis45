@@ -29,3 +29,40 @@
    1. seal needle R/L
 
 ## Exercise
+
+### Running Drills
+
+1. 1-2-3 knees
+1. A skip
+1. high knees
+1. alternating bounding
+1. hip jump sprint
+
+### Staggered Cones
+
+1. run
+1. shuffle
+1. pogo
+1. sl pogo R/L
+1. round chamber R/L
+
+### Explosive Circuit
+
+1. landmine jerk
+1. thruster
+1. SL hip thrust jump
+1. kneeling med ball reverse toss
+
+### Pulling/abs
+
+1. ice cream maker/L pullup
+1. rings row/lever row
+
+### Shoulders
+
+1. overhead shrug
+1. shrug
+1. lu raise
+1. lateral raise
+1. bent arm raise
+1. upright row
