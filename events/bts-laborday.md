@@ -1,7 +1,9 @@
 ### Judging
 
 get judges
-train judges
+
+- [ ] marshall?
+      train judges
 
 ### awards
 
@@ -12,6 +14,14 @@ medals (jon 3d print?)
 - paper bag
 - comp card
 - stickers (sky?)
+
+### competition cards
+
+- name
+- age
+- expected pass
+  - easier substitution
+  - harder stubstitution?
 
 ### front desk table
 
@@ -37,4 +47,14 @@ medals (jon 3d print?)
 ### merch?
 
 - ricky shirt reprint?
--
+
+### buy
+
+- [ ] paper towels (cashncarry)
+- [ ] water refill
+- [ ] ice
+- [ ] drinks (redbull)
+
+### dj slava
+
+- [ ] test out equipment

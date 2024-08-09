@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labor Day Mini</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <h1 class="title">Labor Day mini</h1>
+    <h2 class="subtitle">Not a Gathering (2)</h2>
+    <div class="container" id="mdWrapper">
+        
+    </div>
+</body>
+<script type="module" src="../scripts/headscript.js">
+</script>
+<script type="module">
+    import { mdConvert } from "../scripts/markdown-parse.js"
+
+    let htmlFromMd = mdConvert(
+    document.getElementById('mdWrapper'),
+    "./2024-laborday-mini.md")
+</script>
+</html>
