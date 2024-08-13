@@ -14,7 +14,7 @@
 
 _Target schedule subject to change_
 
-- **6:00pm** Doors Open
+- **6:15pm** Doors Open
 - **6:45pm** August Warm-Up
 - **7:00pm** Competitor meeting
 - **7:15pm** Competitor General Warm-up
@@ -29,21 +29,23 @@ _Not Battles_
 
 > **Single Pass: Minimum 3 tricks, No maximum**
 >
-> 2 attempts (if desired)
+> 1 warm up, 2 attempts (if desired)
 >
-> - must be same/similar pass, upgrade ok (may change category)
+> - must be same/similar pass, upgrades ok (may change category)
 > - only better pass counted
 >
 > Written on comp card
 >
 > - not strict, determines starting order by difficulty
 
-> **Categories**: Category placement is organized by expected difficulty
+> **Categories**: Placement will be organized by expected difficulty.
 >
-> 1. **A2**: Flipping:On Floor; 2TrickConnections: setup+FlippingOrTwistingTrick
-> 2. **A3**: Singletwisting; 2TrickConnections: 2 FlippingOrTwistingTricks
-> 3. **A4**: SingleTwistingSingleVariations; 0-1 Power Check
-> 4. **Open S+**: Power: roughly Dubs+; Skill: 2xVariatedSingles+; Connections: 1-1+
+> But don't stress about which you'll be in, just write down what you want to do and we'll put you in the right category 👍
+>
+> 1. **A2**: connections roughly include gumbi>backflip or cart>front OR basic twistingTrick (like btwist, raiz, arabian)
+> 2. **A3**: connections roughly include raiz>gainer, aerial>btwist OR mid-level flipping+TwistingTrick (like cork or cart full)
+> 3. **A4**: connections roughly include 0-1, btwist>vanish9 OR multiple singleTwistingVariations
+> 4. **Open S+**: connections roughly include 1-1+, OR 2xVariatedSingles, OR dubs+
 >
 > full breakdown [here](https://rythrojaofficial.github.io/curriculum/)
 
@@ -51,12 +53,6 @@ _Not Battles_
 >
 > - **A** Categories will have 1 winner in each category
 > - **S+** Category will have Top 3
->
-> Bonuses Awards:
->
-> - crowd favorite
-> - most icy
-> - most clutch
 
 > #### Volunteers Needed!
 >

@@ -132,8 +132,9 @@ switch (emergencyNews.active) {
 
 let laborDay24 = new NewsCard(
   "Labor Day Mini",
-  ["8/31, Axis 45"],
-  "./events/2024-laborday-mini.md"
+  ["8/31, Axis 45", "Click here for full page"],
+  "./events/2024-laborday-mini.md",
+  "./events/2024-laborday-mini.html"
 );
 // let closures = new NewsCard(
 //  "Upcoming Closures due to events!",
