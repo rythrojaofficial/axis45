@@ -1,4 +1,4 @@
-## This is Not a Gathering (2)
+## Not a Gathering (2)
 
 <!-- # Labor Day Mini -->
 
@@ -7,6 +7,8 @@
 > 🗓️ **Date**: Saturday, August 31
 >
 > 🎟️ **Ticketing Options**: [TBD](#)
+>
+> ❔**Frequently Asked Questions**: [Parking, Payment, Finding us, and other FAQ](../faq.html)
 
 ---
 
@@ -25,13 +27,12 @@ _Target schedule subject to change_
 
 #### Competition Format
 
-_Not Battles_
+_Not a Battles_
 
 > **Single Pass: Minimum 3 tricks, No maximum**
 >
 > 1 warm up, 2 attempts (if desired)
 >
-> - must be same/similar pass, upgrades ok (may change category)
 > - only better pass counted
 >
 > Written on comp card
@@ -42,12 +43,12 @@ _Not Battles_
 >
 > But don't stress about which you'll be in, just write down what you want to do and we'll put you in the right category 👍
 >
-> 1. **A2**: connections roughly include gumbi>backflip or cart>front OR basic twistingTrick (like btwist, raiz, arabian)
-> 2. **A3**: connections roughly include raiz>gainer, aerial>btwist OR mid-level flipping+TwistingTrick (like cork or cart full)
-> 3. **A4**: connections roughly include 0-1, btwist>vanish9 OR multiple singleTwistingVariations
-> 4. **Open S+**: connections roughly include 1-1+, OR 2xVariatedSingles, OR dubs+
+> 1. **A2**: Pass centered around 1-2 basic flippingOrTwistingTricks or many basic non-flippingOrTwistingTricks
+> 2. **A3**: Pass includes 1-2 intermediate flippingOrTwistingTricks/variations/connections or many basic flippingOrTwistingTricks
+> 3. **A4**: Pass includes 1-2 advanced flippingOrSingleTwistingTricks/variations/connections or many intermediate flippingOrTwistingTricks
+> 4. **Open S+**: Pass includes everything else: tricks that are roughly dubs+, multiple swings, 3x variations (or more), intricate landingStanceModification, etc
 >
-> full breakdown [here](https://rythrojaofficial.github.io/curriculum/)
+> detailed breakdown [here](https://rythrojaofficial.github.io/curriculum/)
 
 > **Awards**
 >

@@ -14,7 +14,7 @@ export function nextFoundationsDate() {
   let nextFoundations;
 
   let manualFoundations = {
-    date: "8/8",
+    date: "",
     message: "due to 4th of july 🇺🇸 pushing back things 1 week :)",
   };
 
