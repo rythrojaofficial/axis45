@@ -2,26 +2,36 @@
 
 get judges
 
-- [ ] marshall?
-      train judges
+- ~~[ ] marshall?~~
+  train judges
 
 ### awards
 
-medals (jon 3d print?)
+- [ ] medals (jon 3d print?)
+  - contacted
 
 ### welcome packet
 
 - paper bag
 - comp card
-- stickers (sky?)
+- stickers (sky? alex?)
 
 ### competition cards
+
+They fill
 
 - name
 - age
 - expected pass
-  - easier substitution
-  - harder stubstitution?
+
+Judge fills:
+DELTA
+
+1. Difficulty
+2. Execution
+3. Landing
+4. Transitions
+5. Artistry
 
 ### front desk table
 
@@ -51,10 +61,21 @@ medals (jon 3d print?)
 ### buy
 
 - [ ] paper towels (cashncarry)
-- [ ] water refill
-- [ ] ice
-- [ ] drinks (redbull)
+- [ ] water refill winco
+- [ ] ice winco?
+- [ ] drinks
+  - redbull (costco)
+  - gatorade (costco)
 
 ### dj slava
 
 - [ ] test out equipment
+
+### Food
+
+2 more half pans with lid?
+.5lb/ person for meat, 5ish oz for veg
+
+- [ ] 10-15lbs kalua
+- [ ] 15-20 baked potatoes
+- [ ] 8-10 lbs cauliflour

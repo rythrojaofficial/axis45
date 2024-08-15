@@ -6,7 +6,7 @@
 >
 > 🗓️ **Date**: Saturday, August 31
 >
-> 🎟️ **Ticketing Options**: [TBD](#)
+> 🎟️ **Ticketing Options**: $30(Non-member) / $20(Member) / free:[volunteers](#volunteers-needed)
 >
 > ❔**Frequently Asked Questions**: [Parking, Payment, Finding us, and other FAQ](../faq.html)
 
@@ -41,7 +41,7 @@ _Not a Battles_
 
 > **Categories**: Placement will be organized by expected difficulty.
 >
-> But don't stress about which you'll be in, just write down what you want to do and we'll put you in the right category 👍
+> Just write down roughly what you plan to do and we'll put you in the right category 👍
 >
 > 1. **A2**: Pass centered around 1-2 basic flippingOrTwistingTricks or many basic non-flippingOrTwistingTricks
 > 2. **A3**: Pass includes 1-2 intermediate flippingOrTwistingTricks/variations/connections or many basic flippingOrTwistingTricks
@@ -59,8 +59,8 @@ _Not a Battles_
 >
 > _Please put in the discord or DM @seattletricking on instagram if interested :)_
 >
-> - Front desk (2)
-> - DJ (1)
-> - Photo/video (3)
-> - MC (1)
-> - Judges (3)
+> - Front desk (1/2)
+> - [x] ~~DJ (1/1)~~
+> - Photo/video (0/3)
+> - MC (0/1)
+> - Judges (1/3)
