@@ -6,7 +6,7 @@
 >
 > 🗓️ **Date**: Saturday, August 31
 >
-> 🎟️ **Ticketing Options**: $30(Non-member) / $20(Member) / free:[volunteers](#volunteers-needed)
+> 🎟️ **Ticketing Options**: \$30(Non-member) / $20(Member) / free:[volunteers](#volunteers-needed)
 >
 > ❔**Frequently Asked Questions**: [Parking, Payment, Finding us, and other FAQ](../faq.html)
 
@@ -22,6 +22,7 @@ _Target schedule subject to change_
 - **7:15pm** Competitor General Warm-up
 - **7:30pm** Competitor heats/awards
 - **8:15pm** Open Tricking
+- **11:00pm** Food
 
 ---
 
@@ -46,7 +47,7 @@ _Not a Battles_
 > 1. **A2**: Pass centered around 1-2 basic flippingOrTwistingTricks or many basic non-flippingOrTwistingTricks
 > 2. **A3**: Pass includes 1-2 intermediate flippingOrTwistingTricks/variations/connections or many basic flippingOrTwistingTricks
 > 3. **A4**: Pass includes 1-2 advanced flippingOrSingleTwistingTricks/variations/connections or many intermediate flippingOrTwistingTricks
-> 4. **Open S+**: Pass includes everything else: tricks that are roughly dubs+, multiple swings, 3x variations (or more), intricate landingStanceModification, etc
+> 4. **Open S+**: Pass includes everything else: tricks that are roughly dubs+, multiple swings, 3xVariatedTricks, intricate landingStanceModification, etc
 >
 > detailed breakdown [here](https://rythrojaofficial.github.io/curriculum/)
 

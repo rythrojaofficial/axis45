@@ -4,6 +4,19 @@ get judges
 
 - ~~[ ] marshall?~~
   train judges
+- potential judges
+
+  - scott
+  - jon
+  - jeremy
+  - aj
+
+- A ranks ONLY rank order
+  - only best in each flight
+  - if multiple flights of same category, compare the best in each flight
+- S+ only rank order
+  - top 3 in each flight
+  - from there, compare top 3s and select top 3 of those
 
 ### awards
 
@@ -12,26 +25,43 @@ get judges
 
 ### welcome packet
 
-- paper bag
 - comp card
 - stickers (sky? alex?)
 
 ### competition cards
 
-They fill
+**We fill**
 
 - name
-- age
+
+**They fill**
+
 - expected pass
 
+**Jared fills**
+
+- Category
+
 Judge fills:
-DELTA
+Only Rank Order
+
+Things to look for:
 
 1. Difficulty
 2. Execution
 3. Landing
 4. Transitions
 5. Artistry
+
+## Procedure
+
+### Flights
+
+- not more than 8 in a flight, preferably by category
+- if more than 8, split in 2 (A3f1,2, etc)
+-
+
+###
 
 ### front desk table
 
@@ -47,7 +77,7 @@ DELTA
     - tally all
     - if no, charge now
     - if yes charge later, "i'll check in later if it doesn't work!"
-      - monthly member $20, nonmember $30
+      - monthly member \$20, non-member $30
 
   - waiver on the wall
   - please use the cubby area
@@ -60,6 +90,7 @@ DELTA
 
 ### buy
 
+- [ ] chalk (for driveway)
 - [ ] paper towels (cashncarry)
 - [ ] water refill winco
 - [ ] ice winco?
