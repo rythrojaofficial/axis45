@@ -1,10 +1,11 @@
-// If today's session is canceled
+// If today's session is canceled or otherwise changed
 export let noSesh = {
   cancelled: false,
   days: [],
   messages: [
-    "normal Practices canceled due to Rose City Gathering",
-    "slava planning on stretching Sunday 12noon",
+    "Jared & Krissy are attending an afternoon wedding!",
+    "Sunday stretch starts 11am,",
+    "Sunday breaking is canceled!  Enjoy the rest of your Sunday!",
   ],
 };
 

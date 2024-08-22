@@ -110,3 +110,8 @@ Things to look for:
 - [ ] 10-15lbs kalua
 - [ ] 15-20 baked potatoes
 - [ ] 8-10 lbs cauliflour
+
+### gina station
+
+- confirm with gina
+- make sure gina has space
