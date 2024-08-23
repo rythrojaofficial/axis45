@@ -132,7 +132,7 @@ switch (emergencyNews.active) {
 
 let jerWeddingDay = new NewsCard("Sunday 8/25 Reminder!", [
   "Jared & Krissy are attending an afternoon wedding!",
-  "Sunday stretch to start 11am,",
+  "Sunday stretch to start 10:45am,",
   "Sunday Breaking will be canceled",
   "Enjoy the rest of your Sunday :-)",
 ]);
