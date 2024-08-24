@@ -138,13 +138,8 @@ let jerWeddingDay = new NewsCard("Sunday 8/25 Reminder!", [
 ]);
 
 let laborDay24 = new NewsCard(
-  "Labor Day Mini",
-  [
-    "Saturday[8/31]",
-    "Single Pass comp,",
-    "Open Tricking, & More!",
-    "Click here for full page",
-  ],
+  "[Sat/8.31] Labor Day Mini: Not a Gathering (2)",
+  ["Click here for full page", "Single Pass comp,", "Open Tricking, & More!"],
   "./events/2024-laborday-mini.md",
   "./events/2024-laborday-mini.html"
 );
@@ -169,7 +164,7 @@ let Foundations = new NewsCard(
   "Next 4-week Tricking Foundations Class",
   [
     `Beginning Thursday ${nextFoundationsDate()}`,
-    "full info and registration here!",
+    "click for full info and registration!",
   ],
   "",
   "https://www.seattletricking.com/tricking-foundations"

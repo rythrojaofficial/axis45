@@ -4,7 +4,7 @@ export let noSesh = {
   days: [],
   messages: [
     "Jared & Krissy are attending an afternoon wedding!",
-    "Sunday stretch starts 11am,",
+    "Sunday stretch starts 10:45am,",
     "Sunday breaking is canceled!  Enjoy the rest of your Sunday!",
   ],
 };

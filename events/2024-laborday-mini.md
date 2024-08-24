@@ -8,6 +8,10 @@
 >
 > 🎟️ **Ticketing Options**: \$30(Non-member) / $20(Member) / free(volunteers)
 >
+> 🥔 **Food**: Misc snacks, sports drinks for sale / $5 meal ticket (🐖🥔🥦)
+>
+> 🛖 **Accomodations**: Gym sleepover available (bring sleeping pad, bag, pillow, blankie)
+>
 > ❔**Frequently Asked Questions**: [Parking, Payment, Finding us, and other FAQ](../faq.html)
 
 ---
@@ -42,11 +46,11 @@ _Not a Battles_
 
 > **Categories**: Placement will be organized by expected difficulty.
 >
-> Just write down roughly what you plan to do and we'll put you in the right category 👍
+> Just write down the main elements of your combo and we'll put you in the right category 👍 _eg: end with cart front_
 >
-> 1. **A2**: Pass centered around 1-2 basic flipping/Twisting Tricks or many basic non-flipping/Twisting Tricks
-> 2. **A3**: Pass includes 1-2 intermediate flipping/Twisting Tricks, variations, connections or many basic flippingOrTwistingTricks
-> 3. **A4**: Pass includes 1-2 advanced flipping/ SingleTwisting Tricks, variations, connections or many intermediate flipping/Twisting Tricks
+> 1. **A2**: 1-2 basic flipping/Twisting Tricks or _many basic non-flipping/Twisting Tricks_
+> 2. **A3**: 1-2 intermediate flipping/Twisting Tricks, variations, connections or _many basic flippingOrTwistingTricks_
+> 3. **A4**: 1-2 advanced flipping / SingleTwisting Tricks, variations, connections or _many intermediate flipping/Twisting Tricks_
 > 4. **Open S+**: Pass includes everything else: tricks that are roughly dubs+, multiple swings, 3xVariatedTricks, intricate landingStance Modification, etc
 >
 > detailed breakdown [here](https://rythrojaofficial.github.io/curriculum/)
@@ -56,12 +60,16 @@ _Not a Battles_
 > - **A** Categories will have 1 winner in each category
 > - **S+** Category will have Top 3
 
+> **Sideline Coverage**
+>
+> Empower Manual Therapy is back to make sure everyone is safe and healthy. Make sure to stop by Dr. Gina's table for any questions, concerns, taping, or otherwise!
+
 > #### Volunteers Needed!
 >
 > _Please put in the discord or DM @seattletricking on instagram if interested :)_
 >
 > - Front desk (1/2)
 > - [x] ~~DJ (1/1)~~
-> - Photo/video (1/3)
-> - MC (0/1)
-> - Judges (1/3)
+> - Photo/video (2/3)
+> - MC (1/1)
+> - Judges (2/3)
