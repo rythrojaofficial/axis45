@@ -10,7 +10,7 @@
 >
 > 🥔 **Food**: Misc snacks, sports drinks for sale / $5 meal ticket (🐖🥔🥦)
 >
-> 🛖 **Accomodations**: Gym sleepover available (bring sleeping pad, bag, pillow, blankie)
+> 🛖 **Accomodations**: Gym sleepover available (bring sleeping pad, bag, pillow, blanket)
 >
 > ❔**Frequently Asked Questions**: [Parking, Payment, Finding us, and other FAQ](../faq.html)
 
