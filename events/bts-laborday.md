@@ -6,10 +6,10 @@ get judges
   train judges
 - potential judges
 
-  - scott
-  - jon
-  - jeremy
-  - aj
+  - ~scott~
+  - [x] jon
+  - [x] jeremy
+  - [x] andrew
 
 - A ranks ONLY rank order
   - only best in each flight
@@ -91,12 +91,12 @@ Things to look for:
 ### buy
 
 - [ ] chalk (for driveway)
-- [ ] paper towels (cashncarry)
+- [x] paper towels (cashncarry)
 - [ ] water refill winco
 - [ ] ice winco?
 - [ ] drinks
   - redbull (costco)
-  - gatorade (costco)
+  - [x] gatorade (costco)
 
 ### dj slava
 
@@ -107,9 +107,9 @@ Things to look for:
 2 more half pans with lid?
 .5lb/ person for meat, 5ish oz for veg
 
-- [ ] 10-15lbs kalua
+- [ ] 10-15lbs kalua, liquid smoke
 - [ ] 15-20 baked potatoes
-- [ ] 8-10 lbs cauliflour
+- [ ] 8-10 lbs cauliflower
 
 ### gina station
 
