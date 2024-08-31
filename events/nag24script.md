@@ -19,4 +19,4 @@
    - venmo
 1. info
    - please use the cubbies along the wall,
-   - bathroom is in the far corner,
+   - bathroom is in the far corner,follow the blue arrows along the grey mats
