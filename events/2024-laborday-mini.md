@@ -46,7 +46,7 @@ _Not a Battles_
 
 > **Categories**: Placement will be organized by expected difficulty.
 >
-> Just write down the main elements of your combo and we'll put you in the right category 👍 _eg: end with cart front_
+> Just write down the main elements of your combo and we'll put you in the right category 👍 _eg: btwist and end with cart front -> A3_
 >
 > 1. **A2**: 1-2 basic flipping/Twisting Tricks or _many basic non-flipping/Twisting Tricks_
 > 2. **A3**: 1-2 intermediate flipping/Twisting Tricks, variations, connections or _many basic flippingOrTwistingTricks_
@@ -68,8 +68,8 @@ _Not a Battles_
 >
 > _Please put in the discord or DM @seattletricking on instagram if interested :)_
 >
-> - Front desk (1/2)
+> - [x] ~~Front desk (2/2)~~
 > - [x] ~~DJ (1/1)~~
 > - Photo/video (2/3)
-> - MC (1/1)
-> - Judges (2/3)
+> - [x] MC (1/1)
+> - [x] ~~Judges (3/3)~~

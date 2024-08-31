@@ -130,12 +130,12 @@ switch (emergencyNews.active) {
     console.log("error emergencynews updatejs");
 }
 
-let jerWeddingDay = new NewsCard("Sunday 8/25 Reminder!", [
-  "Jared & Krissy are attending an afternoon wedding!",
-  "Sunday stretch to start 10:45am,",
-  "Sunday Breaking will be canceled",
-  "Enjoy the rest of your Sunday :-)",
-]);
+// let jerWeddingDay = new NewsCard("Sunday 8/25 Reminder!", [
+//   "Jared & Krissy are attending an afternoon wedding!",
+//   "Sunday stretch to start 10:45am,",
+//   "Sunday Breaking will be canceled",
+//   "Enjoy the rest of your Sunday :-)",
+// ]);
 
 let laborDay24 = new NewsCard(
   "[Sat/8.31] Labor Day Mini: Not a Gathering (2)",
