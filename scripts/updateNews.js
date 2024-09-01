@@ -137,12 +137,13 @@ switch (emergencyNews.active) {
 //   "Enjoy the rest of your Sunday :-)",
 // ]);
 
-let laborDay24 = new NewsCard(
-  "[Sat/8.31] Labor Day Mini: Not a Gathering (2)",
-  ["Click here for full page", "Single Pass comp,", "Open Tricking, & More!"],
-  "./events/2024-laborday-mini.md",
-  "./events/2024-laborday-mini.html"
-);
+// let laborDay24 = new NewsCard(
+//  "[Sat/8.31] Labor Day Mini: Not a Gathering (2)",
+//  ["Click here for full page", "Single Pass comp,", "Open Tricking, & More!"],
+ // "./events/2024-laborday-mini.md",
+ // "./events/2024-laborday-mini.html"
+// );
+
 // let closures = new NewsCard(
 //  "Upcoming Closures due to events!",
 //   ["RCG3 this week!"],
