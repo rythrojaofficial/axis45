@@ -1,6 +1,6 @@
 // If today's session is canceled or otherwise changed
 export let noSesh = {
-  cancelled: true,
+  cancelled: false,
   days: [],
   messages: [
     "Not a Gathering Activities are today! see below for details",
