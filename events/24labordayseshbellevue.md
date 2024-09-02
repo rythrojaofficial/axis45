@@ -1,5 +1,7 @@
 ### Axis 45 is closed on Labor Day!
 
+*weather permitting*
+
 **Join us outside for:**
 
 - _grass sesh_ at [Bellevue Downton Park](https://maps.app.goo.gl/wJKziX58XFnxdJku5) **3:30pm**
