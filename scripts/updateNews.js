@@ -130,6 +130,11 @@ switch (emergencyNews.active) {
     console.log("error emergencynews updatejs");
 }
 
+let labordayMondaySesh = new NewsCard(
+  "Labor Day Grass Sesh!",
+  ["9.2/Mon/3:30pm", "Bellevue Downtown Park"],
+  "./events/24labordayseshbellevue.md"
+);
 // let jerWeddingDay = new NewsCard("Sunday 8/25 Reminder!", [
 //   "Jared & Krissy are attending an afternoon wedding!",
 //   "Sunday stretch to start 10:45am,",
@@ -140,8 +145,8 @@ switch (emergencyNews.active) {
 // let laborDay24 = new NewsCard(
 //  "[Sat/8.31] Labor Day Mini: Not a Gathering (2)",
 //  ["Click here for full page", "Single Pass comp,", "Open Tricking, & More!"],
- // "./events/2024-laborday-mini.md",
- // "./events/2024-laborday-mini.html"
+// "./events/2024-laborday-mini.md",
+// "./events/2024-laborday-mini.html"
 // );
 
 // let closures = new NewsCard(

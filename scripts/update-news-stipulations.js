@@ -1,10 +1,11 @@
 // If today's session is canceled or otherwise changed
 export let noSesh = {
-  cancelled: false,
+  cancelled: true,
   days: [],
   messages: [
-    "Not a Gathering Activities are today! see below for details",
-    "be weary of PAX traffic!",
+    "Axis 45 is closed on Labor Day!",
+    "Join us outside for a grass sesh",
+    "at Bellevue Downton Park 3:30pm!",
   ],
 };
 
