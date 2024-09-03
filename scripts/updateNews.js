@@ -130,11 +130,11 @@ switch (emergencyNews.active) {
     console.log("error emergencynews updatejs");
 }
 
-let labordayMondaySesh = new NewsCard(
-  "Labor Day Grass Sesh!",
-  ["9.2/Mon/3:30pm", "Bellevue Downtown Park"],
-  "./events/24labordayseshbellevue.md"
-);
+// let labordayMondaySesh = new NewsCard(
+//   "Labor Day Grass Sesh!",
+//   ["9.2/Mon/3:30pm", "Bellevue Downtown Park"],
+//   "./events/24labordayseshbellevue.md"
+// );
 // let jerWeddingDay = new NewsCard("Sunday 8/25 Reminder!", [
 //   "Jared & Krissy are attending an afternoon wedding!",
 //   "Sunday stretch to start 10:45am,",
