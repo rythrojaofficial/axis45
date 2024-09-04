@@ -36,7 +36,6 @@
 1. A skip
 1. high knees
 1. alternating bounding
-1. hip jump sprint
 
 ### Staggered Cones
 
