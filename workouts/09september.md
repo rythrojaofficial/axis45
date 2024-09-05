@@ -11,11 +11,12 @@
    - X L/R
    - bounce bounce stick
 1. SL hop hop stick L/R
-1. SA rotation F/B
+1. SA rotation x 2 F/B
+1. biased in2out2
 1. scap press
-1. tricep shoulder
+1. tricep shoulder + swing
 1. michael phelps
-1. side reach hips up/down
+1. side reach circle hips up + down
 1. standing ankle
    - balance + pump, circle
 1. hip figure 8
