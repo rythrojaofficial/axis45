@@ -71,5 +71,5 @@ _Not a Battles_
 > - [x] ~~Front desk (2/2)~~
 > - [x] ~~DJ (1/1)~~
 > - Photo/video (2/3)
-> - [x] MC (1/1)
+> - [x] ~~MC (1/1)~~
 > - [x] ~~Judges (3/3)~~

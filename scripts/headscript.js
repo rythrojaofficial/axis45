@@ -50,11 +50,11 @@ const navCurrent = new NavText(
   "current-offerings-link",
   "https://www.seattletricking.com/current-offerings"
 );
-const navUpcoming = new NavText(
-  "upcoming events",
-  "upcoming-link",
-  "https://www.seattletricking.com/upcoming"
-);
+// const navUpcoming = new NavText(
+//   "upcoming events",
+//   "upcoming-link",
+//   "https://www.seattletricking.com/upcoming"
+// );
 const navMemberships = new NavText(
   "memberships",
   "memberships-link",
@@ -81,6 +81,11 @@ const navInsta = new NavIcon(
   "insta-nav",
   "https://www.instagram.com/seattletricking"
 );
+const navDiscord = new NavIcon(
+  "logo-discord",
+  "discord-nav",
+  "https://discord.gg/82gjcDyY4U"
+);
 const navFb = new NavIcon(
   "logo-facebook",
   "facebook-nav",
@@ -91,6 +96,7 @@ const navYoutube = new NavIcon(
   "youtube-nav",
   "https://www.youtube.com/@mercenarytricking2852/videos"
 );
+
 const navVenmo = new NavIcon(
   "logo-venmo",
   "venmo-nav",
