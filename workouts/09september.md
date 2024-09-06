@@ -14,8 +14,8 @@
 1. SA rotation x 2 F/B
 1. biased in2out2
 1. scap press
+1. T-shrug
 1. tricep shoulder + swing
-1. michael phelps
 1. side reach circle hips up + down
 1. standing ankle
    - balance + pump, circle
