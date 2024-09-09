@@ -130,11 +130,11 @@ switch (emergencyNews.active) {
     console.log("error emergencynews updatejs");
 }
 
-let ggbeach24 = new NewsCard(
-  "Golden Gardens Beach Day!",
-  ["9.7/Sat/4pm", "Golden Gardens Beach Park"],
-  "./events/24ggbeachday.md"
-);
+// let ggbeach24 = new NewsCard(
+//  "Golden Gardens Beach Day!",
+//  ["9.7/Sat/4pm", "Golden Gardens Beach Park"],
+//  "./events/24ggbeachday.md"
+// );
 // let labordayMondaySesh = new NewsCard(
 //   "Labor Day Grass Sesh!",
 //   ["9.2/Mon/3:30pm", "Bellevue Downtown Park"],
