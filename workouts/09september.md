@@ -3,25 +3,23 @@
 ## Warm up
 
 ### plyo warm up
-
-1. alternating L/R
-1. double leg
-   - s/s
-   - f/b
-   - X L/R
-   - bounce bounce stick
-1. SL hop hop stick L/R
+1. split plyo L/R
+1. Dl s/s, f/b, X,
+1. 2bounce stick, DL/L/R
+### upper
 1. SA rotation x 2 F/B
 1. biased in2out2
 1. scap press
 1. T-shrug
 1. tricep shoulder + swing
-1. side reach circle hips up + down
+1. side reach hips down, hips up
+### Standing lower
 1. standing ankle
    - balance + pump, circle
 1. hip figure 8
 1. sumo hip opener
 1. needle kick, hamstring bias
+### floor
 1. prone calf pump
 1. shoulder plank lift
 1. lunge to pigeon
@@ -37,19 +35,14 @@
 1. 2x build ups
 1. 3x kneeling jump, bounce, sprint
 
-### jumping
-
-1. bounce bounce tuck bounce
-
 ### Landing Drills
 
 1. AT Stick 1x each
    - /o<^1/2,2/2, front tuck
    - /o<^ 1/2, 2/2, back tuck
-1. Bench jumping
+1. Bench Jumps
    - Depth drop
      - DL, SL
-   - SL jump stick
    - SL alternating jump stick
    - SL stick over DL
    - RFE 3 jump stick
@@ -59,13 +52,13 @@
 1. RDL
 1. pull up
 1. front squat
-1. dip
+1. push up
 
 ### iso
 
 1. kickstand sissy
-1. kickstand calf
+1. releve/kickstand calf
 1. SL Tib
    - straight, inversion, eversion
-1. plate loaded invert planche
-1. hamstring + shin lift
+1. pseudo planche
+1. hamstring
