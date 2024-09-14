@@ -1,4 +1,6 @@
-> ### Invite link: https://discord.com/invite/82gjcDyY4U
+> ### Invite link:
+>
+> #### https://discord.com/invite/82gjcDyY4U
 >
 > Or Nav Discord icon from any seattletricking.com webpage: [<ion-icon size="large" name="logo-discord"></ion-icon>](https://discord.com/invite/82gjcDyY4U)
 
