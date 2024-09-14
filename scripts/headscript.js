@@ -75,6 +75,11 @@ const navContact = new NavText(
   "contact-link",
   "https://www.seattletricking.com/contact"
 );
+const navCommunity = new NavText(
+  "Community",
+  "community-link",
+  "https://www.seattletricking.com/discord"
+);
 //nav icon links
 const navInsta = new NavIcon(
   "logo-instagram",
