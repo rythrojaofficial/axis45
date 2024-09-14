@@ -215,6 +215,7 @@ import { populateTodaysSessions } from "./current-offerings.js";
 // load certian things by page
 import { createOfferingsMDFrames } from "./current-offerings.js";
 import { populateContactForm } from "../forms/contact/contact.js";
+import { mdConvert } from "./markdown-parse.js";
 let h1Title = document.querySelector("h1.title");
 switch (h1Title.textContent) {
   case "AXIS 45":
@@ -224,6 +225,9 @@ switch (h1Title.textContent) {
     break;
   case "Contact":
     populateContactForm();
+    break;
+  case "Seattle Tricking Discord":
+    mdConvert(document.getElementById("discord-page"), "./events/discord.md");
     break;
   default:
     break;
