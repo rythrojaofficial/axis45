@@ -14,11 +14,6 @@ By [default](#enable-chats), you will get all chat notifications.
 
 Navigate below to fine tune your notification settings!
 
-1. 🙅 No Notifications: Mute Server
-2. Mute certain Channels or Categories as you go
-3. 📢 Updates Only with Option for Chat Notifications
-4. Enable Chats : Default + Option to Mute ahead of time
-
 <blockquote>
 
 ### 🙅 No Notifications: Mute Server
@@ -44,7 +39,8 @@ _if a chat is blowing up that you don't need to be part of at the moment, OR if 
 1. Once in our server, long tap (or right click) a category or channel you don't want to get notifications for
 1. tap the **mute bell**
 1. if it's just for 15m, an hour, etc, tap your option
-1. if you never want those notifications, tap **Until I turn it back on**
+
+if you never want those notifications, tap **Until I turn it back on**
 
 </blockquote>
 <blockquote>

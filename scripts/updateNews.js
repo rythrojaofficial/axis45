@@ -138,10 +138,22 @@ let concreteParking24 = new NewsCard(
     "We will be open, but parking may be impacted!",
   ]
 );
+
+let discordAnnouncement24 = new NewsCard(
+  "Seattle Tricking Discord is Live!",
+  [
+    "Get notified of updates, announcements, and more!",
+    "click here for the full details!",
+    "seattletricking.com/discord",
+  ],
+  "./events/discord.md",
+  "./discord.html"
+);
 // let ggbeach24 = new NewsCard(
 //  "Golden Gardens Beach Day!",
 //  ["9.7/Sat/4pm", "Golden Gardens Beach Park"],
 //  "./events/24ggbeachday.md"
+
 // );
 // let labordayMondaySesh = new NewsCard(
 //   "Labor Day Grass Sesh!",
