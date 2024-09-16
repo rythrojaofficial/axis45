@@ -14,9 +14,10 @@ By [default](#enable-chats), you will get all chat notifications.
 
 Navigate below to fine tune your notification settings!
 
-| [🙅 No Notifications: Mute Server](#🙅-no-notifications-mute-server)                      | [🙆 Enable All Chats](#enable-chats)   |
-| ----------------------------------------------------------------------------------------- | -------------------------------------- |
-| [Enable Certain Chats or Categories](#updates-and-certain-chats-only-mentions--overrides) | [Muting Certain Chats or Categories]() |
+1. 🙅 No Notifications: Mute Server
+2. Mute certain Channels or Categories as you go
+3. 📢 Updates Only with Option for Chat Notifications
+4. Enable Chats : Default + Option to Mute ahead of time
 
 <blockquote>
 
@@ -36,7 +37,7 @@ You can always check updates and public chats, you just won't get any push notif
 </blockquote>
 <blockquote>
 
-### Muting certain Channels or Categories
+### Mute certain Channels or Categories
 
 _if a chat is blowing up that you don't need to be part of at the moment, OR if you know you don't want to be part of a channel or category_
 
@@ -48,7 +49,7 @@ _if a chat is blowing up that you don't need to be part of at the moment, OR if 
 </blockquote>
 <blockquote>
 
-### 📢 Strictly Updates
+### 📢 Updates Only with Option for Chat Notifications
 
 _if you only want important @mentions updates and news regarding closures, rescheduling, event announcements, etc._
 
@@ -66,7 +67,7 @@ _Optionally add overrides if you want notifications for only a couple chats, say
 </blockquote>
 <blockquote>
 
-### Enable Chats : Default
+### Enable Chats : Default + Option to Mute
 
 _if you want part of most chats, with the option to mute here and there as you go. No action needed, this comes preloaded_
 
