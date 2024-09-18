@@ -1,8 +1,21 @@
-> ### Invite link:
+You can easily stay up to date on what's happening through our [homepage](www.seattletricking.com) or our [instagram](https://www.instagram.com/seattletricking/)
+
+#### So why join our Discord?
+
+- **Notifications**
+  - Never miss an update for meet-ups, events, news, or closures due to not checking the website or instagram.
+- **Chats**
+  1.  Be part of the community on your usual Axis days.
+      - Whether you're part of the Thursday Tribe, Sunday Squad, Tuesday Crew, or an Open session guy/gal, stay in the know!
+  2.  Be part of the general Seattle Tricking Community.
+      - Every day at Axis is like it's own ecosystem, but we're all Seattle Tricklers\*!
+      - We also do things outside of gym and even tricking 😉
+
+###### \*Tricklers is an inside joke: ESPN once broadcasted the Adrenaline games as Martial Arts Trickling on live TV
+
+> ### [<ion-icon  name="logo-discord"></ion-icon>](https://discord.com/invite/82gjcDyY4U) Invite link:
 >
 > #### https://discord.com/invite/82gjcDyY4U
->
-> Or Nav Discord icon from any seattletricking.com webpage: [<ion-icon size="large" name="logo-discord"></ion-icon>](https://discord.com/invite/82gjcDyY4U)
 
 ---
 

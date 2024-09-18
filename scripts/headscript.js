@@ -75,11 +75,11 @@ const navContact = new NavText(
   "contact-link",
   "https://www.seattletricking.com/contact"
 );
-const navCommunity = new NavText(
-  "Community",
-  "community-link",
-  "https://www.seattletricking.com/discord"
-);
+// const navCommunity = new NavText(
+//   "Community",
+//   "community-link",
+//   "https://www.seattletricking.com/discord"
+// );
 //nav icon links
 const navInsta = new NavIcon(
   "logo-instagram",
@@ -89,13 +89,13 @@ const navInsta = new NavIcon(
 const navDiscord = new NavIcon(
   "logo-discord",
   "discord-nav",
-  "https://discord.gg/82gjcDyY4U"
+  "https://www.seattletricking.com/discord"
 );
-const navFb = new NavIcon(
-  "logo-facebook",
-  "facebook-nav",
-  "https://www.facebook.com/groups/432112633636377"
-);
+// const navFb = new NavIcon(
+//   "logo-facebook",
+//   "facebook-nav",
+//   "https://www.facebook.com/groups/432112633636377"
+// );
 const navYoutube = new NavIcon(
   "logo-youtube",
   "youtube-nav",
