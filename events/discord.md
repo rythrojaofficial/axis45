@@ -8,7 +8,7 @@ You can easily stay up to date on what's happening through our [homepage](www.se
   1.  Be part of the community on your usual Axis days.
       - Whether you're part of the Thursday Tribe, Sunday Squad, Tuesday Crew, or an Open session guy/gal, stay in the know!
   2.  Be part of the general Seattle Tricking Community.
-      - Every day at Axis is like it's own ecosystem, but we're all Seattle Tricklers\*!
+      - Every day at Axis is it's own ecosystem, but we're all Seattle Tricklers\*!
       - We also do things outside of gym and even tricking 😉
 
 ###### \*Tricklers is an inside joke: ESPN once broadcasted the Adrenaline games as Martial Arts Trickling on live TV
