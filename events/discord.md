@@ -2,7 +2,7 @@
 >
 > #### https://discord.com/invite/82gjcDyY4U
 
-You can easily stay up to date on what's happening through our [homepage](www.seattletricking.com) or our [instagram](https://www.instagram.com/seattletricking/)
+You can easily stay up to date on what's happening through our [homepage](https://www.seattletricking.com) or our [instagram](https://www.instagram.com/seattletricking/)
 
 #### So why join our Discord?
 
