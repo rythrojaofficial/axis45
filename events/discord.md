@@ -1,4 +1,8 @@
-You can easily stay up to date on what's happening through our [homepage](www.seattletricking.com) or our [instagram](https://www.instagram.com/seattletricking/)
+> ### [<ion-icon  name="logo-discord"></ion-icon>](https://discord.com/invite/82gjcDyY4U) Invite link:
+>
+> #### https://discord.com/invite/82gjcDyY4U
+
+You can easily stay up to date on what's happening through our [homepage](https://www.seattletricking.com) or our [instagram](https://www.instagram.com/seattletricking/)
 
 #### So why join our Discord?
 
@@ -12,11 +16,6 @@ You can easily stay up to date on what's happening through our [homepage](www.se
       - We also do things outside of gym and even tricking 😉
 
 ###### \*Tricklers is an inside joke: ESPN once broadcasted the Adrenaline games as Martial Arts Trickling on live TV
-
-> ### [<ion-icon  name="logo-discord"></ion-icon>](https://discord.com/invite/82gjcDyY4U) Invite link:
->
-> #### https://discord.com/invite/82gjcDyY4U
-
 ---
 
 ## Notifications Settings
