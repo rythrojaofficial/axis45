@@ -21,9 +21,9 @@ You can easily stay up to date on what's happening through our [homepage](www.se
 
 ## Notifications Settings
 
-You may be interested in _everything_ going on. But we're guessing not! That's one of the main reasons we're using discord!
+You _may_ be interested in everything going on. But we're guessing not! That's one of the main reasons we're using discord!
 
-By [default](#enable-chats), you will get all chat notifications.
+By [default](#enable-chats), you will get only @mentions.
 
 Navigate below to fine tune your notification settings!
 
