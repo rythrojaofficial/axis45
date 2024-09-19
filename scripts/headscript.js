@@ -232,7 +232,7 @@ switch (h1Title.textContent) {
     populateContactForm();
     break;
   case "Seattle Tricking Discord":
-    mdConvert(document.getElementById("discord-page"), "./events/discord.md");
+    mdConvert(document.getElementById("discord-page"), "./discord/discord.md");
     break;
   default:
     break;
