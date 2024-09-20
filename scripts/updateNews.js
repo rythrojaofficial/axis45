@@ -146,7 +146,7 @@ let discordAnnouncement24 = new NewsCard(
     "click here for the full details!",
     "seattletricking.com/discord",
   ],
-  "./events/discord.md",
+  "./discord/discord.md",
   "./discord.html"
 );
 // let ggbeach24 = new NewsCard(
