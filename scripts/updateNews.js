@@ -130,12 +130,12 @@ switch (emergencyNews.active) {
     console.log("error emergencynews updatejs");
 }
 // let concreteParking24 = new NewsCard(
- // "Concrete Repair, Parking may be affected",
- // [
- //   "9.19-9.21/Thurs-Sat",
-  //  "Property Managers are fixing the driveway and stall",
-  //  "concrete between thursday and sunday!",
-   // "We will be open, but parking may be impacted!",
+//  "Concrete Repair, Parking may be affected",
+//  [
+//    "9.19-9.21/Thurs-Sat",
+//    "Property Managers are fixing the driveway and stall",
+//    "concrete between thursday and sunday!",
+//    "We will be open, but parking may be impacted!",
 //  ]
 // );
 
