@@ -18,4 +18,4 @@ export let emergencyNews = {
 };
 
 // Wednesdays
-export let thisWednesdaySesh = false;
+export let thisWednesdaySesh = true;
