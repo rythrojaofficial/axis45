@@ -129,6 +129,9 @@ switch (emergencyNews.active) {
   default:
     console.log("error emergencynews updatejs");
 }
+let earlySunday = new NewsCard("Early stretch this Sunday!", [
+  "9.29 Sunday Stretch will start at 11am :)",
+]);
 // let concreteParking24 = new NewsCard(
 //  "Concrete Repair, Parking may be affected",
 //  [
@@ -139,16 +142,6 @@ switch (emergencyNews.active) {
 //  ]
 // );
 
-let discordAnnouncement24 = new NewsCard(
-  "Seattle Tricking Discord is Live!",
-  [
-    "Get notified of updates, announcements, and more!",
-    "click here for the full details!",
-    "seattletricking.com/discord",
-  ],
-  "./discord/discord.md",
-  "./discord.html"
-);
 // let ggbeach24 = new NewsCard(
 //  "Golden Gardens Beach Day!",
 //  ["9.7/Sat/4pm", "Golden Gardens Beach Park"],
@@ -190,6 +183,17 @@ let discordAnnouncement24 = new NewsCard(
 //  ["Jul 26-28, Beaverton OR", "The Portland Homies main summer Gathering"],
 //  "./events/2024rcg.md"
 // );
+
+let discordAnnouncement24 = new NewsCard(
+  "Seattle Tricking Discord is Live!",
+  [
+    "Get notified of updates, announcements, and more!",
+    "click here for the full details!",
+    "seattletricking.com/discord",
+  ],
+  "./discord/discord.md",
+  "./discord.html"
+);
 
 let Foundations = new NewsCard(
   "Next 4-week Tricking Foundations Class",
