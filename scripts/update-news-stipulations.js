@@ -1,9 +1,9 @@
 // If today's session is canceled or otherwise changed
 export let noSesh = {
-  cancelled: false,
+  cancelled: true,
   days: [],
   messages: [
-    "Sunday update:" 
+    "Sunday update:", 
     "stretch is 11am-1pm today! ",
     "Open break 1-3pm! ",
   ],
