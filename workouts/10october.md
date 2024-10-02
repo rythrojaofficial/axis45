@@ -48,8 +48,8 @@ Or sub one of the following:
 
 1. Loaded Carry [fireman/backpack/farmers]
 1. Hand Walk[Handstand/wheelbarrow]
-1. Walking Lunge[MedBall]
-1. Crawl[Bear/Alligator Push up]
+1. Walking[Lunge&HamstringCurl]
+1. Crawl[Bear/AlligatorPushUp]
 1. Drag[PartnerBanded]
 
 ### Kick circuit
