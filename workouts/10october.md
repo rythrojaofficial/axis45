@@ -46,7 +46,7 @@ Or sub one of the following:
 
 ### Endurance circuit
 
-1. Loaded Carry [fireman/backpack/farmers]
+1. Loaded Carry[fireman/backpack/farmers]
 1. Hand Walk[Handstand/wheelbarrow]
 1. Walking[Lunge&HamstringCurl]
 1. Crawl[Bear/AlligatorPushUp]
