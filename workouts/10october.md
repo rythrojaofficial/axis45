@@ -22,22 +22,36 @@
 
 ## Exercise
 
-- 50 backflips or sub Leg lifts
+<!-- - sl jump stick over line
+- partner reaction sprint
+- farmers carry
+- partner carry
+- frog jump
+- duck walk -->
 
-### Landing/spinning Drills
+### 50 Backflips
+
+30 - 50 backflips
+Or sub LegLift+stick
+
+<!-- ### Landing/spinning Drills
 
 1. 1-2-3 heelclick squat
 1. standing shuriken squat
-1. frontside 3switch spin squat
+1. frontside 3switch spin squat -->
 
-### volume circuit
+### Endurance circuit
 
-1. reverse lunge from block
-1. landmine twist
-1. ring support RTO
-1.
+1. Loaded Carry
+   1. fireman OR backpack OR farmers
+1. HS walk / wheelbarrow walk
+1. med ball walking lunge
+1. alligator push up / Bear Crawl
+1. partner banded drag
 
-### kick circuit
+<!-- 1. ring support RTO -->
+
+### Kick circuit
 
 1. sticky round sticky side, hook
 1. hop front, hop round
