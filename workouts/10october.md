@@ -29,10 +29,14 @@
 - frog jump
 - duck walk -->
 
-### 50 Backflips
+#### 30-50 Backflips any variation, any surface
 
-30 - 50 backflips
-Or sub LegLift+stick
+Or sub one of the following:
+
+- 50 backflip sets
+- 50 LegLift+stick
+- 75 hollow rocks
+- 25 dragon flags 4s lowers
 
 <!-- ### Landing/spinning Drills
 
@@ -42,14 +46,11 @@ Or sub LegLift+stick
 
 ### Endurance circuit
 
-1. Loaded Carry
-   1. fireman OR backpack OR farmers
-1. HS walk / wheelbarrow walk
-1. med ball walking lunge
-1. alligator push up / Bear Crawl
-1. partner banded drag
-
-<!-- 1. ring support RTO -->
+1. Loaded Carry [fireman/backpack/farmers]
+1. Hand Walk[Handstand/wheelbarrow]
+1. Walking Lunge[MedBall]
+1. Crawl[Bear/Alligator Push up]
+1. Drag[PartnerBanded]
 
 ### Kick circuit
 
