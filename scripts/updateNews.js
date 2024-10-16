@@ -195,16 +195,16 @@ let Foundations = new NewsCard(
   "https://www.seattletricking.com/tricking-foundations"
 );
 
-// let discordAnnouncement24 = new NewsCard(
-//   "Seattle Tricking Discord is Live!",
-//   [
-//     "Get notified of updates, announcements, and more!",
-//     "click here for the full details!",
-//     "seattletricking.com/discord",
-//   ],
-//   "./discord/discord.md",
-//   "./discord.html"
-// );
+let discordAnnouncement24 = new NewsCard(
+  "Seattle Tricking Discord is Live!",
+  [
+    "Get notified of updates, announcements, and more!",
+    "click here for the full details!",
+    "seattletricking.com/discord",
+  ],
+  "./discord/discord.md",
+  "./discord.html"
+);
 // let memorial24 = new NewsCard(
 //     'Updated Hours: Memorial Day week',
 //     [
