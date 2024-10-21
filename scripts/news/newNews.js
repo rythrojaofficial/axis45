@@ -2,7 +2,6 @@ export let newNews = [
   // Emergency news1
   {
     lastActivated: "",
-    nickname: "Emergency News 1",
     active: false,
     title: "Template! This is a template!",
     lines: ["today and yesterday, if you didn't know", "this is a template"],
@@ -12,7 +11,6 @@ export let newNews = [
   // Emergency news 2
   {
     lastActivated: "",
-    nickname: "Emergency News 2 ",
     active: false,
     title: "Template! This is a template!",
     lines: ["today and yesterday, if you didn't know", "this is a template"],
@@ -22,12 +20,11 @@ export let newNews = [
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
-    nickname: "halloween no thursday due to 5th thursday",
     active: true,
-    title: "5th Thursday, No Classes Oct 31!",
+    title: "[10.31/Thurs] 5th Thurs, No Classes! 🙅",
     lines: [
       "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
-      "It also happens to be Halloween so enjoy and stay safe :)",
+      "It also happens to be Halloween so have fun and stay safe!",
     ],
     md: "",
     link: "",
