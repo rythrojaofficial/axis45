@@ -1,7 +1,16 @@
+import {
+  populateTodaysSessions,
+  createOfferingsMDFrames,
+} from "./current-offerings.js";
+import { populateContactForm } from "../forms/contact/contact.js";
+import { populateShowMore } from "./showMore.js";
+import { mdConvert } from "./markdown-parse.js";
+import { nextFoundationsDate } from "./news/update-news-stipulations.js";
+import { populateNews } from "./news/updateNews.js";
 // =======================
 // update next foundations
 // =======================
-import { nextFoundationsDate } from "./updateNews.js";
+
 function updateFoundations(nextDate) {
   let instancesOfNextFoundationsDate = [
     ...document.querySelectorAll(".next-foundations-date"),
@@ -214,16 +223,12 @@ if (document.getElementById("stamp-time")) {
     hiddenTime.value = time;
   });
 }
-// today's session
-import { populateTodaysSessions } from "./current-offerings.js";
-
 // load certian things by page
-import { createOfferingsMDFrames } from "./current-offerings.js";
-import { populateContactForm } from "../forms/contact/contact.js";
-import { mdConvert } from "./markdown-parse.js";
+
 let h1Title = document.querySelector("h1.title");
 switch (h1Title.textContent) {
   case "AXIS 45":
+    populateNews();
     populateTodaysSessions();
   case "Current Offerings" || "AXIS 45":
     createOfferingsMDFrames();
@@ -239,5 +244,5 @@ switch (h1Title.textContent) {
 }
 
 // Populate readMore's
-import { populateShowMore } from "./showMore.js";
+
 populateShowMore();

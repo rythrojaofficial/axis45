@@ -1,5 +1,5 @@
 import { HtmlElement, mdElement, BreakElement } from "./htmlElement.js";
-import { thisWednesdaySesh } from "./update-news-stipulations.js";
+import { thisWednesdaySesh } from "./news/update-news-stipulations.js";
 
 class Offering {
   constructor(
@@ -156,7 +156,7 @@ function isWednesdaySesh() {
       break;
   }
 }
-// (thisWednesdaySesh) ? 'openTricking' : noSessionMessage
+
 export function populateTodaysSessions() {
   let dateLibrary = {
     Monday: ["openTricking"],

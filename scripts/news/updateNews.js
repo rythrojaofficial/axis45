@@ -1,5 +1,7 @@
-import { HtmlElement, mdElement } from "./htmlElement.js";
-import { calculateNextFoundations } from "./calculateNextFoundation.js";
+import { newNews } from "./newNews.js";
+import NewsCard from "./newsCard.js";
+import { noSesh } from "./update-news-stipulations.js";
+import { nextFoundationsDate } from "./update-news-stipulations.js";
 
 let utcdate = new Date();
 let today = {
@@ -10,126 +12,53 @@ let today = {
 };
 
 // ===vvvvv==Foundations==vvvvv=========
-export function nextFoundationsDate() {
-  let nextFoundations;
 
-  let manualFoundations = {
-    date: "",
-    message: "due to 4th of july 🇺🇸 pushing back things 1 week :)",
-  };
-
-  if (manualFoundations.date === "") {
-    return calculateNextFoundations(today.yy, today.mm, today.dd);
-  } else return `${manualFoundations.date} ${manualFoundations.message}`;
-}
 // ====^^^^===============^^^^==========
-let newsContainer = document.querySelector(".update-news");
-
-class NewsCard {
-  constructor(title, detailsArray = [], md = "", href = "") {
-    this.title = title;
-    this.details = detailsArray;
-    this.md = md;
-    this.link = href;
-    this.addCard();
-  }
-
-  addCard() {
-    let wrapper = new HtmlElement("div", newsContainer, { class: "news-card" });
-    let newA;
-    switch (this.link) {
-      case "":
-        newA = new HtmlElement("div", wrapper.element, {});
-        break;
-      default:
-        newA = new HtmlElement("a", wrapper.element, { href: this.link });
-        break;
-    }
-
-    let newH2 = new HtmlElement("h2", newA.element, {}, this.title);
-    if (this.md !== "" && this.md !== "offerings") {
-      let showmore = new HtmlElement("div", wrapper.element, {
-        class: "show-more",
-      });
-      let displayedDetails = new HtmlElement("div", showmore.element, {}, "");
-      let newMdFrame = new mdElement(
-        showmore.element,
-        {
-          width: "100vw",
-          height: "50vh",
-          scroll: "auto",
-          class: "md-converted-frame",
-        },
-        this.md
+export function populateNews() {
+  switch (noSesh.cancelled) {
+    case true:
+      const todaysSessionsNone = new NewsCard(
+        `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
+        noSesh.messages,
+        "",
+        ""
       );
-    } else if (this.md === "offerings") {
-      let newMdFrame = new HtmlElement("div", wrapper.element, {
-        id: "todays-offerings",
-      });
-    }
-
-    for (let i = 0; i < this.details.length; i++) {
-      switch (i) {
-        case this.details.length - 1:
-          let lastLine = new HtmlElement(
-            "div",
-            newA.element,
-            { class: "last-line" },
-            this.details[i]
-          );
-          break;
-        default:
-          let nextLine = new HtmlElement(
-            "div",
-            newA.element,
-            { class: "middle-line" },
-            this.details[i]
-          );
-      }
-    }
+      break;
+    case false:
+      const todaysSessions = new NewsCard(
+        `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
+        [],
+        "offerings",
+        ""
+      );
+      break;
+    default:
+      console.log("error noSesh.cancelled updatenews.js");
   }
-}
 
-import { noSesh } from "./update-news-stipulations.js";
-switch (noSesh.cancelled) {
-  case true:
-    let todaysSessionsNone = new NewsCard(
-      `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
-      noSesh.messages,
-      "",
-      ""
-    );
-    break;
-  case false:
-    let todaysSessions = new NewsCard(
-      `${today.weekday} ${today.mm}/${today.dd} Axis Sessions ⬇️`,
-      [],
-      "offerings",
-      ""
-    );
-    break;
-  default:
-    console.log("error noSesh.cancelled updatenews.js");
+  // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  // Actual New News
+  // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  newNews.forEach((newsData) => {
+    if (newsData.active === true) {
+      const card = new NewsCard(
+        newsData.title,
+        newsData.lines,
+        newsData.md,
+        newsData.link
+      );
+    }
+  });
+  let Foundations = new NewsCard(
+    "Next 4-week Tricking Foundations Class",
+    [
+      `Beginning Thursday ${nextFoundationsDate()}`,
+      "click for full info and registration!",
+    ],
+    "",
+    "https://www.seattletricking.com/tricking-foundations"
+  );
 }
-
-// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// Actual New News
-// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
-import { emergencyNews } from "./update-news-stipulations.js";
-switch (emergencyNews.active) {
-  case true:
-    let emergencyNewsActive = new NewsCard(
-      emergencyNews.title,
-      emergencyNews.messages,
-      emergencyNews.md
-    );
-    break;
-  case false:
-    break;
-  default:
-    console.log("error emergencynews updatejs");
-}
-import { newNews } from "./newNews.js";
 // let earlySunday = new NewsCard("Early stretch this Sunday!", [
 //   "9.29 Sunday Stretch will start at 11am :)",
 // ]);
@@ -184,16 +113,6 @@ import { newNews } from "./newNews.js";
 //  ["Jul 26-28, Beaverton OR", "The Portland Homies main summer Gathering"],
 //  "./events/2024rcg.md"
 // );
-
-let Foundations = new NewsCard(
-  "Next 4-week Tricking Foundations Class",
-  [
-    `Beginning Thursday ${nextFoundationsDate()}`,
-    "click for full info and registration!",
-  ],
-  "",
-  "https://www.seattletricking.com/tricking-foundations"
-);
 
 // let discordAnnouncement24 = new NewsCard(
 //   "Seattle Tricking Discord is Live!",
