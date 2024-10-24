@@ -10,13 +10,14 @@ export let noSesh = {
 };
 
 // Wednesdays
-export let thisWednesdaySesh = true;
+export let thisWednesdaySesh = false;
 
 // Manual Foundations, next foundations date
 export function nextFoundationsDate() {
   // let nextFoundations;
   let manualFoundations = {
     date: "11/7,",
+    // message will show ONLY if there is a date
     message: "Last class of the month will be on weds 11/27 due to 🦃 day!",
   };
 
