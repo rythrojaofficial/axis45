@@ -18,4 +18,4 @@ _carpool pending_
 
 ### From the Organizers
 
-> <img src = "./events/2024pdxtricksgiving/screenshot.png" width="100%">
+<img src = "./events/2024pdxtricksgiving/screenshot.png" width="100%">
