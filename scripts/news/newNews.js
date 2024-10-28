@@ -35,7 +35,7 @@ export let newNews = [
     active: true,
     title: "[11.1/Fri] Halloween Sesh!",
     lines: [
-      "Costumes, Spooky Games, and Food!",
+      "Costumes, Squid Game Games, and Food!",
       "Halloween falls on a Thursday this year, but that won't stop us from having",
       "a fun FRIDAY Halloween sesh 🎃",
     ],
