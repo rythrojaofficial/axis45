@@ -3,7 +3,14 @@
     box-sizing: border-box;
     font-family: 'Libre Franklin';
 }
-
+/* background stuff */
+body{background-image: url("./upfeathers.png");
+    background-repeat: repeat; 
+    }
+fieldset {
+    background-color: rgb(233, 224, 204);
+  }
+  /* end background stuff */
 :root{
     /* --font: 'fonty'; */
     --border-radius: .5rem;

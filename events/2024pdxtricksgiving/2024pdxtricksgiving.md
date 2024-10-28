@@ -14,7 +14,8 @@ Portland crew has invited us down south for their yearly Thanksgiving event. Mor
 
 ### Transportation:
 
-_carpool pending_
+Please fill out this [carpool survey](../forms/archived/pdx/24tricksgiving.html)
+_carpools pending_
 
 ### From the Organizers
 
