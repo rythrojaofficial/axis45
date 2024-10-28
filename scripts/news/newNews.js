@@ -35,16 +35,16 @@ export let newNews = [
     active: true,
     title: "[11.1/Fri] Halloween Sesh!",
     lines: [
-      "Costumes, Squid Game Games, and Food!",
+      "Costumes, Squid Games, and Food!",
       "Halloween falls on a Thursday this year, but that won't stop us from having",
       "a fun FRIDAY Halloween sesh 🎃",
     ],
-    md: "",
+    md: "./events/2024halloween/haloween.md",
     link: "",
   },
   // discord announcement 2024
   {
-    lastActivated: "9.15.42",
+    lastActivated: "9.15.24",
     active: true,
     title: "Seattle Tricking Discord is Live",
     lines: [
@@ -53,5 +53,14 @@ export let newNews = [
     ],
     md: "./discord/discord.md",
     link: "./discord.html",
+  },
+  //
+  {
+    lastActivated: "10.28.24",
+    active: true,
+    title: "PDX Tricksgiving Fieldtrip",
+    lines: ["Sat, Nov 16 @ 6:30pm", ""],
+    md: "./events/2024pdxtricksgiving/2024pdxtricksgiving.md",
+    link: "",
   },
 ];
