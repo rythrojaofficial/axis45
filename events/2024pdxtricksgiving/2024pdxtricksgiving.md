@@ -20,3 +20,15 @@ _carpools pending_
 ### From the Organizers
 
 <img src = "./events/2024pdxtricksgiving/screenshot.png" width="100%">
+<blockquote>
+Join us for our 3rd Annual Tricksgiving event! This year we will introduce more perks to our events such as:
+
+-Workshops
+-Potluck
+-Games
+-and many more
+
+*after 10:30 we will then relocate the event to SWAG in VA, Washington for an afterparty session for you late goers!
+
+Thank you all for the wonderful support for the past few years, excited to make more memories with you all!
+</blockquote>
