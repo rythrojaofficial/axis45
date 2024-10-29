@@ -8,7 +8,7 @@ Portland crew has invited us down south for their yearly Thanksgiving event. Mor
 >
 > 🧭 **Gym Address**: [Oregon Dream Teams](https://maps.app.goo.gl/U1tTUVukSEFUSXrx6)
 >
-> 🎟️ **Ticketing Options**: [$35 tickets & waivers](https://www.pdxtricking.org/events) _(not active yet)_
+> 🎟️ **Ticketing Options**: [$35 tickets & waivers](https://www.pdxtricking.org/events) _(now active)_
 
 ### Accomodations: none, day trip
 
