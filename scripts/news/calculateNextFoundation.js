@@ -1,4 +1,8 @@
-export function calculateNextFoundations(todayYear, todayMonth, todayDay) {
+export default function calculateNextFoundations(
+  todayYear,
+  todayMonth,
+  todayDay
+) {
   let firstDayOfMonth = new Date(todayYear, todayMonth - 1, 1),
     firstDayOfNextMonth = new Date(todayYear, todayMonth, 1),
     currentDay,

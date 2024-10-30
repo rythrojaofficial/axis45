@@ -3,8 +3,8 @@ import NewsCard from "./newsCard.js";
 import { noSesh } from "./update-news-stipulations.js";
 import { nextFoundationsDate } from "./update-news-stipulations.js";
 
-let utcdate = new Date();
-let today = {
+const utcdate = new Date();
+export const today = {
   weekday: utcdate.toLocaleDateString("en-US", { weekday: "long" }),
   dd: utcdate.getDate(),
   mm: utcdate.getMonth() + 1,

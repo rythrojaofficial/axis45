@@ -13,10 +13,11 @@ export let noSesh = {
 export let thisWednesdaySesh = true;
 
 // Manual Foundations, next foundations date
+import calculateNextFoundations from "./calculateNextFoundation.js";
 export function nextFoundationsDate() {
   // let nextFoundations;
   let manualFoundations = {
-    date: "11/7,",
+    date: "",
     // message will show ONLY if there is a date
     message: "Last class of the month will be on weds 11/27 due to 🦃 day!",
   };
