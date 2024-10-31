@@ -3,12 +3,12 @@ import { today } from "./updateNews.js";
 
 // If today's session is canceled or otherwise changed
 export let noSesh = {
-  cancelled: false,
+  cancelled: true,
   days: [],
   messages: [
     "5th Thursday update:",
     "No Classes since there's only 4 classes of Tricking Foundations per session",
-    "Enjoy the day off!",
+    "Enjoy the Halloween off!",
   ],
 };
 
