@@ -6,9 +6,10 @@ export let noSesh = {
   cancelled: true,
   days: [],
   messages: [
-    "5th Thursday update:",
-    "No Classes since there's only 4 classes of Tricking Foundations per session",
-    "Enjoy the Halloween off!",
+    "Halloween sesh! Details below!",
+    // "5th Thursday update:",
+    // "No Classes since there's only 4 classes of Tricking Foundations per session",
+    // "Enjoy the Halloween off!",
   ],
 };
 

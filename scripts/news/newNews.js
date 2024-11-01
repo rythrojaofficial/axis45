@@ -20,7 +20,7 @@ export let newNews = [
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
-    active: true,
+    active: false,
     title: "[10.31/Thurs] 5th Thurs, No Classes! 🙅",
     lines: [
       "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
