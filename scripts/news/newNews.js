@@ -32,7 +32,7 @@ export let newNews = [
   // Halloween Sesh 2024
   {
     lastActivated: "10.21.24",
-    active: true,
+    active: false,
     title: "[11.1/Fri] Halloween Sesh!",
     lines: [
       "Costumes, Squid Games, and Food!",
