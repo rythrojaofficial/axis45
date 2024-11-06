@@ -37,9 +37,9 @@ Links:
 
 ## Contrast Circuit
 
-1. First lane: SL RDL + SL triple jump
+1. First lane: Partner Weighted sled push + sprint
 1. Second lane: Partner squat + triple broad jump
-1. third lane: Partner Weighted sled push + sprint
+1. third lane: SL RDL + SL triple jump
 1. floor + resi: Partner weighted push up + kneeling med ball toss
 1. garage: Heavy pull up + fast pull up
    1. heavy: partner weighted? normal?
