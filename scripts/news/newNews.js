@@ -17,6 +17,18 @@ export let newNews = [
     md: "",
     link: "",
   },
+  // december workshops
+  {
+    lastActivated: "11.6.24",
+    active: true,
+    title: "December Thursday Workshops",
+    lines: [
+      "6:30-7:30pm replacing December Foundations class!",
+      "Workshops Schedule 👇",
+    ],
+    md: "./events/workshops/december-workshops.md",
+    link: "",
+  },
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
