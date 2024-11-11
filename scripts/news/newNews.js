@@ -17,18 +17,6 @@ export let newNews = [
     md: "",
     link: "",
   },
-  // december workshops
-  {
-    lastActivated: "11.6.24",
-    active: true,
-    title: "December Thursday Workshops",
-    lines: [
-      "6:30-7:30pm replacing December Foundations class!",
-      "Workshops Schedule 👇",
-    ],
-    md: "./events/workshops/december-workshops.md",
-    link: "",
-  },
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
@@ -54,6 +42,14 @@ export let newNews = [
     md: "./events/2024halloween/haloween.md",
     link: "",
   },
+  {
+    lastActivated: "10.28.24",
+    active: true,
+    title: "PDX Tricksgiving Fieldtrip",
+    lines: ["Sat, Nov 16 @ 6:30pm", "Carpool survey due by Tuesday ⚠️"],
+    md: "./events/2024pdxtricksgiving/2024pdxtricksgiving.md",
+    link: "",
+  },
   // discord announcement 2024
   {
     lastActivated: "9.15.24",
@@ -65,14 +61,17 @@ export let newNews = [
     ],
     md: "./discord/discord.md",
     link: "./discord.html",
-  },
-  //
+  }, // december workshops
   {
-    lastActivated: "10.28.24",
+    lastActivated: "11.6.24",
     active: true,
-    title: "PDX Tricksgiving Fieldtrip",
-    lines: ["Sat, Nov 16 @ 6:30pm", ""],
-    md: "./events/2024pdxtricksgiving/2024pdxtricksgiving.md",
+    title: "December Thursday Workshops",
+    lines: [
+      "6:30-7:30pm replacing December Foundations class!",
+      "Workshops Schedule 👇",
+    ],
+    md: "./events/workshops/december-workshops.md",
     link: "",
   },
+  //
 ];

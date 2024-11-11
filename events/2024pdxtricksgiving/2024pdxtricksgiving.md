@@ -2,6 +2,8 @@
 
 ## Updates go here:
 
+If you want to carpool, PLEASE fill out this [carpool survey](../forms/archived/pdx/24tricksgiving.html) by end of day Tuesday.
+
 _11.8 got word from Ray we're at SWAG rather than ODT 👍_
 
 ### Overview
