@@ -29,17 +29,12 @@ export let newNews = [
     md: "",
     link: "",
   },
-  // Halloween Sesh 2024
   {
-    lastActivated: "10.21.24",
-    active: false,
-    title: "[11.1/Fri] Halloween Sesh!",
-    lines: [
-      "Costumes, Squid Games, and Food!",
-      "Halloween falls on a Thursday this year, but that won't stop us from having",
-      "a fun FRIDAY Halloween sesh 🎃",
-    ],
-    md: "./events/2024halloween/haloween.md",
+    lastActivated: "11.10.24",
+    active: true,
+    title: "Veteran's day Monday",
+    lines: ["Axis 45 sesh will be as normal this monday :-)"],
+    md: "",
     link: "",
   },
   {
@@ -74,4 +69,19 @@ export let newNews = [
     link: "",
   },
   //
+];
+let archived = [
+  // Halloween Sesh 2024
+  {
+    lastActivated: "10.21.24",
+    active: false,
+    title: "[11.1/Fri] Halloween Sesh!",
+    lines: [
+      "Costumes, Squid Games, and Food!",
+      "Halloween falls on a Thursday this year, but that won't stop us from having",
+      "a fun FRIDAY Halloween sesh 🎃",
+    ],
+    md: "./events/2024halloween/haloween.md",
+    link: "",
+  },
 ];
