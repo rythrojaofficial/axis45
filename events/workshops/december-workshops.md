@@ -6,11 +6,15 @@ Instead, we'll have 3 separate 1hr workshops on those Thursdays! _7:30pm Flippin
 
 ### Thursday December 5th 6:30pm
 
-_TBD_
+_pre-requisistes: tornado kick_
+
+**Beginner/Intermediate Raiz**
 
 ### Thursday December 12th 6:30pm
 
-_TBD_
+_pre-requisites: handstand against wall (any way)_
+
+**Beginner/Intermediate hanstand**
 
 ### Thursday December 19th 6:30pm
 

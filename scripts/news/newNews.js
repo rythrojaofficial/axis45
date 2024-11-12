@@ -30,14 +30,6 @@ export let newNews = [
     link: "",
   },
   {
-    lastActivated: "11.10.24",
-    active: true,
-    title: "Veteran's day Monday",
-    lines: ["Axis 45 sesh will be as normal this monday :-)"],
-    md: "",
-    link: "",
-  },
-  {
     lastActivated: "10.28.24",
     active: true,
     title: "PDX Tricksgiving Fieldtrip",
@@ -71,6 +63,14 @@ export let newNews = [
   //
 ];
 let archived = [
+  {
+    lastActivated: "11.10.24",
+    active: false,
+    title: "Veteran's day Monday",
+    lines: ["Axis 45 sesh will be as normal this monday :-)"],
+    md: "",
+    link: "",
+  },
   // Halloween Sesh 2024
   {
     lastActivated: "10.21.24",
