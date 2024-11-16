@@ -37,6 +37,18 @@ export let newNews = [
     md: "./events/2024pdxtricksgiving/2024pdxtricksgiving.md",
     link: "",
   },
+  {
+    lastActivated: "11.15.24",
+    active: true,
+    title: "⚠️Construction⚠️ Parking may be affected",
+    lines: [
+      "Mon-Thurs, 12.18-21",
+      "Landlord is fixing concrete, weather permitting",
+      "Might want to get there a little early and with rain gear in case of tough parking",
+    ],
+    md: "",
+    link: "",
+  },
   // discord announcement 2024
   {
     lastActivated: "9.15.24",
