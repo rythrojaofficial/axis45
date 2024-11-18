@@ -30,23 +30,26 @@ export let newNews = [
     link: "",
   },
   {
-    lastActivated: "10.28.24",
-    active: true,
-    title: "PDX Tricksgiving Fieldtrip",
-    lines: ["Sat, Nov 16 @ 6:30pm", "Carpool survey due by Tuesday ⚠️"],
-    md: "./events/2024pdxtricksgiving/2024pdxtricksgiving.md",
-    link: "",
-  },
-  {
     lastActivated: "11.15.24",
     active: true,
     title: "⚠️Construction⚠️ Parking may be affected",
     lines: [
-      "Mon-Thurs, 12.18-21",
+      "Mon-Thurs, 11.18-21",
       "Landlord is fixing concrete, weather permitting",
       "Might want to get there a little early and with rain gear in case of tough parking",
     ],
     md: "",
+    link: "",
+  },
+  {
+    lastActivated: "11.17.24",
+    active: true,
+    title: "Free Injury Screening Night(s)!",
+    lines: [
+      "Free with Open Session drop-in OR membership tally ",
+      "Sunday 12.8, Friday 12.13",
+    ],
+    md: "./events/2024empower/injury-screening.md",
     link: "",
   },
   // discord announcement 2024
@@ -75,6 +78,14 @@ export let newNews = [
   //
 ];
 let archived = [
+  {
+    lastActivated: "10.28.24",
+    active: false,
+    title: "PDX Tricksgiving Fieldtrip",
+    lines: ["Sat, Nov 16 @ 6:30pm", "Carpool survey due by Tuesday ⚠️"],
+    md: "./events/2024pdxtricksgiving/2024pdxtricksgiving.md",
+    link: "",
+  },
   {
     lastActivated: "11.10.24",
     active: false,

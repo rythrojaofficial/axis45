@@ -20,9 +20,10 @@ export let thisWednesdaySesh = true;
 export function nextFoundationsDate() {
   // let nextFoundations;
   let manualFoundations = {
-    date: "11/7, ",
+    date: "1/2/25, ",
     // message will show ONLY if there is a date
-    message: "Last class of the month will be on weds 11/27 due to 🦃 day!",
+    message:
+      "December will have workshops rather than foundations due to the holidays :)",
   };
 
   if (manualFoundations.date === "") {

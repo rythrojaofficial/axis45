@@ -4,18 +4,20 @@ Tricking Foundations class operates on 4-week cycles that builds upon itself. Th
 
 Instead, we'll have 3 separate 1hr workshops on those Thursdays! _7:30pm Flipping Progressions class_ will be happening as usual
 
-### Thursday December 5th 6:30pm
+> ### Thursday December 5th 6:30pm
+>
+> **Beginner/Intermediate Raiz**
+>
+> - _pre-requisistes: tornado kick_
 
-_pre-requisistes: tornado kick_
+> ### Thursday December 12th 6:30pm
+>
+> **Beginner/Intermediate hanstand**
+>
+> - _pre-requisites: handstand against wall (any way)_
 
-**Beginner/Intermediate Raiz**
-
-### Thursday December 12th 6:30pm
-
-_pre-requisites: handstand against wall (any way)_
-
-**Beginner/Intermediate hanstand**
-
-### Thursday December 19th 6:30pm
-
-_TBD_
+> ### Thursday December 19th 6:30pm
+>
+> **Your First Elbow Airflare with Slava**
+>
+> - _Info incoming. . ._
