@@ -1,6 +1,6 @@
-# Bomb Cyclone Advisory 🌪️
+# Bomb Cyclone Advisory :cloud_tornado:
 
-No it's not a new tornado Variation, it's a hurricane/tropical storm type of weather event that doesn't start over the water like normal hurricanes.
+No it's not a new tornado Variation, it's a hurricane/tropical storm type of weather event that intensifies rapidly over a short period of time.
 
 ## What it means for weather
 
