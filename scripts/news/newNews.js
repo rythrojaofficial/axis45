@@ -11,10 +11,13 @@ export let newNews = [
   // Emergency news 2
   {
     lastActivated: "",
-    active: false,
-    title: "Template! This is a template!",
-    lines: ["today and yesterday, if you didn't know", "this is a template"],
-    md: "",
+    active: true,
+    title: "Bomb Cyclone Advisory! Be Prepared! 🌪️",
+    lines: [
+      "Prepare for power outages, high winds, and snow*",
+      "Update as of 2:30pm: Tuesday classes are on!",
+    ],
+    md: "./events/24bombcyclone.md",
     link: "",
   },
   // 5th thursday cancellation
