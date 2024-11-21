@@ -11,7 +11,7 @@ export let newNews = [
   // Emergency news 2
   {
     lastActivated: "",
-    active: true,
+    active: false,
     title: "Bomb Cyclone Advisory! Be Prepared! 🌪️",
     lines: [
       "Prepare for power outages, high winds, and snow*",
