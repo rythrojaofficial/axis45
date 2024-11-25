@@ -12,12 +12,9 @@ export let newNews = [
   {
     lastActivated: "",
     active: false,
-    title: "Bomb Cyclone Advisory! Be Prepared! 🌪️",
-    lines: [
-      "Prepare for power outages, high winds, and snow*",
-      "Update as of 2:30pm: Tuesday classes are on!",
-    ],
-    md: "./events/24bombcyclone.md",
+    title: "Template! This is a template!",
+    lines: ["today and yesterday, if you didn't know", "this is a template"],
+    md: "",
     link: "",
   },
   // 5th thursday cancellation
@@ -33,15 +30,25 @@ export let newNews = [
     link: "",
   },
   {
-    lastActivated: "11.15.24",
+    lastActivated: "11.24.24",
     active: true,
-    title: "⚠️Construction⚠️ Parking may be affected",
+    title: "Thanksgiving Day Closure! 🦃",
     lines: [
-      "Mon-Thurs, 11.18-21",
-      "Landlord is fixing concrete, weather permitting",
-      "Might want to get there a little early and with rain gear in case of tough parking",
+      "No Classes on Thursday this week!",
+      "Regular Thursday classes will be on Wednesday at the same time instead!",
     ],
     md: "",
+    link: "",
+  },
+  {
+    lastActivated: "11.6.24",
+    active: true,
+    title: "December Thursday Workshops",
+    lines: [
+      "6:30-7:30pm replacing December Foundations class!",
+      "Workshops Schedule 👇",
+    ],
+    md: "./events/workshops/december-workshops.md",
     link: "",
   },
   {
@@ -67,20 +74,33 @@ export let newNews = [
     md: "./discord/discord.md",
     link: "./discord.html",
   }, // december workshops
-  {
-    lastActivated: "11.6.24",
-    active: true,
-    title: "December Thursday Workshops",
-    lines: [
-      "6:30-7:30pm replacing December Foundations class!",
-      "Workshops Schedule 👇",
-    ],
-    md: "./events/workshops/december-workshops.md",
-    link: "",
-  },
   //
 ];
 let archived = [
+  {
+    lastActivated: "11.15.24",
+    active: true,
+    title: "⚠️Construction⚠️ Parking may be affected",
+    lines: [
+      "Mon-Thurs, 11.18-21",
+      "Landlord is fixing concrete, weather permitting",
+      "Might want to get there a little early and with rain gear in case of tough parking",
+    ],
+    md: "",
+    link: "",
+  },
+  // Emergency news 2
+  {
+    lastActivated: "",
+    active: false,
+    title: "Bomb Cyclone Advisory! Be Prepared! 🌪️",
+    lines: [
+      "Prepare for power outages, high winds, and snow*",
+      "Update as of 2:30pm: Tuesday classes are on!",
+    ],
+    md: "./events/24bombcyclone.md",
+    link: "",
+  },
   {
     lastActivated: "10.28.24",
     active: false,
