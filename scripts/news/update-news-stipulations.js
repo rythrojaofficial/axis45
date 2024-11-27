@@ -9,8 +9,7 @@ export let noSesh = {
     "Due to Thanksgiving on Thursday, we Have Thursday Classes on Wednesday!",
     "6:30pm Tricking Foundations",
     "7:30pm Flipping Progressions",
-
-    // "9:00pm Bonus Sesh w/ AJ!?",
+    "9:00pm Bonus Sesh w/ AJ!",
 
     // "Due to heavy Weather, Tuesday Classes are CANCELLED.  Please stay safe! If you get stuck or need anything, hop in the discord!",
     // "Halloween sesh! Details below!",
