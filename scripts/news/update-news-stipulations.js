@@ -6,7 +6,11 @@ export let noSesh = {
   cancelled: false,
   days: [],
   messages: [
-    "Due to heavy Weather, Tuesday Classes are CANCELLED.  Please stay safe! If you get stuck or need anything, hop in the discord!",
+    "Due to Thanksgiving on Thursday, we Have Thursday Classes Today!",
+    "6:30pm Tricking Foundations",
+    "7:30pm Flipping Progressions",
+
+    // "Due to heavy Weather, Tuesday Classes are CANCELLED.  Please stay safe! If you get stuck or need anything, hop in the discord!",
     // "Halloween sesh! Details below!",
     // "5th Thursday update:",
     // "No Classes since there's only 4 classes of Tricking Foundations per session",
