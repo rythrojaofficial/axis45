@@ -30,17 +30,6 @@ export let newNews = [
     link: "",
   },
   {
-    lastActivated: "11.24.24",
-    active: true,
-    title: "Thanksgiving Day Closure! 🦃",
-    lines: [
-      "No Classes on Thursday this week!",
-      "Regular Thursday classes will be on Wednesday at the same time instead!",
-    ],
-    md: "",
-    link: "",
-  },
-  {
     lastActivated: "11.6.24",
     active: true,
     title: "December Thursday Workshops",
@@ -77,6 +66,17 @@ export let newNews = [
   //
 ];
 let archived = [
+  {
+    lastActivated: "11.24.24",
+    active: false,
+    title: "Thanksgiving Day Closure! 🦃",
+    lines: [
+      "No Classes on Thursday this week!",
+      "Regular Thursday classes will be on Wednesday at the same time instead!",
+    ],
+    md: "",
+    link: "",
+  },
   {
     lastActivated: "11.15.24",
     active: true,
