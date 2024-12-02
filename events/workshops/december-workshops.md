@@ -4,7 +4,7 @@ Tricking Foundations class operates on 4-week cycles that builds upon itself. Th
 
 Instead, we'll have 3 separate 1hr workshops on those Thursdays! _7:30pm Flipping Progressions class_ will be happening as usual
 
-> ### Thursday December 5th 6:30pm
+<!-- > ### Thursday December 5th 6:30pm
 >
 > **Beginner/Intermediate Raiz**
 >
@@ -20,4 +20,6 @@ Instead, we'll have 3 separate 1hr workshops on those Thursdays! _7:30pm Flippin
 >
 > **Your First Elbow Airflare with Slava**
 >
-> - _Info incoming. . ._
+> - _Info incoming. . ._ -->
+
+<img src = "./events/workshops/2024-December-Workshops.png" width=100%></img>
