@@ -38,13 +38,23 @@ let offeringsLibrary = {
     expLibrary[2]
     // "Monday/Friday/(& some Wednesdays!)"
   ),
-  trickingFoundations: new Offering(
-    "tricking-foundations",
-    "Tricking 101. Learn the most foundational take-offs, shapes, transitions, and combinations of tricking!",
+  decemberWorkshop: new Offering(
+    "december-workshops",
+    "Deep Dive into specific assorted topics.  Taking the place of tricking foundations for December only!",
     "60m",
-    expLibrary[0],
+    expLibrary[1],
     "Thursday"
   ),
+  // ====================== 12.5.24 Put This back after december ends ===============
+  // And dont forget to flip line 177.
+
+  // trickingFoundations: new Offering(
+  //   "tricking-foundations",
+  //   "Tricking 101. Learn the most foundational take-offs, shapes, transitions, and combinations of tricking!",
+  //   "60m",
+  //   expLibrary[0],
+  //   "Thursday"
+  // ),
   flippingProgressions: new Offering(
     "flipping-progressions",
     "Primarily focused on Frontflips, Backflips, and Sideflips.",
@@ -162,7 +172,11 @@ export function populateTodaysSessions() {
     Monday: ["openTricking"],
     Tuesday: ["guidedTricking", "trickingExercise"],
     Wednesday: [isWednesdaySesh()],
-    Thursday: ["trickingFoundations", "flippingProgressions"],
+    Thursday: [
+      "decemberWorkshop",
+      // "trickingFoundations",
+      "flippingProgressions",
+    ],
     Friday: ["openTricking"],
     Saturday: [noSessionMessage],
     Sunday: ["guidedFlexibility", "openBreakdance"],
