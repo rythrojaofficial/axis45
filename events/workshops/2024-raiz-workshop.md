@@ -6,11 +6,13 @@
 
 - circular, as opposed to linear
 - horizontal as opposed to fully inverted
-- lends itself to frontswing, pivot
+- most purely raiz feel
+  - translates well to pivot, frontswing, and regular "cheat" step
 - Looks good on its own
 - "Every Trick is a Raiz"
 - Accessible
-- Can be done extremely lazily, and that is a huge benefit
+  - Can be done with very low effort
+  - More reps, less strain
 
 ### Key ideas, that will be recurring
 
@@ -24,24 +26,25 @@
     - open chest, extend hips
   - circular
   - back/side using your backside
-- eagle
+- ironman eagle
+  - open chest, extend hips
   - eyes
-  - swing leg actively pulling down
-  - back leg actively pushing down
+  - active swinging swing leg
+    - pulling to floor, strongly externally rotating
+  - active pushing trailing leg
+    - pushing down, mildly internally rotating
 
 ### warm up exercises
 
 <!-- 10-15m -->
 
-- squat twist
-- squat hinge twist
-- back/side hip lift
+<!-- - squat twist -->
+<!-- - squat hinge twist -->
+
 - leg swings
+- back/side hip lift
 - back/side hip lift + rotation
 - long lunge with reach back
-- iron man squat to heel raise
-  - +twist
-- iron man squat + back/side kick
 
 <!-- 6:45pm -->
 
@@ -49,60 +52,67 @@ _With the End in mind. . ._
 
 ### iron man eagle pivot
 
-<!-- squat + hinge -->
+- iron man squat to heel raise
+  - +twist
 
-- push style, swing style
+1. handcuffed focusing legs, hips
+2. arm pushing style, focus head, hips
+3. arm swing style, focus arms, timing
+4. from trail leg, focus push into transition, pivoting
+5. push hop from trail leg
+
+_notes:_
+
 - as you push hands down:
   - open chest
   - extend hips
-- pivot on the lead leg
+- lunge and pivot on the lead leg
   - same arm as lead leg
   - eyes
-  - actively trail back leg
-
-**From trail leg**:
-
-- squatted
-- pivot as above
-
-**From trail leg with hop**
-
-- squat push as you iron man
+  - ball of feet
 
 _With the Beginning in mind. . ._
 
 ### the wind up
 
-- squat + hinge
-- circular arms
-- quadrants
+1. standing quadrants
+1. squat+hinge quadrants
+1. praying windup quadrants
+   - pivoting feet
+1. +back/side kick
 
-### machine -> spyder
+_notes:_
+
+- start 90° back from cw position
+- squat + hinge
+- wide, circular arms
+- circular quadrants
+- pivot on ball of foot
+
+### td-hook->machine -> spyder
 
 - stay low, leaned forward.
 - think circular
 - swing the back leg around like the hip lift
 
-### vertical raiz on floor
+_Putting it Together. . ._
 
-- keep swinging foot close to ground
-- externally rotate hip
-- lean forward
+### mostly vertical raiz
 
-### Vertical Raiz
+- mostly vertical Raiz on Floor
+- mostly vertical Raiz
 
-- keep feet close to ground
-- externally rotate hip
-- look over shoulder
+_notes:_
+
+- praying windup quadrants + push from trail leg
+- keep foot close to ground
+- patient to get the swing and push
+- rotate hips
 - iron man arms
+- lean in direction of travel
 
-### td-hook -> reversao
+### drills/sidequests
 
-### raiz
-
-- squatted wind-up
-- circular arms
-
-### extra
-
-block
+1. 1/4 squat swing-leg lift
+1. td-hook -> reversao
+1. touchground raiz
