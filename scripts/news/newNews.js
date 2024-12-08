@@ -30,17 +30,6 @@ export let newNews = [
     link: "",
   },
   {
-    lastActivated: "11.6.24",
-    active: true,
-    title: "December Thursday Workshops",
-    lines: [
-      "6:30-7:30pm replacing December Foundations class!",
-      "Workshops Schedule 👇",
-    ],
-    md: "./events/workshops/december-workshops.md",
-    link: "",
-  },
-  {
     lastActivated: "11.17.24",
     active: true,
     title: "Free Injury Screening Night(s)!",
@@ -49,6 +38,17 @@ export let newNews = [
       "Sunday 12.8, Friday 12.13",
     ],
     md: "./events/2024empower/injury-screening.md",
+    link: "",
+  },
+{
+    lastActivated: "11.6.24",
+    active: true,
+    title: "December Thursday Workshops",
+    lines: [
+      "6:30-7:30pm replacing December Foundations class!",
+      "Workshops Schedule 👇",
+    ],
+    md: "./events/workshops/december-workshops.md",
     link: "",
   },
   // discord announcement 2024
