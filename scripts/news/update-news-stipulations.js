@@ -23,7 +23,7 @@ export let noSesh = {
 };
 
 // Wednesdays
-export let thisWednesdaySesh = true;
+export let thisWednesdaySesh = false;
 
 // Manual Foundations, next foundations date
 export function nextFoundationsDate() {
