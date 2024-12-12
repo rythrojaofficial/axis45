@@ -2,16 +2,12 @@
 
 ### Warm up
 
-#### Shoulder Warm up
-
-1. praying shoulders
-   1. halo, 8, shovel, twist, 45 press, vertical press
-1. conductor rotation, IR
-
-#### Wrists warm up
-
 1. open/close
-1. ext rotation
+1. hs wrist rotation/flex/extend
+1. fist rotation/flex/extend
+1. praying halo
+1. overhead circles
+1. conductor rotation, IR
 
 #### warm up exercises
 
