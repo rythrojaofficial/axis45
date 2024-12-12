@@ -15,19 +15,24 @@
 ### Handstand line
 
 1.  Critical
-    1. shoulders/chest
-    1. core
-    1. hips/glutes
+    1. open shoulders
+    1. ribs/core
+    1. tuck hips/squeeze butt
 2.  Secondary
-    1. quads/knees
-    1. eyes/head
+    1. eyes, head / cover ears
+3.  quads/knees
+4.  Tertiary
+
     1. toes
-3.  Practice ideas
+
+5.  Practice ideas
     1. floor, prone/supine, plank
     1. hanging
     1. wall
 
 ### Mobility
+
+1. wrist health is the nubmer one reason why people quit handstand training
 
 Flexibility + strength
 _Restricted Shoulder Mobility is the number one factor in the shape of your handstand_
@@ -93,23 +98,34 @@ _Restricted Shoulder Mobility is the number one factor in the shape of your hand
       1. hips
       1. head
 
-1. Short term (<30s)
+1. Short term balance (<30s)
    1. more squeeze
-1. long term (>30s)
+1. long term balance(>30s)
+
    1. rely on your strengths
    1. less squeeze
    1. cycle
    1. breathing
 
+1. correction
+   1. piking
+   1. planching
+   1. lowering center of gravity
+      1. pushing, straddling, splitting
+
 ### Entrances
 
-1. entrances are a skill
-   1. practice separately
-   1.
+entrances are a skill to be practiced separately
+
+1. dynamic
+1. straight arm pressing
+1. bent arm pressing
 
 ### Spotting
 
 1. Partners
+   1. spot from the hip
+   1. spot from the calf/shin
 
 ### Shifting
 
@@ -122,7 +138,7 @@ _Restricted Shoulder Mobility is the number one factor in the shape of your hand
 
 1. Return to feet
    1. Controlled Exit
-   1. Bail
+   1. Bail catch
 1. Over your head
    1. Controlled Exit
    1. Bail Options
