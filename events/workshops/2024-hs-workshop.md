@@ -87,11 +87,9 @@
 1. Long Term Shoulder Balance ---- 30s wall HS with breathing, light squeeze; or Freestanding
 
 1. Wrist balance --- headstand, frog, crow, planche
+1. bent arm pressing isometric
+   1. Weighted Bent arm pressing motion
+   1. tuck/pike
+   1. elevated/wall
+   1. freestanding
 1. pseudo planche lean --- for wrist and shoulder
-
-#### push up isos and negatives
-
-1.  Weighted Bent arm pressing motion
-1.  tuck/pike
-1.  elevated/wall
-1.  freestanding
