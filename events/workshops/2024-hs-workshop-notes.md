@@ -32,9 +32,11 @@
 
 ### Mobility
 
-1. wrist health is the nubmer one reason why people quit handstand training
-
 Flexibility + strength
+
+1. wrist health is the number one reason why people quit handstand training
+   1. wrist activation
+
 _Restricted Shoulder Mobility is the number one factor in the shape of your handstand_
 
 1. Shoulder Flexion
@@ -117,7 +119,7 @@ _Restricted Shoulder Mobility is the number one factor in the shape of your hand
 
 entrances are a skill to be practiced separately
 
-1. dynamic
+1. dynamic push (not a jump)
 1. straight arm pressing
 1. bent arm pressing
 

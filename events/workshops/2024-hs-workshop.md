@@ -1,14 +1,12 @@
-# Handstand Concepts Workshop
+# Beginner/Intermediate Handstand Workshop
 
 ### Warm up
 
-1. fist rotation/flex/extend
+1. hs wrist rotation/flexed fist rotation
 1. praying halo
 1. overhead circles
 1. conductor rotation, IR
 1. open/close
-1. hs wrist rotation/flex/extend
-
 1. prone shoulder press
 1. active kneeling wrist
    1. hs f/b/s, fist
@@ -19,6 +17,7 @@
 1. full squat
 1. bent leg pike
 1. bent leg straddled pike
+1. partner shoulder stretch
 
 ### rocking and rolling
 
@@ -33,6 +32,8 @@
 3. plank
 4. prone handstand line
 5. bar hang
+   1. straight
+   1. tuck, pike, straddled pike with compression
 
 ### Headstand, shapes, with partner
 
@@ -45,10 +46,8 @@
 
 ### Handstand on the wall
 
-1.  hold, find line
-1.  shape change
+1.  just barely off wall hold, find line
 1.  lean off press
-1.  lean off return
 
 ### Entrances
 
@@ -60,7 +59,7 @@
 
 #### Pressing Entrance
 
-1. block press with compression
+1. wall/block press with compression
    1. split, tuck, or straddle
 
 ### Shifting/walking
@@ -82,10 +81,11 @@
 
 ### Exercise
 
-1. Shoulder balance --- wall, partner, freestanding
-1. Wrist balance --- headstand, frog, crow, planche
+1. Short Term Shoulder balance --- 10s partner big squeeze; or Freestanding
+1. Long Term Shoulder Balance ---- 30s wall HS with breathing, light squeeze; or Freestanding
 
-1. pseudo planche lean
+1. Wrist balance --- headstand, frog, crow, planche
+1. pseudo planche lean --- for wrist and shoulder
 
 #### push up isos and negatives
 
