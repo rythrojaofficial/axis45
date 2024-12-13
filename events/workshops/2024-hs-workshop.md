@@ -72,12 +72,14 @@
 
 ### Over The Head Bails
 
-1. Strength required
-1. walk (strength required)
-1. bridge(flexibility required)
-1. 1 foot ukemi to mat
-1. roll
-1. cartwheel
+1. strength required
+   1. walk
+1. flexibility required
+   1. bridge
+1. Skill required
+   1. 1 foot ukemi to mat
+   1. roll
+   1. cartwheel
 
 ### Exercise
 
@@ -91,5 +93,5 @@
 
 1.  Weighted Bent arm pressing motion
 1.  tuck/pike
-1.  elevated
-1.  wall
+1.  elevated/wall
+1.  freestanding

@@ -14,6 +14,8 @@
 
 ### Handstand line
 
+[Example](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.boundlessyogastudio.com%2Fblog-insights-from-our-staff-and-students%2Fhappiness-in-handstand-find-your-line-by-chris-loebsack&psig=AOvVaw2Au5BxqacwJcyAs4NMaqLQ&ust=1734136011639000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCtrZm-o4oDFQAAAAAdAAAAABAE)
+
 1.  Critical
     1. open shoulders
     1. ribs/core
@@ -35,7 +37,7 @@
 Flexibility + strength
 
 1. wrist health is the number one reason why people quit handstand training
-   1. wrist activation
+   1. wrist activation through fingers
 
 _Restricted Shoulder Mobility is the number one factor in the shape of your handstand_
 
@@ -61,13 +63,14 @@ _Restricted Shoulder Mobility is the number one factor in the shape of your hand
    1. flag
 1. Practice Methods
    1. floor
+   1. bar
    1. candlestick
    1. Headstand
    1. Handstand
 
 ### Compression
 
-1. active shape
+1. using the core to close a shape
 1. Compressions to practice
    1. tuck, pike, straddle
 
