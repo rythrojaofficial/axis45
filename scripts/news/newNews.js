@@ -31,7 +31,7 @@ export let newNews = [
   },
   {
     lastActivated: "11.17.24",
-    active: true,
+    active: false,
     title: "Free Injury Screening Night(s)!",
     lines: [
       "Free with Open Session drop-in OR membership tally ",
