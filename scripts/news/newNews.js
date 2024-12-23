@@ -17,6 +17,18 @@ export let newNews = [
     md: "",
     link: "",
   },
+  {
+    lastActivated: "12/23/24",
+    active: true,
+    title: "Christmas Week Closures 🎅🤶🎄🦌🛷",
+    lines: [
+      "Monday Sesh Tentative! Check the Mon/Friday Discord to vote yes if you're in town!",
+      "Tuesday-Thursday: Axis is Closed for Christmas!",
+      "Friday Open sesh as normal",
+    ],
+    md: "",
+    link: "",
+  },
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
@@ -40,22 +52,12 @@ export let newNews = [
     md: "./events/2024empower/injury-screening.md",
     link: "",
   },
-{
-    lastActivated: "11.6.24",
-    active: true,
-    title: "December Thursday Workshops",
-    lines: [
-      "6:30-7:30pm replacing December Foundations class!",
-      "Workshops Schedule 👇",
-    ],
-    md: "./events/workshops/december-workshops.md",
-    link: "",
-  },
+
   // discord announcement 2024
   {
     lastActivated: "9.15.24",
     active: true,
-    title: "Seattle Tricking Discord is Live",
+    title: "Seattle Tricking Discord",
     lines: [
       "Get notified of updates, announcements, and more!",
       "click here for the full details!",
@@ -65,7 +67,21 @@ export let newNews = [
   }, // december workshops
   //
 ];
+// ===========================================================
+// ==================Archived==================Archived=======
+// ===========================================================
 let archived = [
+  {
+    lastActivated: "11.6.24",
+    active: false,
+    title: "December Thursday Workshops",
+    lines: [
+      "6:30-7:30pm replacing December Foundations class!",
+      "Workshops Schedule 👇",
+    ],
+    md: "./events/workshops/december-workshops.md",
+    link: "",
+  },
   {
     lastActivated: "11.24.24",
     active: false,

@@ -3,11 +3,13 @@ import { today } from "./updateNews.js";
 
 // If today's session is canceled or otherwise changed
 export let noSesh = {
-  cancelled: false,
+  cancelled: true,
   days: [],
   messages: [
-    "No Session Today due to Thanksgiving :)",
-    "Enjoy the Day off!",
+    "Monday Sesh Tentative!",
+    "Check the # monfri-open-sessions channel on our discord to vote yes!",
+
+    // "Enjoy the Day off!",
 
     // "Due to Thanksgiving on Thursday, we Have Thursday Classes on Wednesday!",
     // "6:30pm Tricking Foundations",
@@ -29,7 +31,7 @@ export let thisWednesdaySesh = false;
 export function nextFoundationsDate() {
   // let nextFoundations;
   let manualFoundations = {
-    date: "1/2/25, ",
+    date: "",
     // message will show ONLY if there is a date
     message:
       "December will have workshops rather than foundations due to the holidays :)",
