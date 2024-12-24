@@ -6,8 +6,8 @@ export let noSesh = {
   cancelled: true,
   days: [],
   messages: [
-    "Monday Sesh Tentative!",
-    "Check the # monfri-open-sessions channel on our discord to vote yes!",
+    "Monday Sesh canceled due to not enough interest!",
+    "happy holidays, see y'all on Friday! ",
 
     // "Enjoy the Day off!",
 
