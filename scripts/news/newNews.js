@@ -18,13 +18,13 @@ export let newNews = [
     link: "",
   },
   {
-    lastActivated: "12/23/24",
+    lastActivated: "12/30/24",
     active: true,
-    title: "Christmas Week Closures 🎅🤶🎄🦌🛷",
+    title: "New Years Week",
     lines: [
-      "Monday Sesh Tentative! Check the Mon/Friday Discord to vote yes if you're in town!",
-      "Tuesday-Thursday: Axis is Closed for Christmas!",
-      "Friday Open sesh as normal",
+      "12/31 Tuesday Guided Tricking and Exercise as Normal!",
+      "NYE Games, Potluck, and Sesh Following Tuesday Exercise (9:30ish)",
+      "Thursday 1/2 starts the next Cycle of Tricking Foundations!",
     ],
     md: "",
     link: "",
@@ -71,6 +71,18 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+  {
+    lastActivated: "12/23/24",
+    active: true,
+    title: "Christmas Week Closures 🎅🤶🎄🦌🛷",
+    lines: [
+      "Monday Sesh Tentative! Check the Mon/Friday Discord to vote yes if you're in town!",
+      "Tuesday-Thursday: Axis is Closed for Christmas!",
+      "Friday Open sesh as normal",
+    ],
+    md: "",
+    link: "",
+  },
   {
     lastActivated: "11.6.24",
     active: false,
