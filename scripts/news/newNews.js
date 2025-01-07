@@ -18,15 +18,11 @@ export let newNews = [
     link: "",
   },
   {
-    lastActivated: "12/30/24",
+    lastActivated: "1/6/25",
     active: true,
-    title: "New Years Week",
-    lines: [
-      "12/31 Tuesday Guided Tricking and Exercise as Normal!",
-      "NYE Games, Potluck, and Sesh Following Tuesday Exercise (9:30ish)",
-      "Thursday 1/2 starts the next Cycle of Tricking Foundations!",
-    ],
-    md: "",
+    title: "J&K on Holiday 🌴🏖️🌊",
+    lines: ["1/19-1/29", "Classes May Be Affected!"],
+    md: "./events/jkholiday.md",
     link: "",
   },
   // 5th thursday cancellation
@@ -71,6 +67,18 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+  {
+    lastActivated: "12/30/24",
+    active: true,
+    title: "New Years Week",
+    lines: [
+      "12/31 Tuesday Guided Tricking and Exercise as Normal!",
+      "NYE Games, Potluck, and Sesh Following Tuesday Exercise (9:30ish)",
+      "Thursday 1/2 starts the next Cycle of Tricking Foundations!",
+    ],
+    md: "",
+    link: "",
+  },
   {
     lastActivated: "12/23/24",
     active: true,
