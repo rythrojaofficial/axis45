@@ -3,11 +3,14 @@ import { today } from "./updateNews.js";
 
 // If today's session is canceled or otherwise changed
 export let noSesh = {
-  cancelled: false,
+  cancelled: true,
   days: [],
   messages: [
-    "tuesday-thursday practices cancelled due to Christmas! ",
-    "happy holidays and see y'all on Friday! ",
+    "J&K on Holiday in Hawaii from Sunday 1/19 through Wednesday 1/29!",
+    "Class schedule may be affected!",
+    "Please see below ⬇️ for the projected changes!",
+    // "tuesday-thursday practices cancelled due to Christmas! ",
+    // "happy holidays and see y'all on Friday! ",
 
     // "Enjoy the Day off!",
 
