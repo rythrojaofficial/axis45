@@ -14,7 +14,7 @@ _Subject to change\* if you're in doubt, check the discord :-)_
 - 1/21 Tues: As normal with Slava
 - 1/22 Weds: _nothing planned, check discord_
 - **1/23 Thurs: No Foundations/Flipping, as there are 5 Thursdays in January :-)**
-- 1/24 Fri: As normal with AJ, unless otherwise mentioned in the discord
+- **1/24 Fri: no sesh,  aj out,  unless otherwise mentioned in the discord**
 - 1/25 Sat _nothing planned, check discord_
 - 1/26 Sun: As normal with Slava
 - 1/27 Mon: As normal with AJ, unless otherwise mentioned in the discord
