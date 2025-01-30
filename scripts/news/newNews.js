@@ -17,14 +17,6 @@ export let newNews = [
     md: "",
     link: "",
   },
-  {
-    lastActivated: "1/6/25",
-    active: true,
-    title: "J&K on Holiday 🌴🏖️🌊",
-    lines: ["1/19-1/29", "Classes May Be Affected!"],
-    md: "./events/jkholiday.md",
-    link: "",
-  },
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
@@ -67,6 +59,14 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+  {
+    lastActivated: "1/6/25",
+    active: true,
+    title: "J&K on Holiday 🌴🏖️🌊",
+    lines: ["1/19-1/29", "Classes May Be Affected!"],
+    md: "./events/jkholiday.md",
+    link: "",
+  },
   {
     lastActivated: "12/30/24",
     active: true,
