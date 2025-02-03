@@ -17,6 +17,14 @@ export let newNews = [
     md: "",
     link: "",
   },
+    {
+    lastActivated: "2.2.25",
+    active: true,
+    title: "Snow Expected This Week! 2.2 - 2.9 ❄️",
+    lines: ["1. If you don't have experience driving in the snow in hilly seattle, do not learn in real time.", "2. Check the weather in your area BEFORE you leave for any sesh this week", "3. Go play in the snow when available!!!!!"],
+    md: "",
+    link: "",
+  },
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
