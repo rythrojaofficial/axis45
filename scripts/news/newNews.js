@@ -17,6 +17,15 @@ export let newNews = [
     md: "",
     link: "",
   },
+  {
+    lastActivated: "2.6.25",
+    active: true,
+    title: "2.6 Thursday Classes Cancelled due to Snow and Icy roads",
+    lines: ["Hello! There's still a lot of snow and slush on the road.  It may melt later today, whatever melts today is projected to freeze over tonight.",
+           "Tricking Foundations and Flipping progressions will be canceled for tonight!", "We will do a 3 week cycle starting next week :)"],
+    md: "",
+    link: "",
+  },
     {
     lastActivated: "2.2.25",
     active: true,
