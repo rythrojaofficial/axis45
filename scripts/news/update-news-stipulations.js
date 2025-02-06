@@ -6,9 +6,12 @@ export let noSesh = {
   cancelled: false,
   days: [],
   messages: [
-    "J&K on Holiday in Hawaii from Sunday 1/19 through Wednesday 1/29!",
-    "Class schedule may be affected!",
-    "Please see below ⬇️ for the projected changes!",
+    "Thursday Classes cancelled due to Snow and Ice!",
+    "A 3 week cycle for tricking foundations will start next Thursday 2/13 at the proportionate rate :-)",
+    "Everyone stay safe out there!",
+    // "J&K on Holiday in Hawaii from Sunday 1/19 through Wednesday 1/29!",
+    // "Class schedule may be affected!",
+    // "Please see below ⬇️ for the projected changes!",
     // "tuesday-thursday practices cancelled due to Christmas! ",
     // "happy holidays and see y'all on Friday! ",
 
@@ -34,10 +37,11 @@ export let thisWednesdaySesh = false;
 export function nextFoundationsDate() {
   // let nextFoundations;
   let manualFoundations = {
-    date: "",
+    date: "2.13",
     // message will show ONLY if there is a date
     message:
-      "December will have workshops rather than foundations due to the holidays :)",
+      "due to early February snow and icy roads.  February will be a 3-week session, priced proportionately."
+      // "December will have workshops rather than foundations due to the holidays :)",
   };
 
   if (manualFoundations.date === "") {
