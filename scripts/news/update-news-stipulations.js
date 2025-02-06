@@ -7,6 +7,7 @@ export let noSesh = {
   days: [],
   messages: [
     "Thursday Classes cancelled due to Snow and Ice!",
+    "Whatever melts today is likely to refreeze overnight.",
     "A 3 week cycle for tricking foundations will start next Thursday 2/13 at the proportionate rate :-)",
     "Everyone stay safe out there!",
     // "J&K on Holiday in Hawaii from Sunday 1/19 through Wednesday 1/29!",
