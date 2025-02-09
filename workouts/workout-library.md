@@ -35,3 +35,22 @@
 8. Hatfield Squat: Using safety squat bar while holding onto power rack uprights.
 8. Bulgarian Split Squat with Weights: Adding dumbbells, kettlebells, or barbell to the elevated rear foot variation.
 8. Box Squat with Weight: Any of the above variations performed to a box, but most commonly with a barbell.
+
+### bw jumps
+1. Depth Drops: Dropping from progressively higher platforms to develop eccentric strength and landing mechanics.
+2. Depth Jump to Vertical Jump with Reach: Drop, explode up to touch target overhead.
+3. Depth Jump to Broad Jump: Drop from height into immediate horizontal jump.
+1. Depth Jump to Box Jump: Drop from height, immediately explode up onto higher box.
+1. Rim Jumps: Maximum height vertical jumps touching elevated target.
+4. Single-Leg Jumps: Continuous jumps on one leg with rhythm emphasis.
+5. Bounding: Exaggerated running motion with maximum horizontal/vertical displacement.
+1. Multiple broad Jump: Series of consecutive broad jumps for distance.
+1. Single-Leg Box Jump Series: Alternating legs on successive box jumps.
+1. Hurdle Rebounds: Multiple jumps over hurdle, usually side-to-side in succession, minimizing ground contact time.
+1. Multiple Box-to-Box Jumps: Series of boxes arranged for consecutive jumps at varying heights.
+1. Double-Leg Tuck Jumps: Maximum height with knees to chest.
+1. Reactive Split Jumps: Alternating split jumps with minimal ground contact.
+1. Cross-Over Bounds: Alternating crossover jumping pattern for lateral power.
+1. Double-Leg to Single-Leg Landing: Jump up, land on single leg for stability training.
+
+
