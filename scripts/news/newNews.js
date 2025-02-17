@@ -17,23 +17,6 @@ export let newNews = [
     md: "",
     link: "",
   },
-  {
-    lastActivated: "2.6.25",
-    active: false,
-    title: "2.6 Thursday Classes Cancelled due to Snow and Icy roads",
-    lines: ["Hello! There's still a lot of snow and slush on the road.  It may melt later today, whatever melts today is projected to freeze over tonight.",
-           "Tricking Foundations and Flipping progressions will be canceled for tonight!", "We will do a 3 week cycle starting next week :)"],
-    md: "",
-    link: "",
-  },
-    {
-    lastActivated: "2.2.25",
-    active: false,
-    title: "Snow Expected This Week! 2.2 - 2.9 ❄️",
-    lines: ["1. If you don't have experience driving in the snow in hilly seattle, do not learn in real time.", "2. Check the weather in your area BEFORE you leave for any sesh this week", "3. Go play in the snow when available!!!!!"],
-    md: "",
-    link: "",
-  },
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
@@ -48,6 +31,17 @@ export let newNews = [
   },
   {
     lastActivated: "11.17.24",
+    active: false,
+    title: "Free Injury Screening Night(s)!",
+    lines: [
+      "Free with Open Session drop-in OR membership tally ",
+      "Sunday 12.8, Friday 12.13",
+    ],
+    md: "./events/2024empower/injury-screening.md",
+    link: "",
+  },
+  {
+    lastActivated: "2.17.25",
     active: false,
     title: "Free Injury Screening Night(s)!",
     lines: [
@@ -76,6 +70,23 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+  {
+    lastActivated: "2.6.25",
+    active: false,
+    title: "2.6 Thursday Classes Cancelled due to Snow and Icy roads",
+    lines: ["Hello! There's still a lot of snow and slush on the road.  It may melt later today, whatever melts today is projected to freeze over tonight.",
+           "Tricking Foundations and Flipping progressions will be canceled for tonight!", "We will do a 3 week cycle starting next week :)"],
+    md: "",
+    link: "",
+  },
+    {
+    lastActivated: "2.2.25",
+    active: false,
+    title: "Snow Expected This Week! 2.2 - 2.9 ❄️",
+    lines: ["1. If you don't have experience driving in the snow in hilly seattle, do not learn in real time.", "2. Check the weather in your area BEFORE you leave for any sesh this week", "3. Go play in the snow when available!!!!!"],
+    md: "",
+    link: "",
+  },
   {
     lastActivated: "1/6/25",
     active: true,
