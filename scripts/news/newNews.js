@@ -17,6 +17,14 @@ export let newNews = [
     md: "",
     link: "",
   },
+  {
+    lastActivated: "2.17.25",
+    active: true,
+    title: "[Sunday/3.9/5:15pm] Neck Clinic for Dynamic Athletes!",
+    lines: ["Dr. Gina from Empower is back to workshop neck things for Breakers and Trickers", "special tests and exercises to keep your neck in check.","Free with session drop-in fee or membership tally"],
+    md: "",
+    link: "",
+  },
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
