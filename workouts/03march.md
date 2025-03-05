@@ -14,7 +14,7 @@
 1. releve walk F, R/L Grape, B
 1. heel walk 
 1. 3 hs curl + SL Pike
-1. lung walk + twist + back bend
+1. lunge walk + twist + back bend
 1. squat + squat turn + shuffle shuffle
 #### Skill Specific
 1. gainer lift
@@ -47,6 +47,10 @@
 1. SL banded hip flexor on rack
 1. bosu skater tap
 1. band assisted SL plyo
+
+### Bonus
+1. handstand
+1. 45s achilles iso against wall
 
 
 
