@@ -42,9 +42,9 @@
 ### Accessory Circuit
 1. oblique tap reversal
 1. Pistol + rock
-1. weighted side ups
+1. weighted side bends
 1. foot elevated SL HS curl
-1. SL banded hip flexor on rack
+1. SL banded hip flexor on rack march
 1. bosu skater tap
 1. band assisted SL plyo
 
