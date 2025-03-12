@@ -18,16 +18,8 @@ export let newNews = [
     link: "",
   },
   {
-    lastActivated: "2.17.25",
+    lastActivated: "3.12.25",
     active: true,
-    title: "[Sunday/3.9/5:15pm] Neck Clinic for Dynamic Athletes!",
-    lines: ["Dr. Gina from Empower is back with special tests and accompanying exercises to keep ya neck in check","Free with session drop-in fee or membership tally"],
-    md: "",
-    link: "",
-  },
-  {
-    lastActivated: "2.23.25",
-    active: false,
     title: "[Saturday/4.12] Portland Earth Day Invitational",
     lines: ["Portland's annual tricking event is back!","More details to come"],
     md: "./events/2025earthday.md",
@@ -86,6 +78,14 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+  {
+    lastActivated: "2.17.25",
+    active: false,
+    title: "[Sunday/3.9/5:15pm] Neck Clinic for Dynamic Athletes!",
+    lines: ["Dr. Gina from Empower is back with special tests and accompanying exercises to keep ya neck in check","Free with session drop-in fee or membership tally"],
+    md: "",
+    link: "",
+  },
   {
     lastActivated: "2.6.25",
     active: false,
