@@ -21,9 +21,9 @@ export let newNews = [
     lastActivated: "3.12.25",
     active: true,
     title: "[Saturday/4.12] Portland Earth Day Invitational",
-    lines: ["Portland's annual tricking event is back!","More details to come"],
+    lines: ["Portland's annual tricking event is back!","More details below!"],
     md: "./events/2025earthday.md",
-    link: "https://www.pdxtricking.org/events",
+    link: "",
   },
   // 5th thursday cancellation
   {
