@@ -19,628 +19,332 @@
         </div>
     </div>
     <h1 class="title">ST Admin</h1>
+    <div id="populate-admin"></div>
+    <div>
+        <div class="gray-container">
+            <div class="section">Quick Links</div>
+            <ul style="list-style-type: none;">
+                <li><a href="#opening">#Opening</a> <a href="#closing">#Closing</a> <a href="#session-checklist">#Mid-Session</a></li>
+                <li><a href="#forms">#Expenses&Forms</a> <a href="#where-is-stuff">#Where-is-stuff</a></li>
+                <li><a href="#injury-unconscious"></li> 
+                <li>#Injury (Unconcious)</a>
+                <li><a href="#injury-conscious-bad">#Injury (Concious but BAD)</a></li>
+                    <a href="#injury-bummer">#Injury (a bummer)</a>
+                    <a href="#incident-report">#Incident Report</a></li>
+            </ul>
+             
     
-    <div class="gray-container">
-        <div class="section">Quick Links</div>
-        <ul style="list-style-type: none;">
-            <li><a href="#opening">#Opening</a> <a href="#closing">#Closing</a> <a href="#session-checklist">#Mid-Session</a></li>
-            <li><a href="#forms">#Expenses&Forms</a> <a href="#where-is-stuff">#Where-is-stuff</a></li>
-            <li><a href="#injury-unconscious"></li> 
-            <li>#Injury (Unconcious)</a>
-            <li><a href="#injury-conscious-bad">#Injury (Concious but BAD)</a></li>
-                <a href="#injury-bummer">#Injury (a bummer)</a>
-                <a href="#incident-report">#Incident Report</a></li>
-        </ul>
-         
-
-    </div>
-
-    <!-- ==========
-    membership
-    ========== -->
-    <div class="flex-container">
-        <!-- Tally  -->
-        <div>
-            <h2 style="text-align: center;">Tally</h2>
-            <!-- check tally button  -->
+        </div>
+    
+        <!-- ==========
+        membership
+        ========== -->
+        <div class="flex-container">
+            <!-- Tally  -->
+            <div>
+                <h2 style="text-align: center;">Tally</h2>
+                <!-- check tally button  -->
+                <div class="flex-button-container">
+                    <div>
+                        <a href="https://docs.google.com/spreadsheets/d/1upSCj1_8Nnp96HLCzcWiPU8Mcav8d2btwCaUvgOkUUw/edit#gid=759446929">
+                            Check Tally
+                        </a>
+                    </div>
+                    <div><a href="https://docs.google.com/forms/d/1KV5l08rmzYQe6yDG6tBpbZ6W16c1IvixXMPeyVJP4K0/edit">Add to tally</a></div>
+                </div>
+                <!-- tally form  -->
+                 <div id="tally-form-iframe"></div>
+            </div>
+        
+            <div>
+                <h2 style="text-align: center;">Membership Addition</h2>
+                <div class="flex-button-container">
+                    <div>
+                        <a href="https://docs.google.com/spreadsheets/d/1XgWTX3NWz7Og13lHe4iHiQpw-LHDCEUDNATY1Ts2j60/edit#gid=1821510880">
+                            Check Member Status
+                        </a>
+                    </div>
+                    <div><a href="https://dashboard.stripe.com/dashboard">stripe dashboard</a></div>
+                </div>
+                <div id="membership-addition-iframe"></div>
+            </div>
+        </div>
+        
+    
+        <div class="container" id="forms">
+            <h2 style="text-align: center;">STC Expenses</h2>
+            <div class="show-more gray-container" >
+                <div class="section">Log expenses</div>
+                <div id="log-expenses-iframe"></div>
+            </div>
             <div class="flex-button-container">
                 <div>
-                    <a href="https://docs.google.com/spreadsheets/d/1upSCj1_8Nnp96HLCzcWiPU8Mcav8d2btwCaUvgOkUUw/edit#gid=759446929">
-                        Check Tally
+                    <a href="https://docs.google.com/spreadsheets/d/1kU_FVVE2dpsIPH3L_PWqkVGuy1kyoIrTwkqlZgdlo5Q/edit#gid=2081494157">
+                        2023 Expenses
                     </a>
                 </div>
-                <div><a href="https://docs.google.com/forms/d/1KV5l08rmzYQe6yDG6tBpbZ6W16c1IvixXMPeyVJP4K0/edit">Add to tally</a></div>
-            </div>
-            <!-- tally form  -->
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScd0QQ2u3JZmqL97GtPzVbWeKFlOEO1WlSSGNCNtIQbGD7MnA/viewform?embedded=true" 
-            width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
-    
-        <div>
-            <h2 style="text-align: center;">Membership Addition</h2>
-            <div class="flex-button-container">
                 <div>
-                    <a href="https://docs.google.com/spreadsheets/d/1XgWTX3NWz7Og13lHe4iHiQpw-LHDCEUDNATY1Ts2j60/edit#gid=1821510880">
-                        Check Member Status
+                    <a href="https://docs.google.com/spreadsheets/d/1jtoN7tPJvzYyLqdjuHN0YoNxsVyTGksn7Vm4RjtTIoA/edit#gid=0">
+                        2024 Expenses
                     </a>
                 </div>
-                <div><a href="https://dashboard.stripe.com/dashboard">stripe dashboard</a></div>
             </div>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOSc7-6nNn7HhSEbQ2MSank20qanyZxVObD_176kdU0qDihw/viewform?embedded=true" 
-            width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
-    </div>
     
-
-    <div class="container" id="forms">
-        <h2 style="text-align: center;">STC Expenses</h2>
-        <div class="flex-button-container">
-            <div>
-                <a href="./expe.html">
-                    Log Expenses
-                </a>
-            </div>
-            
-            <div>
-                <a href="https://docs.google.com/spreadsheets/d/1kU_FVVE2dpsIPH3L_PWqkVGuy1kyoIrTwkqlZgdlo5Q/edit#gid=2081494157">
-                    2023 Expenses
-                </a>
-            </div>
-            <div>
-                <a href="https://docs.google.com/spreadsheets/d/1jtoN7tPJvzYyLqdjuHN0YoNxsVyTGksn7Vm4RjtTIoA/edit#gid=0">
-                    2024 Expenses
-                </a>
+        <div class="container">
+            <h2 style="text-align:center">Check Form Responses</h2>
+            <div class="flex-button-container">
+                <div><a href="https://docs.google.com/spreadsheets/d/1Tcd_vvceuYZI-eAtw7tWJk6VPVko8mOKd7jJwFCKVEk/edit#gid=0">
+                    tricking foundations
+                </a></div>
+                <div><a href="https://docs.google.com/spreadsheets/d/1Yv0o9ChbYAqJAOjIqccGB8sy3239wIEwnJKPR0p69Gs/edit#gid=1355468789">
+                    adult waivers before 2023
+                </a></div>
+                <div><a href="https://docs.google.com/spreadsheets/d/161R05LqSeGULVDWo3prfuhvxenwAN4nMsWA_vj9JC0o/edit#gid=0">
+                    adult waivers 2024
+                </a></div>
+                <div><a href="https://drive.google.com/drive/folders/1EwAhDjqIoW8pKiCdBALz8uO9xJ4I4lMc?usp=sharing">
+                    Forms
+                </a></div>
             </div>
         </div>
-    </div>
-
-    <div class="container">
-        <h2 style="text-align:center">Check Form Responses</h2>
-        <div class="flex-button-container">
-            <div><a href="https://docs.google.com/spreadsheets/d/1Tcd_vvceuYZI-eAtw7tWJk6VPVko8mOKd7jJwFCKVEk/edit#gid=0">
-                tricking foundations
-            </a></div>
-            <div><a href="https://docs.google.com/spreadsheets/d/1Yv0o9ChbYAqJAOjIqccGB8sy3239wIEwnJKPR0p69Gs/edit#gid=1355468789">
-                adult waivers before 2023
-            </a></div>
-            <div><a href="https://docs.google.com/spreadsheets/d/161R05LqSeGULVDWo3prfuhvxenwAN4nMsWA_vj9JC0o/edit#gid=0">
-                adult waivers 2024
-            </a></div>
-            <div><a href="https://drive.google.com/drive/folders/1EwAhDjqIoW8pKiCdBALz8uO9xJ4I4lMc?usp=sharing">
-                Forms
-            </a></div>
-        </div>
-    </div>
-
     
-
-    <h1 class="title" id="opening">Opening & Closing</h1>
-
-    <div class="container">
-        <div class="checklist-container">
-            <div class="gray-checklist">
-                <div class="section">Opening Checklist</div>
-                <ul class="mainList"> <span class="list-title">Arrive Early</span>
-                    <li>~10m early is plenty</li>
-                    <li>if you're running late, let the appropriate group chat(s) know with an @tag (eg. @axis open sessions)</li>
-                </ul>
-                <ul class="mainList"> <span class="list-title">Parking:</span>
-                    <li>Park where you can</li>
-                    <li>
-                        If cars are blocking stalls, check with APM
-                    </li>
-                    <li>
-                        If cars are in or blocking the driveway, check with Sonderklasse, then Loc at MVP upstairs, then APM auto
-                        <ul>
-                            <li>
-                                If there's nothing you can do, just alert the peeps in the chat(s)
-                            </li>
-                        </ul>
-                        
-                    </li>
-                </ul>
-
-                <ul class="mainList"> <span class="list-title">Turn On:</span>
-                    <li>security/playback
-                        <ul>
-                            <li>security runs 24/7, only need to turn the monitor on the far right bottom of the screen</li>
-                            <li>mouse on is on the bottom</li>
-                        </ul>
-                        
-                    </li>
-                    <li>
-                        Lights
-                        <ul>
-                            <li>
-                                Garage/lobby lights as necessary
-                                <ul>
-                                    <li>garage panel: switch #2</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Computer/Music as necessary
-                        <li>no longer need to worry about power strip</li>
-                        <ul> 
-                            <li>password: 
-                                <ul>try these
-                                    <li>four digits in mainstream numerical degrees: (vert roundhouse kick with roughly 2 spins)</li>
-                                    <li>numerical degrees of 3.5 spins</li>
-                                </ul>
-                                </li>
-                            
-                        </ul>
-                    </li>
-                    <li>
-                        Fan/heaters as necessary
-                    </li>
-                </ul>
-
-                <ul class="mainList"> <span class="list-title">Check/Organize:</span>
-                    <li>
-                        Leak/buckets.  Check if there's new drops at or outside the normal spots
-                        <ul>
-                            <li>
-                                Take a pic if there is
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Organize
-                        <ul>
-                            <li>
-                                Phone stands/timers/ClockRemote go in the boat in the desk
-                            </li>
-                            <li>
-                                Mats
-                            </li>
-                            <li>
-                                Weights/balls/rollers/spinner/timers
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Check and replenish if necessary/take note if we're running low
-                        <ul>
-                            <li>
-                                Paper towels
-                            </li>
-                            <li>
-                                Toilet Paper
-                            </li>
-                            <li>Soap</li>
-                            <li>Cups(under desk)</li>
-                        </ul>
-                    </li>
-                    <li>
-                        Sweep/Vacuum as needed
-                    </li>
-                </ul>
+        
+    
+        <h1 class="title">Opening & Closing</h1>
+    
+        <div class="container">
+            <div class="checklist-container mainList">
+                <div id="opening" class="show-more">
+                    <div class="section">Opening Checklist</div>
+                </div>
             </div>
+            <div class="checklist-container mainList">
+                <div id="closing" class ="show-more">
+                    <div class="section">Closing Checklist</div>
+                </div>
+            </div>
+            <div class="checklist-container mainList">
+                <div id="session" class="show-more">
+                    <div class="section">Session Checklist</div>
+                </div>
+            </div>
+        </div>
+        
+        <h1 class="title">Where is Stuff?</h1>
 
-            <div class="gray-checklist">
-                <div class="section" id="closing">Closing Checklist</div>
-                <ul class="mainList"> <span class="list-title">Prepare for close</span>
-                    <li>
-                        Change the music
-                        <ul>
-                            <li>
-                                As sesh winds down, bring peeps into parasympathetic state unless you want to stay late
-                            </li>
-                            <li>
-                                Either background beats, warm jazz, glitchxcity, or whatever else you like
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Turn off heaters, extra fans
-                    </li>
-                    <li>
-                        Lock garage / turn off Garage light (switch #2)
-                    </li>
-                    <li>security/playback
-                                <ul>
-                                    <li>security runs 24/7, only need to turn the monitor off the far right bottom of the screen</li>
-                                    <li>mouse off is on the bottom</li>
-                                </ul>
-                                
-                            </li>
-                </ul>
-
-                <ul class="mainList"> <span class="list-title">Check/Organize:</span>
-                    <!-- <li>
-                        Check Leak
-                        <ul>
-                            <li>
-                                Take a pic if needed
-                            </li>
-                            <li>
-                                Bucket if needed
-                            </li>
-                        </ul>
-                    </li> -->
-                    <li>
-                        Organize
-                        <ul>
-                            <li>Phone stands/timers/ClockRemote go in the boat in the desk</li>
-                            <li>Mats</li>
+        <div class="gray-container">
+            <div class="checklist-container">
+                <div class="white-checklist" id="where-is-stuff">
+                        <div id="first-aid" class="mainList"></div>
+                    </div>
+                <div class="white-checklist">
+                    <div id="misc" class="mainList"></div>
+                </div>
+                        
+                    
+                </div>
+                    
+            </div>
+        </div>
+                <div class="white-checklist" id="injury-unconscious">
+                    <div class="section">Injury/Emergency Checklist P1</div>
+                    <ul class="mainList"> <span class="list-title">Unconcious/Can't breathe/ Anything with Neck/Back</span>
+                        <li>Put someone in charge of sesh, clear space
+                            <ul>
                                 <li>
-                                    green mats should be stored seam side up
+                                    if no one trustworthy, cancel sesh, ask people to clear out, they won't be charged 
                                 </li>
-                                <li>airmat should not be stored directly on wall (the vinyl pulls paint unfortunately)</li>
-                            <li>
-                                Weights/balls/rollers/spinner
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Check/replenish/take note
-                        <ul>
-                            <li>Paper towels</li>
-                            <li>TP</li>
-                            <li>Soap</li>
-                            <li>Cups</li>
-                            <li>dump bucket outside if needed</li>
-                        </ul>
-                    </li>
-                    <li>
-                        Sweep/vacuum as needed
-                    </li>
-                </ul>
-
-                <ul class="mainList"> <span class="list-title">Shutdown</span>
-                    <li>
-                        Computer
-                    </li>
-                </ul>
-
-                <ul class="mainList"> <span class="list-title">Make sure you're the last out</span>
-                    <li>Lights off</li>
-                    <li>Lock Door</li>
-                </ul>
-                </div>   
-            </div>
-        </div>
-    </div>
-
-    <div class="gray-container">
-        <div class="checklist-container">
-            <div class="white-checklist">
-                <div class="section" id="session-checklist">Session Checklist</div>
-                <ul class="mainList"> <span class="list-title">Security System</span>
-                    <li>pattern
-                        <ul>
-                            <li>look at your phone number pad</li>
-                            <li>4123 </li>
-                        </ul>
-                    <li>on but no picture?</li>
-                    <li>make sure you're on camera 2 or 1
-                        <ul>
-                            <li>either scroll wheel or double click</li>
-                        </ul>
-                    </li>
-                    <li>quick playback
-                        <ul>
-                            <li>triangle 5m on the bottom left gives you the last 5m</li>
-                        </ul>
-                    </li>
-                    <li>check further playback
-                        <ul>
-                            <li>right click, playback, select camera, day, etc</li>
-                        </ul>
-                    </li>
-                        
-                    </li>
-                </ul>
-                <ul class="mainList"> <span class="list-title">New people</span>
-                    <li>
-                        Greet and chat
-                        <ul>
-                            <li>
-                                Where they're from
-                            </li>
-                            <li>
-                                How they found us
-                            </li>
-                            <li>
-                                How long they've been tricking
-                            </li>
-                            <li>
-                                Have they done the waiver?
-                                <ul>
-                                    <li>Waiver on the wall or website</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="mainList"> <span class="list-title">Tally</span>
-                    <li><em>If subbing, don't tally, Have them sign-in on the pad instead. If they don't have a card on file, have them venmo @seattletricking the appropriate amount if they aren't a member :)</em></li>
-                    <li>
-                        Tally near end of sesh
-                        <ul>
-                            <li><a href="./admin.html">Admin Page</a> for all things tally</li>
-                        </ul>
-                    </li>
-                    <li>
-                        check member status if unsure if member
-                    </li>
-                </ul>
-                <ul class="mainList"> <span class="list-title">Non-members</span>
-                    <li><em>If subbing, don't charge anyone.  Have them sign-in on the Pad instead.  If they don't have a card on file, have them venmo @seattletricking the appropriate amount :)</em></li>
-                    <li>If they're not on the tally list and you recognize them:
-                        <ul>
-                            <li>charge drop-in fee</li>
-                            <li>
-                                if no card on file, try to get a card on file
-                            </li>
-                            <li>
-                                if they only have mobile pay, just normal charge
-                            </li>
-                        </ul>
-                    </li>
-                    <li>If they're not on the tally list and you don't recognize them:
-                        <ul>
-                            <li>
-                                Ask them if they want to do membership
-                                <ul>
-                                    <li><a href="../memberships.html">memberships</a> for more deets</li>
-                                </ul>
-                            </li>
-                            <li>
-                                Or do drop in fee as above
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Don't charge if:
-                        <ul>
-                            <li>
-                                They only came to hang out
-                            </li>
-                            <li>
-                                They get injured
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        If there's a decent amount of people of People (like 5+)
-                        <ul>
-                            <li>
-                                Write everyone's name down on the Pad
-                            </li>
-                            <li>
-                                check them off as you tally/charge so we don't duplicate/miss
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="container">
-                <div class="checklist-container">
-                    <div class="white-checklist">
-                        <div class="section" id="where-is-stuff">Where is Stuff?</div>
-                            <ul class="mainList">
-                                <span class="list-title">First-Aid Supplies</span>
-                                <li>Band Aids: blue box in cubby under empower</li>
-                                <li>Ice: Freezer in storage room</li>
-                                <li>Ace Wrap/pillowcase for ice: cubbies</li>
-                                <li>Paper towels:bathroom</li>
+                                <li>
+                                    if they can be safely moved, move off of floor, if not, clear space around them
+                                </li>
+                                <li>
+                                    call 911
+                                    <ul>
+                                        <li>
+                                            There has been this type of emergency _______
+                                            <ul>
+                                                <li>anaphalactic shock</li>
+                                                <li>Seizure</li>
+                                                <li>neck/back injury</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            at our acrobatic martial arts studio Axis 45
+                                            <ul>
+                                                <li>7701 230th St SW, Edmonds, WA 98026</li>
+                                                <li>The time is ______</li>
+                                                <li>Write these down</li>
+                                            </ul> 
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Alert emergency contact in waiver responses
+                                    <ul>
+                                        <li>
+                                            <a href="https://docs.google.com/spreadsheets/d/1Yv0o9ChbYAqJAOjIqccGB8sy3239wIEwnJKPR0p69Gs/edit#gid=1355468789">original waiver</a>
+                                        </li>
+                                        <li><a href="https://gmail.com">gmail</a> search for their name or jotform</li>
+                                        <li>
+                                            hi this is _____ Axis 45, Seattle Tricking and Acrobatics.  ___ listed you as his emergency contact so we wanted to inform you that _____ has happened.  We've taken these steps ______ and you can meet us here or at _____.
+                                        </li>
+    
+                                        <li>Log how they phsically left 
+                                            <ul>
+                                                <li>drove home</li>
+                                                <li>ambulance</li>
+                                                <li>friend pickup</li>
+                                                <li>uber</li>
+                                            </ul>
+                                        </li>
+                                        <li>Write down who and when you contacted with what info in this <a class="text-links" href="#incident-report">incident report form</a></li>
+                                    </ul>
+                                </li>
                             </ul>
-                        </div>
-                    <div class="white-checklist">
-                        <ul class="mainList">
-                            <span class="list-title">misc</span>
-                            <li>water cups: office near freezer</li>
-                            <li>blue-floor ONLY red vacuum: other side of bathroom</li>
-                            <li>Orange all-other vacuum: other side of bathroom</li>
-                            <li>tools: other side of bathroom</li>
-                            <li>writing utensils: desk or security area</li>
-                        </ul>
-                    </div>
-                            
-                        
-                    </div>
-                        
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="white-checklist" id="injury-unconscious">
-                <div class="section">Injury/Emergency Checklist P1</div>
-                <ul class="mainList"> <span class="list-title">Unconcious/Can't breathe/ Anything with Neck/Back</span>
-                    <li>Put someone in charge of sesh, clear space
-                        <ul>
+        </div>
+    
+    
+        <div class="container">
+            <div class="checklist-container">
+                <div class="gray-checklist">
+                    <div class="section" id="injury-conscious-bad">Injury/Emergency Checklist P2</div>
+                    <ul class="mainList"> <span class="list-title">Conscious but it's BAD BAD </span>
+                        <li>(Clear bone break, dislocation, usually screaming involved)</li>
+                        <li>
+                            stay calm, slow your breathing
+                        </li>
+                        <li>
+                            tell them to stay calm, focus on breathing, slow their breathing
+                        </li>
+                        <li>
+                            put someone in charge of sesh, clear space
+                            <ul>
+                                <li>
+                                    if no one trustworthy, cancel sesh, ask people to clear out, they won't be charged
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            if they can move, try to move off the floor otherwise clear space
+                        </li>
+                        <li>
+                            ask whether they want a ride to the ER or an ambulance, or to be driven home by their Emergency contact/someone from sesh/uber/you
+                        </li>
                             <li>
-                                if no one trustworthy, cancel sesh, ask people to clear out, they won't be charged 
+                                if they want an ambulance, or you to take them to the ER, cancel practice, ask people to clear out, they won't be charged
                             </li>
                             <li>
-                                if they can be safely moved, move off of floor, if not, clear space around them
-                            </li>
-                            <li>
-                                call 911
+                                if need an ambulance, call 911
                                 <ul>
                                     <li>
                                         There has been this type of emergency _______
                                         <ul>
-                                            <li>anaphalactic shock</li>
-                                            <li>Seizure</li>
-                                            <li>neck/back injury</li>
+                                            <li>
+                                                open fracture upper/lower arm/leg, etc
+                                                    <ul>
+                                                        <li>bone clearly broken, you might see bone</li>
+                                                    </ul>
+                                            </li>
+                                            <li>
+                                                closed fracture upper/lower arm/leg, etc
+                                                    <ul>
+                                                        <li>bone clearly broken, but appears contained</li>
+                                                    </ul>
+                                            </li>
+                                            <li>
+                                                dislocation of shoulder/collarbone/ankle/knee/kneecap
+                                            </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        at our acrobatic martial arts studio Axis 45
+                                        At our acrobatic martial arts studio Axis 45
                                         <ul>
-                                            <li>7701 230th St SW, Edmonds, WA 98026</li>
-                                            <li>The time is ______</li>
-                                            <li>Write these down</li>
-                                        </ul> 
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                Alert emergency contact in waiver responses
-                                <ul>
-                                    <li>
-                                        <a href="https://docs.google.com/spreadsheets/d/1Yv0o9ChbYAqJAOjIqccGB8sy3239wIEwnJKPR0p69Gs/edit#gid=1355468789">original waiver</a>
-                                    </li>
-                                    <li><a href="https://gmail.com">gmail</a> search for their name or jotform</li>
-                                    <li>
-                                        hi this is _____ Axis 45, Seattle Tricking and Acrobatics.  ___ listed you as his emergency contact so we wanted to inform you that _____ has happened.  We've taken these steps ______ and you can meet us here or at _____.
-                                    </li>
-
-                                    <li>Log how they phsically left 
-                                        <ul>
-                                            <li>drove home</li>
-                                            <li>ambulance</li>
-                                            <li>friend pickup</li>
-                                            <li>uber</li>
+                                            <li>
+                                                7701 230th St SW, Edmonds, WA 98026
+                                            </li>
                                         </ul>
                                     </li>
-                                    <li>Write down who and when you contacted with what info in this <a class="text-links" href="#incident-report">incident report form</a></li>
+                                    <li>
+                                        The time is _____
+                                    </li>
+                                    <li>
+                                        Write everything down in this <a class="text-links" href="#incident-report">incident report form</a>
+                                    </li>
+                                    <li>
+                                        log down how they physically left
+                                    </li>
                                 </ul>
                             </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="checklist-container">
-            <div class="gray-checklist">
-                <div class="section" id="injury-conscious-bad">Injury/Emergency Checklist P2</div>
-                <ul class="mainList"> <span class="list-title">Conscious but it's BAD BAD </span>
-                    <li>(Clear bone break, dislocation, usually screaming involved)</li>
-                    <li>
-                        stay calm, slow your breathing
-                    </li>
-                    <li>
-                        tell them to stay calm, focus on breathing, slow their breathing
-                    </li>
-                    <li>
-                        put someone in charge of sesh, clear space
-                        <ul>
-                            <li>
-                                if no one trustworthy, cancel sesh, ask people to clear out, they won't be charged
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        if they can move, try to move off the floor otherwise clear space
-                    </li>
-                    <li>
-                        ask whether they want a ride to the ER or an ambulance, or to be driven home by their Emergency contact/someone from sesh/uber/you
-                    </li>
-                        <li>
-                            if they want an ambulance, or you to take them to the ER, cancel practice, ask people to clear out, they won't be charged
+    
+                    </ul>
+                </div>
+    
+                <div class="gray-checklist">
+                    <div class="section" id="injury-bummer">Injury/Emergency Checklist P3</div>
+                    <ul class="mainList"> <span class="list-title">Conscious and it's a bummer</span>
+                        <li>But not bad bad (sprains and below, ligament stuff, shoulder dislocations where they pop it back in)
                         </li>
                         <li>
-                            if need an ambulance, call 911
+                            help them move to the side and use blocks as necessary for them to be comfortable
+                        </li>
+                        <li>
+                            ice/bandage if wanted.  ice packs in the freezer in the middle room.  Band aids are in blue box under empower banner
+                        </li>
+                        <li>
+                            ask whether they can drive.  
                             <ul>
                                 <li>
-                                    There has been this type of emergency _______
-                                    <ul>
-                                        <li>
-                                            open fracture upper/lower arm/leg, etc
-                                                <ul>
-                                                    <li>bone clearly broken, you might see bone</li>
-                                                </ul>
-                                        </li>
-                                        <li>
-                                            closed fracture upper/lower arm/leg, etc
-                                                <ul>
-                                                    <li>bone clearly broken, but appears contained</li>
-                                                </ul>
-                                        </li>
-                                        <li>
-                                            dislocation of shoulder/collarbone/ankle/knee/kneecap
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    At our acrobatic martial arts studio Axis 45
-                                    <ul>
-                                        <li>
-                                            7701 230th St SW, Edmonds, WA 98026
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    The time is _____
-                                </li>
-                                <li>
-                                    Write everything down in this <a class="text-links" href="#incident-report">incident report form</a>
-                                </li>
-                                <li>
-                                    log down how they physically left
+                                    if no, ask if they want a ride to the ER, an ambulance, or to be driven home by their Emergency contact/someone from sesh/uber/you 
                                 </li>
                             </ul>
                         </li>
-
-                </ul>
+                        <li>
+                            write these down
+                        </li>
+                        <li>
+                            log down how they physically left
+                        </li>
+                    </ul>  
+                    <ul class="mainList"> <span class="list-title">Emergency Rooms</span>
+                        <li>if they have one in mind, go there.</li>
+                        <li>
+                            if they must go QUICKLY, go to <a href="https://goo.gl/maps/hZ8GRxrhS9Rds68o7">Swedish Edmonds</a> as it's the closest
+                            <ul>
+                                <li>425-640-4000
+                                </li>
+                                <li>
+                                    21601 76th Ave W, Edmonds, WA 98026
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            if they can wait a little more, go to <a href="https://goo.gl/maps/4PUGpPYUuTd48yLB8">UW Northgate</a> as its got higher reviews
+                            <ul>
+                                <li>
+                                    206-364-0500
+                                </li>
+                                <li>1550 N 115th St, Seattle, WA 98133</li>
+                            </ul>
+                        </li>
+    
+                    </ul>
+                </div>
             </div>
-
-            <div class="gray-checklist">
-                <div class="section" id="injury-bummer">Injury/Emergency Checklist P3</div>
-                <ul class="mainList"> <span class="list-title">Conscious and it's a bummer</span>
-                    <li>But not bad bad (sprains and below, ligament stuff, shoulder dislocations where they pop it back in)
-                    </li>
-                    <li>
-                        help them move to the side and use blocks as necessary for them to be comfortable
-                    </li>
-                    <li>
-                        ice/bandage if wanted.  ice packs in the freezer in the middle room.  Band aids are in blue box under empower banner
-                    </li>
-                    <li>
-                        ask whether they can drive.  
-                        <ul>
-                            <li>
-                                if no, ask if they want a ride to the ER, an ambulance, or to be driven home by their Emergency contact/someone from sesh/uber/you 
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        write these down
-                    </li>
-                    <li>
-                        log down how they physically left
-                    </li>
-                </ul>  
-                <ul class="mainList"> <span class="list-title">Emergency Rooms</span>
-                    <li>if they have one in mind, go there.</li>
-                    <li>
-                        if they must go QUICKLY, go to <a href="https://goo.gl/maps/hZ8GRxrhS9Rds68o7">Swedish Edmonds</a> as it's the closest
-                        <ul>
-                            <li>425-640-4000
-                            </li>
-                            <li>
-                                21601 76th Ave W, Edmonds, WA 98026
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        if they can wait a little more, go to <a href="https://goo.gl/maps/4PUGpPYUuTd48yLB8">UW Northgate</a> as its got higher reviews
-                        <ul>
-                            <li>
-                                206-364-0500
-                            </li>
-                            <li>1550 N 115th St, Seattle, WA 98133</li>
-                        </ul>
-                    </li>
-
-                </ul>
+            <div id="incident-report">
+                <iframe src="../forms/incident-report/incident-report-form.html" width='100%' height = '600px' frameborder="0"></iframe>
             </div>
         </div>
-        <div id="incident-report">
-            <iframe src="../forms/incident-report/incident-report-form.html" width='100%' height = '600px' frameborder="0"></iframe>
-        </div>
-    </div>
+    
+
     
 
     <!-- footer supplied via headscript.js  -->
+     <script type="module" src="../scripts/adminCard/admin.js"> </script>
     <script type="module" src="../scripts/headscript.js"></script>
 </body>
 </html>

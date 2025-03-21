@@ -18,7 +18,10 @@ export class HtmlElement {
       newElement.textContent = this.content;
     }
     if (this.parent) {
+      
       this.parent.appendChild(newElement);
+      console.log(this.parent.children)
+      
     }
     this.element = newElement;
   }
