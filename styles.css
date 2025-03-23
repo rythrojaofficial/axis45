@@ -474,3 +474,12 @@ iframe#calendar{
     background-color: rgb(247, 245, 242);
 }
 
+.centered-all{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* text-align: center; */
+}
+.centered-text{
+    text-align: center;
+}

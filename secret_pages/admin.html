@@ -26,11 +26,8 @@
             <ul style="list-style-type: none;">
                 <li><a href="#opening">#Opening</a> <a href="#closing">#Closing</a> <a href="#session-checklist">#Mid-Session</a></li>
                 <li><a href="#forms">#Expenses&Forms</a> <a href="#where-is-stuff">#Where-is-stuff</a></li>
-                <li><a href="#injury-unconscious"></li> 
-                <li>#Injury (Unconcious)</a>
-                <li><a href="#injury-conscious-bad">#Injury (Concious but BAD)</a></li>
-                    <a href="#injury-bummer">#Injury (a bummer)</a>
-                    <a href="#incident-report">#Incident Report</a></li>
+                <li><a href="#injury-checklists">#injury-checklists</li> 
+                <li><a href="#incident-report">#Incident Report</a></li>
             </ul>
              
     
@@ -39,42 +36,42 @@
         <!-- ==========
         membership
         ========== -->
-        <div class="flex-container">
-            <!-- Tally  -->
-            <div>
-                <h2 style="text-align: center;">Tally</h2>
-                <!-- check tally button  -->
-                <div class="flex-button-container">
+        <div class="show-more">
+            <h1 class="title">Membership</h1>
+            <div class="flex-container">
                     <div>
-                        <a href="https://docs.google.com/spreadsheets/d/1upSCj1_8Nnp96HLCzcWiPU8Mcav8d2btwCaUvgOkUUw/edit#gid=759446929">
-                            Check Tally
-                        </a>
+                    <h2 style="text-align: center;">Tally</h2>
+                        <div class="flex-button-container">
+                            <div>
+                                <a href="https://docs.google.com/spreadsheets/d/1upSCj1_8Nnp96HLCzcWiPU8Mcav8d2btwCaUvgOkUUw/edit#gid=759446929">
+                                    Check Tally
+                                </a>
+                            </div>
+                            <div><a href="https://docs.google.com/forms/d/1KV5l08rmzYQe6yDG6tBpbZ6W16c1IvixXMPeyVJP4K0/edit">Add to tally</a></div>
+                        </div>
+                        <div id="tally-form-iframe"></div>
                     </div>
-                    <div><a href="https://docs.google.com/forms/d/1KV5l08rmzYQe6yDG6tBpbZ6W16c1IvixXMPeyVJP4K0/edit">Add to tally</a></div>
-                </div>
-                <!-- tally form  -->
-                 <div id="tally-form-iframe"></div>
-            </div>
-        
-            <div>
-                <h2 style="text-align: center;">Membership Addition</h2>
-                <div class="flex-button-container">
+                
                     <div>
-                        <a href="https://docs.google.com/spreadsheets/d/1XgWTX3NWz7Og13lHe4iHiQpw-LHDCEUDNATY1Ts2j60/edit#gid=1821510880">
-                            Check Member Status
-                        </a>
+                        <h2 style="text-align: center;">Membership Addition</h2>
+                        <div class="flex-button-container">
+                            <div>
+                                <a href="https://docs.google.com/spreadsheets/d/1XgWTX3NWz7Og13lHe4iHiQpw-LHDCEUDNATY1Ts2j60/edit#gid=1821510880">
+                                    Check Member Status
+                                </a>
+                            </div>
+                            <div><a href="https://dashboard.stripe.com/dashboard">stripe dashboard</a></div>
+                        </div>
+                        <div id="membership-addition-iframe"></div>
                     </div>
-                    <div><a href="https://dashboard.stripe.com/dashboard">stripe dashboard</a></div>
-                </div>
-                <div id="membership-addition-iframe"></div>
             </div>
         </div>
         
     
         <div class="container" id="forms">
             <h2 style="text-align: center;">STC Expenses</h2>
-            <div class="show-more gray-container" >
-                <div class="section">Log expenses</div>
+            <div class="show-more gray-container centered" ; >
+                <div class="section" >Log expenses</div>
                 <div id="log-expenses-iframe"></div>
             </div>
             <div class="flex-button-container">
@@ -92,7 +89,7 @@
         </div>
     
         <div class="container">
-            <h2 style="text-align:center">Check Form Responses</h2>
+            <h2 class="centered-text">Check Form Responses</h2>
             <div class="flex-button-container">
                 <div><a href="https://docs.google.com/spreadsheets/d/1Tcd_vvceuYZI-eAtw7tWJk6VPVko8mOKd7jJwFCKVEk/edit#gid=0">
                     tricking foundations
@@ -114,17 +111,17 @@
         <h1 class="title">Opening & Closing</h1>
     
         <div class="container">
-            <div class="checklist-container mainList">
+            <div class="checklist-container mainList centered-all">
                 <div id="opening" class="show-more">
                     <div class="section">Opening Checklist</div>
                 </div>
             </div>
-            <div class="checklist-container mainList">
+            <div class="checklist-container mainList centered-all" >
                 <div id="closing" class ="show-more">
                     <div class="section">Closing Checklist</div>
                 </div>
             </div>
-            <div class="checklist-container mainList">
+            <div class="checklist-container mainList centered-all">
                 <div id="session" class="show-more">
                     <div class="section">Session Checklist</div>
                 </div>
@@ -141,205 +138,45 @@
                 <div class="white-checklist">
                     <div id="misc" class="mainList"></div>
                 </div>
-                        
-                    
-                </div>
-                    
             </div>
         </div>
-                <div class="white-checklist" id="injury-unconscious">
-                    <div class="section">Injury/Emergency Checklist P1</div>
-                    <ul class="mainList"> <span class="list-title">Unconcious/Can't breathe/ Anything with Neck/Back</span>
-                        <li>Put someone in charge of sesh, clear space
-                            <ul>
-                                <li>
-                                    if no one trustworthy, cancel sesh, ask people to clear out, they won't be charged 
-                                </li>
-                                <li>
-                                    if they can be safely moved, move off of floor, if not, clear space around them
-                                </li>
-                                <li>
-                                    call 911
-                                    <ul>
-                                        <li>
-                                            There has been this type of emergency _______
-                                            <ul>
-                                                <li>anaphalactic shock</li>
-                                                <li>Seizure</li>
-                                                <li>neck/back injury</li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            at our acrobatic martial arts studio Axis 45
-                                            <ul>
-                                                <li>7701 230th St SW, Edmonds, WA 98026</li>
-                                                <li>The time is ______</li>
-                                                <li>Write these down</li>
-                                            </ul> 
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    Alert emergency contact in waiver responses
-                                    <ul>
-                                        <li>
-                                            <a href="https://docs.google.com/spreadsheets/d/1Yv0o9ChbYAqJAOjIqccGB8sy3239wIEwnJKPR0p69Gs/edit#gid=1355468789">original waiver</a>
-                                        </li>
-                                        <li><a href="https://gmail.com">gmail</a> search for their name or jotform</li>
-                                        <li>
-                                            hi this is _____ Axis 45, Seattle Tricking and Acrobatics.  ___ listed you as his emergency contact so we wanted to inform you that _____ has happened.  We've taken these steps ______ and you can meet us here or at _____.
-                                        </li>
-    
-                                        <li>Log how they phsically left 
-                                            <ul>
-                                                <li>drove home</li>
-                                                <li>ambulance</li>
-                                                <li>friend pickup</li>
-                                                <li>uber</li>
-                                            </ul>
-                                        </li>
-                                        <li>Write down who and when you contacted with what info in this <a class="text-links" href="#incident-report">incident report form</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    
-    
+
+        <h1 class="title" id="injury-checklists">Injury/Emergency Checklists</h1>
         <div class="container">
-            <div class="checklist-container">
-                <div class="gray-checklist">
-                    <div class="section" id="injury-conscious-bad">Injury/Emergency Checklist P2</div>
-                    <ul class="mainList"> <span class="list-title">Conscious but it's BAD BAD </span>
-                        <li>(Clear bone break, dislocation, usually screaming involved)</li>
-                        <li>
-                            stay calm, slow your breathing
-                        </li>
-                        <li>
-                            tell them to stay calm, focus on breathing, slow their breathing
-                        </li>
-                        <li>
-                            put someone in charge of sesh, clear space
-                            <ul>
-                                <li>
-                                    if no one trustworthy, cancel sesh, ask people to clear out, they won't be charged
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            if they can move, try to move off the floor otherwise clear space
-                        </li>
-                        <li>
-                            ask whether they want a ride to the ER or an ambulance, or to be driven home by their Emergency contact/someone from sesh/uber/you
-                        </li>
-                            <li>
-                                if they want an ambulance, or you to take them to the ER, cancel practice, ask people to clear out, they won't be charged
-                            </li>
-                            <li>
-                                if need an ambulance, call 911
-                                <ul>
-                                    <li>
-                                        There has been this type of emergency _______
-                                        <ul>
-                                            <li>
-                                                open fracture upper/lower arm/leg, etc
-                                                    <ul>
-                                                        <li>bone clearly broken, you might see bone</li>
-                                                    </ul>
-                                            </li>
-                                            <li>
-                                                closed fracture upper/lower arm/leg, etc
-                                                    <ul>
-                                                        <li>bone clearly broken, but appears contained</li>
-                                                    </ul>
-                                            </li>
-                                            <li>
-                                                dislocation of shoulder/collarbone/ankle/knee/kneecap
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        At our acrobatic martial arts studio Axis 45
-                                        <ul>
-                                            <li>
-                                                7701 230th St SW, Edmonds, WA 98026
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        The time is _____
-                                    </li>
-                                    <li>
-                                        Write everything down in this <a class="text-links" href="#incident-report">incident report form</a>
-                                    </li>
-                                    <li>
-                                        log down how they physically left
-                                    </li>
-                                </ul>
-                            </li>
-    
-                    </ul>
-                </div>
-    
-                <div class="gray-checklist">
-                    <div class="section" id="injury-bummer">Injury/Emergency Checklist P3</div>
-                    <ul class="mainList"> <span class="list-title">Conscious and it's a bummer</span>
-                        <li>But not bad bad (sprains and below, ligament stuff, shoulder dislocations where they pop it back in)
-                        </li>
-                        <li>
-                            help them move to the side and use blocks as necessary for them to be comfortable
-                        </li>
-                        <li>
-                            ice/bandage if wanted.  ice packs in the freezer in the middle room.  Band aids are in blue box under empower banner
-                        </li>
-                        <li>
-                            ask whether they can drive.  
-                            <ul>
-                                <li>
-                                    if no, ask if they want a ride to the ER, an ambulance, or to be driven home by their Emergency contact/someone from sesh/uber/you 
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            write these down
-                        </li>
-                        <li>
-                            log down how they physically left
-                        </li>
-                    </ul>  
-                    <ul class="mainList"> <span class="list-title">Emergency Rooms</span>
-                        <li>if they have one in mind, go there.</li>
-                        <li>
-                            if they must go QUICKLY, go to <a href="https://goo.gl/maps/hZ8GRxrhS9Rds68o7">Swedish Edmonds</a> as it's the closest
-                            <ul>
-                                <li>425-640-4000
-                                </li>
-                                <li>
-                                    21601 76th Ave W, Edmonds, WA 98026
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            if they can wait a little more, go to <a href="https://goo.gl/maps/4PUGpPYUuTd48yLB8">UW Northgate</a> as its got higher reviews
-                            <ul>
-                                <li>
-                                    206-364-0500
-                                </li>
-                                <li>1550 N 115th St, Seattle, WA 98133</li>
-                            </ul>
-                        </li>
-    
-                    </ul>
+            <div class="checklist-container mainlist">
+                <div class="show-more" id="injury-1">
+                    <div class="section">Unconcious/Can't breathe/ Anything with Neck/Back</div>
                 </div>
             </div>
-            <div id="incident-report">
-                <iframe src="../forms/incident-report/incident-report-form.html" width='100%' height = '600px' frameborder="0"></iframe>
+            <div class="checklist-container mainList">
+                <div class="show-more" id="injury-2">
+                    <div>
+                        <div class="section">Conscious but it's BAD BAD</div>
+                        <div>(Clear bone break, dislocation, usually screaming involved)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="checklist-container mainList">
+                <div class="show-more" id="injury-3">
+                    <div>
+                        <div class="section">Conscious and it's a bummer</div>
+                        <div>But not bad bad (sprains and below, ligament stuff, shoulder dislocations where they pop it back in)</div>
+                    </div>
+                </div>
             </div>
         </div>
-    
+
+        <h2 class="title">Incident Report Form</h2>
+        <div class="gray-container">
+            <div class="show-more">
+                <div></div>
+                <div id="incident-report">
+                    <iframe src="../forms/incident-report/incident-report-form.html" width='100%' height = '600px' frameborder="0"></iframe>
+                </div>
+            </div>    
+        </div>
+
+        
 
     
 

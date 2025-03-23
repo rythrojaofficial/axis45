@@ -87,6 +87,7 @@ const adminMDPopulate = [
             id:'session-checklist'
         }
     },
+    // where is stuff
     {
         active: true,
         name: 'where-is-first-aid',
@@ -106,6 +107,31 @@ const adminMDPopulate = [
         }
         
     },
+    // injury/emergency
+    {
+        active: true,
+        name: 'injury-unconscious',
+        parentID: 'injury-1',
+        properties: {
+            class: 'container',
+        },
+    },
+    {
+        active: true,
+        name: 'injury-conscious-bad',
+        parentID: 'injury-2',
+        properties: {
+            class: 'container',
+        },
+    },
+    {
+        active: true,
+        name: 'injury-conscious-bummer',
+        parentID: 'injury-3',
+        properties: {
+            class: 'container',
+        },
+    },
     
 ]
 adminMDPopulate.forEach((newMD) => {
@@ -118,5 +144,7 @@ adminMDPopulate.forEach((newMD) => {
             newMD.properties,
             thisMd
         )
+        newElement.id = newElement.name;
+        // newElement.addProperties('style', 'text-align:left')
     }
 })
