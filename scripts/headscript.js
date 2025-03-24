@@ -231,7 +231,12 @@ switch (h1Title.textContent) {
     populateNews();
     populateTodaysSessions();
   case "Current Offerings" || "AXIS 45":
-    createOfferingsMDFrames();
+    const offeringsArray = Array.from(
+      document.querySelectorAll("#offerings > ul > li")
+    );
+    const offHoursArray = Array.from(document.querySelectorAll('#off-hours-etc > li'))
+    createOfferingsMDFrames(offeringsArray);
+    createOfferingsMDFrames(offHoursArray);
     break;
   case "Contact":
     populateContactForm();

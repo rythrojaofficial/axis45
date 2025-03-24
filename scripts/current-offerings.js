@@ -98,15 +98,30 @@ let offeringsLibrary = {
     "60-120m",
     expLibrary[3]
   ),
+  privateLessons: new Offering(
+    "private-lessons",
+    "Get it right the first time",
+    "60-120m",
+    expLibrary[0]
+  ),
+  facilityRental: new Offering(
+    "facility-rental",
+    "Have a project that could use the space?",
+    "times negotiable",
+    expLibrary[3]
+  ),
+  offHoursTraining: new Offering(
+    "off-hours-sessions",
+    "If you need extra practice or can't make normal sesh times",
+    "times negotiable",
+    expLibrary[1]
+  )
 };
 
 let noSessionMessage =
   "No sessions scheduled today at Axis, enjoy the day off! 🙂";
 
-export function createOfferingsMDFrames() {
-  let offeringsArray = Array.from(
-    document.querySelectorAll("#offerings > ul > li")
-  );
+export function createOfferingsMDFrames(offeringsArray) {
   offeringsArray.forEach((li) => {
     if (li.textContent !== noSessionMessage) {
       let currentOffering = offeringsLibrary[li.textContent];
