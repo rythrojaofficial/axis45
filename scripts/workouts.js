@@ -77,7 +77,7 @@ function createMdLink(yrStr, mStr){
         if (document.querySelector('pre') !== null){
             monthlyWorkoutElement.element.innerText = failMessage
         }
-    }, 1000);
+    }, 3000);
 }
 export function populateWorkouts(){
     clearMdElement();
