@@ -1,6 +1,5 @@
-import { mdElement, SelectElement, ButtonElement } from "./htmlElement.js";
+import { HtmlElement, mdElement, SelectElement, ButtonElement } from "./htmlElement.js";
 import { readText } from "./getText.js";
-
 let monthsArray = [
     '01january',
     '02february',
@@ -24,12 +23,18 @@ let monthIndex = date.getMonth();
 export function populateWorkoutmonthDropdown(){
     let yearsArray = [];
     let thisYear = currentYear;
-    while (thisYear > 2022){
+    while (thisYear > 2023){
         yearsArray.push(thisYear);
         thisYear--;
     } // populate yearsArray from 2023 to present
 
     // create dropdown menus for Years and months
+    let serving = new HtmlElement(
+        'em',
+        document.getElementById('now-serving'),
+        {},
+        `Workout archives currently serves 2024 june - ${currentYear} ${monthsArray[monthIndex].slice(2)}`
+    )
     let yearSelect = new SelectElement(
         selectHead,
         {
