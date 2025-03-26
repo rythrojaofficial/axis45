@@ -7,6 +7,7 @@ import { populateShowMore } from "./showMore.js";
 import { mdConvert } from "./markdown-parse.js";
 import { nextFoundationsDate } from "./news/update-news-stipulations.js";
 import { populateNews } from "./news/updateNews.js";
+import { populateWorkouts } from "./workouts.js";
 // =======================
 // update next foundations
 // =======================
@@ -207,7 +208,8 @@ footer.appendChild(footLine2);
 const iconEnable = document.createElement("script");
 iconEnable.setAttribute("type", "module");
 iconEnable.src =
-  "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js";
+  // "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js";
+  "https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
 document.body.appendChild(iconEnable);
 
 // enable timestamping
@@ -243,6 +245,9 @@ switch (h1Title.textContent) {
     break;
   case "Seattle Tricking Discord":
     mdConvert(document.getElementById("discord-page"), "./discord/discord.md");
+    break;
+  case "Workouts":
+    populateWorkouts();
     break;
   default:
     break;
