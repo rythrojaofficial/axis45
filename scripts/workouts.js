@@ -77,12 +77,12 @@ function createMdLink(yrStr, mStr){
     );
     let failMessage = "no workout found for that Year/Month combination :("
 
-    setTimeout(() => {
-    // Check after delay
-        if (document.querySelector('pre') !== null){
-            monthlyWorkoutElement.element.innerText = failMessage
-        }
-    }, 3000);
+    // setTimeout(() => {
+    // // Check after delay
+    //     if (document.querySelector('pre') !== null){
+    //         monthlyWorkoutElement.element.innerText = failMessage
+    //     }
+    // }, 3000);
 }
 export function populateWorkouts(){
     clearMdElement();
@@ -96,6 +96,7 @@ export function populateWorkouts(){
             monthString = monthsArray[monthIndex];
             createMdLink(yearString,monthString)
             break;
+        
         default:
             createMdLink(yearString,monthString)
     }
