@@ -20,7 +20,7 @@ export class HtmlElement {
     if (this.parent) {
       
       this.parent.appendChild(newElement);
-      console.log(this.parent.children)
+      // console.log(this.parent.children)
       
     }
     this.element = newElement;

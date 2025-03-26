@@ -7,7 +7,7 @@ import { populateShowMore } from "./showMore.js";
 import { mdConvert } from "./markdown-parse.js";
 import { nextFoundationsDate } from "./news/update-news-stipulations.js";
 import { populateNews } from "./news/updateNews.js";
-import { populateWorkouts } from "./workouts.js";
+import { populateWorkoutmonthDropdown, populateWorkouts } from "./workouts.js";
 // =======================
 // update next foundations
 // =======================
@@ -247,6 +247,7 @@ switch (h1Title.textContent) {
     mdConvert(document.getElementById("discord-page"), "./discord/discord.md");
     break;
   case "Workouts":
+    populateWorkoutmonthDropdown();
     populateWorkouts();
     break;
   default:
