@@ -23,10 +23,10 @@ let monthIndex = date.getMonth();
 export function populateWorkoutmonthDropdown(){
     let yearsArray = [];
     let thisYear = currentYear;
-    while (thisYear > 2023){
-        yearsArray.push(thisYear);
+    while (thisYear - 1 > 2023){
+        yearsArray.push(thisYear - 1);
         thisYear--;
-    } // populate yearsArray from 2023 to present
+    } // populate yearsArray from 2023 to present; this year is already added in creating the dropdown
 
     // create dropdown menus for Years and months
     let serving = new HtmlElement(
@@ -38,7 +38,7 @@ export function populateWorkoutmonthDropdown(){
     let yearSelect = new SelectElement(
         selectHead,
         {
-            name: 'workout-year',
+            name: currentYear,
             id: 'select-workout-year'
         },
         yearsArray,
@@ -46,7 +46,7 @@ export function populateWorkoutmonthDropdown(){
     let monthSelect = new SelectElement(
         selectHead,
         {
-            name: 'workout-month',
+            name: monthsArray[monthIndex],
             id: 'select-workout-month'
         },
         monthsArray
@@ -89,17 +89,5 @@ export function populateWorkouts(){
     // getMonth is zero indexed, but i want january to = 1
     let yearString = document.getElementById('select-workout-year').value;
     let monthString = document.getElementById('select-workout-month').value;
-    switch(true){
-        case yearString.includes('workout')
-        && monthString.includes('workout'):
-            yearString = currentYear.toString();
-            monthString = monthsArray[monthIndex];
-            createMdLink(yearString,monthString)
-            break;
-        
-        default:
-            createMdLink(yearString,monthString)
-    }
-    
-    
+    createMdLink(yearString,monthString)
 }
