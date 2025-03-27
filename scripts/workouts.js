@@ -14,20 +14,22 @@ let monthsArray = [
     '11november',
     '12december'
 ]
-const selectHead = document.getElementById('display-workout-selection')
+const selectHead = document.getElementById('display-workout-selection');
+const nextHead = document.getElementById('workouts-next-previous');
 const head = document.getElementById('display-workout');
 const date = new Date();
 const currentYear = date.getFullYear();
 let monthIndex = date.getMonth();
 
-export function populateWorkoutmonthDropdown(){
-    let yearsArray = [];
-    let thisYear = currentYear;
-    while (thisYear - 1 > 2023){
-        yearsArray.push(thisYear - 1);
-        thisYear--;
-    } // populate yearsArray from 2023 to present; this year is already added in creating the dropdown
+let yearsArray = [];
+let thisYear = currentYear;
+while (thisYear - 1 > 2023){
+    yearsArray.push(thisYear - 1);
+    thisYear--;
+} // populate yearsArray from 2023 to present; this year is already added in creating the dropdown
 
+export function populateWorkoutmonthDropdown(){
+    
     // create dropdown menus for Years and months
     let serving = new HtmlElement(
         'em',
@@ -61,8 +63,65 @@ export function populateWorkoutmonthDropdown(){
         },
         "Find Workout"
     )
+    let previousButton = new ButtonElement(
+        nextHead,
+        previousWorkoutLogic,
+        {
+            name: 'workout-previous',
+            id: 'workout-previous-button'
+        },
+        "Previous"
+    )
+    let nextButton = new ButtonElement(
+        nextHead,
+        nextWorkoutLogic,
+        {
+            name: 'workout-next',
+            id: 'workout-next-button'
+        },
+        "Next"
+    )
 
+}
 
+function previousWorkoutLogic(){
+    let displayedYear = document.getElementById('select-workout-year');
+    let displayedMonth = document.getElementById('select-workout-month');
+    // don't get stuck at index0
+    let monthIndex = monthsArray.lastIndexOf(displayedMonth.value);
+    displayedMonth.selectedIndex = monthIndex+1;
+        switch(displayedMonth.selectedIndex){
+            case 1:
+                if(displayedYear.selectedIndex !== yearsArray.length){
+                    displayedMonth.selectedIndex = 12;
+                    displayedYear.selectedIndex++;
+                }
+                break;
+            default:
+                displayedMonth.selectedIndex--;
+                break;
+    }
+    populateWorkouts();
+
+}
+function nextWorkoutLogic(){
+    let displayedYear = document.getElementById('select-workout-year');
+    let displayedMonth = document.getElementById('select-workout-month');
+    // don't get stuck at index0
+    let monthIndex = monthsArray.lastIndexOf(displayedMonth.value);
+    displayedMonth.selectedIndex = monthIndex+1;
+        switch(displayedMonth.selectedIndex){
+            case 12:
+                if (displayedYear.selectedIndex !== 0){
+                    displayedMonth.selectedIndex = 1;
+                    displayedYear.selectedIndex--;
+                }
+                break;
+            default:
+                displayedMonth.selectedIndex++;
+                break;       
+        }
+    populateWorkouts();
 }
 
 function clearMdElement(){
