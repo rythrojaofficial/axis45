@@ -35,7 +35,7 @@ export function populateWorkoutmonthDropdown(){
         'em',
         document.getElementById('now-serving'),
         {},
-        `Workout archives currently serves 2024 june - ${currentYear} ${monthsArray[monthIndex].slice(2)}`
+        `Workout archives currently serves November 2023 - ${currentYear} ${monthsArray[monthIndex].slice(2)}`
     )
     let yearSelect = new SelectElement(
         selectHead,
