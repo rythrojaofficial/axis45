@@ -129,19 +129,27 @@ function clearMdElement(){
     
 }
 function createMdLink(yrStr, mStr){
-    let monthlyWorkoutElement = new mdElement(
-        head,
-        { id: 'workout-md-element'},
-        `./workouts/${yrStr}/${mStr}.md`
-    );
-    let failMessage = "no workout found for that Year/Month combination :("
-
-    // setTimeout(() => {
-    // // Check after delay
-    //     if (document.querySelector('pre') !== null){
-    //         monthlyWorkoutElement.element.innerText = failMessage
-    //     }
-    // }, 3000);
+    let failMessage = "Workout not found. Does the workout archive currently serve this year/month?"
+    let mdString = `./workouts/${yrStr}/${mStr}.md`;
+    let html = readText(mdString).then((value) => {
+        // console.log(value)
+        if (value.includes(
+            '.md"</b> cannot be found. It may have been moved, edited, or deleted.</p>'
+        )){
+            let failElement = new HtmlElement(
+                'em',
+                head,
+                { id: 'workout-md-element'},
+                failMessage       
+            )
+        }else {
+            let monthlyWorkoutElement = new mdElement(
+                head,
+                { id: 'workout-md-element'},
+                mdString
+            );
+        }
+    })
 }
 export function populateWorkouts(){
     clearMdElement();
