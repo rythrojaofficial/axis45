@@ -131,7 +131,8 @@ function clearMdElement(){
 function createMdLink(yrStr, mStr){
     let failMessage = "Workout not found. Does the workout archive currently serve this year/month?"
     let mdString = `./workouts/${yrStr}/${mStr}.md`;
-    let html = readText(mdString).then((value) => {
+    let html = readText(mdString)
+        .then((value) => {
         // console.log(value)
         if (value.includes(
             '.md"</b> cannot be found. It may have been moved, edited, or deleted.</p>'
@@ -149,6 +150,13 @@ function createMdLink(yrStr, mStr){
                 mdString
             );
         }
+    }).catch((error)=>{
+        let failElement = new HtmlElement(
+            'em',
+            head,
+            { id: 'workout-md-element'},
+            failMessage       
+        )
     })
 }
 export function populateWorkouts(){
