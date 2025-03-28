@@ -29,7 +29,6 @@ while (thisYear - 1 > 2022){
 } // populate yearsArray from 2023 to present; this year is already added in creating the dropdown
 
 export function populateWorkoutmonthDropdown(){
-    
     // create dropdown menus for Years and months
     let serving = new HtmlElement(
         'em',
