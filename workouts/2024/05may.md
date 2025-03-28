@@ -1,0 +1,32 @@
+# May
+## Warm up
+- shuriken arms
+    - side bends
+    - bug squish hip rotation
+    - SLDL hop ( gswitch style)
+    - ginga style 1/2 dragon
+    - copenhagen lift
+    - bear to bridge
+## Exercise
+- plyo
+	- scissor bounding
+	- grapevine
+	- pro shuttle
+	- bosu 2step approach
+- ipsilateral weighted SLDL
+- RFE "run" + jump
+- press handstand
+	- max straddle handstand iso
+	- bench straddle tuck/L iso
+	- press down negative assisted
+	- headfrog/frog/crow/planche iso
+	- press Hand walks
+	- pool press iso
+- rev dragon flag arms
+	- up down
+	- flutter
+	- front flip
+- nexercise
+	- backx3, sidex2, frontx3
+	- 6m total each 15s
+- hang?
