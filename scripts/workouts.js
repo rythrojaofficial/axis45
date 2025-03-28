@@ -134,7 +134,7 @@ function createMdLink(yrStr, mStr){
     let html = readText(mdString)
         .then((value) => {
         console.log(value)
-        if (!value){
+        if (value === null){
             let failElement = new HtmlElement(
                 'em',
                 head,
