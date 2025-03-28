@@ -133,7 +133,7 @@ function createMdLink(yrStr, mStr){
     let mdString = `./workouts/${yrStr}/${mStr}.md`;
     let html = readText(mdString)
         .then((value) => {
-        // console.log(value)
+        console.log(value)
         if (value.includes(
             '.md"</b> cannot be found. It may have been moved, edited, or deleted.</p>'
         )){
@@ -151,6 +151,7 @@ function createMdLink(yrStr, mStr){
             );
         }
     }).catch((error)=>{
+        console.log(error)
         let failElement = new HtmlElement(
             'em',
             head,
