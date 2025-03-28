@@ -23,7 +23,7 @@ let monthIndex = date.getMonth();
 
 let yearsArray = [];
 let thisYear = currentYear;
-while (thisYear - 1 > 2023){
+while (thisYear - 1 > 2022){
     yearsArray.push(thisYear - 1);
     thisYear--;
 } // populate yearsArray from 2023 to present; this year is already added in creating the dropdown
