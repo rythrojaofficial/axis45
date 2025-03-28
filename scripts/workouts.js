@@ -133,7 +133,7 @@ function createMdLink(yrStr, mStr){
     let mdString = `./workouts/${yrStr}/${mStr}.md`;
     let html = readText(mdString)
         .then((value) => {
-        console.log(value)
+        // console.log(value)
         if (value === null){
             let failElement = new HtmlElement(
                 'em',
@@ -149,7 +149,7 @@ function createMdLink(yrStr, mStr){
             );
         }
     }).catch((error)=>{
-        console.log(error)
+        // console.log(error)
         let failElement = new HtmlElement(
             'em',
             head,
