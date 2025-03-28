@@ -134,9 +134,7 @@ function createMdLink(yrStr, mStr){
     let html = readText(mdString)
         .then((value) => {
         console.log(value)
-        if (value.includes(
-            '.md"</b> cannot be found. It may have been moved, edited, or deleted.</p>'
-        )){
+        if (!value){
             let failElement = new HtmlElement(
                 'em',
                 head,
