@@ -6,27 +6,23 @@
     1. 1-2 (hug -> T)
     1. 1-5 (hug -> O)
     1. [5 position](https://www.youtube.com/watch?v=dAKfOX0xoLs)
-### 1st, 2nd, 5th/5th
+### plie a la 1st, 2nd (open), 5th/5th (heel-toe) 
 1. 8ct plie-releve (squat calf raise)
-1. 4ct jumps
-    1. 1st, 2nd, 5th/5th
-### 2nd
-1. grande plie (deeper squat)
-    - upper body goes up as the lower goes down
+1. 4ct saute (hops)
+2. grande plie a la second (deeper squat)
+_upper boddy should get "taller" as the lower body goes down_
 ### 5th en barre
 1. cambre(bend) F/S/B (arms start and return to 1st)
     - focus on stretching taller on side and back before going past
-1. tendu+tendu-degage F/S/B 
+1. [tendu+tendu-degage](https://www.youtube.com/watch?v=MeU_hBfQ3lM) F/S/B 
     - tendu:brush straight, degage: disengage
-1. developpe F/S/B (knee+extend)
+1. [developpe F/S/B](https://www.youtube.com/watch?v=m4A6PLeGIB4) (knee+extend)
     - back should pass through attitude (90deg) and arabesque
 ### floor
 1. prone seal lift
 1. downwards dog walk
 1. floor attitude+arabesque
-1. pigeon lift
-1. lunge+pull, side lunge
-
+1. pigeon lift, lunge+pull, side lunge
 
 ## Exercise
 ### Plyometrics
