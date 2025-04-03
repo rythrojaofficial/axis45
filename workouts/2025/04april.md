@@ -1,36 +1,30 @@
 # April Ballet Inspired Warm-up/Exercise
 ## Warm-up
-### arms
+### arms: feet in 1st (V)
 1. 4 position T (no chest movement)
 1. positions
-    1. 2-3 (T->O)
-    1. 2-1 (T-> horizontal O)
+    1. 1-2 (hug -> T)
+    1. 1-5 (hug -> O)
     1. [5 position](https://www.youtube.com/watch?v=dAKfOX0xoLs)
-### 1st, 2nd, 3rd/3rd
-1. demi-plie (half squat), plie-releve (squat calf raise)
+### 1st, 2nd, 5th/5th
+1. 8ct plie-releve (squat calf raise)
 1. 4ct jumps
-    1. 1st, 2nd, 3rd,3rd
-1. grande plie (big squat) 2nd position hip stretch
-1. 3rd position side battement (lift) [tendu jete](https://www.youtube.com/watch?v=rHewj_RLUVk) (small lift)
-### cambre (bends)
-1. fwd
-    1. 1st position both arms
-    2. 5th position (sided)
-2. backward (up then back)
-### 1st position
-1. tendu tap tap tap lift f/s/b
-### 3rd position
-1. arms out and around
-1. alt plie side [developpe](https://www.youtube.com/shorts/uqvE3lSlmns)
-1. alt 2arabesque/2backAttitude (bent leg)
-
-### 5th position
-1. [tendu degage](https://www.youtube.com/watch?v=MeU_hBfQ3lM) (touch & lift) f/s
-
+    1. 1st, 2nd, 5th/5th
+### 2nd
+1. grande plie (deeper squat)
+    - upper body goes up as the lower goes down
+### 5th en barre
+1. cambre(bend) F/S/B (arms start and return to 1st)
+    - focus on stretching taller on side and back before going past
+1. tendu+tendu-degage F/S/B 
+    - tendu:brush straight, degage: disengage
+1. developpe F/S/B (knee+extend)
+    - back should pass through attitude (90deg) and arabesque
 ### floor
 1. prone seal lift
 1. downwards dog walk
-1. pidgeon lift
+1. floor attitude+arabesque
+1. pigeon lift
 1. lunge+pull, side lunge
 
 
