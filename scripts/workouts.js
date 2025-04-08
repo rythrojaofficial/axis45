@@ -44,6 +44,7 @@ export function populateWorkoutmonthDropdown(){
         },
         yearsArray,
     )
+    yearSelect.element.addEventListener("change", populateWorkouts)
     let monthSelect = new SelectElement(
         selectHead,
         {
@@ -52,16 +53,7 @@ export function populateWorkoutmonthDropdown(){
         },
         monthsArray
     )
-    
-    let selectButton = new ButtonElement(
-        selectHead,
-        populateWorkouts,
-        {
-            name: 'workout-select',
-            id: 'workout-select-button'
-        },
-        "Find Workout"
-    )
+    monthSelect.element.addEventListener("change", populateWorkouts)
     let previousButton = new ButtonElement(
         nextHead,
         previousWorkoutLogic,
