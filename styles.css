@@ -483,3 +483,31 @@ iframe#calendar{
 .centered-text{
     text-align: center;
 }
+
+/* workouts buttons and dropdowns */
+#display-workout-selection > *,
+#workouts-next-previous > *{
+    border:none;
+    outline:none;
+    border: none;
+    font-size: 1.25rem;
+    margin: .25rem;
+    padding: .5rem;
+    border-radius: .25rem;
+}
+#display-workout-selection > select{
+    background-color: var(--blue-links);
+}
+#display-workout-selection > select:hover{
+    background-color: var(--hover-blue-links);
+}
+
+#display-workout-selection > button,
+#workouts-next-previous > button {
+    
+    background-color: var(--secondary-color);
+}
+#display-workout-selection > button:hover, 
+#workouts-next-previous > *:hover {
+    background-color: var(--hover-secondary-color);
+}
