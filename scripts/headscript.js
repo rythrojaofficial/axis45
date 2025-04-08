@@ -60,6 +60,11 @@ const navCurrent = new NavText(
   "current-offerings-link",
   "https://www.seattletricking.com/current-offerings"
 );
+const navWorkouts = new NavText(
+  "workouts",
+  "workouts-link",
+  "https://www.seattletricking.com/workouts"
+)
 // const navUpcoming = new NavText(
 //   "upcoming events",
 //   "upcoming-link",
