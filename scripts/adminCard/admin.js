@@ -4,7 +4,7 @@
 import { populateShowMore } from "../showMore.js"
 // add class show-more 
 import * as admin from "./adminCard.js"
-import { HtmlElement, mdElement } from "../htmlElement.js";
+import { ButtonElement, HtmlElement, mdElement, capitalizeWords } from "../htmlElement.js";
 const googleFormsIframePopulate = [
     {
         active: true,
@@ -60,53 +60,26 @@ googleFormsIframePopulate.forEach((newFrame)=>{
         }
 })
 const adminMDPopulate = [
-    {
-        active: true,
-        name: 'opening-checklist',
-        parentID: 'opening',
-        properties: {
-            class:'gray-container',
-            id:'opening-checklist'
-        }
-    },
-    {
-        active: true,
-        name: 'closing-checklist',
-        parentID: 'closing',
-        properties: {
-            class:'gray-container',
-            id:'closing-checklist'
-        }
-    },
-    {
-        active: true,
-        name: 'session-checklist',
-        parentID: 'session',
-        properties: {
-            class:'gray-container',
-            id:'session-checklist'
-        }
-    },
     // where is stuff
-    {
-        active: true,
-        name: 'where-is-first-aid',
-        parentID: 'first-aid',
-        properties: {
-            class: 'container',
-            id: 'where-is-first-aid'
-        },
-    },
-    {
-        active: true,
-        name: 'where-is-misc',
-        parentID: 'misc',
-        properties: {
-            class: 'container',
-            id: 'where-is-first-aid',
-        }
+    // {
+    //     active: true,
+    //     name: 'where-is-first-aid',
+    //     parentID: 'first-aid',
+    //     properties: {
+    //         class: 'container',
+    //         id: 'where-is-first-aid'
+    //     },
+    // },
+    // {
+    //     active: true,
+    //     name: 'where-is-misc',
+    //     parentID: 'misc',
+    //     properties: {
+    //         class: 'container',
+    //         id: 'where-is-first-aid',
+    //     }
         
-    },
+    // },
     // injury/emergency
     {
         active: true,
@@ -147,4 +120,127 @@ adminMDPopulate.forEach((newMD) => {
         newElement.id = newElement.name;
         // newElement.addProperties('style', 'text-align:left')
     }
+});
+
+
+
+
+// ################
+// populate checklistbuttons 
+// ################### 
+
+class State{
+    constructor(){
+        this.is = '';
+    }
+    change(newState){
+        this.is = newState;
+    }
+}
+function clearTarget(targ){
+    targ.innerHTML = '';
+}
+function checklistPopulate(obj, buttonWrapper, displayTarget, state){
+    if (obj.active === true){
+        let button = new ButtonElement(
+            buttonWrapper,
+            ()=>{
+                clearTarget(displayTarget);
+                populateTarget(displayTarget, obj, state)
+            },
+            {},
+            capitalizeWords(obj.name)
+        )
+    }
+}
+
+function populateTarget(targ, obj, state){
+    switch(state.is){
+        case obj.name:{
+            state.change('')
+            break;
+        }
+        default:{
+            let thisParent = targ;
+            let thisMD;
+            if (obj.checklist === true){
+                thisMD = `./adminMD/${obj.name}-checklist.md`;
+            }else thisMD = `./adminMD/${obj.name}.md`;
+            let newElement = new mdElement(
+                thisParent,
+                obj.properties,
+                thisMD
+            )
+        }
+            state.change(obj.name);
+            break;
+    }
+
+}
+let openCloseChecklistState = new State;
+const checklistsArray = [
+    {
+            active:true,
+            checklist: true,
+            name: 'opening',
+            properties: {
+                class:'gray-container',
+                id:'opening-checklist'
+            }
+        },
+        {
+            active:true,
+            checklist: true,
+            name: 'closing',
+            properties: {
+                class:'gray-container',
+                id:'closing-checklist'
+            }
+        },
+        {
+            active:true,
+            checklist: true,
+            name: 'session',
+            properties: {
+                class:'gray-container',
+                id:'session-checklist'
+            }
+        },
+]
+const checklistButtonsWrapper = document.getElementById('checklist-button-toggle');
+const checklistDisplayTarget = document.getElementById('checklist-toggle-display');
+
+
+checklistsArray.forEach((obj)=>{
+    checklistPopulate(obj, checklistButtonsWrapper, checklistDisplayTarget, openCloseChecklistState)
 })
+const whereIsStuffChecklist = [
+    {
+        active:true,
+        checklist: false,
+        name: 'where-is-first-aid',
+        properties: {
+            class: 'gray-container',
+            id: 'where-is-first-aid'
+        },
+    },
+    {
+        active:true,
+        checklist: false,
+        name: 'where-is-misc',
+        properties: {
+            class: 'gray-container',
+            id: 'where-is-first-aid',
+        }
+        
+    },
+    
+]
+let whereIsStuffState = new State;
+const whereIsStuffWrapper = document.getElementById('where-is-stuff-button-wrapper')
+const whereisStuffDisplayTarget = document.getElementById('where-is-stuff-toggle-display')
+whereIsStuffChecklist.forEach((obj)=>{
+    checklistPopulate(obj, whereIsStuffWrapper, whereisStuffDisplayTarget, whereIsStuffState)
+
+})
+

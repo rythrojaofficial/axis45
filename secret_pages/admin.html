@@ -13,7 +13,7 @@
     
     <div id="button-to-top">
         <div class="text-links">
-            <a href="https://www.seattletricking.com/secret_pages/admin" >
+            <a href="#" >
                 <ion-icon size="large" class='inline-icon' name="chevron-up-circle-outline"></ion-icon>
             </a>
         </div>
@@ -23,11 +23,12 @@
     <div>
         <div class="gray-container">
             <div class="section">Quick Links</div>
-            <ul style="list-style-type: none;">
-                <li><a href="#opening-closing-checklists">#Opening-and-Closing-Checklists</a>
-                <li><a href="#forms">#Expenses&Forms</a> <a href="#where-is-stuff">#Where-is-stuff</a></li>
-                <li><a href="#injury-checklists">#injury-checklists</li> 
-                <li><a href="#incident-report">#Incident Report</a></li>
+            <ul style="list-style-type: none;" class="text-links">
+                <li><a href="#opening-closing-checklists">Opening and Closing Checklists</a>
+                <li><a href="#forms">Expenses & Forms</a></li>
+                <li><a href="#where-is-stuff">Where is stuff</a></li>
+                <li><a href="#injury-checklists">injury checklists</li> 
+                <li><a href="#incident-report">Incident Report</a></li>
             </ul>
              
     
@@ -108,37 +109,18 @@
     
         
     
-        <h1 class="title" id="opening-closing-checklists">Opening & Closing</h1>
+        <h1 class="title" id="opening-closing-checklists">Checklists</h1>
     
         <div class="container">
-            <div class="checklist-container mainList centered-all">
-                <div id="opening" class="show-more">
-                    <div class="section">Opening Checklist</div>
-                </div>
-            </div>
-            <div class="checklist-container mainList centered-all" >
-                <div id="closing" class ="show-more">
-                    <div class="section">Closing Checklist</div>
-                </div>
-            </div>
-            <div class="checklist-container mainList centered-all">
-                <div id="session" class="show-more">
-                    <div class="section">Session Checklist</div>
-                </div>
-            </div>
+            <div class="flex-container button-toggle-wrapper" style="justify-content: center;" id="checklist-button-toggle"></div>
+            <div id="checklist-toggle-display"></div>
         </div>
         
-        <h1 class="title">Where is Stuff?</h1>
+        <h1 class="title" id="where-is-stuff">Where is Stuff?</h1>
+        <div class="container">
+            <div class="flex-container button-toggle-wrapper" style="justify-content: center;" id="where-is-stuff-button-wrapper"></div>
+            <div id="where-is-stuff-toggle-display"></div>
 
-        <div class="gray-container">
-            <div class="checklist-container">
-                <div class="white-checklist" id="where-is-stuff">
-                        <div id="first-aid" class="mainList"></div>
-                    </div>
-                <div class="white-checklist">
-                    <div id="misc" class="mainList"></div>
-                </div>
-            </div>
         </div>
 
         <h1 class="title" id="injury-checklists">Injury/Emergency Checklists</h1>
@@ -166,11 +148,11 @@
             </div>
         </div>
 
-        <h2 class="title">Incident Report Form</h2>
+        <h2 class="title" id="incident-report">Incident Report Form</h2>
         <div class="gray-container">
             <div class="show-more">
                 <div></div>
-                <div id="incident-report">
+                <div>
                     <iframe src="../forms/incident-report/incident-report-form.html" width='100%' height = '600px' frameborder="0"></iframe>
                 </div>
             </div>    

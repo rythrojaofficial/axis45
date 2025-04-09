@@ -484,12 +484,29 @@ iframe#calendar{
     text-align: center;
 }
 
+/* buttons */
+button{
+    border: none;
+    outline: none;
+}
+.button-toggle-wrapper button{
+    background-color: var(--blue-links);
+    font-size: 1.25rem;
+    margin: .25rem;
+    padding: .5rem;
+    border-radius: .25rem;
+}
+.button-toggle-wrapper button:hover{
+    background-color: var(--hover-blue-links);
+
+}
+
 /* workouts buttons and dropdowns */
+
 #display-workout-selection > *,
 #workouts-next-previous > *{
     border:none;
     outline:none;
-    border: none;
     font-size: 1.25rem;
     margin: .25rem;
     padding: .5rem;
