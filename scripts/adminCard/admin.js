@@ -5,6 +5,8 @@ import { populateShowMore } from "../showMore.js"
 // add class show-more 
 import * as admin from "./adminCard.js"
 import { ButtonElement, HtmlElement, mdElement, capitalizeWords } from "../htmlElement.js";
+import { tapToPopulate } from "../tap-to-populate.js";
+
 const googleFormsIframePopulate = [
     {
         active: true,
@@ -129,118 +131,87 @@ adminMDPopulate.forEach((newMD) => {
 // populate checklistbuttons 
 // ################### 
 
-class State{
-    constructor(){
-        this.is = '';
-    }
-    change(newState){
-        this.is = newState;
-    }
-}
-function clearTarget(targ){
-    targ.innerHTML = '';
-}
-function checklistPopulate(obj, buttonWrapper, displayTarget, state){
-    if (obj.active === true){
-        let button = new ButtonElement(
-            buttonWrapper,
-            ()=>{
-                clearTarget(displayTarget);
-                populateTarget(displayTarget, obj, state)
-            },
-            {},
-            capitalizeWords(obj.name)
-        )
-    }
-}
-
-function populateTarget(targ, obj, state){
-    switch(state.is){
-        case obj.name:{
-            state.change('')
-            break;
-        }
-        default:{
-            let thisParent = targ;
-            let thisMD;
-            if (obj.checklist === true){
-                thisMD = `./adminMD/${obj.name}-checklist.md`;
-            }else thisMD = `./adminMD/${obj.name}.md`;
-            let newElement = new mdElement(
-                thisParent,
-                obj.properties,
-                thisMD
-            )
-        }
-            state.change(obj.name);
-            break;
-    }
-
-}
-let openCloseChecklistState = new State;
 const checklistsArray = [
     {
             active:true,
-            checklist: true,
+            mdTrueLink: '',
             name: 'opening',
             properties: {
-                class:'gray-container',
-                id:'opening-checklist'
+                class:'',
+                id:''
             }
         },
         {
             active:true,
-            checklist: true,
+            mdTrueLink: '',
             name: 'closing',
             properties: {
-                class:'gray-container',
-                id:'closing-checklist'
+                class:'',
+                id:''
             }
         },
         {
             active:true,
-            checklist: true,
+            mdTrueLink: '',
             name: 'session',
             properties: {
-                class:'gray-container',
-                id:'session-checklist'
+                class:'',
+                id:''
             }
         },
 ]
 const checklistButtonsWrapper = document.getElementById('checklist-button-toggle');
 const checklistDisplayTarget = document.getElementById('checklist-toggle-display');
-
+const checklistLinkTemplates = {
+    mdTemplate: {
+        // ./secret_pages/adminMD/${name}.md
+        before:'./adminMD/',  
+        after: '-checklist.md'
+        },
+    classes: 'gray-container',
+    id: `-checklist` // ${name}-checklist
+}
 
 checklistsArray.forEach((obj)=>{
-    checklistPopulate(obj, checklistButtonsWrapper, checklistDisplayTarget, openCloseChecklistState)
+    tapToPopulate(obj, checklistButtonsWrapper, checklistDisplayTarget, checklistLinkTemplates)
 })
+
+
 const whereIsStuffChecklist = [
     {
         active:true,
-        checklist: false,
+        mdTrueLink: '',
         name: 'where-is-first-aid',
         properties: {
-            class: 'gray-container',
-            id: 'where-is-first-aid'
+            class: '',
+            id: ''
         },
     },
     {
         active:true,
-        checklist: false,
+        mdTrueLink: '',
         name: 'where-is-misc',
         properties: {
-            class: 'gray-container',
-            id: 'where-is-first-aid',
+            class: '',
+            id: '',
         }
         
     },
     
 ]
-let whereIsStuffState = new State;
+
 const whereIsStuffWrapper = document.getElementById('where-is-stuff-button-wrapper')
 const whereisStuffDisplayTarget = document.getElementById('where-is-stuff-toggle-display')
+const whereisStuffTemplates = {
+    mdTemplate:{
+        before: './adminMD/',
+        after: '.md'
+    },
+    classes: 'gray-container',
+    id: `-populated`
+}
 whereIsStuffChecklist.forEach((obj)=>{
-    checklistPopulate(obj, whereIsStuffWrapper, whereisStuffDisplayTarget, whereIsStuffState)
+    tapToPopulate(obj, whereIsStuffWrapper, whereisStuffDisplayTarget, whereisStuffTemplates)
 
 })
 
