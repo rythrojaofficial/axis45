@@ -144,7 +144,7 @@ const checklistsArray = [
         {
             active:true,
             mdTrueLink: '',
-            name: 'closing',
+            name: 'session',
             properties: {
                 class:'',
                 id:''
@@ -153,7 +153,7 @@ const checklistsArray = [
         {
             active:true,
             mdTrueLink: '',
-            name: 'session',
+            name: 'closing',
             properties: {
                 class:'',
                 id:''
