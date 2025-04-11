@@ -1,10 +1,6 @@
-// import * as html from "../htmlElement.js"
-// // HtmlElement: type, parent, properties{}, content""
-// // mdConvert: parent, propertiesObject = {}, mdfile
 import { populateShowMore } from "../showMore.js"
 // add class show-more 
-import * as admin from "./adminCard.js"
-import { ButtonElement, HtmlElement, mdElement, capitalizeWords } from "../htmlElement.js";
+import { HtmlElement, mdElement, capitalizeWords } from "../htmlElement.js";
 import { tapToPopulate } from "../tap-to-populate.js";
 
 const googleFormsIframePopulate = [
@@ -62,27 +58,6 @@ googleFormsIframePopulate.forEach((newFrame)=>{
         }
 })
 const adminMDPopulate = [
-    // where is stuff
-    // {
-    //     active: true,
-    //     name: 'where-is-first-aid',
-    //     parentID: 'first-aid',
-    //     properties: {
-    //         class: 'container',
-    //         id: 'where-is-first-aid'
-    //     },
-    // },
-    // {
-    //     active: true,
-    //     name: 'where-is-misc',
-    //     parentID: 'misc',
-    //     properties: {
-    //         class: 'container',
-    //         id: 'where-is-first-aid',
-    //     }
-        
-    // },
-    // injury/emergency
     {
         active: true,
         name: 'injury-unconscious',
@@ -120,7 +95,6 @@ adminMDPopulate.forEach((newMD) => {
             thisMd
         )
         newElement.id = newElement.name;
-        // newElement.addProperties('style', 'text-align:left')
     }
 });
 
@@ -171,12 +145,9 @@ const checklistLinkTemplates = {
     classes: 'gray-container',
     id: `-checklist` // ${name}-checklist
 }
+tapToPopulate(checklistsArray, checklistButtonsWrapper, checklistDisplayTarget, checklistLinkTemplates)
 
-checklistsArray.forEach((obj)=>{
-    tapToPopulate(obj, checklistButtonsWrapper, checklistDisplayTarget, checklistLinkTemplates)
-})
-
-
+// ###populate where is stuff buttons ###
 const whereIsStuffChecklist = [
     {
         active:true,
@@ -210,8 +181,6 @@ const whereisStuffTemplates = {
     classes: 'gray-container',
     id: `-populated`
 }
-whereIsStuffChecklist.forEach((obj)=>{
-    tapToPopulate(obj, whereIsStuffWrapper, whereisStuffDisplayTarget, whereisStuffTemplates)
+tapToPopulate(whereIsStuffChecklist, whereIsStuffWrapper, whereisStuffDisplayTarget, whereisStuffTemplates)
 
-})
 

@@ -48,29 +48,33 @@ import { capitalizeWords, clearTarget, ButtonElement, mdElement } from "./htmlEl
 //     tapToPopulate(obj, checklistButtonsWrapper, checklistDisplayTarget, checklistLinkTemplates)
 // })
 
-export function tapToPopulate(obj, buttonWrapper, displayTarget, templates = ''){
-    let state = new State;
-
-    if (obj.active === true){
-        let button = new ButtonElement(
-            buttonWrapper,
-            ()=>{
-                clearTarget(displayTarget);
-                populateTarget(displayTarget, obj, state, templates)
-            },
-            {},
-            capitalizeWords(obj.name)
-        )
-    }
+export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templates = ''){
+    let state = new State
+    arrOfObjects.forEach(obj => {
+        if (obj.active === true){
+            let button = new ButtonElement(
+                buttonWrapper,
+                ()=>{
+                    clearTarget(displayTarget);
+                    populateTarget(displayTarget, obj, state, templates)
+                },
+                {},
+                capitalizeWords(obj.name)
+            )
+        }
+    });
+    
 }
 
 function populateTarget(targ, obj, state, templates){
+    console.log({'stateis': state.is})
     switch(state.is){
         case obj.name:{
             state.change('')
             break;
         }
         default:{
+            state.change(obj.name);
             let thisParent = targ;
             let thisMD;
             if (obj.mdTrueLink !== ''){
@@ -86,8 +90,7 @@ function populateTarget(targ, obj, state, templates){
                 obj.properties,
                 thisMD
             )
-        }
-            state.change(obj.name);
             break;
+        }
     }
 }
