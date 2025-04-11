@@ -344,3 +344,7 @@ export function capitalizeWords(str){
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 }
+
+export function clearTarget(targ){
+  targ.innerHTML = ''
+}
