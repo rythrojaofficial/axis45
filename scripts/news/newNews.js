@@ -17,14 +17,6 @@ export let newNews = [
     md: "",
     link: "",
   },
-  {
-    lastActivated: "3.12.25",
-    active: true,
-    title: "[Saturday/4.12] Portland Earth Day Invitational",
-    lines: ["Portland's annual tricking event is back!","More details below!"],
-    md: "./events/2025earthday.md",
-    link: "",
-  },
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
@@ -78,6 +70,14 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+  {
+    lastActivated: "3.12.25",
+    active: false,
+    title: "[Saturday/4.12] Portland Earth Day Invitational",
+    lines: ["Portland's annual tricking event is back!","More details below!"],
+    md: "./events/2025earthday.md",
+    link: "",
+  },
   {
     lastActivated: "2.17.25",
     active: false,
