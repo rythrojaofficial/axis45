@@ -348,3 +348,9 @@ export function capitalizeWords(str){
 export function clearTarget(targ){
   targ.innerHTML = ''
 }
+export function hyphenated(str){
+  return str
+    .toLowerCase()
+    .split(' ')
+    .join('-')
+}

@@ -1,6 +1,6 @@
 
 import { State } from "./md-state-instance.js";
-import { capitalizeWords, clearTarget, ButtonElement, mdElement } from "./htmlElement.js";
+import { capitalizeWords, clearTarget, ButtonElement, mdElement, hyphenated } from "./htmlElement.js";
 
 //  sample usage
 // const checklistsArray = [
@@ -32,6 +32,7 @@ import { capitalizeWords, clearTarget, ButtonElement, mdElement } from "./htmlEl
 //             }
 //         },
 // ]
+
 // const checklistButtonsWrapper = document.getElementById('checklist-button-toggle');
 // const checklistDisplayTarget = document.getElementById('checklist-toggle-display');
 // const checklistLinkTemplates = {
@@ -43,10 +44,7 @@ import { capitalizeWords, clearTarget, ButtonElement, mdElement } from "./htmlEl
 //     classes: 'gray-container',
 //     id: `-checklist` // ${name}-checklist
 // }
-
-// checklistsArray.forEach((obj)=>{
-//     tapToPopulate(obj, checklistButtonsWrapper, checklistDisplayTarget, checklistLinkTemplates)
-// })
+// tapToPopulate(checklistsArray, checklistButtonsWrapper, checklistDisplayTarget, checklistLinkTemplates)
 
 class kvPair{
     constructor(name, mdEl){
@@ -59,33 +57,37 @@ export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templa
         let state = new State
         let placeHolderParent = document.createElement('div');
         arrOfObjects.forEach(obj => {
-            let thisMD;
-                if (obj.mdTrueLink !== ''){
-                    thisMD = obj.mdTrueLink;
-                }else thisMD = `${templates.mdTemplate.before}${obj.name}${templates.mdTemplate.after}`; // add template md
-                // console.log(thisMD)
-                obj.properties.class +=` ${templates.classes}` // add template classes to class list
-                if(templates.id !== ''){
-                    obj.properties.id = `${obj.name}${templates.id}`// add template id
+            if (obj.active === true){
+                        let thisMD;
+                        let thisHyphenatedName = hyphenated(obj.name);
+                        if (obj.mdTrueLink !== ''){
+                            thisMD = obj.mdTrueLink;
+                        }else thisMD = `${templates.mdTemplate.before}${thisHyphenatedName}${templates.mdTemplate.after}`; // add template md
+                        // console.log(thisMD)
+                        obj.properties.class +=` ${templates.classes}` // add template classes to class list
+                        if(templates.id !== ''){
+                            obj.properties.id = `${obj.name}${templates.id}`// add template id
+                        }
+                        let newElement = new mdElement(
+                            placeHolderParent,
+                            obj.properties,
+                            thisMD
+                        )
+                let libObject = new kvPair(obj.name, newElement)
+                state.library.push(libObject)
+                if (obj.active === true){
+                    let button = new ButtonElement(
+                        buttonWrapper,
+                        ()=>{
+                            clearTarget(displayTarget);
+                            populateTarget(displayTarget, obj, state, templates)
+                        },
+                        {},
+                        capitalizeWords(obj.name)
+                    )
                 }
-                let newElement = new mdElement(
-                    placeHolderParent,
-                    obj.properties,
-                    thisMD
-                )
-        let libObject = new kvPair(obj.name, newElement)
-        state.library.push(libObject)
-        if (obj.active === true){
-            let button = new ButtonElement(
-                buttonWrapper,
-                ()=>{
-                    clearTarget(displayTarget);
-                    populateTarget(displayTarget, obj, state, templates)
-                },
-                {},
-                capitalizeWords(obj.name)
-            )
-        }
+            }
+            
     });
     
 }

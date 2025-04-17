@@ -152,7 +152,7 @@ const whereIsStuffChecklist = [
     {
         active:true,
         mdTrueLink: '',
-        name: 'where-is-first-aid',
+        name: 'where is first Aid',
         properties: {
             class: '',
             id: ''
@@ -161,7 +161,7 @@ const whereIsStuffChecklist = [
     {
         active:true,
         mdTrueLink: '',
-        name: 'where-is-misc',
+        name: 'where is misc',
         properties: {
             class: '',
             id: '',
