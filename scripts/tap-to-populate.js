@@ -1,5 +1,5 @@
 
-import { State } from "./state-instance.js";
+import { State } from "./md-state-instance.js";
 import { capitalizeWords, clearTarget, ButtonElement, mdElement } from "./htmlElement.js";
 
 //  sample usage
@@ -48,9 +48,33 @@ import { capitalizeWords, clearTarget, ButtonElement, mdElement } from "./htmlEl
 //     tapToPopulate(obj, checklistButtonsWrapper, checklistDisplayTarget, checklistLinkTemplates)
 // })
 
+class kvPair{
+    constructor(name, mdEl){
+        this.name = name;
+        this.mdElement = mdEl;
+    }
+}
+
 export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templates = ''){
-    let state = new State
-    arrOfObjects.forEach(obj => {
+        let state = new State
+        let placeHolderParent = document.createElement('div');
+        arrOfObjects.forEach(obj => {
+            let thisMD;
+                if (obj.mdTrueLink !== ''){
+                    thisMD = obj.mdTrueLink;
+                }else thisMD = `${templates.mdTemplate.before}${obj.name}${templates.mdTemplate.after}`; // add template md
+                // console.log(thisMD)
+                obj.properties.class +=` ${templates.classes}` // add template classes to class list
+                if(templates.id !== ''){
+                    obj.properties.id = `${obj.name}${templates.id}`// add template id
+                }
+                let newElement = new mdElement(
+                    placeHolderParent,
+                    obj.properties,
+                    thisMD
+                )
+        let libObject = new kvPair(obj.name, newElement)
+        state.library.push(libObject)
         if (obj.active === true){
             let button = new ButtonElement(
                 buttonWrapper,
@@ -67,7 +91,7 @@ export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templa
 }
 
 function populateTarget(targ, obj, state, templates){
-    console.log({'stateis': state.is})
+    // console.log({'stateis': state.is})
     switch(state.is){
         case obj.name:{
             state.change('')
@@ -76,19 +100,11 @@ function populateTarget(targ, obj, state, templates){
         default:{
             state.change(obj.name);
             let thisParent = targ;
-            let thisMD;
-            if (obj.mdTrueLink !== ''){
-                thisMD = obj.mdTrueLink;
-            }else thisMD = `${templates.mdTemplate.before}${obj.name}${templates.mdTemplate.after}`; // add template md
-            // console.log(thisMD)
-            obj.properties.class +=` ${templates.classes}` // add template classes to class list
-            if(templates.id !== ''){
-                obj.properties.id = `${obj.name}${templates.id}`// add template id
-            }
-            let newElement = new mdElement(
-                thisParent,
-                obj.properties,
-                thisMD
+            // console.log({
+            //     'state': state
+            // })
+            thisParent.appendChild(
+                state.retrieveMD(obj.name)
             )
             break;
         }
