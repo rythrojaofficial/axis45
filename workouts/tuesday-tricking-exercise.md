@@ -25,6 +25,7 @@ _For best results, come to tricking exercise for the whole month._
 	3. elastic and explosive power
 	4. corrective exercise
 		1. for micro/macro imbalances
+		1. for accessory muscle groups
 		2. soft tissue remodeling
 3. variety of stimuli
 	1. plyometrics
@@ -131,7 +132,7 @@ To provide the quality experience we've come to expect from Tuesday Tricking Exe
 ### Practical templating advice
 #### plyos (running/jumping)
 1. 1-2 running drills
-1. bounding exercise/plyo
+1. bounding/rebounding exercise/plyo
 1. a sprint and or jump(s)
 #### main strength/power/hypertrophy movements
 1. a squat
@@ -140,6 +141,7 @@ To provide the quality experience we've come to expect from Tuesday Tricking Exe
 1. a pull (horizontal/vertical)
 1. a flipping core (forwards/backwards)
 #### Secondary/Accessory bloodflow, prehab, corrective exercise, balance, etc
+1. shoulders, neck, backs, hip flexors, calf/achilles, wrist, etc
 
 
 ### Class Management principles
@@ -154,8 +156,8 @@ To provide the quality experience we've come to expect from Tuesday Tricking Exe
 - try to get ahead of the troops, anticipating where they may fall into certain traps
 
 #### Try first
-- have everyone try out more complicated exercises for the first time BEFORE doing it all out.  It will save you and them a lot of headache and embarrassment
-- althought it takes time, especially in a circuit, make sure it's done appropriately before sending them to do a round of it themselves.  
+- have people try out more complicated exercises for the first time BEFORE doing it all out.  It will save you and them a lot of headache and embarrassment for all parties
+- although it takes time, especially in a circuit, make sure it's done appropriately before sending them to do a round of it themselves.  
 
 #### Check for understanding
 - check in often that the crew understands
@@ -193,6 +195,9 @@ Optimal is anxious but excited.  AKA properly challenged. Basically get people i
 2. pace slightly faster than is comfortable for the crew
     1. Not so much that they can't keep up
     2. but if there's too much lull, that's when there's opportunity to goof off.
+	1. It's better to move slightly faster than ideal, with more frequent breaks.
+		1. think interval training/pomodoro technique
+		
 
 #### partners/grouping
 We want the pairings to work for the overall group first, then what's best for individual pairs/groups
