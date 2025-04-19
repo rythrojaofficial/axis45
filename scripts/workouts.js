@@ -21,13 +21,36 @@ const date = new Date();
 const currentYear = date.getFullYear();
 let monthIndex = date.getMonth();
 
-let yearsArray = [];
+// let yearsArray = [];
 let thisYear = currentYear;
+let yearsArray = [currentYear];
 while (thisYear - 1 > 2022){
     yearsArray.push(thisYear - 1);
     thisYear--;
 } // populate yearsArray from 2023 to present; this year is already added in creating the dropdown
+let yearMonthComboArray = [];
+class YearMonthCombo{
+    constructor(year, month){
+        this.year = year.toString();
+        this.month = month;
+        this.wrapperDiv = document.createElement('div')
+        if (this.validateCombo() === true){
+            createMdLink(this.year, this.month, this.wrapperDiv)
 
+        }
+    }
+    validateCombo(){
+        // ####create validation logic####
+    return true
+    }
+} 
+// console.log(yearMonthComboArray)
+yearsArray.forEach(year =>{
+    monthsArray.forEach(month =>{
+        let combo = new YearMonthCombo(year, month)
+        yearMonthComboArray.push(combo)
+        })
+})
 export function populateWorkoutmonthDropdown(){
     // create dropdown menus for Years and months
     let serving = new HtmlElement(
@@ -119,7 +142,7 @@ function clearMdElement(){
     head.innerText = ''
     
 }
-function createMdLink(yrStr, mStr){
+function createMdLink(yrStr, mStr, target){
     let failMessage = "Workout not found. Does the workout archive currently serve this year/month?"
     let mdString = `./workouts/${yrStr}/${mStr}.md`;
     let html = readText(mdString)
@@ -128,13 +151,13 @@ function createMdLink(yrStr, mStr){
         if (value === null){
             let failElement = new HtmlElement(
                 'em',
-                head,
+                target,
                 { id: 'workout-md-element'},
                 failMessage       
             )
         }else {
             let monthlyWorkoutElement = new mdElement(
-                head,
+                target,
                 { id: 'workout-md-element'},
                 mdString
             );
@@ -143,10 +166,19 @@ function createMdLink(yrStr, mStr){
         // console.log(error)
         let failElement = new HtmlElement(
             'em',
-            head,
+            target,
             { id: 'workout-md-element'},
             failMessage       
         )
+    })
+}
+function retrieveMD(yearString, monthString){
+    yearMonthComboArray.forEach(combo =>{
+        if(yearString === combo.year){
+            if(monthString === combo.month){
+                head.appendChild(combo.wrapperDiv)
+            }
+        }
     })
 }
 export function populateWorkouts(){
@@ -154,5 +186,5 @@ export function populateWorkouts(){
     // getMonth is zero indexed, but i want january to = 1
     let yearString = document.getElementById('select-workout-year').value;
     let monthString = document.getElementById('select-workout-month').value;
-    createMdLink(yearString,monthString)
+    retrieveMD(yearString, monthString)
 }
