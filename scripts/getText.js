@@ -7,7 +7,7 @@ export async function readText(filePath) {
   }
     return response.text();
   }catch (error) {
-      console.error("Fetch failed:", error);
+      console.error("Fetch failed:", error); 
       return null; // Return null (or a default value) if fetch fails
   }
 }
