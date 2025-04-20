@@ -106,9 +106,11 @@ function previousWorkoutLogic(){
     displayedMonth.selectedIndex = monthIndex+1;
         switch(displayedMonth.selectedIndex){
             case 1:
-                if(displayedYear.selectedIndex !== yearsArray.length){
+                let currentlyDisplayedYearInt = Number(displayedYear.value)
+                if(currentlyDisplayedYearInt >= 2024){
+                    // compare the year.  2024 is the last year that can go 1 year lower
                     displayedMonth.selectedIndex = 12;
-                    displayedYear.selectedIndex++;
+                    displayedYear.value = (currentlyDisplayedYearInt-1).toString();
                 }
                 break;
             default:
@@ -126,9 +128,10 @@ function nextWorkoutLogic(){
     displayedMonth.selectedIndex = monthIndex+1;
         switch(displayedMonth.selectedIndex){
             case 12:
-                if (displayedYear.selectedIndex !== 0){
+                let currentlyDisplayedYearInt = Number(displayedYear.value)
+                if(currentlyDisplayedYearInt < Number(currentYear)){
                     displayedMonth.selectedIndex = 1;
-                    displayedYear.selectedIndex--;
+                    displayedYear.value = (currentlyDisplayedYearInt+1).toString();
                 }
                 break;
             default:
