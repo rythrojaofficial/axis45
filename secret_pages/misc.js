@@ -21,7 +21,7 @@ const displayArray = [
         {
             active:true,
             mdTrueLink: '../workouts/subbing/250422tuesday-tricking.md',
-            name: '250422 Tuesday Tricking',
+            name: '250422 Tuesday Tricking Lesson Plan',
             properties: {
                 class:'',
                 id:''
