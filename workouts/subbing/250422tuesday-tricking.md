@@ -39,7 +39,7 @@
 
 ## Technical Sequences
 
-#### 2. Tornadoes
+#### Tornadoes
 
 1. rounds
    1. rounds in a row
@@ -60,7 +60,7 @@
    1. shuriken shuriken dleg+hook
       - stay at shuriken shuriken dleg if necessary
 
-#### 3. Cartwheel 360
+#### Cartwheel 360
 
 1. Cartwheel360round, hook
    - **beginners should gather the feet on the floor and focus on just spin with no shape variation**
