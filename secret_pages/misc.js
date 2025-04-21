@@ -19,9 +19,9 @@ const displayArray = [
             }
         },
         {
-            active:false,
-            mdTrueLink: '',
-            name: 'session',
+            active:true,
+            mdTrueLink: '../workouts/subbing/250422tuesday-tricking.md',
+            name: '250422 Tuesday Tricking',
             properties: {
                 class:'',
                 id:''
