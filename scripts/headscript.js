@@ -7,7 +7,6 @@ import { populateShowMore } from "./showMore.js";
 import { mdConvert } from "./markdown-parse.js";
 import { nextFoundationsDate } from "./news/update-news-stipulations.js";
 import { populateNews } from "./news/updateNews.js";
-import { populateWorkoutmonthDropdown, populateWorkouts } from "./workouts.js";
 import { HtmlElement } from "./htmlElement.js";
 // =======================
 // update next foundations
@@ -259,10 +258,6 @@ switch (h1Title.textContent) {
     break;
   case "Seattle Tricking Discord":
     mdConvert(document.getElementById("discord-page"), "./discord/discord.md");
-    break;
-  case "Workouts":
-    populateWorkoutmonthDropdown();
-    populateWorkouts();
     break;
   default:
     break;

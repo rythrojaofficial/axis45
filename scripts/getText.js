@@ -1,4 +1,7 @@
 export async function readText(filePath) {
+  // console.log({
+  //   'filePath':filePath
+  // })
   let data = "";
   try {
     const response = await fetch(filePath);

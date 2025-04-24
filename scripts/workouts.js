@@ -65,6 +65,7 @@ yearsArray.forEach(year =>{
         })
 })
 export function populateWorkoutmonthDropdown(){
+    
     // create dropdown menus for Years and months
     let serving = new HtmlElement(
         'em',
@@ -204,3 +205,6 @@ export function populateWorkouts(){
     let monthString = document.getElementById('select-workout-month').value;
     retrieveMD(yearString, monthString)
 }
+
+populateWorkoutmonthDropdown();
+populateWorkouts();

@@ -76,7 +76,7 @@ systems/methodology influencing macro/meta coaching.
 1. on-the-fly thinking
 1. review/debrief process
 
-# Example
+<!-- # Example
 
 eg.tuesday intermediate tricking
 
@@ -96,4 +96,4 @@ eg.tuesday intermediate tricking
 1. flipping/twisting thing 2
    1. drills/progressions
    1. attempting things or assignment flipping
-1. individual elements
+1. individual elements -->
