@@ -13,6 +13,7 @@ const linkTemplates = {
     id: `` // ${name}-checklist
 }
 const selectionWrapper = document.createElement('div');
+    selectionWrapper.classList.add('container')
 const displayTarget = document.createElement('div');
     displayTarget.classList.add('markdown-body')
 mdConvert(displayTarget, linkTemplates.mdTemplate.fulLink())
@@ -20,6 +21,6 @@ mdConvert(displayTarget, linkTemplates.mdTemplate.fulLink())
 selectionWrapper.appendChild(displayTarget);
 
 const body = document.querySelector('body');
-body.append(selectionWrapper, displayTarget)
+body.appendChild(selectionWrapper)
 
 

@@ -20,13 +20,24 @@ const displayArray = [
         },
         {
             active:true,
-            mdTrueLink: '../workouts/subbing/250422tuesday-tricking.md',
-            name: '250422 Tuesday Tricking Lesson Plan',
+            mdTrueLink: '',
+            name: 'Thursday Flipping Checklist',
             properties: {
                 class:'',
                 id:''
             }
-        },
+        }
+]
+const archived = [
+    {
+        active:false,
+        mdTrueLink: '../workouts/subbing/250422tuesday-tricking.md',
+        name: '250422 Tuesday Tricking Lesson Plan',
+        properties: {
+            class:'',
+            id:''
+        }
+    },
 ]
 const selectionWrapper = document.createElement('div');
     selectionWrapper.classList.add('button-toggle-wrapper')
