@@ -30,6 +30,14 @@ export let newNews = [
     link: "",
   },
   {
+    lastActivated: "",
+    active: true,
+    title: "PDX Field Trip! RCG4: June 27-29",
+    lines: ["Rose City Gathering in Vancouver, WA","More info to come!"],
+    md: "",
+    link: "",
+  },
+  {
     lastActivated: "11.17.24",
     active: false,
     title: "Free Injury Screening Night(s)!",
