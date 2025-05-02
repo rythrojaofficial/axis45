@@ -1,6 +1,6 @@
 ### Friday Open Tricking: 8-10pm
 
-The sun is setting later and we tend to run late (and also start late) on Fridays. It just makes sense for the sunnier months ☀️
+The sun is setting later and we tend to run late (and also start late) on Fridays. It just makes sense for the sunnier months ☀️  This may change back around October.
 
 ### Mondays Open Tricking: 7-9pm
 
