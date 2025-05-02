@@ -32,6 +32,14 @@ export let newNews = [
   {
     lastActivated: "",
     active: true,
+    title: "Friday Hours Changing!",
+    lines: ["Open Tricking: 8-10pm starting 5.2"],
+    md: "./events/summer-friday-hours.md",
+    link: "",
+  },
+  {
+    lastActivated: "",
+    active: true,
     title: "PDX Field Trip! RCG4: June 27-29",
     lines: ["Rose City Gathering in Vancouver, WA","More info to come!"],
     md: "",
