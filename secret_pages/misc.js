@@ -30,7 +30,7 @@ const displayArray = [
         {
             active:true,
             mdTrueLink: '',
-            name: 'Thursday Flipping Checklist',
+            name: 'Thursday Observation Checklist',
             properties: {
                 class:'',
                 id:''
