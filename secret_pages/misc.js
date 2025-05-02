@@ -20,6 +20,15 @@ const displayArray = [
         },
         {
             active:true,
+            mdTrueLink: '../workouts/exercise-library.md',
+            name: 'Exercise Library',
+            properties: {
+                class:'',
+                id:''
+            }
+        },
+        {
+            active:true,
             mdTrueLink: '',
             name: 'Thursday Flipping Checklist',
             properties: {
