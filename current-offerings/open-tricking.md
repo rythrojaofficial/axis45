@@ -2,7 +2,14 @@
 
 **Price**: $20
 
-**Start time**: Monday/Friday/(_& some Wednesdays_) 7:00-9:00PM
+### Start Times
+
+1.  **Mondays**: 7-9pm
+2.  _some Wednesdays_: 7:00-9:00PM
+
+- _please check our [discord](https://www.seattletricking.com/discord) for bonus sessions_
+
+3.  **Fridays**: 8-10pm (_For the summer!_)
 
 _Don't forget to read our [FAQ](./faq.html) regarding, parking, finding us, payment, waivers, and more._
 
