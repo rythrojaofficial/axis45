@@ -45,7 +45,7 @@ let contactForm = {
   method: "POST",
   action:
     "https://script.google.com/macros/s/AKfycbyfdfv0mFJ7UMjWgDw2VLewix3V9MsC1NawjQ0BnsOAC1Npr9ArJuKpk1cCE1235W5E_A/exec",
-  noValidate: false, // true or false
+  noValidate: false, // true or false,
   styleSheet: "./forms/css-sheets/test.css",
   font: "",
   title: title,

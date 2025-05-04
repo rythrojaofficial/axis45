@@ -8,7 +8,7 @@ body{background-image: url("./upfeathers.png");
     background-repeat: repeat; 
     }
 fieldset {
-    background-color: rgb(233, 224, 204);
+    background-color: rgb(255, 255, 255);
   }
   /* end background stuff */
 :root{
@@ -36,8 +36,11 @@ form{
 }
 fieldset{
     text-align: left;
-    border-radius: var(--border-radius);    
+    border-radius: var(--border-radius);
+    border: none;    
     display: grid;
+    box-shadow: 0 4px 120px rgba(0, 0, 0, 0.08);
+    padding: 24px;
 }
 fieldset > label{
     font-size: 1.05rem;
