@@ -1,14 +1,13 @@
 # May Warm Up/Exercise
 
-## Standing Warm Up
+## Standing Warm Up:
 
 - Arm circles small to big x2
 - Waiter warm up x5
 - Hip rotations (in, out) x5
 - Stretch kicks (front, in to out, out to in) x5
-- Single leg dead lift swing jump x5
 
-## Stretch Sequence Each side:
+## Stretch Sequence:
 
 - Standing side bend (obliques)
 - Flat back (hamstring)
@@ -18,12 +17,17 @@
 - Seated Twist (back + glute)
 - Double pigeon (hip/glute)
 
+## Bonus:
+
 - Cossack squat to internal rotation (adductors)
 - Pancake (compression flexibility)
 - Seated forward fold (hamstring)
 - Dragon squat leg lifts (adductors) (hold bottom position)
+- Single leg dead lift swing jump x5
 
-## Tkd Style Across the Floors (Rhythm/coordination)
+## Tkd Style Across the Floors:
+
+_Rhythm/coordination_
 
 - Slide forward roundhouse
 - Skipping roundhouse kick
@@ -31,20 +35,22 @@
 
 # Workout
 
-## Running (2each)
+## Running:
+
+_2 each_
 
 - Ankle bounces
 - A-skip
 - Power Hurdle Sprint
 
-## Jumps
+## Jumps:
 
 - Kneeling jump to box jump x5 (explosive transition)
 - Weighted skater jump x5 per each (stick) - 2 sets
 
-## Circuit Tempo (3-0-1-0) - 8 reps each
+## Circuit Tempo (3-0-1-0):
 
-_decrease if necessary_
+_8ish reps, decrease if necessary_
 
 - Pull-ups (single arm to progress, banded to regress)
 - Partner-resisted hamstring curls
@@ -54,7 +60,7 @@ _decrease if necessary_
 - Split squat (weighted with plate)
 - Arch ups off a block
 
-## Mobility stuff
+## Mobility stuff:
 
 - Dragon squat x 5
   - Regression: off of bench, shrimp squat + extend
@@ -65,7 +71,7 @@ _decrease if necessary_
     - Straddle over an object each side
     - Straddle leg extensions
 
-## Bonus
+## Bonus:
 
 - Press x5 attempts
 - Kicking cardio (front leg roundhouse kicks) x 30 seconds per side (rhythm)
