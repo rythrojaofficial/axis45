@@ -3,7 +3,7 @@ const linkTemplates = {
     mdTemplate: {
         // ./secret_pages/adminMD/${name}.md
         before:'../../mercenary-blog/mdfiles/',  
-        name:'thursday-flipping-checklist',
+        name:'on-warm-ups',
         after: '.md',
         fulLink(){
             return this.before+this.name+this.after
