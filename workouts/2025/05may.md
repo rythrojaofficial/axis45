@@ -2,8 +2,9 @@
 
 ## Standing Warm Up:
 
-- Arm circles small to big x2
-- Waiter warm up x5
+- Arm circles x2 fwd/bkwd
+  - shoulders, elbows, wrists, full
+- Waiter Arms x5 (under then over)
 - Hip rotations, Strech kicks (in, out) x5
 <!-- - Stretch kicks (front, in to out, out to in) x5 -->
 
