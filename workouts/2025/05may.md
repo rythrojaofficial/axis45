@@ -5,8 +5,8 @@
 - Arm circles x2 fwd/bkwd
   - shoulders, elbows, wrists, full
 - Waiter Arms x5 (under then over)
-- Hip rotations, Strech kicks (in, out) x5
-<!-- - Stretch kicks (front, in to out, out to in) x5 -->
+- stretch kick front
+- Hip rotations, stretch kicks in/out
 
 ## Stretch Sequence _One side first_:
 

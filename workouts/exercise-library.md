@@ -1,5 +1,7 @@
 # Workout Library
 
+_Not comprehensive_ just a quick list to help get ideas flowing
+
 ### Bodyweight Squats
 
 1. Basic Bodyweight Squat: Standard squatting motion with feet hip-width apart and arms forward for counterbalance.
@@ -35,6 +37,7 @@
 13. Hatfield Squat: Using safety squat bar while holding onto power rack uprights.
 14. Bulgarian Split Squat with Weights: Adding dumbbells, kettlebells, or barbell to the elevated rear foot variation.
 15. Box Squat with Weight: Any of the above variations performed to a box, but most commonly with a barbell.
+16. trap bar squat: any of the above, but holding a trap bar instead of dumbells.
 
 ### Bodyweight Jumps
 

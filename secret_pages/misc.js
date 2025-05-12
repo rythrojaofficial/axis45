@@ -37,7 +37,7 @@ const displayArray = [
             }
         },
         {
-            active:false,
+            active:true,
             mdTrueLink: '',
             name: 'On Warm ups',
             properties: {
