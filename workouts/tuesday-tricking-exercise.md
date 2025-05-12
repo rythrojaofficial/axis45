@@ -169,6 +169,8 @@ To provide the quality experience we've come to expect from Tuesday Tricking Exe
 
 - is it too complicated?
 - should be a good balance of challenging motor patterns and solid basics
+- in the meta sense:
+  - circuits should follow a circle. Anything else is confusing and will result in missing things or getting doubled up
 
 #### intent
 
@@ -227,7 +229,7 @@ Optimal is anxious but excited. AKA properly challenged. Basically get people in
 
 #### partners/grouping
 
-We want the pairings to work for the overall group first, then what's best for individual pairs/groups
+We want the pairings to work for the overall group first, then what's b1. one thing we should try to delegate to as many experienced individuals as possible is getting people to move along from break and to pay attention during instructions for individual pairs/groups
 
 if someone's really new, it's a good idea to pair them with someone more experienced so that the blind aren't leading the blind
 
@@ -235,7 +237,31 @@ new people have little sense of the flow had a lot of trouble with normal intent
 
 Having an experienced partner can help with that quickly
 
-#### pre-setup
+#### Delegate/Pre-organize/Pre-setup
 
 1. either delegate portions of setup, pre-organize, or pre-plan
    1. "we're gonna need 2 sturdy benches at the edge of the floor for nordics"
+1. For busy classes **explicitly** delegate ahead of time the responsibility for two class flow principles to experienced members
+   1. Yes, get water/take a break, but go back to line when you're done
+      - we've got gains to make 💪
+   2. Try not to be distracting
+      - Pay attention to instructions, they're important
+        - If you already know, cool, please don't distract anyone who could benefit
+        - If you don't, already know, the information is probably being said specifically for you
+      - class chattiness is fine, but in excessive quantities, especially to and from newer people, can really dampen class momentum
+
+#### practical circuit advice
+
+1.  Have deep reservations about your circuit being anything other than a circle. People will inevitably get lost.
+1.  each station should take the same amount of time
+    - If you have partners:
+      - first exercise can be a 1 person thing, resulting in 2 turns
+      - another exercise can be 2 people, but two sides, resulting in 2 turns
+      - or if everything is timed, that works too.
+      - lets try to minimize "bus bunching" in the workout
+1.  consider what's before and after (will doing pull ups make doing leg lifts hard if they're back to back?)
+1.  if there's lots of you, have an experienced person demonstrate while you explain
+1.  if there's new people, you must explain how to set up things that require adjustment
+    - weights, rings height, getting in and out of bands, how to add manual resistance/ securing partner
+1.  do not have two beginners partnered together
+    - don't let the blind lead the blind

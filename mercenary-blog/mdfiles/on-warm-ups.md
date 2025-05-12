@@ -1,4 +1,14 @@
-# On Warm Ups
+# Axis 45 Monthly Warm ups
+
+`What's the point of A45 Monthly Warm Ups?`
+
+> **To efficiently and effectively serve the purpose of a general warm up**
+>
+> while learning or reinforcing important movement patterns,
+>
+> stimulating planned adaptations through consistent practice,
+>
+> and fostering community through alignment and continuity.
 
 `Generally speaking, what is a warm up in the context of sport?`
 
