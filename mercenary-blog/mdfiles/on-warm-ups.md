@@ -16,15 +16,15 @@
 >
 > ### Purpose:
 >
-> Warming up helps the body gradually transition from a resting state to one of increased activity. This involves increasing the heart rate, blood flow to muscles, and raising the overall body temperature.
+> Warming up helps the body gradually transition from a resting state to one of increased activity by increasing heart rate, blood flow to muscles, and raising the overall body temperature.
 >
 > ### Benefits:
 >
-> **Reduced risk of injury**: When muscles are warmed up, they are more pliable and less prone to strains or tears.
+> **Reduced risk of injury**
 >
-> **Improved performance**: Increased blood flow delivers more oxygen and nutrients to muscles, leading to better performance and reduced fatigue.
+> **Improved performance**
 >
-> **Enhanced efficiency**: Warming up allows the body to function more efficiently during the activity.
+> **Enhanced efficiency**
 >
 > ### Types of warm-up exercises:
 >
@@ -32,9 +32,6 @@
 >
 > **Importance of specificity**:
 > The warm-up should be tailored to the specific sport or activity to ensure that the muscles and joints most involved are properly prepared.
->
-> **Types of warm-up exercises**:
-> Warm-ups can include dynamic stretches, light cardio, and specific exercises that mimic the movements of the sport. For example, a basketball player might warm up with some jogging, dribbling drills, and shooting practice.
 
 # Monthly Warm Up
 
