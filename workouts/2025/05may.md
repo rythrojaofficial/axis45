@@ -7,6 +7,7 @@
 - Waiter Arms x5 (under then over)
 - stretch kick front
 - Hip rotations, stretch kicks in/out
+- Single leg dead lift swing jump x5
 
 ## Stretch Sequence _One side first_:
 
@@ -23,7 +24,6 @@
 
 - Cossack squat to internal rotation (adductors)
 - Pancake (compression flexibility)
-- Single leg dead lift swing jump x5
 
 ## Tkd Style Across the Floors:
 
@@ -75,4 +75,3 @@ _8ish reps, decrease if necessary_
 
 - Press x5 attempts
 - Kicking cardio (front leg roundhouse kicks) x 15 seconds per side (rhythm)
-  _In progress, will be available by Tuesday!_

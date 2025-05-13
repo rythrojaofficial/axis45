@@ -253,6 +253,9 @@ Having an experienced partner can help with that quickly
 #### practical circuit advice
 
 1.  Have deep reservations about your circuit being anything other than a circle. People will inevitably get lost.
+
+- If you decide to go off track there should be a very good reason and no good alternatives
+
 1.  each station should take the same amount of time
     - If you have partners:
       - first exercise can be a 1 person thing, resulting in 2 turns

@@ -1,4 +1,4 @@
-Proper _structure_ and lesson planning is 60% of the success of a class. The other 40% comes from class management. Experience in a well-ordered class will provide insight on how a class should move along and feel.
+Proper _structure_ and lesson planning accounts for 60% of the success of a class. The other 40% comes from class management. Participating in a well-ordered class will provide insight on how a class should move along and feel.
 
 It is another experience entirely to try to recreate the proper environment as its lead. We've taken that part for granted. It is our aim for you to get a baseline of understanding of Class Management and Group Training Principles
 
@@ -61,11 +61,16 @@ It is another experience entirely to try to recreate the proper environment as i
 
 _Instructions before people do things_
 
-#### clear & simple
+#### simple
 
+1. keep things clear and concise
 1. is it too complicated?
 1. No matter how easy it is, someone is going to mess it up
    1. Make it even simpler
+
+_note: do not overcomplicate things, especially for non-beginners---give them instruction on what to do, what not to do, and the intent_
+
+If you struggle with the balance of keeping things simple and overcomplicating, you probably need to break the skill/drill down further
 
 #### pre-emptive
 
@@ -85,6 +90,8 @@ _try to get ahead of the students, anticipating where they may fall into certain
 
 1. as much as possible, try make things scalable (accessible for various skill levels)
    1. have a backup alternative for the easier or harder versions
+
+_As an added bonus, make things scalable, as in how do things change when there are more or less people in class?_
 
 #### check for understanding
 
@@ -151,7 +158,17 @@ the opposite of holding the line. There is always nuance involved on when to hol
 
 #### encouragement
 
-- let them know when they're on the right track
+let them know when they're on the right track
+
+- celebrate the wins. tricking is a tough sport.
+
+#### answering questions to the group
+
+If someone asks you a question on intent or execution of an item in a circuit or ortherwise:
+
+1. It's good practice in a group setting to answer a question to everyone
+   1. if one person has a question, probably many will
+2. If i'm asking a leading question, it's probably because i see it as either a current ambiguity or potential pitfall in execution or intent
 
 ## Evoke Sports Psychology Arousal
 

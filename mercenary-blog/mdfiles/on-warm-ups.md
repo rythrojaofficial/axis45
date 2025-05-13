@@ -42,7 +42,9 @@ Whether they realise it or not, _every practitioner_ warms up for Tricking, or a
 
 Some warm-ups are more effective than others, and some warm-ups are more useful than others.
 
-You can get away with a lot by skipping most things, but there is only benefits to be had by implementing an effictive, targeted warm up.
+Many teen and early adult trickers do a few leg swings, spend 10 seconds in a pancake stretch, then start throwing tricks.
+
+You can get away with a lot by skipping most things, but there are only benefits to be had by implementing an effictive, targeted warm up.
 
 At Axis 45, our classes have formal monthy warm ups.
 
@@ -125,3 +127,4 @@ _in no particular order:_
 1. theme
    - have something to anchor your warm up into a storyline rather than a collection of stuff you've seen on instagram
 1. scalable yet challenging. Too easy or too hard result in lack of engagement
+1. synergy with tuesday exercise
