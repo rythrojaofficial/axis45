@@ -20,11 +20,9 @@
 >
 > ### Benefits:
 >
-> **Reduced risk of injury**
->
-> **Improved performance**
->
-> **Enhanced efficiency**
+> 1. Reduced risk of injury
+> 1. Improved performance
+> 1. Enhanced efficiency
 >
 > ### Types of warm-up exercises:
 >
