@@ -44,7 +44,17 @@ const displayArray = [
                 class:'',
                 id:''
             }
-        }
+        },
+                {
+            active:true,
+            mdTrueLink: '',
+            name: 'Planning Checklist',
+            properties: {
+                class:'',
+                id:''
+            }
+        },
+
 ]
 const archived = [
     {

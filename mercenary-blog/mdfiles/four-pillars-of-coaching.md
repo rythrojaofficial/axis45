@@ -9,6 +9,12 @@
 
 systems/methodology influencing macro/meta coaching.
 
+Our particular structure derives from Jared's ten years experience adapting the Bondarchuk system to T&T gymnastics (trampoline and tumbling).
+
+My mentor described to me the 4 pillars of T&T which allowed for his and my success in developing well-rounded, healthy, high-performing athletes. Later that weekend I outlined the 4 pillars of the [Sport aspect of tricking](https://mercenarytricking.com/the-technician-the-composer/)
+
+I started off with [Bompa Periodization]() (linear phasic periodization system) and later learned of the Bondarchuk system which is a specific type of conjugated system. Principles and methods are heavily influenced by a very specific brand of gymnastics influence.
+
 1. gymnastics-style background for developing skills
    1. repeating technical sequences
    1. progression ladders
@@ -18,9 +24,10 @@ systems/methodology influencing macro/meta coaching.
 1. bondarchuk system
    1. Conjugated by nature
    1. relatively _simple_ workouts that stay the same will save mental energy
+   1. goal is to watch for adaptation, then change things up
    1. [jared's notes on bondarchuk system](https://workflowy.com/s/FjXO.tNsKlXkFfD)
    1. [blurb by jared regarding the bondarchuk system](https://workflowy.com/s/basics-of-the-bondar/iRH2nCKSn7bITqIH)
-1. conjugate method (as opposed to orthodox linear periodization)
+1. conjugate method (as opposed to orthodox/phasic linear periodization)
    1. The name "Conjugate" refers to the simultaneous development of multiple physical qualities (maximal strength, speed-strength, hypertrophy) rather than focusing on one at a time.
 
 ## Technical Expertise
