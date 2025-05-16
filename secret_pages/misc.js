@@ -1,59 +1,60 @@
 import { tapToPopulate } from "../scripts/tap-to-populate.js";
 const displayArray = [
     {
-            active:true, // must be true to work
-            mdTrueLink: '', //  only if you don't have a template, or goes off template
-            name: 'Four Pillars of Coaching', // required (names the button)
-            properties: {
-                class:'', // if it needs a special class
-                id:'' // if you need it to have a specific non templated name
-            }
-        },
-        {
-            active:true,
-            mdTrueLink: '../workouts/tuesday-tricking-exercise.md',
-            name: 'Tuesday Tricking Exercise',
-            properties: {
-                class:'',
-                id:''
-            }
-        },
-        {
-            active:true,
-            mdTrueLink: '../workouts/exercise-library.md',
-            name: 'Exercise Library',
-            properties: {
-                class:'',
-                id:''
-            }
-        },
-        {
             active:true,
             mdTrueLink: '',
-            name: 'Thursday Observation Checklist',
+            name: 'planning checklist',
             properties: {
                 class:'',
                 id:''
             }
-        },
-        {
-            active:true,
-            mdTrueLink: '',
-            name: 'On Warm ups',
-            properties: {
-                class:'',
-                id:''
-            }
-        },
-                {
-            active:true,
-            mdTrueLink: '',
-            name: 'Planning Checklist',
-            properties: {
-                class:'',
-                id:''
-            }
-        },
+    },
+    {
+        active:true, // must be true to work
+        mdTrueLink: '', //  only if you don't have a template, or goes off template
+        name: 'Four Pillars of Coaching', // required (names the button)
+        properties: {
+            class:'', // if it needs a special class
+            id:'' // if you need it to have a specific non templated name
+        }
+    },
+    {
+        active:true,
+        mdTrueLink: '../workouts/tuesday-tricking-exercise.md',
+        name: 'Tuesday Tricking Exercise',
+        properties: {
+            class:'',
+            id:''
+        }
+    },
+    {
+        active:true,
+        mdTrueLink: '../workouts/exercise-library.md',
+        name: 'Exercise Library',
+        properties: {
+            class:'',
+            id:''
+        }
+    },
+    {
+        active:true,
+        mdTrueLink: '',
+        name: 'Thursday Observation Checklist',
+        properties: {
+            class:'',
+            id:''
+        }
+    },
+    {
+        active:true,
+        mdTrueLink: '',
+        name: 'On Warm ups',
+        properties: {
+            class:'',
+            id:''
+        }
+    },
+    
 
 ]
 const archived = [
@@ -83,4 +84,4 @@ const linkTemplates = {
     id: `-checklist` // ${name}-checklist
 }
 
-tapToPopulate(displayArray, selectionWrapper, displayTarget, linkTemplates)
+tapToPopulate(displayArray, selectionWrapper, displayTarget, linkTemplates, true)

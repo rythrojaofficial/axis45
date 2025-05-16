@@ -41,11 +41,11 @@
 
 These podcasts will help you understand the root of our system. I suggest you take at least rudimentary notes.
 
-1. ["Gymnastics Strength Training" via Coach Sommer on Tim Ferris Podcast]()
-2. ["Bondarchuk System" via Derek Evely on Just fly Podcast]()
+1. ["Gymnastics Strength Training" via Coach Sommer on Tim Ferris Podcast](https://tim.blog/2016/05/09/the-secrets-of-gymnastic-strength-training/)
+2. ["Bondarchuk System" via Derek Evely on Just fly Podcast](https://simplifaster.com/articles/episode-102-derek-evely/)
    1. [jared's notes](https://workflowy.com/s/FjXO.tNsKlXkFfD#/a1df034afb9b)
    1. [jared's blurb](https://workflowy.com/s/basics-of-the-bondar/iRH2nCKSn7bITqIH)
-3. ["Conjugate Method" via Louie Simmons on Industrial Strength Podcast]()
+3. ["Conjugate Method" via Louie Simmons on Industrial Strength Podcast](https://www.defrancostraining.com/top-10-things-i-learned-from-louie-simmons/)
 4. ["Standard Orthodox Linear Periodization" via Jared's notes on Bompa Periodisation Notes](https://workflowy.com/s/periodization-traini/qqVWUTrcsngUxxHL)
 
 #### Jared's Write-ups

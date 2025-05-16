@@ -53,7 +53,7 @@ class kvPair{
     }
 }
 
-export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templates = ''){
+export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templates = '',  showFirst = false){
         let state = new State
         let placeHolderParent = document.createElement('div');
         arrOfObjects.forEach(obj => {
@@ -73,6 +73,9 @@ export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templa
                             obj.properties,
                             thisMD
                         )
+                        // if (obj === arrOfObjects[0]){
+                        //     displayTarget.innerHtml = newElement
+                        // }
                 let libObject = new kvPair(obj.name, newElement)
                 state.library.push(libObject)
                 if (obj.active === true){
@@ -89,6 +92,12 @@ export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templa
             }
             
     });
+    if (showFirst === true){
+        const firstObjName = state.library[0].name;
+        const firstObj = state.retrieveMD(firstObjName);
+        displayTarget.appendChild(firstObj);
+    }
+
     
 }
 
