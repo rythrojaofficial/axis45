@@ -3,7 +3,7 @@ import { today } from "./updateNews.js";
 
 // If today's session is canceled or otherwise changed
 export let noSesh = {
-  cancelled: false,
+  cancelled: true,
   days: [
     'justtoday',
     'sunday',
@@ -15,6 +15,7 @@ export let noSesh = {
     'saturday',
   ],
   messages: [
+    "No stretch/break today!  Massive Monkees Day is going on and many folks are out of town for memorial day weekend! Monday sesh as normal!"
     // "Thursday Classes cancelled due to Snow and Ice!",
     // "Whatever melts today is likely to refreeze overnight.",
     // "A 3 week cycle for tricking foundations will start next Thursday 2/13 at the proportionate rate :-)",
