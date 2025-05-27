@@ -641,3 +641,9 @@ margin: 2em 0;
 }
 /* end github markdown styling
 ========================== */
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
