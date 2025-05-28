@@ -6,7 +6,7 @@ or dm @seattletricking on instagram
 
 ---
 
-It's that time of year again! RCG4 is right around the corner. Battles, workshops, night show, etc. This one will have a true gathering vibe, don't miss your chance to chill with aspentree, dyounggod, Nick Vail, and MORE!
+It's that time of year again! RCG4 is right around the corner. Battles, workshops, night show, etc. This one will have a true gathering vibe, don't miss your chance to chill with Aspentree, Dandy Bien, Nick Vail, and MORE!
 
 ---
 
