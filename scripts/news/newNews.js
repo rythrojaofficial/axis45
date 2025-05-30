@@ -51,7 +51,7 @@ export let newNews = [
     lastActivated: "",
     active: true,
     title: "PDX Field Trip! RCG4: June 27-29",
-    lines: ["Rose City Gathering in Vancouver, WA","More info to come!"],
+    lines: ["Rose City Gathering in Vancouver, WA","More info below!"],
     md: "./events/2024rcg4/rcg4.md",
     link: "",
   },
