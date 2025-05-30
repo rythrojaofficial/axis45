@@ -32,6 +32,16 @@ export let newNews = [
   {
     lastActivated: "",
     active: true,
+    title: "[11am/6.1/Sun Karate Kid viewing!",
+    lines: ["Aj is literally the karate kid!",
+      "We're obv having a watch party! details below!",
+    ],
+    md: "./events/250601karatekid.md",
+    link: "",
+  },
+  {
+    lastActivated: "",
+    active: true,
     title: "Friday Hours Changing!",
     lines: ["Open Tricking: 8-10pm starting 5.2"],
     md: "./events/summer-friday-hours.md",
