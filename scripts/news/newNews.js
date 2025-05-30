@@ -32,7 +32,7 @@ export let newNews = [
   {
     lastActivated: "",
     active: true,
-    title: "[11am/6.1/Sun Karate Kid viewing!",
+    title: "[11am/6.1/Sun Karate Kid viewing]",
     lines: ["Aj is literally the karate kid!",
       "We're obv having a watch party! details below!",
     ],
