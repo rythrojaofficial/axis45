@@ -3,6 +3,7 @@ export let newNews = [
   {
     lastActivated: "",
     active: false,
+    expires: false,
     title: "Template! This is a template!",
     lines: ["today and yesterday, if you didn't know", "this is a template"],
     md: "",
@@ -12,6 +13,7 @@ export let newNews = [
   {
     lastActivated: "",
     active: false,
+    expires: false,
     title: "Template! This is a template!",
     lines: ["today and yesterday, if you didn't know", "this is a template"],
     md: "",
@@ -21,6 +23,7 @@ export let newNews = [
   {
     lastActivated: "10.21.24",
     active: false,
+    expires: false,    
     title: "[10.31/Thurs] 5th Thurs, No Classes! 🙅",
     lines: [
       "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
@@ -32,16 +35,7 @@ export let newNews = [
   {
     lastActivated: "",
     active: true,
-    title: "[11am/6.1/Sun Karate Kid viewing]",
-    lines: ["Aj is literally the karate kid!",
-      "We're obv having a watch party! details below!",
-    ],
-    md: "./events/250601karatekid.md",
-    link: "",
-  },
-  {
-    lastActivated: "",
-    active: true,
+    expires: 250607,
     title: "Friday Hours Changing!",
     lines: ["Open Tricking: 8-10pm starting 5.2"],
     md: "./events/summer-friday-hours.md",
@@ -50,6 +44,7 @@ export let newNews = [
   {
     lastActivated: "",
     active: true,
+    expires: 250630,
     title: "PDX Field Trip! RCG4: June 27-29",
     lines: ["Rose City Gathering in Vancouver, WA","More info below!"],
     md: "./events/2024rcg4/rcg4.md",
@@ -58,6 +53,7 @@ export let newNews = [
   {
     lastActivated: "11.17.24",
     active: false,
+    expires: false,
     title: "Free Injury Screening Night(s)!",
     lines: [
       "Free with Open Session drop-in OR membership tally ",
@@ -69,6 +65,7 @@ export let newNews = [
   {
     lastActivated: "2.17.25",
     active: false,
+    expires: false,
     title: "Free Injury Screening Night(s)!",
     lines: [
       "Free with Open Session drop-in OR membership tally ",
@@ -82,6 +79,7 @@ export let newNews = [
   {
     lastActivated: "9.15.24",
     active: true,
+    expires: false,
     title: "Seattle Tricking Discord",
     lines: [
       "Get notified of updates, announcements, and more!",
@@ -96,6 +94,16 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+    {
+    lastActivated: "",
+    active: false,
+    title: "[11am/6.1/Sun Karate Kid viewing]",
+    lines: ["Aj is literally the karate kid!",
+      "We're obv having a watch party! details below!",
+    ],
+    md: "./events/250601karatekid.md",
+    link: "",
+  },
   {
     lastActivated: "3.12.25",
     active: false,

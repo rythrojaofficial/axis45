@@ -2,6 +2,7 @@ import { newNews } from "./newNews.js";
 import NewsCard from "./newsCard.js";
 import { noSesh } from "./update-news-stipulations.js";
 import { nextFoundationsDate } from "./update-news-stipulations.js";
+import { localDateToSoratableDate } from "../parsedate.js";
 
 const utcdate = new Date();
 export const today = {
@@ -40,6 +41,13 @@ export function populateNews() {
   // Actual New News
   // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
   newNews.forEach((newsData) => {
+    if (newsData.expires !== false){
+      // if an expiry date exists
+      let sortableDate = localDateToSoratableDate(utcdate);
+      if (sortableDate >= newsData.expires){
+        newsData.active = false;
+      }
+    }
     if (newsData.active === true) {
       const card = new NewsCard(
         newsData.title,
