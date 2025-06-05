@@ -7,7 +7,7 @@ let hosting = [
   { legend: "" },
     {
     // What neighborhood/area are you leaving from
-    question: "",
+    question: "Bonus Date? (use the calendar)",
     name: "", // if necessary
     label: "Bonus Date? (use the calendar)", // if necessary label
     placeholder: "", // if necessary
@@ -18,7 +18,7 @@ let hosting = [
   },
   {
     question: "Who's hosting?",
-    name: "", // if necessary
+    name: "Who's hosting?", // if necessary
     label: "", // if necessary label
     placeholder: "", // if necessary
     description: "", // if necessary
