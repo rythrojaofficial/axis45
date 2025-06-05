@@ -50,3 +50,4 @@ let rcgForm = {
   submitError: "*Please check fields",
 };
 populateForm(rcgForm, document.querySelector("body"));
+ 
