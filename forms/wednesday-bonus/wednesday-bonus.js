@@ -7,9 +7,9 @@ let hosting = [
   { legend: "" },
     {
     // What neighborhood/area are you leaving from
-    question: "Bonus Date? (use the calendar)",
+    question: "Bonus Date?",
     name: "", // if necessary
-    label: "Bonus Date? (use the calendar)", // if necessary label
+    label: "Bonus Date?", // if necessary label
     placeholder: "", // if necessary
     description: "", // if necessary
     type: "date", // text, name, email, number, checkbox, date, select, radio
