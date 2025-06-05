@@ -28,7 +28,7 @@ export function sortableDateToLocalDate( YYMMDD ){
          return newLocal
     }
 }
-export function localDateToSoratableDate( newLocalDate ){
+export function localDateToSortableDate( newLocalDate ){
     let yearString = newLocalDate.getFullYear().toString();
     let shortYearString = yearString.slice(2);
     let monthString = (newLocalDate.getMonth()+1).toString(); // local is 0 indexed
@@ -42,6 +42,14 @@ export function localDateToSoratableDate( newLocalDate ){
     let sortableString = `${shortYearString}${monthString}${dayString}`
     let sortableDateNumber = parseInt(sortableString);
     return sortableDateNumber;
+}
+
+export function googleSheetsDateToSortableDate( googleSheetsDate){
+    //  yyyy-mm-dd format
+    let sheetsDate = googleSheetsDate.split('-');
+    sheetsDate[0] = sheetsDate[0].slice(2)
+    let sortableDate = sheetsDate[0]+sheetsDate[1]+sheetsDate[2]
+    return parseInt(sortableDate);
 }
 
 function validateDate( kds ){

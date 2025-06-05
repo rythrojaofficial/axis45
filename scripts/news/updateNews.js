@@ -2,14 +2,17 @@ import { newNews } from "./newNews.js";
 import NewsCard from "./newsCard.js";
 import { noSesh } from "./update-news-stipulations.js";
 import { nextFoundationsDate } from "./update-news-stipulations.js";
-import { localDateToSoratableDate } from "../parsedate.js";
+import { localDateToSortableDate } from "../parsedate.js";
 
 const utcdate = new Date();
+const sortableToday = localDateToSortableDate(utcdate);
+
 export const today = {
   weekday: utcdate.toLocaleDateString("en-US", { weekday: "long" }),
   dd: utcdate.getDate(),
   mm: utcdate.getMonth() + 1,
   yy: utcdate.getFullYear(),
+  sortable: sortableToday
 };
 
 // ===vvvvv==Foundations==vvvvv=========
@@ -43,7 +46,7 @@ export function populateNews() {
   newNews.forEach((newsData) => {
     if (newsData.expires !== false){
       // if an expiry date exists
-      let sortableDate = localDateToSoratableDate(utcdate);
+      let sortableDate = localDateToSortableDate(utcdate);
       if (sortableDate >= newsData.expires){
         newsData.active = false;
       }

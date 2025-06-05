@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wednesday Bonus</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Noto Sans", Optima, Candara, source-sans-pro, sans-serif;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      body {
+        margin: 0px;
+      }
+      .form-wrapper {
+        max-width: 500px; /* Set a width */
+        margin: 0 auto; /* Centers horizontally */
+      }
+      :root {
+        --primary-color: #263c42;
+        --secondary-color: #bdd3b6;
+        --background-gray: #e4e4e4;
+        --links-hover: #3c702d;
+        --red: rgb(224, 79, 79);
+      }
+      body {
+        display: grid;
+        grid-template-columns: auto 90vw auto;
+        grid-template-rows: 2.5vh auto 2.5vh;
+        margin-left: 0px;
+        padding-left: 0px;
+        background-color: rgb(228, 228, 228);
+      }
+
+      form {
+        grid-column-start: 2;
+        grid-row-start: 2;
+      }
+      .title,
+      .subtitle {
+        color: var(--primary-color);
+      }
+      .title {
+        font-size: 1.5rem;
+      }
+      .subtitle {
+        font-size: 1.25rem;
+      }
+      .incidentSection {
+        padding: 1rem;
+      }
+      input,
+      textarea {
+        width: 100%;
+      }
+
+      select,
+      fieldset,
+      textarea,
+      input,
+      #form-submit {
+        border-radius: 0.3rem;
+        border: none;
+        line-height: 1.5rem;
+        margin: 0.25rem;
+      }
+      select {
+        background-color: white;
+      }
+      #form-submit {
+        background-color: rgb(132, 240, 132);
+      }
+      #form-submit:hover {
+        background-color: rgb(19, 226, 25);
+      }
+
+      .text-links {
+        color: var(--primary-color);
+      }
+      .text-links a {
+        color: inherit;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .text-links a:hover {
+        text-decoration: underline;
+        color: var(--links-hover);
+      }
+
+      .section {
+        color: var(--primary-color);
+        font-size: 175%;
+        margin-top: 0px;
+      }
+      div[name="Who's hosting?"] > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      input[type="radio"] {
+        size: 16px;
+        margin-right: 8px;
+        vertical-align: top; /* Try 'top' instead of 'middle' for better alignment */
+        width: 16px; /* Set explicit size */
+        height: 16px;
+      }
+
+      .please-fill {
+        color: var(--red);
+        font-size: 0.7rem;
+      }
+      :required {
+        border: solid 2px rgb(224, 224, 174);
+      }
+    </style>
+  </head>
+  <body></body>
+  <script type="module" src="./wednesday-bonus.js"></script>
+</html>

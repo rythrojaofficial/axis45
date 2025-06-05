@@ -45,6 +45,20 @@ const googleFormsIframePopulate = [
                 marginHeight:'0',
                 marginWidth:'0',            }
     },
+    {
+        active: true,
+        name: '',
+        parentID:'bonus-wednesday-iframe',
+        properties:
+            {
+                src:'../forms/wednesday-bonus/wednesday-bonus.html',
+                width: '100%',
+                frameborder:'0',
+                height: '400',
+                marginHeight:'0',
+                marginWidth:'0',            }
+    },
+
     
 ]
 googleFormsIframePopulate.forEach((newFrame)=>{

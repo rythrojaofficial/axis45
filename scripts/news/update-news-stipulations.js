@@ -1,6 +1,7 @@
 import calculateNextFoundations from "./calculateNextFoundation.js";
 import { today } from "./updateNews.js";
-
+import { checkWednesdaySheet } from "./checkWednesdaySheet.js";
+// import { getCSVdata } from "../google-sheets-logic/read-public-csv.js";
 // If today's session is canceled or otherwise changed
 export let noSesh = {
   cancelled: false,
@@ -42,8 +43,17 @@ export let noSesh = {
 };
 
 // Wednesdays
-let thisWednesdaySesh = true;
-export thisWednesdaySesh
+let thisWednesdaySesh = false;
+console.log(today.weekday)
+if (today.weekday === 'Wednesday'){
+    let activeBonus = await checkWednesdaySheet()
+    activeBonus.forEach(date => {
+    if (date === today.sortable){
+        thisWednesdaySesh = true;
+    }
+    })
+}
+export { thisWednesdaySesh }
 // Manual Foundations, next foundations date
 export function nextFoundationsDate() {
   // let nextFoundations;
