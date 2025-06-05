@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top" />
+    <style>
+      body {
+        display: grid;
+        grid-template-columns: auto 90% auto;
+      }
+      .message-container {
+        grid-column-start: 2;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="message-container">
+      <!-- MESSAGE -->
+      <h1 id="message"><!-- POPULATED BY JS BELOW  --></h1>
+      <!-- BUTTONS -->
+      <div id="links"><!-- POPULATED BY JS BELOW --></div>
+    </div>
+
+    <script>
+      let myMessage = "Thanks making Jared's life easier :)";
+      let myLinks = [
+        {
+          label: "Return to admin",
+          link: "https://www.seattletricking.com/secret_pages/admin",
+        },
+      ];
+
+      // render links
+      myLinks.forEach((nextLink) => {
+        let aLink = document.createElement("a");
+        aLink.innerText = nextLink.label;
+        aLink.href = nextLink.link;
+
+        document.getElementById("links").appendChild(aLink);
+      });
+
+      function renderLink(xLink) {}
+      // render message
+      document.getElementById("message").innerText = myMessage;
+
+      let messageDisplay = document.getElementById("message");
+    </script>
+  </body>
+</html>
