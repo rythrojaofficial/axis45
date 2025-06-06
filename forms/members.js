@@ -1,4 +1,4 @@
-const membersJSON = "https://script.google.com/macros/s/AKfycbx98a2UrYDHivjbS6nNBGi0He-q-gHZ1RC8V1tpXazvccRBBkIVEs2FvfiXhQH6LQE-UA/exec"
+const membersJSON = "https://script.google.com/macros/s/AKfycbxEetGfi05FOw5nOKQKDhU12MTdbJiAlgqSG0B9JqJJB1ihwXYEpFAad_KcTNUwHVjlVw/exec"
 
 fetch(membersJSON)
   .then(response => response.json())

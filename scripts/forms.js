@@ -12,7 +12,7 @@ let sectionPrompts = [
     label: "", // if necessary label or legend
     placeholder: "", // if necessary
     description: "", // if necessary
-    type: "text", // text, name, (use text for email)email, (use text for phone nubmers)number, checkbox, date, select, radio
+    type: "text", // text, name, (use text for email)email, (use text for phone nubmers)number, checkbox, date, select, radio, hidden(use placeholder text for value)
     appendedOptions: [], // if necessary from type
     required: true, // true or false
   },
@@ -149,6 +149,17 @@ function populateInputs(inputObject, parentElement) {
       });
       if (inputObject.required) {
         textArea.element.setAttribute("required", true);
+      }
+      break;
+    case "hidden":
+      let hidden = new HtmlElement("input", parentElement, {
+        type: 'hidden',
+        name: theName,
+        label: inputObject.label,
+        value: inputObject.placeholder,
+      });
+      if (inputObject.required) {
+        hidden.element.setAttribute("required", true);
       }
       break;
     case "select":
