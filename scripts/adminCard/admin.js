@@ -10,7 +10,7 @@ const googleFormsIframePopulate = [
         parentID:'membership-addition-iframe',
         properties:
             {
-                src:'https://docs.google.com/forms/d/e/1FAIpQLSeOSc7-6nNn7HhSEbQ2MSank20qanyZxVObD_176kdU0qDihw/viewform?embedded=true',
+                src:'../forms/memberships/new-members-form.html',
                 width: '100%',
                 frameborder:'0',
                 height: '400',
