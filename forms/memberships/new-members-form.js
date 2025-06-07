@@ -84,6 +84,32 @@ let hosting = [
   },
   {
     // title
+    question: "",
+    name: "Priority", // if necessary
+    label: "", // if necessary label or legend
+    placeholder: "", // if necessary
+    description: "", // if necessary
+    type: "checkbox", // text, name, (use text for email)email, (use text for phone nubmers)number, checkbox, date, select, radio, hidden(use placeholder text for value)
+    appendedOptions: [
+      "yes",
+    ], // if necessary from type
+    required: false // true or false
+  },
+  {
+    // title
+    question: "",
+    name: "Member Notes", // if necessary
+    label: "Notes (if applicable)", // if necessary label or legend
+    placeholder: "eg. 250701 Chris on Access Membership only for July", // if necessary
+    description: "", // if necessary
+    type: "textbox", // text, name, (use text for email)email, (use text for phone nubmers)number, checkbox, date, select, radio, hidden(use placeholder text for value)
+    appendedOptions: [
+      "yes",
+    ], // if necessary from type
+    required: false // true or false
+  },
+  {
+    // title
     question: "Membership Status",
     name: "Membership Status", // if necessary
     label: "", // if necessary label or legend
@@ -91,7 +117,7 @@ let hosting = [
     description: "", // if necessary
     type: "hidden", // text, name, (use text for email)email, (use text for phone nubmers)number, checkbox, date, select, radio, hidden(use placeholder text for value)
     appendedOptions: [], // if necessary from type
-    required: true, // true or false
+    required: false, // true or false
   },
 
 

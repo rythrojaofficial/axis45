@@ -52,10 +52,20 @@ export function googleSheetsDateToSortableDate( googleSheetsDate){
     return parseInt(sortableDate);
 }
 
-function validateDate( kds ){
+export function googleSheetsDateToLocalDate( googleSheetsDate){
+    // yyyy-mm-dd to local
+    let date = googleSheetsDateToSortableDate(googleSheetsDate);
+    let localDate = sortableDateToLocalDate(date);
+    return localDate
+}
+
+function validateDate( sortableDate ){
     // input takes a string in yymmdd format
-    if (kds.length === 6){
-        let newKDSobject = new kdsObject(kds)
+    if (typeof(sortableDate) === 'number'){
+        sortableDate = sortableDate.toString()
+    }
+    if (sortableDate.length === 6){
+        let newKDSobject = new kdsObject(sortableDate)
         if( newKDSobject.year < 3000
             && newKDSobject.month <= 12
             && newKDSobject.day <= 31){
@@ -69,7 +79,7 @@ function validateDate( kds ){
                 return newKDSobject
             }
     }
-    else console.log('error: input sortable date format YYMMDD')
+    else console.log('error: input in format YYMMDD')
 
 }
 

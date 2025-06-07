@@ -7,7 +7,7 @@ let sectionPrompts = [
   { legend: "" },
   {
     // title
-    question: "",
+    question: "", // this will be .name by default
     name: "", // if necessary
     label: "", // if necessary label or legend
     placeholder: "", // if necessary
@@ -129,7 +129,7 @@ function populateSubmit(formObject, parentElement) {
     }
   });
 }
-function populateInputs(inputObject, parentElement) {
+export function populateInputs(inputObject, parentElement) {
   let theName =
     inputObject.name !== "" ? inputObject.name : inputObject.question;
   if (inputObject.label !== "") {
@@ -234,7 +234,7 @@ function populateInputs(inputObject, parentElement) {
         }
       });
       break;
-    case "checkbox":
+      case 'checkbox':
       let newCheckboxLabel = new HtmlElement(
         "label",
         parentElement,
@@ -286,7 +286,7 @@ function populateInputs(inputObject, parentElement) {
 
   // console.log(theName);
 }
-function populateSections(formObject, parentElement) {
+export function populateSections(formObject, parentElement) {
   let sectionArray = formObject.sectionArray;
   sectionArray.forEach((sec) => {
     let newSection = new HtmlElement("fieldset", parentElement, {
