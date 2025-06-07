@@ -51,12 +51,14 @@ export async function getMembers(){
     }
   })
     let finalOrderLibrary = [];
-    priorityLibrary.forEach(member =>{
-      finalOrderLibrary.push(member)
-    })
-    normalLibrary.forEach(member =>{
-      finalOrderLibrary.push(member)
-    })
+    finalOrderLibrary.push(priorityLibrary);
+    finalOrderLibrary.push(normalLibrary)
+    // priorityLibrary.forEach(member =>{
+    //   finalOrderLibrary.push(member)
+    // })
+    // normalLibrary.forEach(member =>{
+    //   finalOrderLibrary.push(member)
+    // })
     return await finalOrderLibrary
 
 

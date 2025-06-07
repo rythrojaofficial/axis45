@@ -1,6 +1,7 @@
 import { populateForm, populateInputs } from "../../../scripts/forms.js";
 import { googleSheetsDateToLocalDate } from "../../scripts/parsedate.js";
 import { getMembers } from './get-members.js'
+import { HtmlElement } from "../../scripts/htmlElement.js";
 
 let sectionPrompts = [
   { legend: "" },
@@ -54,28 +55,57 @@ let tallyInfo = [
 
 ];
 sections.push(tallyInfo);
-let membersList = await getMembers();
+
 
 let tallyMembers = [
     {legend: "Members"}
 ]
 sections.push(tallyMembers)
+
+let lists;
+let counter = 0;
+
 async function addMembers(sessions){
-    let list = await membersList;
-    console.log({list: list})
     let memberFieldset = document.getElementById('Members');
-    list.forEach(member =>{
-        populateInputs(
-            {
+    let priorityDiv = new HtmlElement(
+        'div', memberFieldset,{ id: 'priority-members'}, ""
+    )
+    let priorityDivLabel = new HtmlElement(
+        'div', priorityDiv.element, {class: "section"}, "Frequent Members"
+    )
+    let normalDiv = new HtmlElement(
+        'div', memberFieldset, { id: 'normal-members' }, ""
+    )
+    let normalDivLabel = new HtmlElement(
+        "div", normalDiv.element, {class: "section"}, "Normal Members"
+    )
+    if (counter===0){
+            lists = await getMembers();
+            counter++;
+    }
+    lists[0].forEach(member =>{
+        populateInputs({
         question: member.name,
         name: "", // if necessary
         label: "", // if necessary label
         placeholder: "", // if necessary
         description: "", // if necessary
-        type: "checkbox", // text, name, email, number, checkbox, date, select, radio
+        type: "radio", // text, name, email, number, checkbox, date, select, radio
         appendedOptions: sessions, // if necessary from type
         required: false, // true or false
-    }, memberFieldset)
+    }, priorityDiv.element)
+    })
+    lists[1].forEach(member =>{
+        populateInputs({
+        question: member.name,
+        name: "", // if necessary
+        label: "", // if necessary label
+        placeholder: "", // if necessary
+        description: "", // if necessary
+        type: "radio", // text, name, email, number, checkbox, date, select, radio
+        appendedOptions: sessions, // if necessary from type
+        required: false, // true or false
+    }, normalDiv.element)
     })
 }   
 //  form Information
@@ -97,18 +127,21 @@ populateForm(tallyForm, document.querySelector("body"));
  let date = document.querySelector('[name="Tally Date"]')
     date.addEventListener("change", addDate)
     date.valueAsDate = new Date();
-    addDate()
+let talliedBy = document.querySelector('div[name="Tallied By"]');
+    talliedBy.addEventListener('change', addDate, { once: true })
 
-
+let options = [];
 function addDate(){
     let dayElement = document.getElementById('Day').firstChild
     dayElement.innerText = getDayofWeek()
-    let options = []
+    let tallyWrapper = document.getElementById('Members');
+    tallyWrapper.innerHTML = '<legend>Members</legend>'
     switch (dayElement.innerText){
         case "Tuesday":
             options = [
                 "Intermediate Guided Tricking",
                 "Tricking Exercise",
+                "all of the above",
                 "other"
             ]
             break;
@@ -116,6 +149,7 @@ function addDate(){
             options = [
                 "Guided Flexibility",
                 "Open Breaking",
+                "all of the above",
                 "other"
             ]
             break;
@@ -127,6 +161,7 @@ function addDate(){
             break;
     }
     addMembers(options)
+    // preQueriedList = addMembers(options)
 }
 
 
@@ -137,3 +172,7 @@ function getDayofWeek(){
     let theDayIndex = localDate.getDay();
     return(daysArray[theDayIndex])
 }
+
+
+
+
