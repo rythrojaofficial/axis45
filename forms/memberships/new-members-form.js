@@ -59,11 +59,11 @@ let hosting = [
     description: "", // if necessary
     type: "radio", // text, name, email, number, checkbox, date, select, radio
     appendedOptions: [
-        "Tricking Membership",
-        "Breaking Membership",
-        "Exercise and Stretch Membership",
-        "$50 Student Membership",
-        "$50 Access Membership",
+        "Tricking",
+        "Breaking",
+        "Exercise and Stretch",
+        "$50 Student",
+        "$50 Access",
         "other"
     ], // if necessary from type
     required: true, // true or false

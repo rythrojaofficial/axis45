@@ -115,7 +115,7 @@ let title = "Member Tally Form";
 let tallyForm = {
   method: "POST",
   action: 'https://script.google.com/macros/s/AKfycbyOsSFt58h4KR6AnGJ-0KdsgGmpADP_-aEozAacQpmLcUJ8hn1Eey089_60Mqok-Oc/exec',
-  styleSheet: "../css-sheets/test.css",
+  styleSheet: "../css-sheets/member-tally.css",
   font: "https://fonts.google.com/specimen/Fira+Sans?stroke=Sans+Serif",
   title: title,
   id: title.replace(/ /g, "-"),
@@ -137,28 +137,39 @@ function addDate(){
     let dayElement = document.getElementById('Day').firstChild
     dayElement.innerText = getDayofWeek()
     let tallyWrapper = document.getElementById('Members');
-    tallyWrapper.innerHTML = '<legend>Members</legend>'
+    tallyWrapper.innerHTML = '<legend>Members</legend>';
+    let classLibrary = {
+        tuesday: [
+            "Intermediate Guided Tricking",
+            "Tricking Exercise"
+        ],
+        sunday: [
+            "Guided Flexibility",
+            "Open Breaking"
+        ],
+        allOther: [
+            "Open Tricking"
+        ]
+    }
     switch (dayElement.innerText){
         case "Tuesday":
             options = [
-                "Intermediate Guided Tricking",
-                "Tricking Exercise",
-                "all of the above",
-                "other"
+                classLibrary.tuesday[0],
+                classLibrary.tuesday[1],
+                `${classLibrary.tuesday[0]} + ${classLibrary.tuesday[1]}`,
             ]
             break;
         case "Sunday":
             options = [
-                "Guided Flexibility",
-                "Open Breaking",
-                "all of the above",
-                "other"
+                classLibrary.sunday[0],
+                classLibrary.sunday[1],
+                `${classLibrary.sunday[0]} + ${classLibrary.sunday[1]}`,
             ]
             break;
         default:
             options = [
-                "Open Tricking",
-                "other"
+                classLibrary.allOther[0],
+
             ]
             break;
     }
