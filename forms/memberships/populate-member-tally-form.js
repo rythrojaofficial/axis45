@@ -93,6 +93,7 @@ async function addMembers(sessions){
         type: "radio", // text, name, email, number, checkbox, date, select, radio
         appendedOptions: sessions, // if necessary from type
         required: false, // true or false
+        class: "priority-member-radio-options",
     }, priorityDiv.element)
     })
     lists[1].forEach(member =>{
@@ -105,6 +106,7 @@ async function addMembers(sessions){
         type: "radio", // text, name, email, number, checkbox, date, select, radio
         appendedOptions: sessions, // if necessary from type
         required: false, // true or false
+        class: "normal-member-radio-options",
     }, normalDiv.element)
     })
 }   

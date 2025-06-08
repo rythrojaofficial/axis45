@@ -188,6 +188,7 @@ export function populateInputs(inputObject, parentElement) {
         name: theName,
         label: inputObject.label,
         placeholder: inputObject.placeholder,
+        class: inputObject.class,
       });
 
       inputObject.appendedOptions.forEach((option) => {
