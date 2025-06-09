@@ -1,6 +1,5 @@
-<!-- # Rose City Gathering 3 Field Trip -->
-
 in case you get lost!
+
 **Updates in our [discord](https://discord.gg/mGM4Htgj)**
 or dm @seattletricking on instagram
 
@@ -22,7 +21,7 @@ It's that time of year again! RCG4 is right around the corner. Battles, workshop
 > 🎟️ **Ticketing Options**: [Group Discount ($100each) if we have 5+](https://www.pdxtricking.org/events)
 
 > **Carpool Info**:
-> TBD
+> [Survey out now!](https://www.seattletricking.com/forms/25rcg.html) Please fill out asap!
 
 <!-- >
 > **To PDX**
@@ -79,9 +78,9 @@ It's that time of year again! RCG4 is right around the corner. Battles, workshop
 > - Small bit of cash $20-$50 in case of emergency
 
 Offical from the website
-<img src="./events/2024rcg4/rcg_flyer.png" alt="rcg flyer" class="responsive-image">
-<img src="./events/2024rcg4/rcg_sleepover.png" alt="rcg sleepover" class="responsive-image">
-<img src="./events/2024rcg4/rcg_schedule.png" alt="rcg schedule" class="responsive-image">
+<img src="./events/2025rcg4/rcg_flyer.png" alt="rcg flyer" class="responsive-image">
+<img src="./events/2025rcg4/rcg_sleepover.png" alt="rcg sleepover" class="responsive-image">
+<img src="./events/2025rcg4/rcg_schedule.png" alt="rcg schedule" class="responsive-image">
 
 > ## Weather
 >

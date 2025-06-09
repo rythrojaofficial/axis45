@@ -103,4 +103,5 @@ input:invalid{
 
 .section{
     font-size: 1.5rem;
+    text-decoration: underline;
 }
