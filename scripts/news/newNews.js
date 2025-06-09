@@ -35,19 +35,10 @@ export let newNews = [
   {
     lastActivated: "",
     active: true,
-    expires: 250607,
-    title: "Friday Hours Changing!",
-    lines: ["Open Tricking: 8-10pm starting 5.2"],
-    md: "./events/summer-friday-hours.md",
-    link: "",
-  },
-  {
-    lastActivated: "",
-    active: true,
     expires: 250630,
     title: "PDX Field Trip! RCG4: June 27-29",
-    lines: ["Rose City Gathering in Vancouver, WA","More info below!"],
-    md: "./events/2024rcg4/rcg4.md",
+    lines: ["Rose City Gathering in Vancouver, WA","Carpool survey out now!! please fill out ASAP :-)"],
+    md: "./events/2025rcg4/rcg4.md",
     link: "",
   },
   {
@@ -94,6 +85,15 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+    {
+    lastActivated: "",
+    active: true,
+    expires: 250607,
+    title: "Friday Hours Changing!",
+    lines: ["Open Tricking: 8-10pm starting 5.2"],
+    md: "./events/summer-friday-hours.md",
+    link: "",
+  },
     {
     lastActivated: "",
     active: false,
