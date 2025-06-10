@@ -264,7 +264,7 @@ let accomodations = [
     question:
       "If booking an Airbnb, how many spots do you have (including you)?",
     name: "", // if necessary
-    label: "If booking an Airbnb, how many spots do you have (including you)?", // if necessary label
+    label: "If booking an Airbnb, how many spots do you have including you? (0 would be no spots)", // if necessary label
     placeholder: "", // if necessary
     description: "", // if necessary
     type: "select", // text, name, email, number, checkbox, date, select, radio
@@ -291,7 +291,9 @@ let accomodations = [
       "Gym Sleepover",  
       "Airbnb I personally booked",
       "Airbnb someone else has booked (confirmed)",
-      "N/A: I won't be there friday or have a private setup",
+      "N/A: I'm going home that night",
+      "N/A: I won't be there friday",
+      "N/A: I have a private setup",
     ], // if necessary from type
     required: true, // true or false
   },
@@ -307,7 +309,9 @@ let accomodations = [
       "Gym Sleepover",  
       "Airbnb I personally booked",
       "Airbnb someone else has booked (confirmed)",
-      "N/A: won't be there or have a private setup",
+      "N/A: I'm going home that night",
+      "N/A: I won't be there friday",
+      "N/A: I have a private setup",
     ], // if necessary from type
     required: true, // true or false
   },
