@@ -19,6 +19,13 @@ fieldset {
     --submit-message-color: rgb(67, 158, 194);
     --light-gray: rgb(243, 243, 243);
     --Yellow:rgb(219, 200, 28);
+    --primary-color: #263c42;
+    --secondary-color: #bdd3b6;
+    --background-gray: #e4e4e4;
+    --links-hover: #3c702d; 
+    --hover-secondary-color: #6fc056;
+    --blue-links:#d2e3ec;
+    --hover-blue-links: #b6d4e4;
 
 }
 .form-wrapper{
@@ -92,6 +99,8 @@ input:invalid{
 .normal-member-radio-options{
     display: flex;
     overflow-x: scroll;
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 .priority-member-radio-options{
@@ -103,5 +112,13 @@ input:invalid{
 
 .section{
     font-size: 1.5rem;
-    text-decoration: underline;
+    color: var(--primary-color);
+    /* border-bottom: 2px solid var(--primary-color) */
+    text-align: center;
 }
+#priority-members > label,
+#normal-members > label{
+    font-size: 1.25rem;
+    color: var(--primary-color);
+}
+

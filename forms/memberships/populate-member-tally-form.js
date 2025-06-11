@@ -83,7 +83,7 @@ async function addMembers(sessions){
             lists = await getMembers();
             counter++;
     }
-    lists[0].forEach(member =>{
+    lists.priority.forEach(member =>{
         populateInputs({
         question: member.name,
         name: "", // if necessary
@@ -96,7 +96,7 @@ async function addMembers(sessions){
         class: "priority-member-radio-options",
     }, priorityDiv.element)
     })
-    lists[1].forEach(member =>{
+    lists.regular.forEach(member =>{
         populateInputs({
         question: member.name,
         name: "", // if necessary

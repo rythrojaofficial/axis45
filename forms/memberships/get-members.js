@@ -1,3 +1,4 @@
+import { readSheetsToJSON } from "../../scripts/getText.js";
 const membersSheetURL = "https://script.google.com/macros/s/AKfycbx2BnIMMCsmezeo2pM_W_eQoh7CNzLItVbOygNnla5VQXRj1w91Td7Eu2Of6u9Mkrs/exec"
 
 class Member{
@@ -11,10 +12,16 @@ class Member{
     this.priority = priority;
   }
 }
-
+class MemberLibrary{
+  constructor(){
+    this.full = [];
+    this.priority = [];
+    this.regular = []
+  }
+}
 export async function getMembers(){
-  let membersLibrary = []
-  let data = await asyncGetMembers(membersSheetURL)
+  let membersLibrary = new MemberLibrary();
+  let data = await readSheetsToJSON(membersSheetURL)
   data.forEach(member => {
           let newMember = new Member(
             member['Member Name'],
@@ -24,64 +31,28 @@ export async function getMembers(){
             member['Priority'],
             member['Member Notes'],
             member['Member Email'],
-            
           );
-          membersLibrary.push(newMember)
+          membersLibrary.full.push(newMember)
       })
-  let priorityLibrary = [];
-  let normalLibrary = [];
-  membersLibrary.forEach( member => {
-    // console.log({
-    //   name: member.name,
-    //   status: member.status,
-    //   priority: member.priority
-    // })
+  membersLibrary.full.forEach( member => {
     if(member.status === 'active'
       && member.priority === 'yes'
     ){
-      priorityLibrary.push({
+      membersLibrary.priority.push({
         name: member.name,
         type: member.type
       })
     }else if(member.status === 'active'){
-      normalLibrary.push({
+      membersLibrary.regular.push({
         name: member.name,
         type: member.type
       })
     }
   })
-    let finalOrderLibrary = [];
-    finalOrderLibrary.push(priorityLibrary);
-    finalOrderLibrary.push(normalLibrary)
-    // priorityLibrary.forEach(member =>{
-    //   finalOrderLibrary.push(member)
-    // })
-    // normalLibrary.forEach(member =>{
-    //   finalOrderLibrary.push(member)
-    // })
-    return await finalOrderLibrary
-
-
-
+    return membersLibrary;
 }
 
 getMembers()
-
-
-async function asyncGetMembers(sheeturl){
-  try{
-    const response = await fetch(sheeturl);
-    if(!response.ok){
-        throw new Error(`HTTP error: ${response.status}`);
-      }
-    let data = await response.json()
-    return data
-  } catch (error) {
-    console.error('Error:', error);
-  }
-  
-  
-}
 
 
 

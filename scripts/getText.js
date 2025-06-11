@@ -14,3 +14,16 @@ export async function readText(filePath) {
       return null; // Return null (or a default value) if fetch fails
   }
 }
+
+export async function readSheetsToJSON(sheetsURL){
+  try {
+    const response = await fetch(sheetsURL);
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+  }
+    return response.json();
+  }catch (error) {
+      console.error("Fetch failed:", error); 
+      return null; // Return null (or a default value) if fetch fails
+  }
+}
