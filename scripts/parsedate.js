@@ -17,6 +17,13 @@ class kdsObject{
 
 }
 
+export function sortableDateToKdsObject( YYMMDD ){
+    let data = validateDate( YYMMDD )
+    if (data.valid === true){
+        return new kdsObject(YYMMDD)
+    }
+}
+
 export function sortableDateToLocalDate( YYMMDD ){
     let data = validateDate( YYMMDD );
     if (data.valid === true){

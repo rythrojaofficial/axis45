@@ -27,7 +27,7 @@ let tallyInfo = [
     {
     // What neighborhood/area are you leaving from
     question: "Tally Date",
-    name: "", // if necessary
+    name: "Date", // if necessary
     label: "Tally Date", // if necessary label
     placeholder: "", // if necessary
     description: "", // if necessary
@@ -37,7 +37,7 @@ let tallyInfo = [
   },
   {
     question: "Tallied By",
-    name: "Tallied By", // if necessary
+    name: "", // if necessary
     label: "", // if necessary label
     placeholder: "", // if necessary
     description: "", // if necessary
@@ -49,6 +49,18 @@ let tallyInfo = [
     ], // if necessary from type
     required: true, // true or false
   },
+  {
+    question: "Tally Day",
+    name: "Day", // if necessary
+    label: "", // if necessary label
+    placeholder: "", // if necessary
+    description: "", // if necessary
+    type: "text", // text, name, email, number, checkbox, date, select, radio
+    appendedOptions: [], // if necessary from type
+    required: true, // true or false
+    hidden: true,
+  },
+
 
 
 
@@ -114,7 +126,8 @@ async function addMembers(sessions){
 let title = "Member Tally Form";
 let tallyForm = {
   method: "POST",
-  action: 'https://script.google.com/macros/s/AKfycbyOsSFt58h4KR6AnGJ-0KdsgGmpADP_-aEozAacQpmLcUJ8hn1Eey089_60Mqok-Oc/exec',
+  action: 
+'https://script.google.com/macros/s/AKfycbzU8rkGJDLQTJ1bURZGr1DYCNbvSK6rSMzZY38i24GCW_KLM0RoIe6HtuGsVblXYi4/exec',
   styleSheet: "../css-sheets/member-tally.css",
   font: "https://fonts.google.com/specimen/Fira+Sans?stroke=Sans+Serif",
   title: title,
@@ -126,11 +139,13 @@ let tallyForm = {
 };
 
 populateForm(tallyForm, document.querySelector("body"));
- let date = document.querySelector('[name="Tally Date"]')
+let date = document.querySelector('[name="Date"]')
     date.addEventListener("change", addDate)
     date.valueAsDate = new Date();
 let talliedBy = document.querySelector('div[name="Tallied By"]');
     talliedBy.addEventListener('change', addDate, { once: true })
+let formDay = document.querySelector('[name="Day"]');
+    formDay.value = getDayofWeek();
 
 let options = [];
 function addDate(){
