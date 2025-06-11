@@ -19,6 +19,13 @@ fieldset {
     --submit-message-color: rgb(67, 158, 194);
     --light-gray: rgb(243, 243, 243);
     --Yellow:rgb(219, 200, 28);
+    --primary-color: #263c42;
+    --secondary-color: #bdd3b6;
+    --background-gray: #e4e4e4;
+    --links-hover: #3c702d; 
+    --hover-secondary-color: #6fc056;
+    --blue-links:#d2e3ec;
+    --hover-blue-links: #b6d4e4;
 
 }
 .form-wrapper{
@@ -86,3 +93,21 @@ input:invalid{
     border-width: 1px;
     border-color: var(--Yellow);
 }    
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+.text-links{
+    color:var(--primary-color);
+}
+    .text-links a{
+        color: inherit;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .text-links a:hover{
+        text-decoration: underline;
+        color: var(--links-hover)
+    }

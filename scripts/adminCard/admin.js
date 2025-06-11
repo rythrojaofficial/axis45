@@ -19,7 +19,8 @@ const googleFormsIframePopulate = [
             }
     },
     {
-        active: true,
+        active: false,
+        // google docs version depreciated 250611
         name: '',
         parentID:'tally-form-iframe',
         properties:
@@ -68,7 +69,7 @@ const googleFormsIframePopulate = [
                 src:'../forms/wednesday-bonus/wednesday-bonus.html',
                 width: '100%',
                 frameborder:'0',
-                height: '400',
+                height: '180',
                 marginHeight:'0',
                 marginWidth:'0',            }
     },

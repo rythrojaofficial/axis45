@@ -99,6 +99,7 @@ input:invalid{
 .normal-member-radio-options{
     display: flex;
     overflow-x: scroll;
+    font-size: .85rem;
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
 }
@@ -118,7 +119,25 @@ input:invalid{
 }
 #priority-members > label,
 #normal-members > label{
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--primary-color);
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+.text-links{
+    color:var(--primary-color);
+
+}
+    .text-links a{
+        color: inherit;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .text-links a:hover{
+        text-decoration: underline;
+        color: var(--links-hover)
+    }
