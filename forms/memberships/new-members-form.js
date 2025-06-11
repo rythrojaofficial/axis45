@@ -139,4 +139,6 @@ let myForm = {
   submitError: "*Please check fields",
 };
 populateForm(myForm, document.querySelector("body"));
+let date = document.querySelector('[name="Date"]')
+    date.valueAsDate = new Date();
  
