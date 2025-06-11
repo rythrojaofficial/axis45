@@ -22,7 +22,7 @@ let hosting = [
   { legend: "" },
     {
     // What neighborhood/area are you leaving from
-    question: "Date Added",
+    question: "Date",
     name: "", // if necessary
     label: "Date Added", // if necessary label
     placeholder: "", // if necessary
@@ -126,7 +126,7 @@ sections.push(hosting);
 
 //  form Information
 let title = "New Members Addition";
-let rcgForm = {
+let myForm = {
   method: "POST",
   action: 'https://script.google.com/macros/s/AKfycbyOsSFt58h4KR6AnGJ-0KdsgGmpADP_-aEozAacQpmLcUJ8hn1Eey089_60Mqok-Oc/exec',
   styleSheet: "../css-sheets/test.css",
@@ -138,5 +138,5 @@ let rcgForm = {
   submitMessage: "Submitting. . . Please Wait 🙂",
   submitError: "*Please check fields",
 };
-populateForm(rcgForm, document.querySelector("body"));
+populateForm(myForm, document.querySelector("body"));
  
