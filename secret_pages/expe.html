@@ -1,123 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" />
     <title>expenses</title>
-    <link rel="stylesheet" href="secretstyles.css">
-</head>
-<body>
-    
-    <div>
-        <a href="https://www.seattletricking.com/secret_pages/admin"> return to admin</a>
-    </div>
-    <div class="form-container">
-        <form id="expense-form"
-        method="POST" action="https://script.google.com/macros/s/AKfycbxHb30pVIipaVaUE64fbvZkv3mzODW81SdZdVkoZVBEsPMtd9Te_RjkEe8Bhy4zJJMV/exec
-            ">
-            <fieldset required>
-                <legend>who</legend>
-                <div><input type="radio" name="who" value='jared'>jd</div>
-                <div><input type="radio" name="who" value="krissy">ky</div>
-                <div><input type="radio" name="who" value="aj">aj</div>
-                <div><input type="radio" name="who" value="stc">stc</div>
-                <div><input type="radio" name="who" value="other" id="other-who">other <input type="text" id="listed-other-who"></div>
-            </fieldset>
-            <fieldset>
-                <legend>exp date</legend>
-                <input type="date" name="expense-date" id="">
-            </fieldset>
-            <fieldset>
-                <legend>price</legend>
-                <input type="number" name="price" step='any'id="">
-            </fieldset>
-            <fieldset>
-                <legend>expense</legend>
-                <input type="text" name="expense" id="">
-            </fieldset>
-            <fieldset>
-                <legend>location</legend>
-                <input type="text" name="purchase-location" id="">
-            </fieldset>
-            
-            <fieldset>
-                <legend>payment</legend>
-                <div><input type="radio" name="payment-method" value="disc">disc</div>
-                <div><input type="radio" name="payment-method" value="citi">citi</div>
-                <div><input type="radio" name="payment-method" value="venmo">venmo</div>
-                <div><input type="radio" name="payment-method" value="cash">cash</div>
-                <div><input type="radio" name="payment-method" value="becu">becu</div>
-                <div><input type="radio" name="payment-method" value="kvisa">kvisa</div>
-                <div><input type="radio" name="payment-method" value="kmaster">kmaster</div>
-                <div><input type="radio" name="payment-method" value="kusb">kusb</div>
-                <div><input type="radio" name="payment-method" id="other-payment" value="other">other <input type="text" id="listed-other-payment"></div>
-            </fieldset>
-            <fieldset>
-                
-                <div><input type="checkbox" name="was-contribution" value="yes">This was a contribution ie. rent supplement</div>
-            </fieldset>
-
-            <fieldset>
-                <legend>receipt?</legend>
-                <input type="file" name="receipt" id="">
-            </fieldset>
-            <fieldset>
-                <legend>any relevant tax category?</legend>
-                <div><input type="radio" name="tax-category" value="office-expenses">office-expenses</div>
-                <div><input type="radio" name="tax-category" value="equipment-or-repair">equipment-or-repair</div>
-                <div><input type="radio" name="tax-category" value="business-travel">business-travel</div>
-                <div><input type="radio" name="tax-category" value="professional-services">professional-services</div>
-                <div><input type="radio" name="tax-category" value="professional-development">professional-development</div>
-                <div><input type="radio" name="tax-category" value="legal-or-licensing">legal-or-licensing</div>
-            </fieldset>
+    <link rel="stylesheet" href="../forms/css-sheets/test.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <a href="https://www.seattletricking.com/secret_pages/admin">
+          return to admin</a
+        >
+      </div>
+      <div class="form-container">
+        <form
+          id="expense-form"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbxHb30pVIipaVaUE64fbvZkv3mzODW81SdZdVkoZVBEsPMtd9Te_RjkEe8Bhy4zJJMV/exec
+            "
+        >
+          <fieldset required>
+            <legend>who</legend>
+            <div><input type="radio" name="who" value="jared" />jd</div>
+            <div><input type="radio" name="who" value="krissy" />ky</div>
+            <div><input type="radio" name="who" value="aj" />aj</div>
+            <div><input type="radio" name="who" value="stc" />stc</div>
             <div>
-                <button id='submit-button'type="submit">Submit</button> 
-                <div id="submitting">Submitting. . . please wait :)</div>
+              <input
+                type="radio"
+                name="who"
+                value="other"
+                id="other-who"
+              />other
+              <input type="text" id="listed-other-who" />
             </div>
+          </fieldset>
+          <fieldset>
+            <legend>exp date</legend>
+            <input type="date" name="expense-date" id="" />
+          </fieldset>
+          <fieldset>
+            <legend>price</legend>
+            <input type="number" name="price" step="any" id="" />
+          </fieldset>
+          <fieldset>
+            <legend>expense</legend>
+            <input type="text" name="expense" id="" />
+          </fieldset>
+          <fieldset>
+            <legend>location</legend>
+            <input type="text" name="purchase-location" id="" />
+          </fieldset>
+
+          <fieldset>
+            <legend>payment</legend>
+            <div>
+              <input type="radio" name="payment-method" value="disc" />disc
+            </div>
+            <div>
+              <input type="radio" name="payment-method" value="citi" />citi
+            </div>
+            <div>
+              <input type="radio" name="payment-method" value="venmo" />venmo
+            </div>
+            <div>
+              <input type="radio" name="payment-method" value="cash" />cash
+            </div>
+            <div>
+              <input type="radio" name="payment-method" value="becu" />becu
+            </div>
+            <div>
+              <input type="radio" name="payment-method" value="kvisa" />kvisa
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="payment-method"
+                value="kmaster"
+              />kmaster
+            </div>
+            <div>
+              <input type="radio" name="payment-method" value="kusb" />kusb
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="payment-method"
+                id="other-payment"
+                value="other"
+              />other <input type="text" id="listed-other-payment" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <div>
+              <input type="checkbox" name="was-contribution" value="yes" />This
+              was a contribution ie. rent supplement
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>receipt?</legend>
+            <input type="file" name="receipt" id="" />
+          </fieldset>
+          <fieldset>
+            <legend>any relevant tax category?</legend>
+            <div>
+              <input
+                type="radio"
+                name="tax-category"
+                value="office-expenses"
+              />office-expenses
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="tax-category"
+                value="equipment-or-repair"
+              />equipment-or-repair
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="tax-category"
+                value="business-travel"
+              />business-travel
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="tax-category"
+                value="professional-services"
+              />professional-services
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="tax-category"
+                value="professional-development"
+              />professional-development
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="tax-category"
+                value="legal-or-licensing"
+              />legal-or-licensing
+            </div>
+          </fieldset>
+          <div>
+            <button id="submit-button" type="submit">Submit</button>
+            <div id="submitting">Submitting. . . please wait :)</div>
+          </div>
         </form>
-    </div>   
-    
+      </div>
+    </div>
+
     <script>
-
-        // creates event listners that change value of other option
-        const _other = (function(){
-            function createOtherOption(idbutton, idlisted){
-                let other = document.getElementById(idbutton);
-                let listed = document.getElementById(idlisted);
-                let newListener = listed.addEventListener('input', (e)=>{
-                    other.value = listed.value;
-                })
-            }
-            let whoOther = createOtherOption('other-who', 'listed-other-who');
-            let paymentOther = createOtherOption('other-payment', 'listed-other-payment')
-
-        })()
-
-        const _submitting = (function(){
-            // replaces the submit button 
-            let replaceSubmit = document.getElementById('submitting');
-                replaceSubmit.style.display = 'none';
-
-            let submitButtton = document.getElementById('submit-button');
-                submitButtton.addEventListener('click', ()=>{
-                    let requiredFields = Array.from(document.getElementById('expense-form').querySelectorAll("[required]"))
-                        requiredFields.forEach(element => {
-                            if (element.value !== ''){
-                                _replaceXwithY(submitButtton, replaceSubmit)
-                            }
-                        });
-
-                })
-
-                    
-        })()
-
-        function _replaceXwithY(x,y){
-            x.style.display = 'none';
-            y.style.display = 'block';
+      // creates event listners that change value of other option
+      const _other = (function () {
+        function createOtherOption(idbutton, idlisted) {
+          let other = document.getElementById(idbutton);
+          let listed = document.getElementById(idlisted);
+          let newListener = listed.addEventListener("input", (e) => {
+            other.value = listed.value;
+          });
         }
-        
-        
+        let whoOther = createOtherOption("other-who", "listed-other-who");
+        let paymentOther = createOtherOption(
+          "other-payment",
+          "listed-other-payment"
+        );
+      })();
+
+      const _submitting = (function () {
+        // replaces the submit button
+        let replaceSubmit = document.getElementById("submitting");
+        replaceSubmit.style.display = "none";
+
+        let submitButtton = document.getElementById("submit-button");
+        submitButtton.addEventListener("click", () => {
+          let requiredFields = Array.from(
+            document
+              .getElementById("expense-form")
+              .querySelectorAll("[required]")
+          );
+          requiredFields.forEach((element) => {
+            if (element.value !== "") {
+              _replaceXwithY(submitButtton, replaceSubmit);
+            }
+          });
+        });
+      })();
+
+      function _replaceXwithY(x, y) {
+        x.style.display = "none";
+        y.style.display = "block";
+      }
     </script>
-</body>
+  </body>
 </html>

@@ -2,41 +2,14 @@ import { populateShowMore } from "../showMore.js"
 // add class show-more 
 import { HtmlElement, mdElement, capitalizeWords } from "../htmlElement.js";
 import { tapToPopulate } from "../tap-to-populate.js";
+import { generalTapToPopulate } from "../general-tap-to-populate.js";
+import { KvPair } from "../general-tap-to-populate.js";
 
-const googleFormsIframePopulate = [
+const formsIframeArray = [
     {
         active: true,
-        name: '',
-        parentID:'membership-addition-iframe',
-        properties:
-            {
-                src:'../forms/memberships/new-members-form.html',
-                width: '100%',
-                frameborder:'0',
-                height: '400',
-                marginHeight:'0',
-                marginWidth:'0',
-            }
-    },
-    {
-        active: false,
-        // google docs version depreciated 250611
-        name: '',
-        parentID:'tally-form-iframe',
-        properties:
-            {
-                src:'https://docs.google.com/forms/d/e/1FAIpQLScd0QQ2u3JZmqL97GtPzVbWeKFlOEO1WlSSGNCNtIQbGD7MnA/viewform?embedded=true',
-                width: '100%',
-                frameborder:'0',
-                height: '400',
-                marginHeight:'0',
-                marginWidth:'0',
-            }
-    },
-    {
-        active: true,
-        name: '',
-        parentID:'tally-form-iframe',
+        name: 'member tally',
+        checkFormLink:'https://docs.google.com/spreadsheets/d/1ubR4QNCNjvtW5DVs1o0tYddQmzzoTERIRMM04uIf_Kg/edit?usp=sharing',
         properties:
             {
                 src:'../forms/memberships/member-tally-form.html',
@@ -49,8 +22,22 @@ const googleFormsIframePopulate = [
     },
     {
         active: true,
-        name: '',
-        parentID:'log-expenses-iframe',
+        name: 'add member',
+        checkFormLink:'https://docs.google.com/spreadsheets/d/1Lzep4_1eJk5omSYb1wZ2_JHyHVjJQGfb_MFowWdmJTs/edit?usp=sharing',
+        properties:
+            {
+                src:'../forms/memberships/new-members-form.html',
+                width: '100%',
+                frameborder:'0',
+                height: '400',
+                marginHeight:'0',
+                marginWidth:'0',
+            }
+    },
+    {
+        active: true,
+        name: 'log expenses',
+        checkFormLink:'https://docs.google.com/spreadsheets/d/1jtoN7tPJvzYyLqdjuHN0YoNxsVyTGksn7Vm4RjtTIoA/edit#gid=0',
         properties:
             {
                 src:'./expe.html',
@@ -62,30 +49,74 @@ const googleFormsIframePopulate = [
     },
     {
         active: true,
-        name: '',
-        parentID:'bonus-wednesday-iframe',
+        name: 'bonus wednesday',
+        checkFormLink:'https://docs.google.com/spreadsheets/d/1raSUB3jhBuu8Nndp-n_HY1QW5RJUHBFWFA-rjGtEgMk/edit?usp=sharing',
         properties:
             {
                 src:'../forms/wednesday-bonus/wednesday-bonus.html',
                 width: '100%',
                 frameborder:'0',
-                height: '180',
+                height: '400',
+                marginHeight:'0',
+                marginWidth:'0',            }
+    },
+    {
+        active: true,
+        name: 'incident report',
+        checkFormLink:'https://docs.google.com/spreadsheets/d/1JSAnYZ9y7ouFPncnBmDjvtEPiqbJlg5qf1-oUdDAmjs/edit?usp=sharing',
+        properties:
+            {
+                src:'../forms/incident-report/incident-report-form.html',
+                width: '100%',
+                frameborder:'0',
+                height: '400',
                 marginHeight:'0',
                 marginWidth:'0',            }
     },
 
     
 ]
-googleFormsIframePopulate.forEach((newFrame)=>{
-        let thisParent = document.getElementById(newFrame.parentID)
-        if(newFrame.active === true){
-            let newFrameElement = new HtmlElement(
-                'iframe',
-                thisParent,
-                newFrame.properties
-            )
-        }
+// populate tap-to-populate forms
+let formsKvPairArray = [];
+formsIframeArray.forEach(obj =>{
+    let dummyParent = document.createElement('div');
+    if(obj.checkFormLink !== ''){
+        // check form responses as a button
+        let checkFormButton = new HtmlElement('div',
+        dummyParent,
+        {class: 'flex-button-container'}
+    )
+        let div1 = new HtmlElement('div',
+            checkFormButton.element,
+            {},
+        )
+        let a1 = new HtmlElement('a',
+            div1.element,
+            {href: obj.checkFormLink},
+            `check ${obj.name} responses`
+        )
+    }
+    let newEl = new HtmlElement(
+        'iframe',
+        dummyParent,
+        obj.properties
+    )
+    let kvPair = new KvPair(obj.name, dummyParent)
+    formsKvPairArray.push(kvPair)
 })
+const membershipButtonsWrapper = document.getElementById('membership-button-toggle');
+const membershipDisplayTarget = document.getElementById('membership-toggle-display');
+const membershipLinkTemplates = {
+    linkTemplate: {
+        // ./forms/memberships/${name}.html
+        before:'../forms/memberships/',  
+        after: '-form.html'
+        },
+    classes: ['container'],
+    id: `-iframe` // ${name}-iframe
+}
+generalTapToPopulate(formsKvPairArray, membershipButtonsWrapper, membershipDisplayTarget, membershipLinkTemplates)
+
 const adminMDPopulate = [
     {
         active: true,
