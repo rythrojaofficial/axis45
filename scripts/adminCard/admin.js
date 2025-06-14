@@ -1,9 +1,7 @@
-import { populateShowMore } from "../showMore.js"
-// add class show-more 
 import { HtmlElement, mdElement, capitalizeWords } from "../htmlElement.js";
 import { tapToPopulate } from "../tap-to-populate.js";
 import { generalTapToPopulate } from "../general-tap-to-populate.js";
-import { KvPair } from "../general-tap-to-populate.js";
+import { KvPair } from "../state-instance.js";
 
 const formsIframeArray = [
     {
@@ -115,7 +113,7 @@ const membershipLinkTemplates = {
     classes: ['container'],
     id: `-iframe` // ${name}-iframe
 }
-generalTapToPopulate(formsKvPairArray, membershipButtonsWrapper, membershipDisplayTarget, membershipLinkTemplates)
+generalTapToPopulate(formsKvPairArray, membershipButtonsWrapper, membershipDisplayTarget, membershipLinkTemplates, true)
 
 const adminMDPopulate = [
     {

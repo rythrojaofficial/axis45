@@ -1,5 +1,5 @@
 
-import { State } from "./md-state-instance.js";
+import { MdState, populateTarget } from "./state-instance.js";
 import { capitalizeWords, clearTarget, ButtonElement, mdElement, hyphenated } from "./htmlElement.js";
 
 //  sample usage
@@ -54,7 +54,7 @@ class kvPair{
 }
 
 export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templates = '',  showFirst = false){
-        let state = new State
+        let state = new MdState
         let placeHolderParent = document.createElement('div');
         arrOfObjects.forEach(obj => {
             if (obj.active === true){
@@ -73,9 +73,6 @@ export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templa
                             obj.properties,
                             thisMD
                         )
-                        // if (obj === arrOfObjects[0]){
-                        //     displayTarget.innerHtml = newElement
-                        // }
                 let libObject = new kvPair(obj.name, newElement)
                 state.library.push(libObject)
                 if (obj.active === true){
@@ -94,30 +91,9 @@ export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templa
     });
     if (showFirst === true){
         const firstObjName = state.library[0].name;
-        const firstObj = state.retrieveMD(firstObjName);
+        const firstObj = state.retrieveElement(firstObjName);
         displayTarget.appendChild(firstObj);
     }
 
     
-}
-
-function populateTarget(targ, obj, state, templates){
-    // console.log({'stateis': state.is})
-    switch(state.is){
-        case obj.name:{
-            state.change('')
-            break;
-        }
-        default:{
-            state.change(obj.name);
-            let thisParent = targ;
-            // console.log({
-            //     'state': state
-            // })
-            thisParent.appendChild(
-                state.retrieveMD(obj.name)
-            )
-            break;
-        }
-    }
 }
