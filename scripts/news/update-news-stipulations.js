@@ -44,7 +44,7 @@ export let noSesh = {
 
 // Wednesdays
 let thisWednesdaySesh = false;
-console.log(today.weekday)
+// console.log(today.weekday)
 if (today.weekday === 'Wednesday'){
     let activeBonus = await checkWednesdaySheet()
     activeBonus.forEach(date => {

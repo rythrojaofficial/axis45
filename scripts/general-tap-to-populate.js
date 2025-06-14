@@ -29,7 +29,6 @@ export class KvPair {
 
 
 export function generalTapToPopulate(arrOfkvPairs, buttonWrapper, displayTarget, templates = '', showFirst = true){
-    console.log('working')
     let state = new State;
     let placeHolderParent = document.createElement('div');
     arrOfkvPairs.forEach( pair => {
