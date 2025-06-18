@@ -149,7 +149,9 @@ let formDay = document.querySelector('[name="Day"]');
 let options = [];
 function addDate(){
     let dayElement = document.querySelector('input[name="Day"]')
-    dayElement.value = getDayofWeek()
+    // console.log({'dayElement input[name="Day"]':dayElement})
+    dayElement.innerText = getDayofWeek();
+    dayElement.value = dayElement.value
     let tallyWrapper = document.getElementById('Members');
     tallyWrapper.innerHTML = '<legend>Members</legend>';
     let classLibrary = {
