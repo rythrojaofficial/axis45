@@ -148,10 +148,12 @@ let formDay = document.querySelector('[name="Day"]');
 
 let options = [];
 function addDate(){
-    let dayElement = document.querySelector('input[name="Day"]')
-    // console.log({'dayElement input[name="Day"]':dayElement})
-    dayElement.innerText = getDayofWeek();
-    dayElement.value = dayElement.value
+    let dayElement = document.getElementById('Day').firstChild
+    const currentDay = new Date(date.value+'T00:00:00').toLocaleDateString("en-US", { weekday: "long" });
+    dayElement.innerText = currentDay;
+    formDay.value = currentDay;
+    // T00:00:00 is to make sure the locale date is correct instead of moving back.
+    console.log({'formDate': date.value,'formDay':formDay})
     let tallyWrapper = document.getElementById('Members');
     tallyWrapper.innerHTML = '<legend>Members</legend>';
     let classLibrary = {
@@ -195,11 +197,13 @@ function addDate(){
 
 
 
-function getDayofWeek(){
+function getDayofWeek(dayIndex){
     let daysArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
     let localDate = googleSheetsDateToLocalDate(date.value)
-    let theDayIndex = localDate.getDay();
-    return(daysArray[theDayIndex])
+    if (!dayIndex){
+            let dayIndex = localDate.getDay();
+    }
+    return(daysArray[dayIndex])
 }
 
 
