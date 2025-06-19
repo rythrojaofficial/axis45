@@ -2,16 +2,19 @@
 class kdsObject{
     // takes in a sortable date stamp number 
     // ie. 250221 = 2025/02/21
-    constructor( YYMMDDnumber ){
-        this.YYMMDDnumber = YYMMDDnumber;
-        this.YYMMDDstring = YYMMDDnumber.toString();
+    constructor( YYMMDD ){
+        this.YYMMDDnumber = parseInt(YYMMDD);
+        this.YYMMDDstring = YYMMDD;
         this.yearString = `20${this.YYMMDDstring.slice(0,2)}`; // 20xx
         this.monthString = this.YYMMDDstring.slice(2,4);
         this.dayString = this.YYMMDDstring.slice(4);
         this.year = parseInt(this.yearString);
         this.month = parseInt(this.monthString);
         this.day = parseInt(this.dayString);
-        this.localString = `${this.yearString}-${this.monthString}-${this.dayString}`
+        this.localString = `${this.yearString}-${this.monthString}-${this.dayString}`;
+        this.localDate  = new Date(this.localString+'T00:00:00');
+        this.weekday = this.localDate.toLocaleDateString("en-US", { weekday: "long" });
+        // did need to create a date for weekday. T00 is to fix the utc to local date -1 dilema
         this.valid = false;
     }
 
@@ -20,7 +23,7 @@ class kdsObject{
 export function sortableDateToKdsObject( YYMMDD ){
     let data = validateDate( YYMMDD )
     if (data.valid === true){
-        return new kdsObject(YYMMDD)
+        return data
     }
 }
 
@@ -67,7 +70,8 @@ export function googleSheetsDateToLocalDate( googleSheetsDate){
 }
 
 function validateDate( sortableDate ){
-    // input takes a string in yymmdd format
+    // input takes a string or number in yymmdd format
+    // returns a valid KDS object with string and numbers
     if (typeof(sortableDate) === 'number'){
         sortableDate = sortableDate.toString()
     }
@@ -76,12 +80,6 @@ function validateDate( sortableDate ){
         if( newKDSobject.year < 3000
             && newKDSobject.month <= 12
             && newKDSobject.day <= 31){
-                // console.log({
-                //     yymmdd: newKDSobject.YYMMDDstring,
-                //     year: newKDSobject.yearString,
-                //     month: newKDSobject.monthString,
-                //     day: newKDSobject.dayString
-                // })
                 newKDSobject.valid = true;
                 return newKDSobject
             }
@@ -89,4 +87,29 @@ function validateDate( sortableDate ){
     else console.log('error: input in format YYMMDD')
 
 }
+
+
+
+// testinggggg
+// #########################
+let test = sortableDateToKdsObject(250616)
+
+console.log({
+    "weekday": test.weekday,
+    "YYMMDDnumber":test.YYMMDDnumber,
+    "YYMMDDstring":test.YYMMDDstring,
+    "day": test.day,
+    "dayString":test.dayString,
+    "localString":test.localString,
+    "month":test.month,
+    "monthString":test.monthString,
+    "weekday":test.weekday,
+    "year":test.year,
+    "yearString":test.yearString,
+    "localDate": test.localDate
+})
+console.log({
+    "get local month":test.localDate.getMonth()
+})
+
 
