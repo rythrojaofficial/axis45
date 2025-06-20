@@ -92,24 +92,24 @@ function validateDate( sortableDate ){
 
 // testinggggg
 // #########################
-let test = sortableDateToKdsObject(250616)
+// let test = sortableDateToKdsObject(250616)
 
-console.log({
-    "weekday": test.weekday,
-    "YYMMDDnumber":test.YYMMDDnumber,
-    "YYMMDDstring":test.YYMMDDstring,
-    "day": test.day,
-    "dayString":test.dayString,
-    "localString":test.localString,
-    "month":test.month,
-    "monthString":test.monthString,
-    "weekday":test.weekday,
-    "year":test.year,
-    "yearString":test.yearString,
-    "localDate": test.localDate
-})
-console.log({
-    "get local month":test.localDate.getMonth()
-})
+// console.log({
+//     "weekday": test.weekday,
+//     "YYMMDDnumber":test.YYMMDDnumber,
+//     "YYMMDDstring":test.YYMMDDstring,
+//     "day": test.day,
+//     "dayString":test.dayString,
+//     "localString":test.localString,
+//     "month":test.month,
+//     "monthString":test.monthString,
+//     "weekday":test.weekday,
+//     "year":test.year,
+//     "yearString":test.yearString,
+//     "localDate": test.localDate
+// })
+// console.log({
+//     "get local month":test.localDate.getMonth()
+// })
 
 
