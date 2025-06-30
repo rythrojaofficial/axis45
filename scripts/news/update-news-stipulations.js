@@ -16,6 +16,7 @@ export let noSesh = {
     'saturday',
   ],
   messages: [
+"no open sesh tonight! We're battling in vancouver Wa tonight for RCG :) enjoy the day off!"
     // "No stretch/break today!  Massive Monkees Day is going on and many folks are out of town for memorial day weekend! Monday sesh as normal!"
     // "Thursday Classes cancelled due to Snow and Ice!",
     // "Whatever melts today is likely to refreeze overnight.",
