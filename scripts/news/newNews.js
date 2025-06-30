@@ -19,6 +19,15 @@ export let newNews = [
     md: "",
     link: "",
   },
+  {
+    lastActivated: "250630",
+    active: true,
+    expires: 250705,
+    title: "4th of July Sesh!",
+    lines: ["More info to come!", "Planning for 4ish grass/water spot", "grillin & fireworks later!"],
+    md: "",
+    link: "",
+  },
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
@@ -30,15 +39,6 @@ export let newNews = [
       "It also happens to be Halloween so have fun and stay safe!",
     ],
     md: "",
-    link: "",
-  },
-  {
-    lastActivated: "",
-    active: true,
-    expires: 250630,
-    title: "PDX Field Trip! RCG4: June 27-29",
-    lines: ["Rose City Gathering in Vancouver, WA","Carpool survey out now!! please fill out ASAP :-)"],
-    md: "./events/2025rcg4/rcg4.md",
     link: "",
   },
   {
@@ -85,6 +85,15 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+  {
+    lastActivated: "",
+    active: true,
+    expires: 250630,
+    title: "PDX Field Trip! RCG4: June 27-29",
+    lines: ["Rose City Gathering in Vancouver, WA","Carpool survey out now!! please fill out ASAP :-)"],
+    md: "./events/2025rcg4/rcg4.md",
+    link: "",
+  },
     {
     lastActivated: "",
     active: true,
