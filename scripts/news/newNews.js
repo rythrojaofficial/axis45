@@ -24,7 +24,7 @@ export let newNews = [
     active: true,
     expires: 250705,
     title: "4th of July Sesh!",
-    lines: ["More info to come!", "Planning for 4ish grass/water spot", "grillin & fireworks later!"],
+    lines: ["4pm at Medina park near bellevue!", "check meetups tab in the discord!"],
     md: "",
     link: "",
   },
