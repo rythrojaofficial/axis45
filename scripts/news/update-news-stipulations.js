@@ -4,7 +4,7 @@ import { checkWednesdaySheet } from "./checkWednesdaySheet.js";
 // import { getCSVdata } from "../google-sheets-logic/read-public-csv.js";
 // If today's session is canceled or otherwise changed
 export let noSesh = {
-  cancelled: true,
+  cancelled: false,
   days: [
     'justtoday',
     'sunday',
