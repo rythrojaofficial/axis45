@@ -19,15 +19,6 @@ export let newNews = [
     md: "",
     link: "",
   },
-  {
-    lastActivated: "250630",
-    active: true,
-    expires: 250705,
-    title: "4th of July Sesh!",
-    lines: ["4pm at Medina park near bellevue!", "check meetups tab in the discord!"],
-    md: "",
-    link: "",
-  },
   // 5th thursday cancellation
   {
     lastActivated: "10.21.24",
@@ -85,6 +76,15 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+    {
+    lastActivated: "250630",
+    active: true,
+    expires: 250705,
+    title: "4th of July Sesh!",
+    lines: ["4pm at Medina park near bellevue!", "check meetups tab in the discord!"],
+    md: "",
+    link: "",
+  },
   {
     lastActivated: "",
     active: true,
