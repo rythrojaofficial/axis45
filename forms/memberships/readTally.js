@@ -60,6 +60,7 @@ async function tallyUp(range){
     return tallyList
 
 }
+console.log('tally for month of '+range)
 console.log(
     await tallyUp(range)
 )
