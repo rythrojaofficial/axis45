@@ -19,6 +19,18 @@ export let newNews = [
     md: "",
     link: "",
   },
+  {
+    lastActivated: "250720",
+    active: true,
+    expires: 250721,
+    title: "Northbound i5 closure this weekend!",
+    lines: ["between i90 and 45th street exit i5 is closed!",
+      "if you're commute isn't ridiculous, we're still stretching/seshing on sunday :)",
+      "click for link to wsdot on twitter!"
+    ],
+    md: "",
+    link: "https://x.com/wsdot_traffic",
+  },
   // 5th thursday cancellation
   {
     lastActivated: "250720",
@@ -37,7 +49,7 @@ export let newNews = [
     lastActivated: "250720",
     active: true,
     expires: 250726,
-    title: "Free Injury Screening Night(s)!",
+    title: "Free Injury Screening Night!",
     lines: [
       "Free with Open Session drop-in OR membership tally ",
       "Friday 7/25 starting at 7:30pm!",
@@ -46,18 +58,17 @@ export let newNews = [
     link: "",
   },
   {
-    lastActivated: "2.17.25",
-    active: false,
-    expires: false,
-    title: "Free Injury Screening Night(s)!",
+    lastActivated: "250720",
+    active: true,
+    expires: 250901,
+    title: "Not A Gathering 3: Labor Day Mini",
     lines: [
-      "Free with Open Session drop-in OR membership tally ",
-      "Sunday 12.8, Friday 12.13",
+      "click for details and registration!",
+      "Saturday: August 30",
     ],
-    md: "./events/2024empower/injury-screening.md",
+    md: "./events/archived/2024empower/injury-screening.md",
     link: "",
   },
-
   // discord announcement 2024
   {
     lastActivated: "9.15.24",
@@ -77,6 +88,18 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+    {
+    lastActivated: "2.17.25",
+    active: false,
+    expires: false,
+    title: "Free Injury Screening Night(s)!",
+    lines: [
+      "Free with Open Session drop-in OR membership tally ",
+      "Sunday 12.8, Friday 12.13",
+    ],
+    md: "./events/2024empower/injury-screening.md",
+    link: "",
+  },
     {
     lastActivated: "250630",
     active: true,
