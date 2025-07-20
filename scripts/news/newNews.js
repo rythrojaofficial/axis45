@@ -59,7 +59,7 @@ export let newNews = [
   },
   {
     lastActivated: "250720",
-    active: true,
+    active: false,
     expires: 250901,
     title: "Not A Gathering 3: Labor Day Mini",
     lines: [
