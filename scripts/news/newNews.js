@@ -21,27 +21,28 @@ export let newNews = [
   },
   // 5th thursday cancellation
   {
-    lastActivated: "10.21.24",
-    active: false,
-    expires: false,    
-    title: "[10.31/Thurs] 5th Thurs, No Classes! 🙅",
+    lastActivated: "250720",
+    active: true,
+    expires: 250801,    
+    title: "[7/31/Thurs] 5th Thurs, No Classes! 🙅",
     lines: [
       "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
-      "It also happens to be Halloween so have fun and stay safe!",
+      // "It also happens to be Halloween so have fun and stay safe!",
+      "enjoy the day off! :-)"
     ],
     md: "",
     link: "",
   },
   {
-    lastActivated: "11.17.24",
-    active: false,
-    expires: false,
+    lastActivated: "250720",
+    active: true,
+    expires: 250726,
     title: "Free Injury Screening Night(s)!",
     lines: [
       "Free with Open Session drop-in OR membership tally ",
-      "Sunday 12.8, Friday 12.13",
+      "Friday 7/25 starting at 7:30pm!",
     ],
-    md: "./events/2024empower/injury-screening.md",
+    md: "./events/archived/2024empower/injury-screening.md",
     link: "",
   },
   {
