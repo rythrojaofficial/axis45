@@ -22,29 +22,14 @@ export let newNews = [
   {
     lastActivated: "250720",
     active: true,
-    expires: 250721,
-    title: "Northbound i5 closure this weekend!",
-    lines: ["between i90 and 45th street exit i5 is closed!",
-      "if you're commute isn't ridiculous, we're still stretching/seshing on sunday :)",
-      "click for link to wsdot on twitter!"
+    expires: 250814,
+    title: "Northbound i5 lane reductions!",
+    lines: ["there may be heavier traffic than normal.",  "People have been reporting 15-20m extra if coming from south!"
     ],
     md: "",
     link: "https://x.com/wsdot_traffic",
   },
-  // 5th thursday cancellation
-  {
-    lastActivated: "250720",
-    active: true,
-    expires: 250801,    
-    title: "[7/31/Thurs] 5th Thurs, No Classes! 🙅",
-    lines: [
-      "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
-      // "It also happens to be Halloween so have fun and stay safe!",
-      "enjoy the day off! :-)"
-    ],
-    md: "",
-    link: "",
-  },
+
   {
     lastActivated: "250720",
     active: true,
@@ -67,6 +52,20 @@ export let newNews = [
       "Saturday: August 30",
     ],
     md: "./events/archived/2024empower/injury-screening.md",
+    link: "",
+  },
+    // 5th thursday cancellation
+  {
+    lastActivated: "250720",
+    active: true,
+    expires: 250801,    
+    title: "[7/31/Thurs] 5th Thurs, No Classes! 🙅",
+    lines: [
+      "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
+      // "It also happens to be Halloween so have fun and stay safe!",
+      "enjoy the day off! :-)"
+    ],
+    md: "",
     link: "",
   },
   // discord announcement 2024
