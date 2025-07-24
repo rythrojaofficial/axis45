@@ -3,25 +3,25 @@ const displayArray = [
     {
             active:true,
             mdTrueLink: '',
-            name: 'info',
+            name: 'main info',
             properties: {
                 class:'',
                 id:''
             }
     },
     {
-        active:false, // must be true to work
+        active:true, // must be true to work
         mdTrueLink: '', //  only if you don't have a template, or goes off template
-        name: 'Four Pillars of Coaching', // required (names the button)
+        name: 'competition format', // required (names the button)
         properties: {
             class:'', // if it needs a special class
             id:'' // if you need it to have a specific non templated name
         }
     },
     {
-        active:false,
-        mdTrueLink: '../workouts/tuesday-tricking-exercise.md',
-        name: 'Tuesday Tricking Exercise',
+        active:true,
+        mdTrueLink: '',
+        name: 'volunteers',
         properties: {
             class:'',
             id:''
