@@ -25,13 +25,14 @@
 
 _Target schedule subject to change_
 
-- **6:15pm** Doors Open
-- **6:45pm** August Warm-Up
-- **7:00pm** Competitor meeting
-- **7:15pm** Competitor General Warm-up
-- **7:30pm** Competitor heats/awards
-- **8:30pm** Open Tricking
-- **11:00pm** Food
+> *Schedule based on last year*
+> - **6:15pm** Doors Open
+> - **6:45pm** August Warm-Up
+> - **7:00pm** Competitor meeting
+> - **7:15pm** Competitor General Warm-up
+> - **7:30pm** Competitor heats/awards
+> - **8:30pm** Open Tricking
+> - **11:00pm** Food
 
 > ### Sideline Coverage
 >
