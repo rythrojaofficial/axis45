@@ -1,4 +1,5 @@
 import { tapToPopulate } from "../../scripts/tap-to-populate.js";
+import { HtmlElement } from "../../scripts/htmlElement.js";
 const displayArray = [
     {
             active:true,
@@ -85,3 +86,27 @@ const linkTemplates = {
 }
 
 tapToPopulate(displayArray, selectionWrapper, displayTarget, linkTemplates, true)
+
+// purchasing
+const buyWrapper = new HtmlElement("div", body,
+    {class: 'flex-container',
+        id: 'buy-button-wrapper'
+    }
+)
+const stripeGeneralBuyButton = new HtmlElement("stripe-buy-button",buyWrapper.element,
+    {"buy-button-id":"buy_btn_1RoEIhBsl5oBKoQQ1CdWsyEO",
+    "publishable-key":"pk_live_51KlOCjBsl5oBKoQQqyPwvWZMjftHQY1RijceWNoHYfw7Ov9avaij54oDcXihYCOAnCbJo32SQ38qDs7D7iOF3wbP00D1xIE7I4"
+    }
+)
+const stripeSpectatorBuyButton = new HtmlElement("stripe-buy-button",buyWrapper.element,
+    {"buy-button-id":"buy_btn_1RoEooBsl5oBKoQQDjc7c447",
+    "publishable-key":"pk_live_51KlOCjBsl5oBKoQQqyPwvWZMjftHQY1RijceWNoHYfw7Ov9avaij54oDcXihYCOAnCbJo32SQ38qDs7D7iOF3wbP00D1xIE7I4"
+    }
+)
+const stripeMealBuyButton = new HtmlElement("stripe-buy-button",buyWrapper.element,
+    {"buy-button-id":"buy_btn_1RoEzbBsl5oBKoQQdPTPcGQS",
+    "publishable-key":"pk_live_51KlOCjBsl5oBKoQQqyPwvWZMjftHQY1RijceWNoHYfw7Ov9avaij54oDcXihYCOAnCbJo32SQ38qDs7D7iOF3wbP00D1xIE7I4"
+    }
+)
+
+
