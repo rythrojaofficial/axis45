@@ -8,7 +8,7 @@
 > 🎟️ **Ticketing Options**: 
 > - [$35 General admission](#buy-button-wrapper)
 > - $25 Current Axis 45 Membership with Card-On-File
-> - [$15 spectators]((#buy-button-wrapper))
+> - [$15 spectators](#buy-button-wrapper)
 > - free(volunteers)
 >
 > 🥔 **Food**: 
