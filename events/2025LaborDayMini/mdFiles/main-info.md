@@ -6,9 +6,9 @@
 > 🗓️ **Date**: Saturday, August 30, 2025
 >
 > 🎟️ **Ticketing Options**: 
-> - \$35(Non-member) 
-> - \$25(current Axis 45 Membership with Card-On-File)
-> - spectators
+> - $35 General admission
+> - $25 Current Axis 45 Membership with Card-On-File
+> - $15 spectators
 > - free(volunteers)
 >
 > 🥔 **Food**: 
