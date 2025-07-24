@@ -42,18 +42,6 @@ export let newNews = [
     md: "./events/archived/2024empower/injury-screening.md",
     link: "",
   },
-  {
-    lastActivated: "250720",
-    active: false,
-    expires: 250901,
-    title: "Not A Gathering 3: Labor Day Mini",
-    lines: [
-      "click for details and registration!",
-      "Saturday: August 30",
-    ],
-    md: "./events/archived/2024empower/injury-screening.md",
-    link: "",
-  },
     // 5th thursday cancellation
   {
     lastActivated: "250720",
@@ -67,6 +55,18 @@ export let newNews = [
     ],
     md: "",
     link: "",
+  },
+  {
+    lastActivated: "250720",
+    active: true,
+    expires: 250902,
+    title: "Not A Gathering 3: Labor Day Mini",
+    lines: [
+      "click for details and registration!",
+      "Saturday: August 30",
+    ],
+    md: "",
+    link: "./events/2025LaborDayMini/not-a-gathering.html",
   },
   // discord announcement 2024
   {
