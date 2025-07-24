@@ -17,7 +17,7 @@
 >
 > 🛖 **Accomodations**: Gym sleepover available (bring sleeping pad, bag, pillow, blanket, *must be out by 9am*)
 >
-> ❔**Frequently Asked Questions**: [Parking, Payment, Finding us, and other FAQ](../faq.html)
+> ❔**Frequently Asked Questions**: [Parking, Payment, Finding us, and other FAQ](https://www.seattletricking.com/faq)
 
 ---
 
