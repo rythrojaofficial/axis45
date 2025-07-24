@@ -6,14 +6,14 @@
 > 🗓️ **Date**: Saturday, August 30, 2025
 >
 > 🎟️ **Ticketing Options**: 
-> - $35 General admission
+> - [$35 General admission](#buy-button-wrapper)
 > - $25 Current Axis 45 Membership with Card-On-File
-> - $15 spectators
+> - [$15 spectators]((#buy-button-wrapper))
 > - free(volunteers)
 >
 > 🥔 **Food**: 
 > - Misc snacks, sports drinks for sale
-> - $5 meal ticket for homecooked foods (🐖🥔🥦)
+> - [$5 meal ticket](#buy-button-wrapper) for homecooked foods (🐖🥔🥦)
 >
 > 🛖 **Accomodations**: Gym sleepover available (bring sleeping pad, bag, pillow, blanket)
 >
@@ -33,8 +33,6 @@ _Target schedule subject to change_
 - **8:30pm** Open Tricking
 - **11:00pm** Food
 
----
-
-> **Sideline Coverage**
+> ### Sideline Coverage
 >
 > Empower Manual Therapy is back to make sure everyone is safe and healthy. Make sure to stop by Dr. Gina's table for any questions, concerns, taping, or otherwise!
