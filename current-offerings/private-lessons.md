@@ -12,17 +12,17 @@ Pricing starts at an hourly base rate, but there are many factors that go into p
 
 Pricing Considerations:
 
-1. Duration:
+1. Duration, with longer lessons having the best value:
     - 60m 
     - 90m  
     - 120m 
-2. Frequency:
+2. Frequency, with more frequent lessons having the best value:
     - As needed
-    - 3-5x/month (weekly-ish)
-    - 6-9x/month (biweekly-ish)
-3. Focus:
+    - approximately every other week
+    - approximately once per week
+3. Focus, with more focused lessons having the best value:
     - multiple areas of focus (eg. raiz, gainer, btwist)
-    - Chef's choice: I want to get better at tricking in general and will do what is necessary.
+    - main line tricking
     - Single focus: (eg. just backflip)
 
 There is lots of wiggle room, but this is a good place to start.
