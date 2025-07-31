@@ -19,29 +19,6 @@ export let newNews = [
     md: "",
     link: "",
   },
-  {
-    lastActivated: "250720",
-    active: true,
-    expires: 250814,
-    title: "Northbound i5 lane reductions!",
-    lines: ["there may be heavier traffic than normal.",  "People have been reporting 15-20m extra if coming from south!"
-    ],
-    md: "",
-    link: "https://x.com/wsdot_traffic",
-  },
-
-  {
-    lastActivated: "250720",
-    active: true,
-    expires: 250726,
-    title: "Free Injury Screening Night!",
-    lines: [
-      "Free with Open Session drop-in OR membership tally ",
-      "Friday 7/25 starting at 7:30pm!",
-    ],
-    md: "./events/archived/2024empower/injury-screening.md",
-    link: "",
-  },
     // 5th thursday cancellation
   {
     lastActivated: "250720",
@@ -55,6 +32,16 @@ export let newNews = [
     ],
     md: "",
     link: "",
+  },
+  {
+    lastActivated: "250720",
+    active: true,
+    expires: 250814,
+    title: "Northbound i5 lane reductions!",
+    lines: ["there may be heavier traffic than normal.",  "People have been reporting 15-20m extra if coming from south!"
+    ],
+    md: "",
+    link: "https://x.com/wsdot_traffic",
   },
   {
     lastActivated: "250720",
@@ -87,6 +74,18 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+    {
+    lastActivated: "250720",
+    active: true,
+    expires: 250726,
+    title: "Free Injury Screening Night!",
+    lines: [
+      "Free with Open Session drop-in OR membership tally ",
+      "Friday 7/25 starting at 7:30pm!",
+    ],
+    md: "./events/archived/2024empower/injury-screening.md",
+    link: "",
+  },
     {
     lastActivated: "2.17.25",
     active: false,
