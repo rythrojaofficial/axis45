@@ -14,7 +14,9 @@
     - Garage/lobby lights as necessary
     - garage panel: switch #2
 - Computer/Music as necessary
-    - no longer need to worry about power strip
+    1. Computer
+    2. Mixer
+    3. Speakers
     - password:
         - try these
         - four digits in mainstream numerical degrees: (vert roundhouse kick with roughly 2 spins)
