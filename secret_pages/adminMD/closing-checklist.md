@@ -21,7 +21,9 @@ Phone stands/timers/ClockRemote go in the boat in the desk
     - dump bucket outside if needed
 - Sweep/vacuum as needed
 ### Shutdown
-- Computer
+1. Computer
+2. Speakers
+3. Audio Mixer 
 - Gym clock
 ### Make sure you're the last out
 - Lights off
