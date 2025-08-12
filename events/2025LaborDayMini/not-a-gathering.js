@@ -1,5 +1,6 @@
 import { tapToPopulate } from "../../scripts/tap-to-populate.js";
 import { HtmlElement } from "../../scripts/htmlElement.js";
+
 const displayArray = [
     {
             active:true,
@@ -7,7 +8,7 @@ const displayArray = [
             name: 'main info',
             properties: {
                 class:'',
-                id:''
+                id:'',
             }
     },
     {
@@ -16,7 +17,7 @@ const displayArray = [
         name: 'competition format', // required (names the button)
         properties: {
             class:'', // if it needs a special class
-            id:'' // if you need it to have a specific non templated name
+            id:'', // if you need it to have a specific non templated name
         }
     },
     {

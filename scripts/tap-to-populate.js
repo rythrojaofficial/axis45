@@ -81,6 +81,7 @@ export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templa
                         ()=>{
                             clearTarget(displayTarget);
                             populateTarget(displayTarget, obj, state, templates)
+                            
                         },
                         {},
                         capitalizeWords(obj.name)
