@@ -4,6 +4,8 @@
 >
 > 🗓️ **Date**: Saturday, August 30, 2025
 >
+> 📍 **Event Address**: [Axis 45](https://maps.app.goo.gl/uLf7qqMzEnnLpuVm7)
+>
 > 🎟️ **Ticketing Options**: 
 > - [$35 General admission](#buy-button-wrapper)
 > - $25 Current Axis 45 Membership with Card-On-File
