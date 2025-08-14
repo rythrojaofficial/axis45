@@ -225,6 +225,15 @@ iconEnable.src =
   "https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
 document.body.appendChild(iconEnable);
 
+// ================
+// enable instagram embeds
+// ================
+
+const instaEnable = document.createElement('script');
+instaEnable.async = true;
+instaEnable.src = "https://www.instagram.com/embed.js"
+document.body.appendChild(instaEnable)
+
 // enable timestamping
 
 function stampTime() {
