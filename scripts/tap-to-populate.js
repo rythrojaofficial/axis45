@@ -1,6 +1,7 @@
 
 import { MdState, populateTarget } from "./state-instance.js";
 import { capitalizeWords, clearTarget, ButtonElement, mdElement, hyphenated } from "./htmlElement.js";
+import { enableInstagramEmbed } from "./enable-instagram-embed.js";
 
 //  sample usage
 // const checklistsArray = [
@@ -81,6 +82,7 @@ export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templa
                         ()=>{
                             clearTarget(displayTarget);
                             populateTarget(displayTarget, obj, state, templates)
+                            enableInstagramEmbed();
                             
                         },
                         {},
