@@ -2,7 +2,7 @@ import { newNews } from "./newNews.js";
 import NewsCard from "./newsCard.js";
 import { noSesh } from "./update-news-stipulations.js";
 import { nextFoundationsDate } from "./update-news-stipulations.js";
-import { localDateToSortableDate } from "../parsedate.js";
+import { localDateToSortableDate } from "../scripts/parsedate.js";
 
 const utcdate = new Date();
 const sortableToday = localDateToSortableDate(utcdate);

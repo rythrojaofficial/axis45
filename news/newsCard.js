@@ -1,4 +1,4 @@
-import { HtmlElement, mdElement } from "../htmlElement.js";
+import { HtmlElement, mdElement } from "../scripts/htmlElement.js";
 let newsContainer = document.querySelector(".update-news");
 export default class NewsCard {
   constructor(title, detailsArray = [], md = "", href = "") {

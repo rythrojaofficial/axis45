@@ -5,8 +5,8 @@ import {
 import { populateContactForm } from "../forms/contact/contact.js";
 import { populateShowMore } from "./showMore.js";
 import { mdConvert } from "./markdown-parse.js";
-import { nextFoundationsDate } from "./news/update-news-stipulations.js";
-import { populateNews } from "./news/updateNews.js";
+import { nextFoundationsDate } from "../news/update-news-stipulations.js";
+import { populateNews } from "../news/updateNews.js";
 import { HtmlElement } from "./htmlElement.js";
 // =======================
 // update next foundations
