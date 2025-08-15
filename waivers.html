@@ -12,13 +12,23 @@
     <h1 class="title">Waivers</h1>
 
 
-    <div class="gray-container">
+    <div class="gray-container" >
         <p> All participants must complete a waiver prior to attendance 
             at any open practices, classes, private lessons, workshops, 
-            or other events hosted at Axis 45.  Please complete the form below!</p>
-        <iframe src="./forms/waiver-adult.html" frameborder="0" width="100%" height="800px"></iframe>    
+            or other events hosted at Axis 45.  Please complete the relevant form below! <em>The default is the 18+ waiver</em></p>
+    <div class="button-container">  
+    <button type="button" id="adult-waiver-button" class="navigation-button" style="background-color: rgb(111, 228, 111);">Adult Waiver</button>
+    <button type="button" id="youth-waiver-button" class="navigation-button" style="background-color: rgb(111, 228, 111);">Youth Waiver</button> 
+    </div>
+        
+        <div id="waiver-frame">        
+            <iframe src="./forms/waiver-adult.html" frameborder="0" width="100%" height="800px"></iframe>
+        </div>
     </div>
 
+
+
    <!-- footer supplied via headscript.js  -->
+    <script type="module" src="./forms/waivers-logic.js"></script>
    <script type="module" src="./scripts/headscript.js"></script>
 </html>

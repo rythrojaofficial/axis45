@@ -1,5 +1,7 @@
 import { populateForm } from "../../../scripts/forms.js";
 
+console.log('working')
+
 let sections = [];
 // form sections
 

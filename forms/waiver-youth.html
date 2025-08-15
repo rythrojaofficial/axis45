@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adult Waiver</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Noto Sans", Optima, Candara, source-sans-pro, sans-serif;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      body {
+        margin: 0;
+      }
+
+      :root {
+        --primary-color: #263c42;
+        --secondary-color: #bdd3b6;
+        --tertiary-color: #386b79;
+        --background-gray: #e4e4e4;
+        --links-hover: #3c702d;
+        --Red: rgb(224, 79, 79);
+        --Yellow: rgb(219, 200, 28);
+        --Green: rgb(111, 228, 111);
+      }
+      body {
+        display: grid;
+        grid-template-columns: auto 95vw auto;
+        margin-left: 0px;
+        padding-left: 0px;
+        background-color: rgb(228, 228, 228);
+      }
+      form {
+        grid-column-start: 2;
+      }
+      select,
+      fieldset,
+      textarea,
+      input,
+      .form-submit,
+      .navigation-button,
+      .button-container,
+      #step-tontainer {
+        border-radius: 0.3rem;
+        border: none;
+        line-height: 1.5rem;
+        margin: 0.25rem;
+      }
+
+      .invalid {
+        border: solid 1px var(--Red);
+      }
+      label::after {
+        content: "*";
+        color: var(--Red);
+      }
+
+      .fine-print {
+        font-size: 0.75rem;
+      }
+      select {
+        background-color: white;
+      }
+      .form-submit {
+        background-color: rgb(51, 204, 51);
+        color: white;
+        width: 80%;
+      }
+      .form-submit:hover {
+        background-color: rgb(19, 226, 25);
+      }
+      .navigation-button {
+        background-color: #63abbe;
+        color: white;
+        width: 80%;
+      }
+
+      .navigation-button:hover {
+        background-color: var(--tertiary-color);
+      }
+
+      .button-container {
+        display: flex;
+      }
+
+      .text-links {
+        color: var(--primary-color);
+      }
+      .text-links a {
+        color: inherit;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .text-links a:hover {
+        text-decoration: underline;
+        color: var(--links-hover);
+      }
+
+      .section {
+        color: var(--primary-color);
+        font-size: 175%;
+        margin-top: 0px;
+      }
+
+      .steps {
+        color: var(--tertiary-color);
+      }
+      #step-container {
+        display: grid;
+        grid-template-columns: repeat(10, 0.04fr);
+      }
+      .please-fill {
+        font-size: 0.7rem;
+        color: var(--Red);
+      }
+
+      #replace-submit {
+        display: none;
+        width: 100%;
+      }
+
+      input:invalid {
+        border-style: solid;
+        border-width: 1px;
+        border-color: var(--Yellow);
+      }
+    </style>
+  </head>
+  <body>
+    <form method="POST" 
+         action="https://script.google.com/macros/s/AKfycbyP3g7xDN7-h0fXUbtWb9tSvc4zTpKCkOjmrSurKFb6vqF96XMUCF1IGIu8d9sSKmsa/exec">
+            <div class="tab">
+                <div class="section">Youth Info</div>
+                <div>
+                    <fieldset>
+                        <legend>Contact</legend>
+                        <label for="Participant Name">Participant Full Name</label>   
+                        <br>                     
+                        <input type="text" name="Participant Name" id="" placeholder="Participant Full Name" required>                      
+                        <input type="text" name="Preferred Name" id="" placeholder="Preferred name (if different)"> 
+                        <br>
+                        <label for="DOB">Date of Birth</label>
+                        <input type="date" name="DOB" id="" required>
+                        <br>
+                        <label for="Parent Guardian Name">Parent/Guardian's Full Name</label>                        
+                        <input type="text" name="Parent Guardian Name" id="" placeholder="Parent/Guardian Full Name" required>   
+                        <br>
+                        <input type="email" name="Email" id="" placeholder="Email" required>   <br>     
+                        <input type="text" name="PhoneNumber" id="" placeholder="Phone number" required minlength="7">
+                        <br>
+                        <input type="text" name="Instagram" id="" placeholder="Instagram @">                
+                        
+                    </fieldset>
+
+                </div>
+            </div>
+                                                                                    
+            <div class="tab">
+                <div class="section">Release of Liability Waiver</div>               
+                <div class="fine-print">
+                    <fieldset>
+                        <p>The term “RELEASEES” encompasses Seattle Tricking Collective, their officers, officials, agents, and/or employees, other participants, sponsoring agencies, sponsors, advertisers, and if applicable, owners and lessors of premises used to conduct the event.
+                        </p>
+                        <p>In consideration of being allowed to participate in any way in Seattle Tricking Collective (STC) training sessions, related events and activities, the undersigned acknowledges, appreciates, and agrees that:</p>
+                        <ol>
+                            <li>The risks of bodily injury and illness (ex: communicable diseases such as MRSA, influenza, and COVID-19) from the activities involved in this program are significant, including the potential for permanent paralysis and death, and while particular rules, equipment, and personal discipline may reduce these risks, the risks of serious injury and illness do exist;</li>
+                            <li>On behalf of the minor participant, I, the undersigned parent/legal guardian KNOWINGLY AND FREELY ASSUME ALL SUCH RISKS, both known and unknown, EVEN IF ARISING FROM THE NEGLIGENCE OF THE RELEASEES or others, and assume full responsibility for my participation;</li>
+                            <li>I willingly agree to comply with the stated and customary terms and conditions for participation. I represent that I understand the nature of Tricking and Acrobatic-related activities and represent that I am qualified, in good health, and in proper physical and mental condition to participate in such activities. If I observe any unusual significant hazard during my presence or participation, I will remove myself from participation and bring such to the attention of the nearest STC owner immediately;</li>
+                            <li>I, for myself and on behalf of my heirs, assigns, personal representatives and next of kin, HEREBY RELEASE AND HOLD HARMLESS Seattle Tricking Collective, their officers, officials, agents, and/or employees, other participants, sponsoring agencies, sponsors, advertisers, and if applicable, owners and lessors of premises used to conduct the event (“RELEASEES”), WITH RESPECT TO ANY AND ALL INJURY, ILLNESS, DISABILITY, DEATH, or loss or damage to person or property, WHETHER ARISING FROM THE NEGLIGENCE OF THE RELEASEES OR OTHERWISE, to the fullest extent permitted by law.</li>
+                        </ol>
+                        <p>By typing my full name below on behalf of the minor participant, I, the undersigned parent/legal guardian confirm that I HAVE READ THIS RELEASE OF LIABILITY AND ASSUMPTION OF RISK AGREEMENT, FULLY UNDERSTAND ITS TERMS, UNDERSTAND THAT I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY SIGNING IT, AND SIGN IT FREELY AND VOLUNTARILY WITHOUT ANY INDUCEMENT.</p>
+                        <input type="text" name="LiabilitySign" placeholder="e-signature" required>
+                    </fieldset>
+                </div>
+            </div>
+            
+
+            <div class="tab">
+                <div class="section">Photo and Video Release</div>
+                <div class="fine-print">
+                    <fieldset>
+                        <div class="fine-print">
+                            
+                            <p>In consideration of participation in Open practices, Classes, Workshops, and Events with STC (excluding private lessons), the undersigned agrees that their likeness or the likeness of their child may be photographed or videotaped and that such image may be edited and/or published in an outlet used to promote or publicize Seattle Tricking Collective.</p>
+                            <p>By checking the box below on behalf of the minor participant, I, the undersigned parent/legal guardian confirm that I have carefully read, understand, and agree to the above photo and video release policy</p>
+                            <input type="checkbox" name="ConfirmPhotoVideo" value="checked" required>  
+                            <label for="ConfirmPhotoVideo">I consent to the above Photo and Video release policy</label> 
+                        </div>
+                        <p></p>
+                        <p></p>
+                    </fieldset>
+                </div>
+            </div>
+           
+            
+            <div class="tab">
+                <div class="section">STC Participation Agreement</div>
+                <fieldset>
+                    <div class="fine-print">
+                        <p>In order to remain in good standing with STC and continue to use their facility (AXIS 45), each attendee must uphold a standard of conduct as outlined below.
+                        </p>
+                        <p>
+                            On the next pages, carefully read and confirm that you understand and agree to comply with the following rules and conditions for which you <strong>Shall</strong> and <strong>Shall Not</strong> do.
+                        </p>
+                    </div>
+                </fieldset>
+            </div>
+            
+            <div class="tab">
+                <fieldset>
+                    <div class="fine-print">  
+                        <ol><div class="section">The participant (or parent/legal guardian on behalf of the participant) Shall</div>
+                            <li>Pay the requested fee to STC. 
+                                <p>I will bring a card to save on file (only need to do this once) or use mobile pay before the end of session. Refunds will be given on a case-by case basis at the sole discretion of the STC.</p>
+                            </li>
+                            <li>Use the space EXCLUSIVELY for Tricking and related activities
+                                <ul>
+                                    <li>Tricking</li>
+                                    <li>Performance Arts</li>
+                                    <li>Dancing</li>
+                                    <li>Breakdancing</li>
+                                    <li>Martial Arts</li>
+                                    <li>Tumbling</li>
+                                </ul>
+                            </li>
+                            <li>REMOVE and store their outside footwear in the cubby area.
+                            </li>
+                            <li>Store their <b>non-alcoholic</b> beverages in a CLOSED container at the cubby area.
+                            </li>
+                            <li>Be responsible for all their personal belongings.
+                                <p>STC will not be held responsible for lost or stolen items within AXIS 45 facility or parking lot.</p>
+                            </li>
+                            <li>Be responsible for any trash, mess, or spills they are involved with on the premises.
+
+                            </li>
+                            <li>
+                                TRAIN SAFELY and SUSTAINABLY.
+                            </li>
+                            <li>
+                                Promptly bring to the attention of STC directors any and all questions, concerns, and complaints regarding safety, inappropriate behavior, and participation agreement violations.
+                            </li>
+                        </ol>
+                        <p>
+                            By checking the box below, I, the undersigned parent/legal guardian confirm that I have carefully read, understand, and agree the participant shall comply with the <em>Shall Do</em> rules and conditions.
+                        </p>
+                        <input type="checkbox" name="ConfirmWillDo" value="checked" required >  
+                        <label for="ConfirmWillDo">I <strong>Shall</strong> Do the Above</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="tab">
+                <fieldset>
+                    <div class="fine-print">
+                        <ol><div class="section">The Participant Shall NOT</div>
+                            <li>Attempt techniques clearly outside their level.</li>
+                            <li>Enter the premises in the possession of or under the influence of alcohol, marijuana, or illicit substances.</li>
+                            <li>Wear shoes on the spring floor NOR track mud onto the colored puzzle mats</li>
+                            <li> Eat or drink on near the spring floor.
+                                <p>All beverages (including water) must be consumed off the floor</p>
+                            </li>
+                            <li>Vape nor smoke in or near the building or surrounding parking lot.</li>
+                            <li>Bring weapons into or near the facility without prior approval.</li>
+                            <li>Take part in nor condone any sort of physical or verbal bullying.</li>
+                            <li>Make any permanent modification to the facility and equipment. 
+                                <p>The undersigned will be held responsible for direct and indirect damages caused at the discretion of the STC.</p>
+                            </li>
+                        </ol>
+                        <p>
+                            By checking the box below I, the undersigned parent/legal guardian confirm that I have carefully read, understand, and agree that the participant shall comply with the stated <em>Shall Not Do</em> rules and conditions.
+                        </p>
+                        <input type="checkbox" name="ConfirmWillNotDo" value="checked" required id="">  
+                        <label for="ConfirmWillNotDo">I <strong>Shall No</strong>t Do the Above</label>
+                    </div>
+                </fieldset>
+            </div>
+    
+
+            <div class="tab">
+                <fieldset>
+                    <div class="section">Parking</div>
+                    <div class="fine-print">
+                        <p>
+                            Per STC's lease agreement, patrons of Axis 45 shall refrain from parking at the upper lot. Please see image below for designated areas and suggestions on where to park.
+                        </p>
+
+                        <ul><strong>Designated Parking</strong>
+                            <li>2 Reserved Stalls at front of lot are ours and Enforced.  Axis45 map pin directs here.</li>
+                            <li>Our Driveway (back-in parking reccomended)</li>
+                            <li>Unused stalls in the bottom lot after 6:30pm</li>
+                        </ul>
+
+                        <ul>
+                            <strong>Street Parking</strong>
+                            <li>230th St
+                                <ul>Immediately exiting our lot to the left, there are usually a few open spots along 230th.
+                                </ul>
+                            </li>
+                            <li>76th St towards the Korean Church
+                                <ul>
+                                    From 230th st, take a left at the stop sign, and there should be plenty of marked street parking on the right. Past the 228th stoplight, there’s marked parking on both sides.
+                                </ul> <br>
+                                <ul>At the furthest point, it’s .25mi (5m walk, we’ve checked). any further and you’re at ranch99.
+                                </ul>
+                                <br>
+                                <ul>
+                                    You can turn right onto 76th as well, but experience says you'll be walking much further on average.
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul><strong>Not Parking</strong>
+                            <li>
+                                Upper Lot by Dominoes: Don't do it
+                            </li>
+                            <li>
+                                Aurora/hwy99: even if you could, don't
+                            </li>
+                        </ul>
+
+                        <input type="checkbox" name="ConfirmParking" value="checked" required id="">  
+                        <label for="ConfirmParking">
+                            I, the undersigned parent/legal guardian have carefully reviewed the Parking guide for designated parking, street parking, and not parking.
+                        </label>   
+                    
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="tab">
+                <fieldset>
+                    <div class="section">Sign and Date</div>
+                    <div class="fine-print">
+                        <p>
+                            By typing my full name below, I, the undersigned parent/legal guardian understand and accept that anyone found in violation of the listed Participation Agreement Rules and Conditions may be given a warning, denied entry, or permanently banned from STC training sessions as determined by the STC.
+                        </p>
+                    </div>
+                    <input type="text" required name="ParticipationAgreementSign" placeholder="e-signature">
+                    <input type="date" required name="SignDate" id="" placeholder="date signed">
+                </fieldset>
+            </div>
+            
+            <div class="please-fill"></div>
+ 
+             <div class="button-container">  
+                <button type="button" id="previous-button" class="navigation-button">Previous</button>
+                <button type="button" id="next-button" class="navigation-button">Next</button> 
+                <button type="submit" id="form-submit-button" class="form-submit">Submit</button> 
+                <div id="replace-submit">Submitting form . . .</div>
+             </div>
+            
+
+            <!-- Circles which indicates the steps of the form: -->
+            <div id="step-container">
+                <!-- populated by javascript  -->
+            </div>
+        </form>
+        
+    </div>
+    <script>
+        let tabs = (function(){
+            // this anonymous self staring function initializes and handles the step count
+            let count = 0;
+            return{count}
+        })()
+        setTabs();
+        render();
+
+        let myButtons = (function buttonListeners() {
+            // This anonymous self starting function initializes and handles next/previous button logic
+            
+            // default hide previous button and submit button page 1
+            let replaceSubmit = document.getElementById('replace-submit');
+            let submitButton = document.getElementById('form-submit-button');
+                submitButton.addEventListener('click',  ()=>{
+                    if (validation().count === validation().outOf){
+                        document.querySelector('.please-fill').innerText = '';
+                        submitButton.style.display = 'none';
+                        replaceSubmit.style.display = 'inline';
+        
+                        }else pleaseFill();
+                    
+                });
+            let previousButton = document.getElementById('previous-button');
+                submitButton.style.display = 'none';
+                previousButton.style.display = 'none';
+                
+                previousButton.addEventListener('click', ()=>{
+                    switch (tabs.count){
+                        // navigating backwards, remove previous button 1 before the first page
+                        case 1: 
+                            setTabs().navigate(-1);
+                            previousButton.style.display = 'none';                  
+                            break;
+                        // navigating backwards, return next button after the last page, remove submit button
+                        case setTabs().tabList.length -1:
+                            setTabs().navigate(-1);
+                            nextButton.style.display = 'inline';
+                            submitButton.style.display = 'none';
+                            replaceSubmit.style.display = 'none';
+                            break;
+                        default:
+                            setTabs().navigate(-1);
+                            break;
+                    }                
+                                        
+                })
+            let nextButton = document.getElementById('next-button');
+                nextButton.addEventListener('click', ()=>{
+                    if (validation().count === validation().outOf){
+                        document.querySelector('.please-fill').innerText = '';
+                        switch(tabs.count){
+                        case 0:
+                            // navigating forwards, return previous button after the first click
+                            setTabs().navigate(1);
+                            previousButton.style.display = 'inline'
+                            break;
+                        case setTabs().tabList.length - 2:
+                            // navigating forwards, remove next button after the second to last page
+                            // add submit button 
+                            setTabs().navigate(1);
+                            nextButton.style.display = 'none'
+                            submitButton.style.display = 'inline'
+                            break;
+                        default:
+                            setTabs().navigate(1);
+                            break; 
+                    }
+                    }else pleaseFill();
+                    
+                    
+                })
+            
+
+
+            return{
+                previous: previousButton,
+                next: nextButton,
+                submit: submitButton
+            }
+        })();
+    
+        
+
+        function setTabs(){
+            // display (or not) previous 
+            function privateChangeTab(n){
+                tabs.count += n;
+                render(tabs.count);
+            }
+            return{
+                navigate: privateChangeTab,
+                tab: tabs.count,
+                tabList: Array.from(document.querySelectorAll('.tab')),
+            }
+        }
+
+        function render(n){
+            // hides all tabs first
+                let t = setTabs();
+                t.tabList.forEach((tab)=>{
+
+                    tab.style.display='none';
+            })
+            // displays only current tab
+            t.tabList[t.tab].style.display = 'block';
+
+            // updates step displays
+            createSteps()
+        }
+
+        function createSteps(){
+            let container = document.getElementById('step-container');
+                container.innerHTML = '';
+            
+
+            for (let i = 0; i < setTabs().tabList.length; i++){
+                let newDisc = document.createElement('ion-icon');
+                    newDisc.classList.add('steps');
+                container.appendChild(newDisc);
+
+                switch (tabs.count){
+                    case i:
+                        newDisc.setAttribute('name', 'ellipse');
+                        break;
+                    default:
+                        newDisc.setAttribute('name', 'ellipse-outline');
+                        break;
+                }       
+            }
+
+        }
+
+        function validation(){
+            let nValids = 0;
+            let tabs = setTabs().tabList;
+            let thisTab = setTabs().tabList[setTabs().tab];
+            let requiredInputs = Array.from(thisTab.querySelectorAll("[required]"));
+            
+
+            for (let i = 0; i < requiredInputs.length; i++){
+                let x = requiredInputs[i];
+                
+                switch (true){
+                    case(x.type === 'checkbox'
+                        && x.checked
+                        ):
+                        nValids++
+                        break;
+                    case((x.type === 'text'
+                        || x.type === 'number'
+                        || x.type === 'date')
+                        && x.value !== ''
+                        ):
+                        nValids++
+                        break;
+                    case(x.type === 'email'):
+                        if((x.value.includes('@') === true)
+                            && (x.value.includes('.') === true)
+                            ){
+                            nValids++
+                        }else {
+                        }
+                        break;
+                    default:
+                        break;
+                }
+                console.log({
+                    'x':x.type
+                }
+                )
+            }
+            console.log(
+                {
+                    'valid': nValids,
+                    'out of': requiredInputs.length
+                }
+                    )
+            return {
+                    count: nValids,
+                    outOf: requiredInputs.length
+                };
+        }
+        function pleaseFill(){
+            document.querySelector('.please-fill').innerText =
+            '*please check that all form elements are filled'
+        }
+
+
+    
+    </script>
+    <!-- <script type="module" src="./waiver-child.js"></script> -->
+    <!-- enable ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
