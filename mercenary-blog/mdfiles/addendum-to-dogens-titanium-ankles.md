@@ -1,3 +1,5 @@
+_note: this article is incomplete.  it was 90% finished in 2020, and I never got around to finishing the accompanying videos. . ._
+
 # Mercenary Tricking's Addendum to Dogen's Titanium Ankles
 
 The ankle is the first major joint to receive impact with the ground in most tricks.  It is thus one of the most important for propulsion and energy absorption as well as one of the most commonly injured.  If you've been around the tricking community long enough, chances are you've heard of [Dogen's Titanium Ankles](https://www.youtube.com/watch?v=21rwl0oWwuY) at some point or another.
