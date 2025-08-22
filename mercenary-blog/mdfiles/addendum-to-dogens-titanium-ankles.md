@@ -64,47 +64,47 @@ Proprioception can and should be trained on stable surfaces.  You must be stabl
 
 1. Balance
 
-1. Single Leg Balance
+    1. Single Leg Balance
 
-1. Walking on Heels
+    1. Walking on Heels
 
-1. Walking on Arches
+    1. Walking on Arches
 
-1. Walking on Toes
+    1. Walking on Toes
 
-1. Standing on Heels balance
+    1. Standing on Heels balance
 
-1. Standing on Toes balance
+    1. Standing on Toes balance
 
-1. Standing on Arch balance
+    1. Standing on Arch balance
 
-1. Single Leg balance on Toes
+    1. Single Leg balance on Toes
 
-1. Single Leg balance on Heels
+    1. Single Leg balance on Heels
 
-1. Single Leg balance on Arch
+    1. Single Leg balance on Arch
 
-1. Single leg RDL 
+    1. Single leg RDL 
 
 1. Absorbing energy (sticking)
 
-1. Jump to stick 
+    1. Jump to stick 
 
-1. Single Leg jump to stick (Alternating Legs)
+    1. Single Leg jump to stick (Alternating Legs)
 
-1. Jump to Single Leg stick
+    1. Jump to Single Leg stick
 
-1. Single Leg Jump to single leg stick (on other leg)
+    1. Single Leg Jump to single leg stick (on other leg)
 
-1. Single Leg Jump to Single Leg Stick (same leg)
+    1. Single Leg Jump to Single Leg Stick (same leg)
 
-1. Lateral Jump to stick 
+    1. Lateral Jump to stick 
 
 1. Redirecting energy (plyos)
 
-1. Hops side to side, front to back
+    1. Hops side to side, front to back
 
-1. Single Leg Hops side to side, front to back 
+    1. Single Leg Hops side to side, front to back 
 
 INSTA VIDEO FOR PROPRIOCEPTION & STABILITY pt.1 STABLE SURFACE TRAINING GOES RIGHT HERE
 
@@ -313,7 +313,7 @@ _Basic Strength and Mobility Work_
 
 1. Walking on toes/heels 
 
-1. Mobility Milestones
+##### Mobility Milestones
 
 1. toe & knee to wall dorsiflexion [test Barefoot Rehab](http://www.barefootrehab.com/wp-content/uploads/2016/01/kneetowalltest1.jpg)
 
@@ -350,6 +350,9 @@ _Strength and Mobility work_
 
 _Strength & neuromuscular adaptation_
 
+##### Proprioception
+1. proficiency with heel elevated SL deadlift (no weight)
+
 ##### Strength Milestones
 
 1. 10x10s SL eccentric heel raise
@@ -375,10 +378,12 @@ _Strength & neuromuscular adaptation_
 ##### Proprioception and Stability
 
 1. 42 ft SL Hop sticks (1 length of gymnastics/cheer mats) 
+2. 5 heel-elevated SL deadlifts with no weight 
 
 ##### Strength
 
 1. 10r full range SL heel raises 
+1. SL box jump to stick
 
 ##### Elastic power
 
