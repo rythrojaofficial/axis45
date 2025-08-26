@@ -17,7 +17,7 @@
 >
 > 🥔 **Food**: 
 > - Misc snacks, sports drinks for sale
-> - [$5 meal ticket](#buy-button-wrapper) for homecooked foods (🐖🥔🥦)
+> - [$5 meal ticket](#buy-button-wrapper) for homecooked foods (🐔🐖🍚🥒)
 >
 > 🛖 **Accomodations**: Gym sleepover available (bring sleeping pad, bag, pillow, blanket, *must be out by 9am*)
 >
