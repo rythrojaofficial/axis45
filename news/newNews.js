@@ -33,15 +33,18 @@ export let newNews = [
     md: "",
     link: "",
   },
-  {
+    {
     lastActivated: "250720",
     active: true,
-    expires: 250814,
-    title: "Northbound i5 lane reductions!",
-    lines: ["there may be heavier traffic than normal.",  "People have been reporting 15-20m extra if coming from south!"
+    expires: 250801,    
+    title: "[7/31/Thurs] 5th Thurs, No Classes! 🙅",
+    lines: [
+      "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
+      // "It also happens to be Halloween so have fun and stay safe!",
+      "enjoy the day off! :-)"
     ],
-    md: "",
-    link: "https://x.com/wsdot_traffic",
+    md: "./events/2025LaborDayMini/weekend-schedule.md",
+    link: "",
   },
   {
     lastActivated: "250720",
@@ -74,6 +77,16 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+    {
+    lastActivated: "250720",
+    active: true,
+    expires: 250814,
+    title: "Northbound i5 lane reductions!",
+    lines: ["there may be heavier traffic than normal.",  "People have been reporting 15-20m extra if coming from south!"
+    ],
+    md: "",
+    link: "https://x.com/wsdot_traffic",
+  },
     {
     lastActivated: "250720",
     active: true,
