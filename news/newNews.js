@@ -34,14 +34,15 @@ export let newNews = [
     link: "",
   },
     {
-    lastActivated: "250720",
+    lastActivated: "250826",
     active: true,
-    expires: 250801,    
-    title: "[7/31/Thurs] 5th Thurs, No Classes! 🙅",
+    expires: 250902,    
+    title: "labor Day week schedule!",
     lines: [
-      "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
-      // "It also happens to be Halloween so have fun and stay safe!",
-      "enjoy the day off! :-)"
+      "Thursday & Friday normal",
+      "Saturday Not a Gathering (3)",
+      "Sunday normal",
+      "Monday no gym sesh, maybe outside!"
     ],
     md: "./events/2025LaborDayMini/weekend-schedule.md",
     link: "",
