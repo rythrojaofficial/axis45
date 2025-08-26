@@ -5,6 +5,6 @@
 **Saturday**: [Not a Gathering (3)](www.seattletricking.com/events/2025LaborDayMini/not-a-gathering.html) 
 
 1. doors open 5:45pm
-2. competition starts 7:30pm
+2. competition will begin promptly at 7:30pm
 
 **Sunday**: Guided flexibility and open session as normal
