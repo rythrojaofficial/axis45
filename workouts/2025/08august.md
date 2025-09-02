@@ -1,4 +1,4 @@
-# Gathering Season Warm-u
+# Gathering Season Warm-up
 
 ## Upper Mobility
 
