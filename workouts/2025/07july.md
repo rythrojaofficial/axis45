@@ -8,7 +8,7 @@
 1. diver arm pulses
 1. squatted aerial arms
 1. lassoing
-   1. in front, to the side, side reverse, down reverse
+   1. in front, to the side, side reverse, down reverse, down
 1. head push ups (plyo if possible)
 
 ### Lower Mobility
@@ -20,15 +20,13 @@
 1. reverse nordic (toes curled for arch)
 1. piking
 1. side squat (ankle circles, point/flex)
-1. lunge press out
 
 ### Skill specific
 
-1. hip opening motion, hip closing motion
-1. sldl + rainbow
 1. floor round/hook
-1. sl Glute bridge
 1. bear to bridge
+1. hip opening motion, hip closing motion
+
 
 # Exercise
 
