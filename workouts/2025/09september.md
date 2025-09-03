@@ -1,4 +1,36 @@
-# September Workout Menu
+# September recovery/dynamic Warm up
+
+## Upper
+1. golf swing arms
+1. single arm slingshot
+1. Lu raise
+1. straight arm running arms
+1. standing windmill
+1. Backbending
+
+## Lower
+1. hip hurdles (in/out, other in/out)
+1. tuck press push aways
+1. SL calf stretch, bounce (push up position)
+2. deep squat (elbows down, external rot, flex/ext)
+3. curled seiza, reverse nordic
+1. bent leg pike, straight leg pike
+4. half frog lunge rock, half middle rock
+5. kneeling side kick
+1. TA rotation (feel in hams, around the knees, oppo back)
+1. pancake rock (elbows, same side, oppo side, fwd)
+
+## Line 
+1. alt airplaine (T, inside, outside T)
+1. lunge twist (outside, inside backwards)
+1. front step swings 
+
+## skill specific
+1. tornado Pivot pivot round
+1. standing full pivot
+
+
+# September Workout Menu by Daniel
 <!-- https://docs.google.com/document/d/1hhLqC_3-M_9ZtjTbeKaWY0MfrwjEcjuKkkCbwIW9Rx8/edit?tab=t.0 -->
 
 ## Running Warm up 2x each
@@ -18,7 +50,7 @@
 
 ## Isometrics:
 _12s set, 2 sets, 30s break between_
-#### yielding 3 position
+#### yielding 3 position iso
 1. Pull up
 1. Weighted Squat
 1. Handstand pushups isometrics
@@ -27,7 +59,7 @@ _12s set, 2 sets, 30s break between_
 1. Back Extension
 1. Obliques (side back extension)
 
-#### overcoming
+#### overcoming iso
 1. Hamstring Curl
 1. ABductors
 1. ADductors
