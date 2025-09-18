@@ -14,8 +14,8 @@ Try things you've seen online in videos or tutorials.
 
 **Reminders**: 
 1. **Floor Etiquite**: Always be aware of others on or around the floor.
-    - Flippers get priority during *Flipping Open Sessions*.
+    - Flippers (or people using the soft mats) get priority during *Flipping Open Sessions*.
     - The airtrack/mat setup will be open and available throughout
-2. **Asking for help**: Breakers and trickers are friendly and requesting quick feedback is encouraged!
+2. **Asking for help**: Trickers are friendly and requesting quick feedback is encouraged!
 
 **Deals**: For [Monthly Members](./memberships.html), *Flipping Open Session* counts toward your monthly *Tricking Session* tally. 
