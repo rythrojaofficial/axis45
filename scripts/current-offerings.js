@@ -203,7 +203,7 @@ export function populateTodaysSessions() {
     ],
     Friday: ["openTricking"],
     Saturday: [noSessionMessage],
-    Sunday: ["guidedFlexibility", "openBreakdance"],
+    Sunday: ["guidedFlexibility", "openFlipping"],
   };
   let todaysDay = new Date().toLocaleDateString("en-US", { weekday: "long" });
   let tomorrowsDate = new Date();
