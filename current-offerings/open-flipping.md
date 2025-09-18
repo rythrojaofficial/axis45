@@ -6,11 +6,9 @@
 
 *Don't forget to read our [FAQ](./faq.html) regarding, parking, finding us, payment, waivers, and more.*
 
-Train what you want to train, how you want to train!  
+Train up your Tuesday/Thursday skills that require airmats or foam mats!
 
-Train hard or train light.
-
-Try things you've seen online in videos or tutorials.
+No formal instruction, but if you mostly know what you're working on, chances are others will be able to give feedback.
 
 **Reminders**: 
 1. **Floor Etiquite**: Always be aware of others on or around the floor.
