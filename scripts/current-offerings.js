@@ -92,6 +92,13 @@ let offeringsLibrary = {
     expLibrary[2],
     "Sunday"
   ),
+  openFlipping: new Offering(
+    "open-flipping",
+    "Extra Open mat time for our Tuesday and Thursday classes!  Airtrack and mats will be out and available.  Feel free to ask for tips if you've already got stuff you're working on!",
+    "120m",
+    expLibrary[0],
+    "Sunday"
+  ),
   workshops: new Offering(
     "workshops",
     "Rotating menu of comprehensive topics.",
