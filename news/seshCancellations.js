@@ -1,11 +1,10 @@
 export const noSeshDates = [
     // Emergency Cacncel
   {
-    dateCancelled: [250731], // sortable dates in number form
+    dateCancelled: [250920], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
-    messages: ["5th Thursday Update: no class today!",
-    "Since foundations runs on 4-week cycles, no classes are scheduled for the 5th Thursday!",
-    "Enjoy the day off!"]
+    messages: ["Halen's birthday sesh at 5pm!",
+    "bring a snack/drink to share, and we'll hit up the taco tent later!"]
   },
 
 ]
