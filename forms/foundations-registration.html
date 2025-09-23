@@ -47,8 +47,14 @@
         {
             background-color: white;
         }
-        #form-submit{background-color: rgb(132, 240, 132);}
-        #form-submit:hover{ background-color: rgb(19, 226, 25);}
+        #form-submit{
+            background-color: rgb(132, 240, 132);
+            transition: transform .4s ease-out
+        }
+        #form-submit:hover{ 
+            background-color: rgb(19, 226, 25);
+            transform: scale(1.1)
+        }
         .form-wrapper{
             display: grid;
             grid-template-columns: auto 75vw auto;

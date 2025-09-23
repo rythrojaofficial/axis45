@@ -163,6 +163,22 @@ header :nth-child(3){
     justify-content: center;
     
 }
+@keyframes expand {
+    0%{
+    transform: scaleY(0);
+    }
+    80%{
+    transform: scaleX(1.025)    
+    }
+}
+/* @keyframes buttonExpand {
+    0% {
+        transform: scaleX(0);
+    }
+    80%{
+        transform: scaleX(1.5)
+    }
+} */
 
 @media only screen and (max-width: 600px){
     header{
@@ -173,6 +189,11 @@ header :nth-child(3){
         display: none;
 
     }
+    header > :nth-child(2){
+        animation: expand .4s ease-out;
+        transform-origin: top;
+        }
+
     #reorder-nav{
         display: flex;
     }
@@ -193,6 +214,7 @@ header :nth-child(3){
     color: var(--secondary-color);
     padding: 6px;
     background-color: var(--primary-color);
+    transition: transform .4s ease-out
 }
 
 .flex-header li:hover{
@@ -201,6 +223,7 @@ header :nth-child(3){
     border-color: var(--primary-color);
     border-radius: 5px;
     color: var(--primary-color);
+    transform: scale(1.05);
     
 }
 
@@ -225,12 +248,14 @@ header :nth-child(3){
     border-radius: 1rem;
     font-weight: 700;
     flex:auto;
+    transition: transform .4s ease-out;
 
 }
 
 .flex-button-container div:hover{
     color: rgb(255, 255, 255);
     background-color: var(--primary-color);
+    transform: scale(1.05)
 }
 .flex-button-container a {
     display:inline-block; 
@@ -401,12 +426,16 @@ header :nth-child(3){
     border: none;
     border-radius: .25rem;
     background-color: var(--secondary-color);
+    transition: transform .4s ease-out;
 }
 .show-more > button:hover{
     background-color: var(--hover-secondary-color);
+    transform:scale(1.1)
     
 }
-.show-more-hide-conditionally-visible{ display: none; }
+.show-more-hide-conditionally-visible{ 
+    display: none; 
+}
 .news-card > .show-more > button{
     border: none;
     background-color: var(--blue-links);
@@ -428,12 +457,13 @@ in-page links
         color: inherit;
         font-weight: bold;
         text-decoration: none;
+        
     }
     .text-links a:hover{
         text-decoration: underline;
-        color: var(--links-hover)
+        color: var(--links-hover);
+        
     }
-
 
 iframe#calendar{
     filter: hue-rotate(225deg) grayscale(40%);

@@ -14,8 +14,8 @@ fieldset {
 :root{
     /* --font: 'fonty'; */
     --border-radius: .5rem;
-    --submit-color: rgb(110, 221, 110);
-    --submit-hover-color: rgb(23, 145, 23);
+    --submit-color: rgb(66, 218, 66);
+    --submit-hover-color: rgb(76, 227, 5);
     --submit-message-color: rgb(67, 158, 194);
     --light-gray: rgb(243, 243, 243);
     --Yellow:rgb(219, 200, 28);
@@ -80,9 +80,11 @@ input[type="checkbox"]{
     /* height: 2rem;; */
     border-radius: var(--border-radius);
     background-color: var(--submit-color);
+    transition: transform .4s ease-out
 }
 #submit-button:hover{
     background-color: var(--submit-hover-color);
+    transform: scale(1.05)
 }
 .submit-message{
     color: var(--submit-message-color);
