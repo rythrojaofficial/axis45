@@ -6,14 +6,13 @@
 1. Lu raise
 1. straight arm running arms
 1. standing windmill
-1. Backbending
 
 ## Lower
 1. hip hurdles (in/out, other in/out)
-1. tuck press push aways
+1. tuck press push-away
 1. SL calf stretch, bounce (push up position)
+3. curled seiza, reverse nordic, backbending
 2. deep squat (elbows down, external rot, flex/ext)
-3. curled seiza, reverse nordic
 1. bent leg pike, straight leg pike
 4. half frog lunge rock, half middle rock
 5. kneeling side kick
