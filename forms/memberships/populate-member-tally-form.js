@@ -127,7 +127,7 @@ let tallyForm = {
   method: "POST",
   action: 
   "https://script.google.com/macros/s/AKfycby6V44VRmRZXBythAuppb8NIQagK9sR3USfOfCuxkRfHuAROVxnkfDRlSr_9v68T64/exec",
-  styleSheet: "../css-sheets/member-tally.css",
+  styleSheet: "../css-sheets/test.css",
   font: "https://fonts.google.com/specimen/Fira+Sans?stroke=Sans+Serif",
   title: title,
   id: title.replace(/ /g, "-"),

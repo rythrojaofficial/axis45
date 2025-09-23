@@ -525,9 +525,11 @@ button{
     margin: .25rem;
     padding: .5rem;
     border-radius: .25rem;
+    transition: transform .4s ease-out;
 }
 .button-toggle-wrapper button:hover{
     background-color: var(--hover-blue-links);
+    transform: scale(1.05)
 
 }
 
