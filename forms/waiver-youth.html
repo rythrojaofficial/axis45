@@ -135,6 +135,22 @@
         border-width: 1px;
         border-color: var(--Yellow);
       }
+    .loading-wheel {
+        width: 2rem;
+        height: 2rem;
+        border: .2rem solid var(--background-gray);
+        border-radius: 50%;
+        border-top: .2rem solid blueviolet;
+        animation: loadingWheelSpin .75s linear infinite;
+    }
+    @keyframes loadingWheelSpin {
+        0%{
+            transform:rotate(0deg)
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }    
     </style>
   </head>
   <body>
@@ -357,7 +373,10 @@
                 <button type="button" id="previous-button" class="navigation-button">Previous</button>
                 <button type="button" id="next-button" class="navigation-button">Next</button> 
                 <button type="submit" id="form-submit-button" class="form-submit">Submit</button> 
-                <div id="replace-submit">Submitting form . . .</div>
+                <div id="replace-submit">
+                    <div class="loading-wheel"></div>
+                    <div>Submitting form . . .</div>
+                </div>
              </div>
             
 
@@ -387,7 +406,7 @@
                     if (validation().count === validation().outOf){
                         document.querySelector('.please-fill').innerText = '';
                         submitButton.style.display = 'none';
-                        replaceSubmit.style.display = 'inline';
+                        replaceSubmit.style.display = 'flex';
         
                         }else pleaseFill();
                     
