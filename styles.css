@@ -681,7 +681,7 @@ margin: 2em 0;
 }
 
 /* loading wheel */
-.loadingWheel {
+.loading-wheel {
     width: 2rem;
     height: 2rem;
     border: .2rem solid var(--background-gray);
