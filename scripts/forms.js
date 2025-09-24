@@ -110,14 +110,18 @@ function populateSubmit(formObject, parentElement) {
     { id: "submit-button" },
     "Submit"
   );
-
-  let submitMessageSpan = new HtmlElement("span", submitWrapper.element, {
+  let loadWheel = new HtmlElement('div', submitWrapper.element,
+    {class: "loading-wheel hidden"}
+  );
+  let submitMessageSpan = new HtmlElement("div", submitWrapper.element, {
     class: "submit-message",
   });
+  
   submitButton.element.addEventListener("click", (e) => {
     switch (validateForm(formObject.id)) {
       case true:
-        submitMessageSpan.element.textContent = formObject.submitMessage;
+        loadWheel.element.classList.remove('hidden');       
+        submitMessageSpan.element.textContent = formObject.submitMessage; 
         submitButton.element.style.visibility = "hidden";
         // window.history.back();
         break;
