@@ -60,7 +60,6 @@ let hosting = [
     type: "radio", // text, name, email, number, checkbox, date, select, radio
     appendedOptions: [
         "Tricking",
-        "Breaking",
         "Exercise and Stretch",
         "$50 Student",
         "$50 Access",

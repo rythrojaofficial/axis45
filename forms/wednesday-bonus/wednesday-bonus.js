@@ -37,7 +37,7 @@ sections.push(hosting);
 
 //  form Information
 let title = "Wednesday Bonus";
-let rcgForm = {
+let wednesdayBonus = {
   method: "POST",
   action: 'https://script.google.com/macros/s/AKfycbyXtos7msA_N4k3CKLmIeZDvte970v92jL8vhOZcB1MslP5Mw8GgEC-fb9NxtEm281xSg/exec',
   styleSheet: "../css-sheets/test.css",
@@ -49,5 +49,5 @@ let rcgForm = {
   submitMessage: "Submitting. . . Please Wait 🙂",
   submitError: "*Please check fields",
 };
-populateForm(rcgForm, document.querySelector("body"));
+populateForm(wednesdayBonus, document.querySelector("body"));
  
