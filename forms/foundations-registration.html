@@ -86,6 +86,24 @@
         :required{
             border: solid 2px rgb(224, 224, 174) ;
         }
+
+        /* loading wheel */
+        .loading-wheel {
+            width: 2rem;
+            height: 2rem;
+            border: .2rem solid var(--background-gray);
+            border-radius: 50%;
+            border-top: .2rem solid blueviolet;
+            animation: loadingWheelSpin .75s linear infinite;
+        }
+        @keyframes loadingWheelSpin {
+            0%{
+                transform:rotate(0deg)
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
     </style>
 </head>
 <body>
@@ -156,10 +174,19 @@
                 document.querySelector('.please-fill').innerText = '';
                 if(formValidation().numberValid > formValidation().totalRequiredMinus2radio - 0.5){
                     submitButton.style.display = 'none';
+                    let submitWrapper = document.createElement('div');
+                        submitWrapper.style.display = "flex";
+
                     let submitMessage = document.getElementById('submit-message');
                         submitMessage.innerText = 'Submitting, please wait a few moments :)';
+                    let submitLoadWheel = document.createElement('div');
+                        submitLoadWheel.className = "loading-wheel";
+                        
+                     
+                     submitWrapper.appendChild(submitLoadWheel);
+                     submitWrapper.appendChild(submitMessage);   
 
-                    theForm.appendChild(submitMessage);
+                    theForm.appendChild(submitWrapper);
                 }else {
                     document.querySelector('.please-fill').innerText = 
                     '*please check that all form elements are filled';

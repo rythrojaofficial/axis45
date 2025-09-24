@@ -679,3 +679,21 @@ margin: 2em 0;
   display: block;
   margin: 0 auto;
 }
+
+/* loading wheel */
+.loadingWheel {
+    width: 2rem;
+    height: 2rem;
+    border: .2rem solid var(--background-gray);
+    border-radius: 50%;
+    border-top: .2rem solid blueviolet;
+    animation: loadingWheelSpin .75s linear infinite;
+}
+@keyframes loadingWheelSpin {
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
