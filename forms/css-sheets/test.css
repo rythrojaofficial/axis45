@@ -32,6 +32,7 @@ fieldset {
     display: grid;
     grid-template-columns: auto 80vw auto;
     text-align: center;
+    margin-bottom: 6rem;
     
 }
 
@@ -124,6 +125,7 @@ a {
 .centered{
     width: 100%;
     margin:auto;
+    height: 4rem;
 }
 /* loading wheel animation */
 .loading-wheel {

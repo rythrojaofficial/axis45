@@ -135,6 +135,7 @@ let myForm = {
   id: title.replace(/ /g, "-"),
   description: "",
   sectionArray: sections,
+  submitWheel: '../../assets/svg-images/ouroboros-load-wheel.svg', // check this
   submitMessage: "Submitting. . . Please Wait 🙂",
   submitError: "*Please check fields",
 };
