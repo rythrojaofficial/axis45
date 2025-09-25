@@ -156,6 +156,19 @@
                 transform: rotate(360deg);
             }
         }    
+        .ouroboros-wheel {
+            width: 6rem;
+            height: 6rem;
+            animation: spinFlipped 2s ease-in-out infinite;
+        }
+        @keyframes spinFlipped {
+            0%{
+                transform: scaleX(-1) rotate(0deg);
+            }
+            100%{
+                transform: scaleX(-1) rotate(-360deg);
+            }
+        }
 
     </style>
 </head>
@@ -391,7 +404,9 @@
                 <button type="button" id="next-button" class="navigation-button">Next</button> 
                 <button type="submit" id="form-submit-button" class="form-submit">Submit</button> 
                 <div id="replace-submit">
-                    <div class="loading-wheel"></div>
+                    <div  class="ouroboros-wheel">        
+                        <img src="../assets/svg-images/ouroboros-load-wheel.svg" width="100%" alt="">
+                    </div>
                     <div>Submitting form . . .</div>
              </div>
             
