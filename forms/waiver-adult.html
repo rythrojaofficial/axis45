@@ -442,6 +442,7 @@
                     if (validation().count === validation().outOf){
                         document.querySelector('.please-fill').innerText = '';
                         submitButton.style.display = 'none';
+                        document.getElementById('previous-button').style.display = 'none';
                         replaceSubmit.style.display = 'flex';
         
                         }else pleaseFill();
