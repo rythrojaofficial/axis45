@@ -137,6 +137,7 @@ let myForm = {
   id: title.replace(/ /g, "-"),
   description: "We believe everyone should have access to Tricking and community, regardless of financial circumstances. If cost is a barrier for you, we offer access memberships on a case-by-case basis.",
   sectionArray: sections,
+  submitWheel: '../../assets/svg-images/ouroboros-load-wheel.svg', // check this
   submitMessage: "Submitting. . . Please Wait 🙂",
   submitError: "*Please check fields",
 };
