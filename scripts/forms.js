@@ -103,26 +103,51 @@ function populateSubmit(formObject, parentElement) {
   let submitWrapper = new HtmlElement("div", parentElement, {
     class: "submit-wrapper",
   });
-
+  let submitMessageWrapper = new HtmlElement("div", submitWrapper.element,
+    {class: 'hidden',
+      id: 'submitting-wrapper'
+    }
+  )
   let submitButton = new HtmlElement(
     "button",
     submitWrapper.element,
-    { id: "submit-button" },
+    {id: "submit-button"},
     "Submit"
   );
-  let loadWheel = new HtmlElement('div', submitWrapper.element,
-    {class: "loading-wheel hidden"}
-  );
-  let submitMessageSpan = new HtmlElement("div", submitWrapper.element, {
+  if (!formObject.submitWheel){
+    let loadwheel = new HtmlElement('div', submitMessageWrapper.element,
+      {class: "loading-wheel"}
+    )
+  }
+  else
+     if(formObject.submitWheel === ''){
+    let loadwheel = new HtmlElement('div', submitMessageWrapper.element,
+      {class: "loading-wheel"}
+    )
+  }
+  else {
+    let loadwheel = new HtmlElement('div', submitMessageWrapper.element,
+      {class: "ouroboros-wheel centered",
+      }
+    )
+    let boros = new HtmlElement('img', loadwheel.element,
+      {
+        src: formObject.submitWheel,
+        style: 'width: 100%'
+      }
+    )
+  }
+
+  let submitMessageSpan = new HtmlElement("div", submitMessageWrapper.element, {
     class: "submit-message",
   });
   
   submitButton.element.addEventListener("click", (e) => {
     switch (validateForm(formObject.id)) {
       case true:
-        loadWheel.element.classList.remove('hidden');       
         submitMessageSpan.element.textContent = formObject.submitMessage; 
-        submitButton.element.style.visibility = "hidden";
+        submitMessageWrapper.element.classList.remove("hidden");
+        submitButton.element.style.display = "none";
         // window.history.back();
         break;
       default:

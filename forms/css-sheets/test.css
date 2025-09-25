@@ -90,6 +90,11 @@ input[type="checkbox"]{
     color: var(--submit-message-color);
     
 }
+.flex-centered{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
 input:invalid{
     border-style: solid;
     border-width: 1px;
@@ -116,6 +121,10 @@ a {
 .hidden{
     display: none;
 }
+.centered{
+    width: 100%;
+    margin:auto;
+}
 /* loading wheel animation */
 .loading-wheel {
     width: 2rem;
@@ -131,5 +140,18 @@ a {
     }
     100%{
         transform: rotate(360deg);
+    }
+}
+.ouroboros-wheel {
+    width: 6rem;
+    height: 6rem;
+    animation: spinFlipped 2s ease-in-out infinite;
+}
+@keyframes spinFlipped {
+    0%{
+        transform: scaleX(-1) rotate(0deg);
+    }
+    100%{
+        transform: scaleX(-1) rotate(-360deg);
     }
 }

@@ -39,13 +39,14 @@ sections.push(hosting);
 let title = "Wednesday Bonus";
 let wednesdayBonus = {
   method: "POST",
-  action: 'https://script.google.com/macros/s/AKfycbyXtos7msA_N4k3CKLmIeZDvte970v92jL8vhOZcB1MslP5Mw8GgEC-fb9NxtEm281xSg/exec',
-  styleSheet: "../css-sheets/test.css",
+  action: 'https://script.google.com/macros/s/AKfycbyXtos7msA_N4k3CKLmIeZDvte970v92jL8vhOZcB1MslP5Mw8GgEC-fb9NxtEm281xSg/exec', // check this
+  styleSheet: "../css-sheets/test.css", // check this
   font: "https://fonts.google.com/specimen/Fira+Sans?stroke=Sans+Serif",
   title: title,
   id: title.replace(/ /g, "-"),
   description: "",
   sectionArray: sections,
+  submitWheel: '../../assets/svg-images/ouroboros-load-wheel.svg', // check this
   submitMessage: "Submitting. . . Please Wait 🙂",
   submitError: "*Please check fields",
 };
