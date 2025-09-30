@@ -4,7 +4,7 @@
     font-family: 'Libre Franklin';
 }
 /* background stuff */
-body{background-image: url("./upfeathers.png");
+body{background-image: url("../../assets/images/upfeathers.png");
     background-repeat: repeat; 
     }
 fieldset {
