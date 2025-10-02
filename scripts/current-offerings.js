@@ -129,6 +129,7 @@ let noSessionMessage =
   "No sessions scheduled today at Axis, enjoy the day off! 🙂";
 
 export function createOfferingsMDFrames(offeringsArray) {
+  console.log('createOfferingsMDFrame')
   offeringsArray.forEach((li) => {
     if (li.textContent !== noSessionMessage) {
       let currentOffering = offeringsLibrary[li.textContent];

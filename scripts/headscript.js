@@ -264,6 +264,13 @@ switch (h1Title.textContent) {
     break;
   case "Contact":
     populateContactForm();
+    const offHoursArrayContact = Array.from(document.querySelectorAll('#off-hours-etc > li'))
+    const offeringsArrayContact = Array.from(
+      document.querySelectorAll("#offerings > ul > li")
+    );
+    createOfferingsMDFrames(offHoursArrayContact);
+    createOfferingsMDFrames(offeringsArrayContact);
+
     break;
   case "Seattle Tricking Discord":
     mdConvert(document.getElementById("discord-page"), "./discord/discord.md");
