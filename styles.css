@@ -201,6 +201,12 @@ header :nth-child(3){
     header :nth-child(3){
         justify-content: start;
     }
+    .title{ 
+        font-size: 200%;
+    }
+    .subtitle{
+        font-size: 120%;
+    }
 }
     
     
