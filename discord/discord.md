@@ -1,6 +1,6 @@
 > ### [<ion-icon  name="logo-discord"></ion-icon>](https://discord.com/invite/82gjcDyY4U) Invite link:
 >
-> #### https://discord.com/invite/82gjcDyY4U
+> **https://discord.com/invite/82gjcDyY4U**
 
 You can easily stay up to date on what's happening through our [homepage](https://www.seattletricking.com) or the [@seattletricking instagram](https://www.instagram.com/seattletricking/)
 
@@ -40,7 +40,7 @@ Navigate below if you need help fine tuning your notification settings!
 
 By [default](#enable-chats), you will get only @mentions that you filter into upon joining our discord.
 
-![filter example](./discord/images/questions2.png)
+<img src="./discord/images/questions2.png" alt="filter example" class="responsive-image">
 You can also change this at any time by navigating to **channels and roles** on the top left!
 
 <blockquote>
