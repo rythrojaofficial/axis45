@@ -496,7 +496,6 @@ iframe#calendar{
     color: black;
     text-align: start;
     padding: 1rem;
-    overflow-x: auto;
     
 }
 
@@ -504,11 +503,13 @@ iframe#calendar{
     color: #3c702d;
 }
 .md-converted-frame blockquote{
+    width: 100%;
     margin-left: 0px;
     padding-top: .5rem;
     padding-bottom:.5rem;
     border-radius: 1rem;
     background-color: rgb(247, 245, 242);
+    overflow-x: auto;
 }
 
 .centered-all{
