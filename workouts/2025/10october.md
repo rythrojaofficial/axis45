@@ -1,10 +1,10 @@
 # Warm up
-## Bouncing
-1. DL, then arms up
-    1. split, rotating, tuck, R/L (f/b)
+## Bouncing 
+*arms down, then up*
+1. F/B, S/S, split, rotating, tuck, R/L (f/b, s/s)
 
 ## Upper
-1. choo choo arms
+1. Russian swing, arm circle, jump jumps
 1. Angel pull aparts
 1. rainbow 45 (tornado style) + open pivot?
 1. cross body swing
@@ -23,37 +23,38 @@
 1. bridge push up
 
 # Exercise
-## Run
+## Running drills
 1. A skip
 1. high knees
 1. 1211 2122
+1. alt bounding
 1. build up
-## plyo course
 
+## low level plyos
+1. SL l/r, round chamber l/r
 
 ## Eccentric exercise (3x8c)
 1. pull up
 1. handstand push
 1. dragon flag
 1. SL Hip thrust
-1. weighted pistol or StepDown
 
-## ankles/knees Bloodflow circuit 30s
+## ankles/knees Bloodflow circuit 40s
 1. SL bosu ankle / Seated SL shin raise
 1. copenhagen lift/side plank lift
 
-*\*all other Unilateral same time, bilateral take turns.  All movements to be done slowly*
+*\*all other Unilateral same time, bilateral take turns.  All movements to be done with control, but not super slowly*
 
-3. DL Straight leg calf raise
-1. SL ATG calf raise 
-1. zercher squat ATG 
-1. Trap bar RDL
-1. hamstring curl 
-1. SL AT skater taps
+3. SL AT skater taps
+1. kettlebell achilles raise 
+1. bench hamstring curl 
+1. zercher squat ATG OR goblet Squat ATG
+1. Trap bar/dumbell RDL 
+3. Straight Leg calf raise (dip belt)
 
 ## bonus
+1. discus twist
 1. gina abs
-2. side V
 <!-- 1. scissor
 1. hurdle walk overs, arms up
 1. backwards hurdle walk overs, arms up
