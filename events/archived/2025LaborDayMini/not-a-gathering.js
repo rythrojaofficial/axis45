@@ -1,5 +1,5 @@
-import { tapToPopulate } from "../../scripts/tap-to-populate.js";
-import { HtmlElement } from "../../scripts/htmlElement.js";
+import { tapToPopulate } from "../../../scripts/tap-to-populate.js";
+import { HtmlElement } from "../../../scripts/htmlElement.js";
 
 const displayArray = [
     {

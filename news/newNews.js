@@ -19,6 +19,15 @@ export let newNews = [
     md: "",
     link: "",
   },
+    {
+    lastActivated: "251008",
+    active: true,
+    expires: 251101,
+    title: "Halloween Tricks n' Treats Sesh!",
+    lines: ["Friday 10/31!, costume sesh, games, and potluck!", ""],
+    md: "./events/251031-halloween/event.md",
+    link: "",
+  },
     // 5th thursday cancellation
   {
     lastActivated: "250720",
@@ -33,7 +42,26 @@ export let newNews = [
     md: "",
     link: "",
   },
-    {
+  // discord announcement 2024
+  {
+    lastActivated: "9.15.24",
+    active: true,
+    expires: false,
+    title: "Seattle Tricking Discord",
+    lines: [
+      "Get notified of updates, announcements, and more!",
+      "click here for the full details!",
+    ],
+    md: "./discord/discord.md",
+    link: "./discord.html",
+  }, // december workshops
+  //
+];
+// ===========================================================
+// ==================Archived==================Archived=======
+// ===========================================================
+let archived = [
+      {
     lastActivated: "250826",
     active: true,
     expires: 250902,    
@@ -59,25 +87,6 @@ export let newNews = [
     md: "",
     link: "./events/2025LaborDayMini/not-a-gathering.html",
   },
-  // discord announcement 2024
-  {
-    lastActivated: "9.15.24",
-    active: true,
-    expires: false,
-    title: "Seattle Tricking Discord",
-    lines: [
-      "Get notified of updates, announcements, and more!",
-      "click here for the full details!",
-    ],
-    md: "./discord/discord.md",
-    link: "./discord.html",
-  }, // december workshops
-  //
-];
-// ===========================================================
-// ==================Archived==================Archived=======
-// ===========================================================
-let archived = [
     {
     lastActivated: "250720",
     active: true,
