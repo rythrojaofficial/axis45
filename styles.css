@@ -544,7 +544,8 @@ button{
 /* workouts buttons and dropdowns */
 
 #display-workout-selection > *,
-#workouts-next-previous > *{
+#workouts-next-previous > *,
+#workouts-next-previous-lower > *{
     border:none;
     outline:none;
     font-size: 1.25rem;
@@ -560,12 +561,15 @@ button{
 }
 
 #display-workout-selection > button,
-#workouts-next-previous > button {
+#workouts-next-previous > button,
+#workouts-next-previous-lower > button
+ {
     
     background-color: var(--secondary-color);
 }
 #display-workout-selection > button:hover, 
-#workouts-next-previous > *:hover {
+#workouts-next-previous > *:hover,
+#workouts-next-previous-lower > *:hover {
     background-color: var(--hover-secondary-color);
 }
 

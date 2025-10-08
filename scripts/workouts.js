@@ -16,6 +16,7 @@ let monthsArray = [
 ]
 const selectHead = document.getElementById('display-workout-selection');
 const nextHead = document.getElementById('workouts-next-previous');
+const nextHeadLower = document.getElementById('workouts-next-previous-lower');
 const head = document.getElementById('display-workout');
 const date = new Date();
 const currentYear = date.getFullYear();
@@ -102,6 +103,24 @@ export function populateWorkoutmonthDropdown(){
     )
     let nextButton = new ButtonElement(
         nextHead,
+        nextWorkoutLogic,
+        {
+            name: 'workout-next',
+            id: 'workout-next-button'
+        },
+        "Next"
+    )
+        let previousButtonLower = new ButtonElement(
+        nextHeadLower,
+        previousWorkoutLogic,
+        {
+            name: 'workout-previous',
+            id: 'workout-previous-button'
+        },
+        "Previous"
+    )
+    let nextButtonLower = new ButtonElement(
+        nextHeadLower,
         nextWorkoutLogic,
         {
             name: 'workout-next',

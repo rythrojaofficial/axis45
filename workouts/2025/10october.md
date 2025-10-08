@@ -37,20 +37,20 @@
 1. pull up
 1. handstand push
 1. dragon flag
-1. SL Hip thrust
 
 ## ankles/knees Bloodflow circuit 40s
-1. SL bosu ankle / Seated SL shin raise
-1. copenhagen lift/side plank lift
+*\*all Unilateral same time, bilateral take turns.  All movements to be done with control, but not super slowly*
 
-*\*all other Unilateral same time, bilateral take turns.  All movements to be done with control, but not super slowly*
-
-3. SL AT skater taps
+1. SL bosu ankle
 1. kettlebell achilles raise 
-1. bench hamstring curl 
+1. copenhagen lift/side plank lift
+1. SL Hip thrust
+1. SL AT skater taps
+1. prone hamstring curl 
 1. zercher squat ATG OR goblet Squat ATG
 1. Trap bar/dumbell RDL 
 3. Straight Leg calf raise (dip belt)
+1. Seated SL shin raise
 
 ## bonus
 1. discus twist
