@@ -19,13 +19,22 @@ export let newNews = [
     md: "",
     link: "",
   },
-    {
+  {
     lastActivated: "251008",
     active: true,
     expires: 251101,
     title: "Halloween Tricks n' Treats Sesh!",
     lines: ["Friday 10/31!, costume sesh, games, and potluck!", ""],
     md: "./events/251031-halloween/event.md",
+    link: "",
+  },
+  {
+    lastActivated: "251008",
+    active: true,
+    expires: 260130,
+    title: "Thursday Class Schedule through Jan! ",
+    lines: ["Holiday Closures, Workshops, etc!"],
+    md: "./events/2511-holiday-class-schedule/schedule.md",
     link: "",
   },
     // 5th thursday cancellation
