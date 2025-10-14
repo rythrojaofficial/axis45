@@ -38,11 +38,10 @@
 1. handstand push
 1. dragon flag
 
-## ankles/knees Bloodflow circuit 40s
+## ankles/knees Bloodflow circuit 60s
 *\*all Unilateral same time, bilateral take turns.  All movements to be done with control, but not super slowly*
 
-1. SL bosu ankle
-1. kettlebell achilles raise 
+1. SL bosu ankle/kettlebell achilles raise 
 1. copenhagen lift/side plank lift
 1. SL Hip thrust
 1. SL AT skater taps
