@@ -9,7 +9,7 @@
 
 - _please check our [discord](https://www.seattletricking.com/discord) for bonus sessions_
 
-3.  **Fridays**: 8-10pm (_For the summer!_)
+3.  **Fridays**: 7:30-9:30pm (_For the Winter!_)
 
 _Don't forget to read our [FAQ](./faq.html) regarding, parking, finding us, payment, waivers, and more._
 
