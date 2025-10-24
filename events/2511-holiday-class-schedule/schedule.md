@@ -1,3 +1,7 @@
+*\*7:30pm Flipping Progressions will be available on all Thursdays with foundations or a workshop*
+## October 5th Thursday:
+1. **Week 5**: 10/30:  630pm Beginner Guided Tricking, 7:30pm Flipping Progressions as normal
+
 ## November Foundations:
 1. **week 1**: 11/6
 2. **week 2**: 11/13

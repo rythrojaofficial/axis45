@@ -20,6 +20,15 @@ export let newNews = [
     link: "",
   },
   {
+    lastActivated: "2510024",
+    active: true,
+    expires: 251203,
+    title: "Friday sesh starting at 7:30pm",
+    lines: ["From 10/31 til next summer :)"],
+    md: "",
+    link: "",
+  },
+  {
     lastActivated: "251008",
     active: true,
     expires: 251101,
