@@ -1,7 +1,7 @@
 # November
 
 ## Warm Up
-
+### Upper
 <!-- 1. conductor arms () -->
 1. T shoulder shrugging:
     1. up/down, fwd/bkwd, alt fwd/bkwd
@@ -9,7 +9,7 @@
 1. rotation:
     1. torso (chicken wing), hip, knee rotations
 
-### ankle
+### Ankle
 
 1. inv/eversion
 1. soleus 3 bounce + raise
@@ -18,8 +18,8 @@
 
 ### Lower
 
-1. ATG lunge, arms down/up
-1. glute
+1. Good morning pulse, ev, straight, inversion
+1. ATG lunge, arms down/up, + glute
 1. Butterfly stretch flutter
 1. half butterfly
     1. inside, middle, outside
