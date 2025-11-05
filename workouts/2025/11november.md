@@ -48,9 +48,15 @@
 
 ### 3-1 Concentric
 
-1. 10 total pull up
-2. 10 total HSPU
-3. 3 sets of 8 zercher squat (Or goblet squat)
+1. Pull Up: 1-5 reps for 4 sets
+2. HSPU: 1-5 reps for 3 sets
+3. 3 sets of 8 zercher squat(barbell or partner) OR goblet squat
+
+### Accessory
+1. squat diagonal walk f/b
+2. squat side step
+3. QL walk
+4. slidey SL hamstring
 
 ### Kick circuit
 
@@ -63,7 +69,4 @@
 
 ### Bonus
 
-1. squat diagonal walk f/b
-2. squat side step
-3. QL walk
-4. slidey SL hamstring
+
