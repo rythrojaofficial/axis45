@@ -28,13 +28,16 @@ export let newNews = [
     md: "",
     link: "",
   },
-  {
-    lastActivated: "251008",
+      {
+    lastActivated: "251107",
     active: true,
-    expires: 251101,
-    title: "Halloween Tricks n' Treats Sesh!",
-    lines: ["Friday 10/31!, costume sesh, games, and potluck!", ""],
-    md: "./events/251031-halloween/event.md",
+    expires: 251117,
+    title: "Free Injury Screening Night(s)!",
+    lines: [
+      "Free with Open Session drop-in OR membership tally ",
+      "Sunday 11.16",
+    ],
+    md: "./events/empower/injury-screening.md",
     link: "",
   },
   {
@@ -79,6 +82,15 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+    {
+    lastActivated: "251008",
+    active: true,
+    expires: 251101,
+    title: "Halloween Tricks n' Treats Sesh!",
+    lines: ["Friday 10/31!, costume sesh, games, and potluck!", ""],
+    md: "./events/251031-halloween/event.md",
+    link: "",
+  },
       {
     lastActivated: "250826",
     active: true,
