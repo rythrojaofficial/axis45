@@ -20,33 +20,21 @@ export let newNews = [
     link: "",
   },
   {
-    lastActivated: "2510024",
-    active: true,
-    expires: 251203,
-    title: "Friday sesh starting at 7:30pm",
-    lines: ["From 10/31 til next summer :)"],
-    md: "",
-    link: "",
-  },
-      {
-    lastActivated: "251107",
-    active: true,
-    expires: 251117,
-    title: "Free Injury Screening Night(s)!",
-    lines: [
-      "Free with Open Session drop-in OR membership tally ",
-      "Sunday 11.16",
-    ],
-    md: "./events/empower/injury-screening.md",
-    link: "",
-  },
-  {
     lastActivated: "251008",
     active: true,
     expires: 260130,
     title: "Thursday Class Schedule through Jan! ",
     lines: ["Holiday Closures, Workshops, etc!"],
     md: "./events/2511-holiday-class-schedule/schedule.md",
+    link: "",
+  },
+    {
+    lastActivated: "2510024",
+    active: true,
+    expires: 251203,
+    title: "Friday sesh starting at 7:30pm",
+    lines: ["From 10/31 til next summer :)","Mondays remain 7-9pm!"],
+    md: "",
     link: "",
   },
     // 5th thursday cancellation
@@ -82,6 +70,18 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+        {
+    lastActivated: "251107",
+    active: true,
+    expires: 251117,
+    title: "Free Injury Screening Night(s)!",
+    lines: [
+      "Free with Open Session drop-in OR membership tally ",
+      "Sunday 11.16",
+    ],
+    md: "./events/empower/injury-screening.md",
+    link: "",
+  },
     {
     lastActivated: "251008",
     active: true,

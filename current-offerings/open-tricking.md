@@ -5,9 +5,7 @@
 ### Start Times
 
 1.  **Mondays**: 7-9pm
-2.  _some Wednesdays_: 7:00-9:00PM
-
-- _please check our [discord](https://www.seattletricking.com/discord) for bonus sessions_
+2.  _some Wednesdays_: _please check our [discord](https://www.seattletricking.com/discord) for bonus sessions_
 
 3.  **Fridays**: 7:30-9:30pm (_For the Winter!_)
 

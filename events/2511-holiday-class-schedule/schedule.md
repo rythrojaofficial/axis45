@@ -1,4 +1,4 @@
-*\*7:30pm Flipping Progressions will be available on all Thursdays with foundations or a workshop*
+*\*7:30pm Flipping Progressions will be available on all Thursdays with Open Tricking, Foundations or a workshop*
 ## October 5th Thursday:
 1. **Week 5**: 10/30:  630pm Beginner Guided Tricking, 7:30pm Flipping Progressions as normal
 
@@ -11,8 +11,10 @@
 
 ## December Workshops:
 Due to the November overflow and holiday season, **there will be no tricking foundations** in December.  However there will be workshops!
-1. 12/11 TBD workshop
-2. 12/18 TBD workhop
+1. 12/11 Beginner Friendly Open Tricking
+    1.  *Some Foundations Experience Recommended*\*
+2. 12/18  🦋 Beginner Butterfly Twist Workshop! 🦋
+    1. pre-requisites*: [butterfly kick](https://www.youtube.com/shorts/dC_TFsbg0Uo), jumping 360 spin
 3. ~~12/25~~ cxled for Christmas!
 
 ## January Foundations:

@@ -33,10 +33,9 @@ let expLibrary = [
 let offeringsLibrary = {
   openTricking: new Offering(
     "open-tricking",
-    "Classic open session. No instruction provided. ",
+    "Classic open session. No instruction provided.",
     "120m",
-    expLibrary[2]
-    // "Monday/Friday/(& some Wednesdays!)"
+    expLibrary[2],
   ),
   // 1.12.25 december ended, flipped line 177
   // decemberWorkshop: new Offering(
@@ -219,4 +218,10 @@ export function populateTodaysSessions() {
   dateLibrary[todaysDay].forEach((session) => {
     let li = new HtmlElement("li", ul.element, {}, session);
   });
+  // +++++++++++++++++
+  // test with day other than today
+  // +++++++++++++++++
+    // dateLibrary['Monday'].forEach((session) => {
+  //   let li = new HtmlElement("li", ul.element, {}, session);
+  // });
 }
