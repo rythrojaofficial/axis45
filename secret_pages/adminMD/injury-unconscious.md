@@ -1,8 +1,10 @@
 ## Stay calm
+
 - slow your breathing
 - detatch and focus on what needs to be done.
 
 ## Put someone in charge of sesh, clear space
+
 - if no one trustworthy, cancel sesh, ask people to clear out, they won't be charged.
 - have people start moving their cars out of the driveway to make space in case emergency vehicles need to be called.
 - if they can be safely moved, move off of floor.
@@ -10,6 +12,8 @@
 - if not, just clear space around them
     
 ## call 911
+
+*If you do not need to call 911, this is the wrong tab*
 - "There has been this type of emergency _______
     - anaphalactic shock
     - Seizure
@@ -32,4 +36,4 @@
     - friend pickup
     - uber
 
-*Write down who and when you contacted with what info in this incident report form below*
+*Write down who and when you contacted with what info on paper, then later on the incident report form above*

@@ -1,25 +1,31 @@
 ## stay calm, slow your breathing
+
 - take a deep breath
 - focus. you're the adult now
+
 ## calm them down
+
 - "I know it hurts really bad right now"
 - "Focus on breathing.  Try to take deep breaths"
 - "We're gonna get you taken care of"
 
 ## put someone in charge of sesh
+
 - "____ is in charge of sesh"
 - "if you're not currently helping, please move out of the way"
 - if no one trustworthy, cancel sesh, ask people to clear out, they won't be charged
 
-## move off floor, clear space 
+## move off floor, clear space
+
 *this can be delegated*
 - Find space for them
     - couch or crashmat or just off the floor
-- clear a pathway 
+- clear a pathway
 - if they can move, try to move off the floor otherwise clear space in place
 - use whatever mats, benches, or foarm rollers as leg bolsters, pillows, backrests
 
 ## Transport
+
 - ask whether they want a ride to the ER or an ambulance,
     - or to be driven home by:
         - their Emergency contact
@@ -29,7 +35,9 @@
     - It will take 2 cars if the injured drove (one to transport them, one to drive the injured's car)
 
 *write these down and log down how they physically left*
+
 ### if they want an ambulance or ER
+
 - if they want an ambulance, or you to take them to the ER, cancel practice, ask people to clear out, they won't be charged
 - if need an ambulance, call 911
     - "There has been this type of emergency _______
@@ -41,10 +49,11 @@
     - At our acrobatic martial arts studio Axis 45
         - 7701 230th St SW, Edmonds, WA 98026
     - The time is _____
-    - Write everything down on paper or tablet and later in the incident report form below
+    - Write everything down on paper or tablet and later in the incident report form above
     - log down how they physically left
 
 ## Emergency Rooms
+
 - if they have one in mind, go there.
 - if they must go QUICKLY, go to Swedish Edmonds as it's the closest
     - 425-640-4000
@@ -54,6 +63,7 @@
     - 1550 N 115th St, Seattle, WA 98133
     
 ### Emergency contact
+
 * they can call their emergency contact if they are willing and able*
 - if you need to call their emergency contact
     - check 2024 and beyond first
