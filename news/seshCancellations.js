@@ -1,15 +1,21 @@
 export const noSeshDates = [
     // Emergency Cacncel
   {
-    dateCancelled: [250920], // sortable dates in number form
+    dateCancelled: [251127], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
-    messages: ["Halen's birthday sesh at 5pm!",
-    "bring a snack/drink to share, and we'll hit up the taco tent later!"]
+    messages: ["Happy Thanksgiving! No Classes Today! 🦃🥧🍂",
+      "Friday Open as normal :)"]
   },
 
 ]
 
 const archived = [
+    {
+    dateCancelled: [250920], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Halen's birthday sesh at 5pm!",
+    "bring a snack/drink to share, and we'll hit up the taco tent later!"]
+  },
     {
     dateCancelled: [250731,250801], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
