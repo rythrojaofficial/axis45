@@ -16,7 +16,7 @@
 
 ### Handstand line
 
-[Example](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.boundlessyogastudio.com%2Fblog-insights-from-our-staff-and-students%2Fhappiness-in-handstand-find-your-line-by-chris-loebsack&psig=AOvVaw2Au5BxqacwJcyAs4NMaqLQ&ust=1734136011639000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCtrZm-o4oDFQAAAAAdAAAAABAE)
+[Example](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.boundlessyogastudio.com%2Fblog-insights-from-our-staff-and-students%2Fhappiness-in-handstand-find-your-line-by-chris-loebsack&psig=AOvVaw2Au5BxqacwJcyAs4NMaqLQ&ust=172024-hs-workshop-notes34136011639000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCtrZm-o4oDFQAAAAAdAAAAABAE)
 
 1.  Critical
     1. open shoulders

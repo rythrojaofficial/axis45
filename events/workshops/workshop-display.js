@@ -5,6 +5,9 @@ const displayWorkshop = document.getElementById('display-workshop');
 
 console.log('setting up workshop Codes Array')
 let workshopCodesArray = [
+    '241116technical-sequences',
+    '241205hs',
+    '241212raiz',
     '250406aerialwushu',
     '251218btwist'
 ]
