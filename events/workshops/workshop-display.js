@@ -1,87 +1,86 @@
-import { tapToPopulate } from "../scripts/tap-to-populate.js";
-const displayArray = [
-    {
-            active:true,
-            mdTrueLink: '',
-            name: 'planning checklist',
-            properties: {
-                class:'',
-                id:''
+import { HtmlElement, mdElement, SelectElement, ButtonElement } from "../../scripts/htmlElement.js";
+import { readText } from "../../scripts/getText.js";
+
+const displayWorkshop = document.getElementById('display-workshop');
+
+console.log('setting up workshop Codes Array')
+let workshopCodesArray = [
+    '250406aerialwushu',
+    '251218btwist'
+]
+let workshopMdElArray = [];
+console.log({workshopCodesArray:workshopCodesArray})
+
+console.log('fetching mdEls. . .')
+workshopCodesArray.forEach(code=>{
+    const mdLink = `./${code}/workshop.md`;
+    console.log({mdLink: mdLink})
+    const failMessage = `sorry, workshop with code:${code} was not found.`
+
+    const html = readText(mdLink)
+        .then(value =>{
+            let newDiv = document.createElement('div');
+            if (value === null){
+                let failElement = new HtmlElement(
+                    'em',
+                    newDiv,
+                    { id: 'workshop-md-element'},
+                    failMessage
+                )
+                workshopMdElArray.push(newDiv);
+            }else {
+                let workshopElement = new mdElement(
+                    newDiv,
+                    { id: 'workshop-md-element'},
+                    mdLink
+                );
+                 workshopMdElArray.push(newDiv);
+
             }
-    },
-    {
-        active:true, // must be true to work
-        mdTrueLink: '', //  only if you don't have a template, or goes off template
-        name: 'Four Pillars of Coaching', // required (names the button)
-        properties: {
-            class:'', // if it needs a special class
-            id:'' // if you need it to have a specific non templated name
+        }).catch((error)=>{
+            console.log(error)
+            let newDiv = document.createElement('div');
+            let failElement = new HtmlElement(
+                'em',
+                newDiv,
+                { id: 'workout-md-element'},
+                failMessage       
+            );
+            workshopMdElArray.push(newDiv);
+
+        })
+
+})
+console.log(
+    {workshopMdElArray: workshopMdElArray}
+)
+
+
+const inputWorkshopQuery = document.getElementById('workshop-query');
+const queryButton = document.getElementById('query-button');
+queryButton.addEventListener('click', ()=>{
+    const query = inputWorkshopQuery.value;
+    console.log({
+        query:query
+    })
+    clearElement(inputWorkshopQuery);
+    clearElement(displayWorkshop);
+    console.log({workshopCodesArraylength: workshopCodesArray.length})
+    for (let i = 0; i < workshopCodesArray.length; i++){
+        console.log({forloop:i})
+        console.log(workshopCodesArray[i])
+        if (workshopCodesArray[i] === query){
+            console.log('match')
+            displayWorkshop.appendChild(
+                workshopMdElArray[i]
+            )
         }
-    },
-    {
-        active:true,
-        mdTrueLink: '../workouts/tuesday-tricking-exercise.md',
-        name: 'Tuesday Tricking Exercise',
-        properties: {
-            class:'',
-            id:''
-        }
-    },
-    {
-        active:true,
-        mdTrueLink: '../workouts/exercise-library.md',
-        name: 'Exercise Library',
-        properties: {
-            class:'',
-            id:''
-        }
-    },
-    {
-        active:true,
-        mdTrueLink: '',
-        name: 'Thursday Observation Checklist',
-        properties: {
-            class:'',
-            id:''
-        }
-    },
-    {
-        active:true,
-        mdTrueLink: '',
-        name: 'On Warm ups',
-        properties: {
-            class:'',
-            id:''
-        }
-    },
+    }
     
+    
+})
 
-]
-const archived = [
-    {
-        active:false,
-        mdTrueLink: '../workouts/subbing/250422tuesday-tricking.md',
-        name: '250422 Tuesday Tricking Lesson Plan',
-        properties: {
-            class:'',
-            id:''
-        }
-    },
-]
-const selectionWrapper = document.createElement('div');
-    selectionWrapper.classList.add('button-toggle-wrapper')
-const displayTarget = document.createElement('div');
-    displayTarget.classList.add('markdown-body')
-const body = document.querySelector('body');
-body.append(selectionWrapper, displayTarget)
-const linkTemplates = {
-    mdTemplate: {
-        // ./secret_pages/adminMD/${name}.md
-        before:'../mercenary-blog/mdfiles/',  
-        after: '.md'
-        },
-    classes: 'gray-container',
-    id: `-checklist` // ${name}-checklist
+
+function clearElement(el){
+    el.innerText = '';
 }
-
-tapToPopulate(displayArray, selectionWrapper, displayTarget, linkTemplates, true)
