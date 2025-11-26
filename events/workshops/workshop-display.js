@@ -65,16 +65,27 @@ queryButton.addEventListener('click', ()=>{
     })
     clearElement(inputWorkshopQuery);
     clearElement(displayWorkshop);
+
+    let match = false;
     console.log({workshopCodesArraylength: workshopCodesArray.length})
     for (let i = 0; i < workshopCodesArray.length; i++){
         console.log({forloop:i})
         console.log(workshopCodesArray[i])
         if (workshopCodesArray[i] === query){
+            match = true;
             console.log('match')
             displayWorkshop.appendChild(
                 workshopMdElArray[i]
             )
         }
+    }
+    if (match === false){
+        let failElement = new HtmlElement(
+                'em',
+                displayWorkshop,
+                { id: 'workout-md-element'},
+                `sorry, workshop with code: ${query} not found.`       
+            );
     }
     
     
