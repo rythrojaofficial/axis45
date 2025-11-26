@@ -1,4 +1,4 @@
-# November
+# November + December
 
 ## Warm Up
 ### Upper
@@ -11,8 +11,9 @@
 
 ### Ankle
 
-1. inv/eversion
-1. soleus 3 bounce + raise
+<!-- 1. inv/eversion
+1. soleus 3 bounce + raise -->
+1. tib raise rotation
 1. rocking heel raise: iron man, backward arm circle
 1. SLDL
 
@@ -28,7 +29,7 @@
 ### Skill Specific
 
 1. Supine Big kick, Prone swimmer
-1. bridge reach + stand-up
+1. bridge push up + stand-up?
 
 
 ## Exercise
@@ -67,6 +68,6 @@
    1. 8s
    1. torso lift
 
-### Bonus
+### Bonus?
 
 
