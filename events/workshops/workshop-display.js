@@ -16,7 +16,7 @@ console.log({workshopCodesArray:workshopCodesArray})
 
 console.log('fetching mdEls. . .')
 workshopCodesArray.forEach(code=>{
-    const mdLink = `./${code}/workshop.md`;
+    const mdLink = `./events/workshops/${code}/workshop.md`;
     console.log({mdLink: mdLink})
     const failMessage = `sorry, workshop with code:${code} was not found.`
 

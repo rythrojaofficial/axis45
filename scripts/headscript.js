@@ -64,7 +64,12 @@ const navWorkouts = new NavText(
   "workouts",
   "workouts-link",
   "https://www.seattletricking.com/workouts"
-)
+);
+const navWorkshops = new NavText(
+  "workshops",
+  "workshops-link",
+  "https://www.seattletricking.com/workshops"
+);
 // const navUpcoming = new NavText(
 //   "upcoming events",
 //   "upcoming-link",

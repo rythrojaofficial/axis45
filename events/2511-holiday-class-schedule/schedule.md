@@ -7,6 +7,7 @@
 2. **week 2**: 11/13
 3. **week 3**: 11/20
 4. ~~11/27~~ cxled for Thanksgiving!
+    - *Friday Open Tricking Session as normal*
 5. **week 4**: 12/4
 
 ## December Workshops:
