@@ -15,16 +15,16 @@
 1. soleus 3 bounce + raise -->
 1. tib raise rotation
 1. rocking heel raise: iron man, backward arm circle
-1. SLDL
+1. SLDL s/t
 
 ### Lower
 
 1. Good morning pulse, ev, straight, inversion
 1. ATG lunge, arms down/up, + glute
-1. Butterfly stretch flutter
+1. Butterfly stretch (flutter)
 1. half butterfly
     1. inside, middle, outside
-    1. straddle to middle, hold middle
+    1. straddle to middle, pulse middle
 
 ### Skill Specific
 
