@@ -164,7 +164,7 @@ function addDate(){
         ],
         sunday: [
             "Guided Flexibility",
-            "Open Breaking"
+            "Open Flipping"
         ],
         allOther: [
             "Open Tricking"
