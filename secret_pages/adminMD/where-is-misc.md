@@ -1,8 +1,8 @@
 # Misc
 
-- air pumps: security area cubby bottom
-- water cups: on freezer in office
-- vacuum: other side of bathroom
+- air pumps: corner area on other side of bathroom
+- water cups: in office area near freezer on desk
+- vacuum: corner area on other side of bathroom
     - red upright (blue floor only!!!)
     - Orange Rigid Shop vac fo all other vacuuming
 - writing tools: desk or security areas

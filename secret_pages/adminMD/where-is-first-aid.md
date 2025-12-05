@@ -6,3 +6,4 @@
 - Blue Pillowcase for ice: Freezer
 - Ace wrap: blue cubby box under empower banner
 - Paper towels: bathroom
+- Absorbant paper towels on roll: office/desk

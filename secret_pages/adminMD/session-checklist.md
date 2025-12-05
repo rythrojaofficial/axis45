@@ -12,21 +12,21 @@
 
 ### New people
 - Greet and chat
-    - Have they done the waiver?
+    - Have they done the waiver? signed in?  (if applicable)
         - Waiver on the wall or website
     - Where they're from
     - How they found us
     - How long they've been tricking
     
 ### Tally
-*If subbing, don't tally, Have them sign-in on the pad instead. If they don't have a card on file, have them venmo @seattletricking the appropriate amount if they aren't a member :)*
+*If subbing, don't tally, Have them sign-in on the pad/whiteboard instead. If they don't have a card on file, have them venmo @seattletricking the appropriate amount if they aren't a member :)*
 
 - Tally near end of sesh
     - Admin Page for all things tally
 - Check member status if unsure if member
 
 ### Non-members
-*If subbing, don't charge anyone. Have them sign-in on the Pad instead. If they don't have a card on file, have them venmo @seattletricking the appropriate amount :)*
+*If subbing, don't manually charge anyone. Have them sign-in on the Pad instead. If they don't have a card on file, have them venmo @seattletricking the appropriate amount :) or send them the stripe link at the bottom of the page (drop-in open only $20)*
 - If they're not on the tally list and you recognize them:
     - charge drop-in fee
 - if no card on file, try to get a card on file

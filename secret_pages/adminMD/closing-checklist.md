@@ -24,7 +24,8 @@ Phone stands/timers/ClockRemote go in the boat in the desk
 1. Computer
 2. Speakers
 3. Audio Mixer 
-- Gym clock
+- Gym clock above computer area: small remote
+- Gym clock near mat wall: large remote
 ### Make sure you're the last out
 - Lights off
 - Lock Door
