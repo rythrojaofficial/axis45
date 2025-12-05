@@ -13,6 +13,7 @@ Phone stands/timers/ClockRemote go in the boat in the desk
 - green mats should be stored seam side up
 - airmat should not be stored directly on wall (the vinyl pulls paint unfortunately)
 - Weights/balls/rollers/spinner
+- Leak/buckets: gurgle the main tarp hose
 - Check/replenish/take note
     - Paper towels
     - TP
