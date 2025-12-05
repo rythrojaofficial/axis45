@@ -723,3 +723,8 @@ margin: 2em 0;
         transform: scaleX(-1) rotate(-360deg);
     }
 }
+
+.payment-container{
+    display: flex;
+    overflow: scroll
+}
