@@ -1,5 +1,7 @@
 # November + December
 
+[warm-up walkthrough video](youtu.be/OneLALfrzXk?si=jCEQKHxvCv-49FaH)
+
 ## Warm Up
 ### Upper
 <!-- 1. conductor arms () -->
