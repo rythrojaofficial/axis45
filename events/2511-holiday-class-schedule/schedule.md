@@ -1,5 +1,5 @@
 *\*7:30pm Flipping Progressions will be available on all Thursdays with Open Tricking, Foundations or a workshop*
-## October 5th Thursday:
+<!-- ## October 5th Thursday:
 1. **Week 5**: 10/30:  630pm Beginner Guided Tricking, 7:30pm Flipping Progressions as normal
 
 ## November Foundations:
@@ -8,14 +8,18 @@
 3. **week 3**: 11/20
 4. ~~11/27~~ cxled for Thanksgiving!
     - *Friday Open Tricking Session as normal*
-5. **week 4**: 12/4
+5. **week 4**: 12/4 -->
 
 ## December Workshops:
 Due to the November overflow and holiday season, **there will be no tricking foundations** in December.  However there will be workshops!
 1. 12/11 Beginner Friendly Open Tricking
     1.  *Some Foundations Experience Recommended*\*
+    1. anyone who's taken a round of Tricking Foundations will fit right in! 
+    1. Member tally / $20 drop-in price
 2. 12/18  🦋 Beginner Butterfly Twist Workshop! 🦋
     1. pre-requisites*: [butterfly kick](https://www.youtube.com/shorts/dC_TFsbg0Uo), jumping 360 spin
+    1. Member pricing: $30
+    2. Non-Member pricing: $40
 3. ~~12/25~~ cxled for Christmas!
 
 ## January Foundations:
