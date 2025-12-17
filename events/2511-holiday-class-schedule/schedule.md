@@ -18,8 +18,8 @@ Due to the November overflow and holiday season, **there will be no tricking fou
     1. Member tally / $20 drop-in price
 2. 12/18  🦋 Beginner Butterfly Twist Workshop! 🦋
     1. pre-requisites*: [butterfly kick](https://www.youtube.com/shorts/dC_TFsbg0Uo), jumping 360 spin
-    1. Member pricing: $30
-    2. Non-Member pricing: $40
+    1. Member pricing: $22.50
+    2. Non-Member pricing: $30
 3. ~~12/25~~ cxled for Christmas!
 
 ## January Foundations:
