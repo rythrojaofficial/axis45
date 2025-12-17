@@ -141,7 +141,7 @@ function displayUpcoming(){
         }
         displayWorkshop.appendChild(initialWrapper)
     })
-    console.log(upcomingWorkshops[0])
+    // console.log(upcomingWorkshops[0])
     // let text = upcomingWorkshops.name;
-    displayWorkshop.appendChild(initialWrapper)
+    // displayWorkshop.appendChild(initialWrapper)
 }
