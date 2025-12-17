@@ -104,15 +104,20 @@ function clearElement(el){
 }
 
 function displayUpcoming(){
+    let upcomingTitle = new HtmlElement('h1',
+        displayWorkshop,
+        {},
+        'Upcoming Workshops:'
+    );
     upcomingWorkshops.forEach(ws =>{
         let initialWrapper = document.createElement('div');
-        let title = new HtmlElement('div',
+        let title = new HtmlElement('h2',
             initialWrapper,
             {},
             `${ws.name} Workshop`
         );
         let theDate = sortableDateToKdsObject(ws.date);
-        let dateTime = new HtmlElement('div',
+        let dateTime = new HtmlElement('em',
             initialWrapper,
             {},
             `${theDate.weekday} ${theDate.localString} at ${ws.startTime}`
@@ -120,9 +125,9 @@ function displayUpcoming(){
         let description = new HtmlElement('div',
             initialWrapper,
             {},
-            ws.description
+            `Description: ${ws.description}`
         );
-        let prerequisites = new HtmlElement('div',
+        let prerequisites = new HtmlElement('em',
             initialWrapper,
             {},
             'Pre-Requisites:'
