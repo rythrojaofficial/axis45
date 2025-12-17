@@ -23,7 +23,7 @@ export let newNews = [
     lastActivated: "251008",
     active: true,
     expires: 260130,
-    title: "Thursday Class Schedule through Jan! ",
+    title: "Thursday Schedule through Jan! ",
     lines: ["Holiday Closures, Workshops, etc!"],
     md: "./events/2511-holiday-class-schedule/schedule.md",
     link: "",

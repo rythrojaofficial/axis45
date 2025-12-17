@@ -1,7 +1,11 @@
 import { HtmlElement, mdElement, SelectElement, ButtonElement } from "../../scripts/htmlElement.js";
 import { readText } from "../../scripts/getText.js";
+import { upcomingWorkshops } from "./upcoming-workshops.js";
+import { sortableDateToKdsObject } from "../../scripts/parsedate.js";
 
 const displayWorkshop = document.getElementById('display-workshop');
+displayUpcoming();
+
 
 console.log('setting up workshop Codes Array')
 let workshopCodesArray = [
@@ -97,4 +101,42 @@ queryButton.addEventListener('click', ()=>{
 
 function clearElement(el){
     el.innerText = '';
+}
+
+function displayUpcoming(){
+    upcomingWorkshops.forEach(ws =>{
+        let initialWrapper = document.createElement('div');
+        let title = new HtmlElement('div',
+            initialWrapper,
+            {},
+            `${ws.name} Workshop`
+        );
+        let theDate = sortableDateToKdsObject(ws.date);
+        let dateTime = new HtmlElement('div',
+            initialWrapper,
+            {},
+            `${theDate.weekday} ${theDate.localString} at ${ws.startTime}`
+        );
+        let description = new HtmlElement('div',
+            initialWrapper,
+            {},
+            ws.description
+        );
+        let prerequisites = new HtmlElement('div',
+            initialWrapper,
+            {},
+            'Pre-Requisites:'
+        )
+        for(let i = 0; i < ws.prerequisites.length; i++){
+            let prerequisite = new HtmlElement('div',
+                prerequisites.element,
+                {},
+                `${i+1}). ${ws.prerequisites[i]}` // 0 index to 1 index for list
+            )
+        }
+        displayWorkshop.appendChild(initialWrapper)
+    })
+    console.log(upcomingWorkshops[0])
+    // let text = upcomingWorkshops.name;
+    displayWorkshop.appendChild(initialWrapper)
 }
