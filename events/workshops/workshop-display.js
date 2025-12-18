@@ -9,18 +9,40 @@ displayUpcoming();
 
 console.log('setting up workshop Codes Array')
 let workshopCodesArray = [
-    '241116technical-sequences',
-    '241205hs',
-    '241212raiz',
-    '250406aerialwushu',
-    '251218btwist'
+    {
+        name:'241116technical-sequences',
+        code:'4novts',
+        mdEl:''
+    },
+    {
+        name:'241205hs',
+        code:'4dechs',
+        mdEl:''
+    },
+    {
+        name:'241212raiz',
+        code:'4decrz',
+        mdEl:''
+    },
+    {
+        name:'250406aerialwushu',
+        code:'5apraw',
+        mdEl:''
+    },
+    {
+        name:'251218btwist',
+        code:'5decbt',
+        mdEl:''
+    },
 ]
-let workshopMdElArray = [];
+
 console.log({workshopCodesArray:workshopCodesArray})
 
 console.log('fetching mdEls. . .')
-workshopCodesArray.forEach(code=>{
-    const mdLink = `./events/workshops/${code}/workshop.md`;
+workshopCodesArray.forEach(wsObject=>{
+    let code = wsObject.code;
+    let name = wsObject.name;
+    const mdLink = `./events/workshops/${name}/workshop.md`;
     console.log({mdLink: mdLink})
     const failMessage = `sorry, workshop with code:${code} was not found.`
 
@@ -34,14 +56,14 @@ workshopCodesArray.forEach(code=>{
                     { id: 'workshop-md-element'},
                     failMessage
                 )
-                workshopMdElArray.push(newDiv);
+                wsObject.mdEl = newDiv;
             }else {
                 let workshopElement = new mdElement(
                     newDiv,
                     { id: 'workshop-md-element'},
                     mdLink
                 );
-                 workshopMdElArray.push(newDiv);
+                 wsObject.mdEl = newDiv;
 
             }
         }).catch((error)=>{
@@ -53,14 +75,15 @@ workshopCodesArray.forEach(code=>{
                 { id: 'workout-md-element'},
                 failMessage       
             );
-            workshopMdElArray.push(newDiv);
+            wsObject.mdEl = newDiv;
 
         })
 })
+console.log('workshop mdsElements added')
 console.log(
-    {workshopMdElArray: workshopMdElArray}
+    {workshopCodesArray: workshopCodesArray}
 )
-let waitForQuery = '4200';
+let waitForQuery = '1000';
 setTimeout(() => {
   console.log(`setTimeout for ${waitForQuery}`);
   addQuery()
@@ -85,11 +108,11 @@ function addQuery(){
         for (let i = 0; i < workshopCodesArray.length; i++){
             console.log({forloop:i})
             console.log(workshopCodesArray[i])
-            if (workshopCodesArray[i] === query){
+            if (workshopCodesArray[i].code === query){
                 match = true;
                 console.log('match')
                 displayWorkshop.appendChild(
-                    workshopMdElArray[i]
+                    workshopCodesArray[i].mdEl
                 )
             }
         }
