@@ -60,11 +60,11 @@ workshopCodesArray.forEach(code=>{
 console.log(
     {workshopMdElArray: workshopMdElArray}
 )
-
+let waitForQuery = '4200';
 setTimeout(() => {
-  console.log("Delayed for 1 second.");
+  console.log(`setTimeout for ${waitForQuery}`);
   addQuery()
-}, "4000");
+}, waitForQuery);
 
 
 
