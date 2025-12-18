@@ -30,15 +30,15 @@ Visualize that the **board** is your **body**.
 <div style="display: flex">
 <div>
 <p>Bkick: flatspin</p>
-<img src='./shuvit.gif' alt='shuvit' width='150px'>
+<img src='./events/workshops/251218btwist/shuvit.gif' alt='shuvit' width='150px'>
 </div>
 <div>
 <p>Twist: Horizontal 360 Spin</p>
-<img src='./kickflip.gif' alt='kickflip' width='150px'>
+<img src='./events/workshops/251218btwist/kickflip.gif' alt='kickflip' width='150px'>
 </div>
 <div>
 <p>Btwist: flatspin + 360 Spin </p>
-<img src='./varial.gif' alt='varial' width='150px'>
+<img src='./events/workshops/251218btwist/varial.gif' alt='varial' width='150px'>
 </div>
 </div>
 
@@ -85,7 +85,7 @@ Most of our drills today aim to get your body to understand how to twist on the 
     1. 45 degree line jump  jumping 360
     1. spin step 45degree line jump
 ### Bkick and Btwist specifics
-<img src='./btwist.gif' alt='btwist' width='300px'>
+<img src='./events/workshops/251218btwist/btwist.gif' alt='btwist' width='300px'>
 
 #### U Dip
 

@@ -56,47 +56,55 @@ workshopCodesArray.forEach(code=>{
             workshopMdElArray.push(newDiv);
 
         })
-
 })
 console.log(
     {workshopMdElArray: workshopMdElArray}
 )
 
+setTimeout(() => {
+  console.log("Delayed for 1 second.");
+  addQuery()
+}, "4000");
 
-const inputWorkshopQuery = document.getElementById('workshop-query');
-const queryButton = document.getElementById('query-button');
-queryButton.addEventListener('click', ()=>{
-    const query = inputWorkshopQuery.value;
-    console.log({
-        query:query
-    })
-    clearElement(inputWorkshopQuery);
-    clearElement(displayWorkshop);
 
-    let match = false;
-    console.log({workshopCodesArraylength: workshopCodesArray.length})
-    for (let i = 0; i < workshopCodesArray.length; i++){
-        console.log({forloop:i})
-        console.log(workshopCodesArray[i])
-        if (workshopCodesArray[i] === query){
-            match = true;
-            console.log('match')
-            displayWorkshop.appendChild(
-                workshopMdElArray[i]
-            )
+
+
+function addQuery(){
+    const inputWorkshopQuery = document.getElementById('workshop-query');
+    const queryButton = document.getElementById('query-button');
+    queryButton.addEventListener('click', ()=>{
+        const query = inputWorkshopQuery.value;
+        console.log({
+            query:query
+        })
+        clearElement(inputWorkshopQuery);
+        clearElement(displayWorkshop);
+
+        let match = false;
+        console.log({workshopCodesArraylength: workshopCodesArray.length})
+        for (let i = 0; i < workshopCodesArray.length; i++){
+            console.log({forloop:i})
+            console.log(workshopCodesArray[i])
+            if (workshopCodesArray[i] === query){
+                match = true;
+                console.log('match')
+                displayWorkshop.appendChild(
+                    workshopMdElArray[i]
+                )
+            }
         }
+        if (match === false){
+            let failElement = new HtmlElement(
+                    'em',
+                    displayWorkshop,
+                    { id: 'workout-md-element'},
+                    `sorry, workshop with code: ${query} not found.`       
+                );
+        }
+        
+        
+    })
     }
-    if (match === false){
-        let failElement = new HtmlElement(
-                'em',
-                displayWorkshop,
-                { id: 'workout-md-element'},
-                `sorry, workshop with code: ${query} not found.`       
-            );
-    }
-    
-    
-})
 
 
 function clearElement(el){
