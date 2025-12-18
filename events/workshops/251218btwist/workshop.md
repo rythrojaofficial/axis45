@@ -17,14 +17,14 @@
     1. cross body arch up
     1. TightArch walk
 
-### line drills
+<!-- ### line drills
 1. butterfly kick
 1. open/close positions
 1. frontside/inside 360
 2. butterfly kaydem, bswitch
 1. spinstep
 1. line axis drill
-1. over block
+1. over block -->
 
 ## Understanding Flatspin and Twsting
 Visualize the **board** as your **body**.
@@ -60,9 +60,11 @@ Visualize the **board** as your **body**.
 
 **Twist**: spin like a rotisserie chicken
 
+A complete Twist without flatspin is closer to a btwist than a bkick without twist.
+
 Most complications while learning btwist boil down to falling out of a twisting shape.
 
-The majority of our drills aim to start with twisting on an axis that allows flatspin to continue, then reintroducing the flatspin
+The majority of our drills aim to start with twisting on an axis that allows flatspin to continue, then reintroducing the flatspin later
 
 ## Methods
 
@@ -73,6 +75,7 @@ The **Open Hip** position is a stable twisting shape suggested for beginners.  I
 - rotating leg must pull into rotation
 - arms must pull into rotation
 
+1. standing find position, hopping, squat to pull
 > #### Variants
 >
 > The **Eagle** or Raiz position is a commanding twisting shape appropriate for swingthroughs.  Essentially an open hip position with a straightened pulling leg.
@@ -81,23 +84,28 @@ The **Open Hip** position is a stable twisting shape suggested for beginners.  I
 
 
 #### Pop 360 method
+*from standing*
 1. hopping in the open hip position
 1. frontside360 in open hip position
+    1. frontside position is feet forward in direction of momentum
     1. pivot to face back the way you came
     1. or land on 2
     1. or land on the pulling leg
-1. inside (cartwheel positon) 360 in open hip position
-1. spin step inside360 in open hip position
+1. frontside lunging 360 in open hip position
+    1. butterfly plant leg should be forward
+1. vertical spin step inside360 in open hip position
     1. pivot to face back the way you came
     1. or land on 2
     1. or land on the pulling leg
-#### Pivot method
-1. vertical line drill + return to complete
-1. 45degree line drill + return to complete
-1. spin step 45degree line drill + return to complete
-1. vertical line jumping 360
-1. 45 degree line jump  jumping 360
-1. spin step 45degree line jump
+#### Lift + Pivot method
+*stay on a line, don't cross line*
+1. Pivot open
+    1. goal is 45degrees
+    1. try to complete pivot on floor to face the way you came
+1. Line Lift + Pivot open
+1. 90degree BLift + Pivot open
+1. vertical line jumping 360 in open position
+1. vertical spin step 90 degree Blift to line jumping 360 in open position
 ### Btwist specifics
 <div style="
   min-width: 300px;
