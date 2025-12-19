@@ -14,8 +14,8 @@
     1. lunge with rotation
 1. Floor
     1. kneeling back leg lift
-    1. cross body arch up
-    1. TightArch walk
+        1. same arm forward, opposite arm behind
+    1. TightArch floor twisting
 
 ### line drills
 *assessment purposes*
