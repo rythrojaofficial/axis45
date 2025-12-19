@@ -17,14 +17,21 @@
     1. cross body arch up
     1. TightArch walk
 
-<!-- ### line drills
-1. butterfly kick
-1. open/close positions
-1. frontside/inside 360
-2. butterfly kaydem, bswitch
-1. spinstep
-1. line axis drill
-1. over block -->
+### line drills
+*assessment purposes*
+looking to see that spinstep has fluid rhythm
+
+1. cartwheels
+1. spinstep cartwheel
+1. bkick
+1. spinstep bkick
+1. bkaydem
+1. spin step bkaydem
+<!-- 1. open/close positions -->
+1. frontside 360
+1. frontside lunging 360
+1. spin step frontside lunging 360
+
 
 ## Understanding Flatspin and Twsting
 Visualize the **board** as your **body**.
@@ -135,8 +142,8 @@ The **Open Hip** position is a stable twisting shape suggested for beginners.  I
 
 #### Arms
 1. Follow the timing of the U dip.  Sync up with legs.
-1. kicking leg arm: lift with kicking leg for height and twist initiation
-1. plant leg arm: reach around and to the hip for flatspin initiation and twist acceleartion
+1. plant leg arm: lift with kicking leg for height and twist initiation
+1. kicking leg arm: reach around with the kicking leg to the hip for flatspin initiation and twist acceleartion
 
 #### Twisting Shape
 1. Axis is from head through knee of the kicking leg 
@@ -161,7 +168,7 @@ The **Open Hip** position is a stable twisting shape suggested for beginners.  I
 1. the above, now jumping: the jump should be a continuation of the momentum + a push from the plant leg
 1. if this one is not integrated, you will have trouble btwisting.
 
-### Twisting rhythm
+<!-- ### Twisting rhythm
 ### Bkick
 1. try to maximize flatspin using Bkaydem ideas
 1. focus on feeling the rhythm of the "kick kick" pattern
@@ -170,19 +177,17 @@ The **Open Hip** position is a stable twisting shape suggested for beginners.  I
 1. focus on same arm as plant leg: elbow up behind you to initiate twist
 1. same rhythm as "kick kick": kick, open hip
 1. maintain straight tightarch position to stay on axis: avoid crunching in by "sitting up"
-1. pivot back to face the way you came
+1. pivot back to face the way you came -->
 
 ---
 ### Integration using Training Aids 
-1. block tunnel method
+<!-- 1. block tunnel method
     1. pay extra attention to:
         1. arms and kicking leg coming up together
-            1. 
-
         1. looking into your twist
         1. twisting up
         1. lifting your hip
-    1. open hip twisting position
+    1. open hip twisting position -->
 1. diagonal over the block method
     1. 2 hands down bkick over diagonal block
         1. focus on rhythm of the connected 2 kicks
@@ -195,7 +200,13 @@ The **Open Hip** position is a stable twisting shape suggested for beginners.  I
         1. second hand punches wide to opposite hip
         1. avoid sitting up, finish facing opposite the way you came
         1. do not cross the diagonal
-### Testing
-
-1. twisting butterfly kick up to mat (hands and knees)
-1. cartwheel twist
+### testing/drilling circuit
+#### milestones in each
+1. rolling to hands and knees facing the way you came
+2. landing hands and knees facing the way you came
+3. landing hands and feet
+4. landing on feet
+#### testing locations
+1. btwist up to wedge down
+1. standing or spinstep btwist up to blue mat (from floor)
+1. btwist flat to blue mat (from AT)
