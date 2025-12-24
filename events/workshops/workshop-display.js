@@ -1,7 +1,7 @@
 import { HtmlElement, mdElement, SelectElement, ButtonElement } from "../../scripts/htmlElement.js";
 import { readText } from "../../scripts/getText.js";
 import { upcomingWorkshops } from "./upcoming-workshops.js";
-import { sortableDateToKdsObject } from "../../scripts/parsedate.js";
+import { sortableDateToKdsObject, localDateToSortableDate } from "../../scripts/parsedate.js";
 
 const displayWorkshop = document.getElementById('display-workshop');
 displayUpcoming();
@@ -140,7 +140,21 @@ function displayUpcoming(){
         {},
         'Upcoming Workshops:'
     );
-    upcomingWorkshops.forEach(ws =>{
+    const todaySortable = localDateToSortableDate(new Date());
+    let upcoming = upcomingWorkshops.filter(ws => ws.date > todaySortable);
+    console.log({futureWorkshops: upcoming})
+    if (upcoming.length < 1){
+        console.log('no future workshops')
+        let initialWrapper = document.createElement('div');
+        let title = new HtmlElement('em',
+            initialWrapper,
+            {},
+            `None Planned, request a workshop in our contacts page!`
+        );
+         displayWorkshop.appendChild(initialWrapper)
+
+    }else{
+    upcoming.forEach(ws =>{
         let initialWrapper = document.createElement('div');
         let title = new HtmlElement('h2',
             initialWrapper,
@@ -172,6 +186,8 @@ function displayUpcoming(){
         }
         displayWorkshop.appendChild(initialWrapper)
     })
+    }
+    
     // console.log(upcomingWorkshops[0])
     // let text = upcomingWorkshops.name;
     // displayWorkshop.appendChild(initialWrapper)
