@@ -2,9 +2,14 @@ import { newNews } from "./newNews.js";
 import NewsCard from "./newsCard.js";
 import { noSesh } from "./update-news-stipulations.js";
 import { nextFoundationsDate } from "./update-news-stipulations.js";
-import { localDateToSortableDate } from "../scripts/parsedate.js";
+import { localDateToSortableDate, sortableDateToLocalDate } from "../scripts/parsedate.js";
 
-const utcdate = new Date();
+// if you want to change the date, for testing vvvv
+const utcdate = new Date(); // real date
+//        ==vvv fake date vvv==
+// const fakeDate = 251225;
+// const utcdate = new Date(sortableDateToLocalDate(fakeDate));
+// ================================================
 const sortableToday = localDateToSortableDate(utcdate);
 
 export const today = {
