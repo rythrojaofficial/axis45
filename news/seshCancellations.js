@@ -13,7 +13,7 @@ export const noSeshDates = [
   },
   {
     dateCancelled: [251224, 251225], // sortable dates in number form
-    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    dateExpires: 251226, // sortable date or '' if tomorrow (1 day cancellation)
     messages: ["Merry Christmas! No Classes 12/24-12/25! 🎅🎄🦌⛄",
       "12/26 Friday Open expected to be as normal",
       "But check the discord just in case :)"    
