@@ -206,12 +206,13 @@ export function populateTodaysSessions() {
     Saturday: [noSessionMessage],
     Sunday: ["guidedFlexibility", "openFlipping"],
   };
-  let todaysDay = new Date().toLocaleDateString("en-US", { weekday: "long" });
+  // let todaysDay = new Date().toLocaleDateString("en-US", { weekday: "long" });
+  let todaysDay = today.weekday;
   let tomorrowsDate = new Date();
-  tomorrowsDate.setDate(tomorrowsDate.getDate() + 1);
-  let tomorrowsDay = tomorrowsDate.toLocaleDateString("en-US", {
-    weekday: "long",
-  });
+  // tomorrowsDate.setDate(tomorrowsDate.getDate() + 1);
+  // let tomorrowsDay = tomorrowsDate.toLocaleDateString("en-US", {
+  //   weekday: "long",
+  // });
   let targetElement = document.getElementById("todays-offerings");
   let div = new HtmlElement("div", targetElement, { id: "offerings" });
   let ul = new HtmlElement("ul", div.element, {});
