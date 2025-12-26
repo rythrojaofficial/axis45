@@ -49,10 +49,11 @@ export { thisWednesdaySesh }
 export function nextFoundationsDate() {
   // let nextFoundations;
   let manualFoundations = {
-    date: "",
+    date: "1/8",
     // message will show ONLY if there is a date
     message:
-       "due to early February snow and icy roads.  February will be a 3-week session, priced proportionately."
+      "due to 1/1 being New Year's day.",
+      //  "due to early February snow and icy roads.  February will be a 3-week session, priced proportionately."
       // "December will have workshops rather than foundations due to the holidays :)",
   };
 
