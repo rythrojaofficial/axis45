@@ -38,8 +38,7 @@ export function populateNews() {
   newNews.forEach((newsData) => {
     if (newsData.expires !== false){
       // if an expiry date exists
-      let sortableDate = localDateToSortableDate(utcdate);
-      if (sortableDate >= newsData.expires){
+      if (today.sortable >= newsData.expires){
         newsData.active = false;
       }
     }
