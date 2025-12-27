@@ -2,6 +2,7 @@ import { HtmlElement, mdElement, SelectElement, ButtonElement } from "../../scri
 import { readText } from "../../scripts/getText.js";
 import { upcomingWorkshops } from "./upcoming-workshops.js";
 import { sortableDateToKdsObject, localDateToSortableDate } from "../../scripts/parsedate.js";
+import { today } from "../../news/today.js";
 
 const displayWorkshop = document.getElementById('display-workshop');
 displayUpcoming();
@@ -140,8 +141,7 @@ function displayUpcoming(){
         {},
         'Upcoming Workshops:'
     );
-    const todaySortable = localDateToSortableDate(new Date());
-    let upcoming = upcomingWorkshops.filter(ws => ws.date > todaySortable);
+    let upcoming = upcomingWorkshops.filter(ws => ws.date > today.sortable);
     console.log({futureWorkshops: upcoming})
     if (upcoming.length < 1){
         console.log('no future workshops')

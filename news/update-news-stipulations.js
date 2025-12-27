@@ -1,18 +1,19 @@
 import calculateNextFoundations from "./calculateNextFoundation.js";
 import { checkWednesdaySheet } from "./checkWednesdaySheet.js";
 import { noSeshDates } from "./seshCancellations.js";
-import { today } from "./updateNews.js";
+import { today } from "./today.js";
 
 // import { getCSVdata } from "../google-sheets-logic/read-public-csv.js";
 // If today's session is canceled or otherwise changed
 
 
-// test change date on updateNews.js
+// test change date on today.js
 
 export let noSesh = {
   cancelled: false, // changed by ./seshCancellations.js
   messages: [], // changed by ./seshCancellations.js
 };
+console.log(today.sortable)
 if(noSeshDates.length > 0){
     // console.log('checking cancellations: ')
   noSeshDates.forEach(cancellation =>{

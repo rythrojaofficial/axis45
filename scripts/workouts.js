@@ -1,5 +1,7 @@
 import { HtmlElement, mdElement, SelectElement, ButtonElement } from "./htmlElement.js";
 import { readText } from "./getText.js";
+import { today } from "../news/today.js";
+
 let monthsArray = [
     '01january',
     '02february',
@@ -18,9 +20,11 @@ const selectHead = document.getElementById('display-workout-selection');
 const nextHead = document.getElementById('workouts-next-previous');
 const nextHeadLower = document.getElementById('workouts-next-previous-lower');
 const head = document.getElementById('display-workout');
-const date = new Date();
-const currentYear = date.getFullYear();
-let monthIndex = date.getMonth();
+
+// const date = new Date();
+console.log(today)
+const currentYear = today.yy;
+let monthIndex = today.mmZeroIndexed;
 
 // let yearsArray = [];
 let thisYear = currentYear;

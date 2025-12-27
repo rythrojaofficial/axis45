@@ -3,25 +3,12 @@ import NewsCard from "./newsCard.js";
 import { noSesh } from "./update-news-stipulations.js";
 import { nextFoundationsDate } from "./update-news-stipulations.js";
 import { localDateToSortableDate, sortableDateToLocalDate } from "../scripts/parsedate.js";
+import { today } from "./today.js";
 
-// if you want to change the date, for testing vvvv
-const utcdate = new Date(); // real date
-//        ==vvv fake date vvv==
-// const fakeDate = 251225;
-// const utcdate = new Date(sortableDateToLocalDate(fakeDate));
-// // ================================================
-const sortableToday = localDateToSortableDate(utcdate);
 
-export const today = {
-  weekday: utcdate.toLocaleDateString("en-US", { weekday: "long" }),
-  dd: utcdate.getDate(),
-  mm: utcdate.getMonth() + 1,
-  yy: utcdate.getFullYear(),
-  sortable: sortableToday
-};
 
 // ===vvvvv==Foundations==vvvvv=========
-
+// Can now be found in updateNewsStipulations
 // ====^^^^===============^^^^==========
 export function populateNews() {
   switch (noSesh.cancelled) {

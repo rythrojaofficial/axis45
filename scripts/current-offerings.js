@@ -1,6 +1,6 @@
 import { HtmlElement, mdElement, BreakElement } from "./htmlElement.js";
 import { thisWednesdaySesh } from "../news/update-news-stipulations.js";
-import { today } from "../news/updateNews.js";
+import { today } from "../news/today.js";
 
 class Offering {
   constructor(
