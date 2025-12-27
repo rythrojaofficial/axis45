@@ -1,9 +1,22 @@
-import { localDateToSortableDate } from "../scripts/parsedate.js";
+import { localDateToSortableDate, sortableDateToLocalDate } from "../scripts/parsedate.js";
+
+
 // if you want to change the date, for testing vvvv
-const utcdate = new Date(); // real date
 //        ==vvv fake date vvv==
-// const fakeDate = 251225;
-// const utcdate = new Date(sortableDateToLocalDate(fakeDate));
+const testDate = {
+  active:false,
+  date: 251225
+}
+let utcdate = '';
+
+switch(testDate.active){
+  case true: utcdate = sortableDateToLocalDate(testDate.date);
+    break;
+  case false: utcdate = new Date();
+    break;
+  default: console.log('error, check today.js');
+  break;
+}
 // // ================================================
 
 // replaced below with automatic
