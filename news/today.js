@@ -4,8 +4,8 @@ import { localDateToSortableDate, sortableDateToLocalDate } from "../scripts/par
 // if you want to change the date, for testing vvvv
 //        ==vvv fake date vvv==
 const testDate = {
-  active:false,
-  date: 251225
+  active: false,
+  date: 260101
 }
 let utcdate = '';
 
