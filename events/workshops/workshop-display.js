@@ -35,6 +35,10 @@ let workshopCodesArray = [
         code:'5decbt',
         mdEl:''
     },
+    {
+        name:'251230tuesday-exercise',
+        code:'5dec30ex'
+    }
 ]
 
 console.log({workshopCodesArray:workshopCodesArray})
