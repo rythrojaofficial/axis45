@@ -35,13 +35,13 @@
 1. Lateral hop + stick
 1. banded sprint and pull
 
-### Power/Ballistic? circuit
+### Power/Ballistic? circuit 15s bursts
 1. block push
-1. AT 2bounce stick OR bounce to HS OR 2bounce to dive roll 
+1. RFE hop: fast, high
 1. bag kick
 1. 8-10lb twist
 1. landmine jerk
-1. band assisted bounces
+1. band assisted bounces SL?
 1. 10 - 50lb "kettlebell" swing
 
 ### Bilateral Strength 
