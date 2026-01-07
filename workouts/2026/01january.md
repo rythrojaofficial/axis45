@@ -29,26 +29,23 @@
     1. swipe
 
 ## Workout
-### bouncy Warm up
-
+### Warm up
+1. pogos DL/R/L
+1. jump jump stick DL/R/L
+1. Lateral hop + stick
+1. banded sprint and pull
 
 ### Power/Ballistic? circuit
 1. block push
-1. bounce to HS OR AT Plyo bounce
+1. AT 2bounce stick OR bounce to HS OR 2bounce to dive roll 
 1. bag kick
 1. 8-10lb twist
 1. landmine jerk
 1. band assisted bounces
 1. 10 - 50lb "kettlebell" swing
 
-
-
 ### Bilateral Strength 
 1. 8r RDL
-### Unilateral power
-1. RFE Squat
-
-
 
 ### 10s Straight Arm Strength
 1. 10s FL iso 
@@ -57,16 +54,16 @@
 1. 10s Pike Press Lean OR Planche Lean
 1. 10s Plate Shoulder Flexion
 
-
-
 ### Core
 1. Reverse Dragon flag with Arms:
     1. up down
     1. Aerial
     1. frontflip
+
+### Accessory
+1. Slow dragon squat OR pistol
 1. compression 
     1. 10s straddle L hold on bench 
 
-
-Hip thrust
-side bends
+<!-- Hip thrust
+side bends -->
