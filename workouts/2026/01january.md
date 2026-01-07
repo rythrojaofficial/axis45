@@ -6,10 +6,11 @@
 
 1. cervical roll
 1. U nod
-1. small shoulder rotation fwd/bkwd
+1. twist + reach
+<!-- 1. small shoulder rotation fwd/bkwd -->
 1. butterfly arms, with rotation
 1. side reach + scoop
-1. twist + reach
+
 1. 45d rainbow
 
 
@@ -33,15 +34,16 @@
 1. pogos DL/R/L
 1. jump jump stick DL/R/L
 1. Lateral hop + stick
-1. banded sprint and pull
+<!-- 1. banded sprint and pull -->
+1. backward start sprint
 
-### Power/Ballistic? circuit 15s bursts
-1. block push
+### Ballistic Circuit 15s bursts
+1. block push 
 1. RFE hop: fast, high
 1. bag kick
 1. 8-10lb twist
 1. landmine jerk
-1. band assisted bounces SL?
+1. band assisted bounces SL
 1. 10 - 50lb "kettlebell" swing
 
 ### Bilateral Strength 
