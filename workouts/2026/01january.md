@@ -7,11 +7,10 @@
 1. cervical roll
 1. U nod
 1. twist + reach
-<!-- 1. small shoulder rotation fwd/bkwd -->
-1. butterfly arms, with rotation
+4. butterfly arms, with rotation
 1. side reach + scoop
-
 1. 45d rainbow
+<!-- 1. small shoulder rotation fwd/bkwd -->
 
 
 ### Lower
@@ -21,21 +20,22 @@
 1. sumo to horse
 1. 3pt lunge T SLDL
 1. s2s squat pulse
-<!-- 1. squat flying knee -->
-1. Leg swing
+7. Leg swing
     1. f/b, s/b, s/s
 1. seal leg lift
 1. supine twisting
     1. tightarch figure 4
     1. swipe
+<!-- 1. squat flying knee -->
 
 ## Workout
 ### Warm up
 1. pogos DL/R/L
 1. jump jump stick DL/R/L
 1. Lateral jump jump stick
+4. backward start sprint
 <!-- 1. banded sprint and pull -->
-1. backward start sprint
+
 
 ### Ballistic Circuit 15s bursts
 1. block push 
