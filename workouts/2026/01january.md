@@ -20,7 +20,7 @@
 1. sumo to horse
 1. 3pt lunge T SLDL
 1. s2s squat pulse
-1. squat flying knee
+<!-- 1. squat flying knee -->
 1. Leg swing
     1. f/b, s/b, s/s
 1. seal leg lift
@@ -63,7 +63,8 @@
 ### Accessory
 1. Slow dragon squat OR pistol
 1. compression 
-    1. 10s straddle L hold on bench 
+    1. straddle L hold on bench 
+1. straddle back ext
 
 <!-- Hip thrust
 side bends -->
