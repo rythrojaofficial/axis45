@@ -33,7 +33,7 @@
 ### Warm up
 1. pogos DL/R/L
 1. jump jump stick DL/R/L
-1. Lateral hop + stick
+1. Lateral jump jump stick
 <!-- 1. banded sprint and pull -->
 1. backward start sprint
 
@@ -50,23 +50,27 @@
 1. 3x8r RDL
 
 ### 10s Straight Arm Strength
-1. 3x10s FL iso 
-1. 10+10s Incline bench Shoulder Ext
-
-1. 10s Pike Press Lean OR Planche Lean
-1. 10s Plate Shoulder Flexion
+1. front lever
+    1. 3x10s FL iso 
+    1. 10+10s Incline bench Shoulder Ext
+1. planche
+    1. 10s Pike Press Lean OR Planche Lean
+    1. 20s Plate Shoulder Flexion iso
 
 ### Core
-1. Reverse Dragon flag with Arms: 20s ea
+1. Reverse Dragon flag with Arms: 20r
     1. up down
     1. Aerial
     1. frontflip
+1. back ext with arms 20r 
+    1. up
+    1. Aerial
+    1. russian
 
 ### Accessory
-1. Slow dragon squat OR pistol
-1. compression 
-    1. straddle L hold on bench 
-1. straddle back ext
+1. 5r slow dragon squat OR pistol(10-1-2-1 )
+1. 2x10s Straddle L
+
 
 <!-- Hip thrust
 side bends -->
