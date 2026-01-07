@@ -45,17 +45,17 @@
 1. 10 - 50lb "kettlebell" swing
 
 ### Bilateral Strength 
-1. 8r RDL
+1. 3x8r RDL
 
 ### 10s Straight Arm Strength
-1. 10s FL iso 
+1. 3x10s FL iso 
 1. 10+10s Incline bench Shoulder Ext
 
 1. 10s Pike Press Lean OR Planche Lean
 1. 10s Plate Shoulder Flexion
 
 ### Core
-1. Reverse Dragon flag with Arms:
+1. Reverse Dragon flag with Arms: 20s ea
     1. up down
     1. Aerial
     1. frontflip
