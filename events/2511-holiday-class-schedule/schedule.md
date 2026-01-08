@@ -10,7 +10,7 @@
     - *Friday Open Tricking Session as normal*
 5. **week 4**: 12/4 -->
 
-## December Workshops:
+<!-- ## December Workshops:
 Due to the November overflow and holiday season, **there will be no tricking foundations** in December.  However there will be workshops!
 1. 12/11 Beginner Friendly Open Tricking
     1.  *Some Foundations Experience Recommended*\*
@@ -20,7 +20,7 @@ Due to the November overflow and holiday season, **there will be no tricking fou
     1. pre-requisites*: [butterfly kick](https://www.youtube.com/shorts/dC_TFsbg0Uo), jumping 360 spin
     1. Member pricing: $22.50
     2. Non-Member pricing: $30
-3. ~~12/25~~ cxled for Christmas!
+3. ~~12/25~~ cxled for Christmas! -->
 
 ## January Foundations:
 With 5 weeks in January, we can catch up despite the first thursday falling on New Years

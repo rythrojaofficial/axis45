@@ -19,21 +19,12 @@ export let newNews = [
     md: "",
     link: "",
   },
-  {
-    lastActivated: "251008",
-    active: true,
-    expires: 260130,
-    title: "Thursday Schedule through Jan! ",
-    lines: ["Holiday Closures, Workshops, etc!"],
-    md: "./events/2511-holiday-class-schedule/schedule.md",
-    link: "",
-  },
     {
-    lastActivated: "2510024",
+    lastActivated: "260108",
     active: true,
-    expires: 251203,
-    title: "Friday sesh starting at 7:30pm",
-    lines: ["From 10/31 til next summer :)","Mondays remain 7-9pm!"],
+    expires: false,
+    title: "Upcoming Backfip-A-Thon Fundraiser",
+    lines: ["Details coming soon :)"],
     md: "",
     link: "",
   },
@@ -70,6 +61,24 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+    {
+    lastActivated: "251008",
+    active: false,
+    expires: 260130,
+    title: "Thursday Schedule through Jan! ",
+    lines: ["Holiday Closures, Workshops, etc!"],
+    md: "./events/2511-holiday-class-schedule/schedule.md",
+    link: "",
+  },
+    {
+    lastActivated: "2510024",
+    active: true,
+    expires: 251203,
+    title: "Friday sesh starting at 7:30pm",
+    lines: ["From 10/31 til next summer :)","Mondays remain 7-9pm!"],
+    md: "",
+    link: "",
+  },
         {
     lastActivated: "251107",
     active: true,
