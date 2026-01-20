@@ -7,11 +7,14 @@
 #share-this-page-link{
     background-color: rgb(18, 33, 28);
     color:rgb(52, 98, 83);
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: .25rem;
     font-size: .8rem;
     overflow-x: scroll;
     padding: 1rem;
     border-radius: 1rem;
+    width: 100%;
+    /* width: 500px; */
 
 }
 #pledge-form-container{
@@ -22,11 +25,18 @@
 
 }
 
+#copy-text-button{
+  width: 100%;
+  background-color: rgb(185, 226, 141);
+  border-radius: .5rem;;
+  padding: .25rem
+}
 @media (max-width: 600px) {
   #share-this-page-container{
-    width: 100%
+    width: 100%;
   }
   #pledge-form-container{
-    width: 100%
+    width: 100%;
   }
+
 }
