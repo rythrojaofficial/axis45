@@ -1,4 +1,4 @@
-## Axis 45's Backflip-a-Thon
+## Axis 45's Backflip-a-Thon Fundraiser
 
 Seattle Tricking's Axis 45 is hosting a Backflip-a-Thon to raise funds for upcoming lease negotiations! You can support our goal by pledging a certain dollar amount per backflip from the group OR per backflip from a specific member.
 
