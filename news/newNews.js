@@ -22,11 +22,11 @@ export let newNews = [
     {
     lastActivated: "260108",
     active: true,
-    expires: false,
+    expires: 260210,
     title: "Upcoming Backfip-A-Thon Fundraiser",
     lines: ["Details coming soon :)"],
-    md: "",
-    link: "",
+    md: "./events/260131/backflip-a-thon.md",
+    link: "./",
   },
     // 5th thursday cancellation
   {
