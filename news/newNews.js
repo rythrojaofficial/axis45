@@ -25,7 +25,7 @@ export let newNews = [
     expires: 260210,
     title: "Upcoming Backfip-A-Thon Fundraiser",
     lines: ["Saturday 1.31, 7pm!", "Details below!"],
-    md: "./events/260131/backflip-a-thon.md",
+    md: "",
     link: "./events/260131/backflip-a-thon.html",
   },
     // 5th thursday cancellation
