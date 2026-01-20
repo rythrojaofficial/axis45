@@ -14,9 +14,19 @@
     border-radius: 1rem;
 
 }
+#pledge-form-container{
+    background: url("../../assets/images/upfeathers.png") repeat;
+    padding: 1rem;
+    border-radius:1rem;
+    width: 500px;
+
+}
 
 @media (max-width: 600px) {
   #share-this-page-container{
+    width: 100%
+  }
+  #pledge-form-container{
     width: 100%
   }
 }

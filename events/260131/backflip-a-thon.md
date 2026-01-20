@@ -2,6 +2,7 @@
 
 Seattle Tricking's Axis 45 is hosting a Backflip-a-Thon to raise funds for upcoming lease negotiations! You can support our goal by pledging a certain dollar amount per backflip from the group OR per backflip from a specific member.
 
+
 ### Quest to 1,000 Backflips
 
 - Axis members will be **collecting pledges** for a certain dollar amount **per flip performed** 
@@ -13,7 +14,9 @@ Seattle Tricking's Axis 45 is hosting a Backflip-a-Thon to raise funds for upcom
 - Most members will be aiming to complete between 50-100 flips within the time frame.
 
 ## Pledge Form
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_qXkkSwYQlwogNerA0-LeoGhFCJlht__UtQnNOjFS4gSF1Q/viewform?embedded=true" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div id="pledge-form-container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_qXkkSwYQlwogNerA0-LeoGhFCJlht__UtQnNOjFS4gSF1Q/viewform?embedded=true" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
 
 ### Key Details for Flippers:
 - 📅 **Start Time**: Saturday, January 31st @ 7pm 
