@@ -1,0 +1,22 @@
+#share-this-page-container{
+    background: url("../../assets/images/upfeathers.png") repeat;
+    padding: 1rem;
+    border-radius:1rem;
+    width: 500px;
+}
+#share-this-page-link{
+    background-color: rgb(18, 33, 28);
+    color:rgb(52, 98, 83);
+    margin: 1rem;
+    font-size: .8rem;
+    overflow-x: scroll;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+@media (max-width: 600px) {
+  #share-this-page-container{
+    width: 100%
+  }
+}

@@ -24,7 +24,7 @@ export let newNews = [
     active: true,
     expires: 260210,
     title: "Upcoming Backfip-A-Thon Fundraiser",
-    lines: ["Details coming soon :)"],
+    lines: ["Saturday 1.31, 7pm!", "Details below!"],
     md: "./events/260131/backflip-a-thon.md",
     link: "./events/260131/backflip-a-thon.html",
   },
