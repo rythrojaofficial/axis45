@@ -8,8 +8,10 @@ let copyButton = document.getElementById('copy-text-button');
 copyButton.addEventListener('click', ()=>{
     pageText.select();
     pageText.setSelectionRange(0,99999); // for mobile
-    navigator.clipboard.writeText(copyText.value);
+    navigator.clipboard.writeText(pageText.value);
 
-    alert(`text copied`)
+
+    window.alert("text copied")
+    
 })
 
