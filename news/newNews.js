@@ -26,7 +26,7 @@ export let newNews = [
     title: "Upcoming Backfip-A-Thon Fundraiser",
     lines: ["Details coming soon :)"],
     md: "./events/260131/backflip-a-thon.md",
-    link: "./",
+    link: "./events/260131/backflip-a-thon.html",
   },
     // 5th thursday cancellation
   {
