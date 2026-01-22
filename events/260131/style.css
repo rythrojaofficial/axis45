@@ -31,11 +31,23 @@
   border-radius: .5rem;;
   padding: .25rem
 }
+.gif-container > img{
+  width: 100%;
+  height: auto;
+  border-radius: 3rem;
+
+}
+.gif-container{
+  width: 350px;
+}
 @media (max-width: 600px) {
   #share-this-page-container{
     width: 100%;
   }
   #pledge-form-container{
+    width: 100%;
+  }
+  .gif-container{
     width: 100%;
   }
 

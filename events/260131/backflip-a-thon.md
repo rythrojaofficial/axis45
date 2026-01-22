@@ -13,6 +13,10 @@ Seattle Tricking's Axis 45 is hosting a Backflip-a-Thon to raise funds for upcom
 
 - Most members will be aiming to complete between 50-100 flips within the time frame.
 
+<div class="gif-container">
+    <img src="./images/backflips.gif" alt="Axis flippers flipping" />
+</div>
+
 ## Pledge Form
 <div id="pledge-form-container">
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_qXkkSwYQlwogNerA0-LeoGhFCJlht__UtQnNOjFS4gSF1Q/viewform?embedded=true" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
@@ -33,3 +37,7 @@ Our time in our current space is almost up and we are in the thick of a lease re
 Our evil landlords decided that this would be their best opportunity to make a buck and have somehow materialized $8k+ worth of fees out of thin air after increasing our monthly rent by $500/month without warning.
 
 Axis 45 is a sacred space, a home away from home. The funds from our backflip-a-thon will either help get us through the renegotiation or allow us to relocate. Please help us to continue serving the community we've built.
+
+<div class="gif-container">
+<img src="./images/nag.gif" alt="Axis during NAG2" />
+</div>
