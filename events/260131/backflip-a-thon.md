@@ -5,7 +5,7 @@ Seattle Tricking's Axis 45 is hosting a Backflip-a-Thon to raise funds for upcom
 
 ### Quest to 1,000 Backflips
 
-- Axis members will be **collecting pledges** for a certain dollar amount **per flip performed** 
+- Axis members will be **collecting pledges** for a certain dollar amount **per flip performed** by
     - either group total, or personal total, or both
     - through the form below
 
