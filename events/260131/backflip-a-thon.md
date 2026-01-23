@@ -1,7 +1,10 @@
 ## Axis 45's Backflip-a-Thon Fundraiser
 
-Seattle Tricking's Axis 45 is hosting a Backflip-a-Thon to raise funds for upcoming lease negotiations! You can support our goal by pledging a certain dollar amount per backflip from the group OR per backflip from a specific member.
+Seattle Tricking's Axis 45 is hosting a Backflip-a-Thon to raise funds for upcoming lease negotiations.
 
+Our evil landlords have materialized 8k worth of fees bogus fees and are putting pressure on us to accept unfavorable lease terms if we can't pay a good portion of that immediately.
+
+You can support our goal by pledging a certain dollar amount per backflip from the group OR per backflip from a specific member.
 
 ### Quest to 1,000 Backflips
 
@@ -32,9 +35,9 @@ Seattle Tricking's Axis 45 is hosting a Backflip-a-Thon to raise funds for upcom
 
 
 ### Why a Fundraiser?
-Our time in our current space is almost up and we are in the thick of a lease renegotiation.
+Our time in our current space is almost up and we are in the thick of a heated lease renegotiation.
 
-Our evil landlords decided that this would be their best opportunity to make a buck and have somehow materialized $8k+ worth of fees out of thin air after increasing our monthly rent by $500/month without warning.
+Our evil landlords decided that this would be their best opportunity to make a buck and have somehow materialized $8k+ worth of fees out of thin air after increasing our monthly rent by $500/month without warning.  They hope to make us accept worse terms for the lease extension if we can't pay a decent portion even if we're disputing their claims to that amount.
 
 Axis 45 is a sacred space, a home away from home. The funds from our backflip-a-thon will either help get us through the renegotiation or allow us to relocate. Please help us to continue serving the community we've built.
 
