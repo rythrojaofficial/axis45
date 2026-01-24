@@ -26,11 +26,11 @@ You can support our goal by pledging a certain dollar amount per backflip from t
 </div>
 
 ### Key Details for Flippers:
-- 📅 **Start Time**: Saturday, January 31st @ 7pm 
-    - You will be assigned a 20m time slot.
-    - Please arrive early to warm up and/or cheer on your friends
-    - **Make-ups**: If for whatever reason you can't make the normal time, please confirm a time with Krissy or Jared (preferably prior)
-- 📍 **Where**: Axis 45
+- 📅 **Start Time**: Saturday, January 31st 7-10pm 
+    - <div class='text-links'><a href="https://docs.google.com/spreadsheets/d/1LPViCwMbumElYDD-bzB8jNZBv6Fh3tOnuQZam_Vj_gs/edit?usp=sharing">Reserve your 20m slot here</a></div>
+    - Please arrive at least 10m early to warm up and/or cheer on your friends
+    - **Make-ups**: If for whatever reason you can't make the normal time, please confirm a 20m make-up time with Krissy or Jared (preferably prior) or request a specific time on <span class='text-links'><a href='https://www.seattletricking.com/contact'>our contact page</a></span>
+- 📍 **Where**: Axis 45.  Here's our <span class='text-links'><a href='https://www.seattletricking.com/faq'> for finding us, parking, and our waiver if you're coming for the first time
 
 
 
