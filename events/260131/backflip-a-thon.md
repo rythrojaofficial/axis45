@@ -1,10 +1,12 @@
 ## Axis 45's Backflip-a-Thon Fundraiser
 
-Seattle Tricking's Axis 45 is hosting a Backflip-a-Thon to raise funds for upcoming lease negotiations.
+Seattle Tricking's Axis 45 is hosting a Backflip-a-Thon on Saturday, Jan 31 to raise funds for our pending lease re-negotiation.
 
-Our evil landlords have materialized 8k worth of fees bogus fees and are putting pressure on us to accept unfavorable lease terms if we can't pay a good portion of that immediately.
+Our evil landlords have materialized 8k worth of  bogus fees and are putting pressure on us to accept unfavorable lease terms if we can't pay a good portion of that immediately.
 
 You can support our goal by pledging a certain dollar amount per backflip from the group OR per backflip from a specific member.
+
+If this gym and this community means something to you, we're asking you assist us in our quest to 1000 backflips!
 
 ### Quest to 1,000 Backflips
 
@@ -30,7 +32,7 @@ You can support our goal by pledging a certain dollar amount per backflip from t
     - <div class='text-links'><a href="https://docs.google.com/spreadsheets/d/1LPViCwMbumElYDD-bzB8jNZBv6Fh3tOnuQZam_Vj_gs/edit?usp=sharing">Reserve your 20m slot here</a></div>
     - Please arrive at least 10m early to warm up and/or cheer on your friends
     - **Make-ups**: If for whatever reason you can't make the normal time, please confirm a 20m make-up time with Krissy or Jared (preferably prior) or request a specific time on <span class='text-links'><a href='https://www.seattletricking.com/contact'>our contact page</a></span>
-- 📍 **Where**: Axis 45.  Here's our <span class='text-links'><a href='https://www.seattletricking.com/faq'> for finding us, parking, and our waiver if you're coming for the first time
+- 📍 **Where**: Axis 45.  Here's our <span class='text-links'><a href='https://www.seattletricking.com/faq'>faq</a> for finding us, parking, and our waiver if you're coming for the first time</div>
 
 
 
