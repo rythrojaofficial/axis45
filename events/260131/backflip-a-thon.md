@@ -34,6 +34,12 @@ If this gym and this community means something to you, we're asking you assist u
     - **Make-ups**: If for whatever reason you can't make the normal time, please confirm a 20m make-up time with Krissy or Jared (preferably prior) or request a specific time on <span class='text-links'><a href='https://www.seattletricking.com/contact'>our contact page</a></span>
 - 📍 **Where**: Axis 45.  Here's our <span class='text-links'><a href='https://www.seattletricking.com/faq'>faq</a> for finding us, parking, and our waiver if you're coming for the first time</div>
 
+### Livestream
+If you wanted to watch your sponsored athlete, our Backflip-a-Thon livestream is set to start at 7:00pm PST here: https://www.twitch.tv/seattletricking/schedule
+
+Please reach out to your sponsored flipper regarding their chosen start time.
+
+Twitch does not require an account to view our event, but if you wanted to interact with comments, you will need to make an account (phone number OR email and a unique username).
 
 
 ### Why a Fundraiser?

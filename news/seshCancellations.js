@@ -8,6 +8,13 @@ export const noSeshDates = [
       "But check the discord just in case :)"    
     ]
   },
+      {
+    dateCancelled: [260131], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Axis 45's Backflip-a-Thon Fundraiser!",
+      'The GRAND Quest to 1000 Backflips'
+    ]
+  },
 
 ]
 
