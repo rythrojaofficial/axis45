@@ -10,7 +10,7 @@
 
 ### lower
 1. standing egg beater
-1. tib/toe raise
+1. tib raise/toe raise
 1. 3 way standing pike R/L
 1. prone squat
     1. f/b, in/out circles, glute down side, scoot
@@ -25,8 +25,10 @@
 ## Exercise
 ### running drills
 1. power skip for height/distance
-1. high knees
-2. scissors
+1. A skip forward, sideways
+1. C skip
+1. lateral shuffle
+1. low lateral shuffle
 1. alternating bounding
 1. shuffle shuffle sprint
 
@@ -43,9 +45,6 @@
     1. 10s Pike Press Lean OR Planche Lean
     1. 20s Plate Shoulder Flexion iso
 
-### core
-1. reverse dragon flags weighted
-
 ### bloodflow circuit
 1. SL Wall hamstring
 1. straight leg tib raise on wall
@@ -56,7 +55,10 @@
 1. reverse hyperextensions
 1. pigeon lift
 1. weighted side bends
-<!-- 1. quad ex -->
+
+### core
+1. reverse dragon flags weighted
+1. windshield wiper flags
 
 ### Accessory
 1. heels up skater balance
