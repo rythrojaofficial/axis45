@@ -19,6 +19,18 @@ export let newNews = [
     md: "",
     link: "",
   },
+  {
+    lastActivated: "260203",
+    active: true,
+    expires: 260209,
+    title: "Free Injury Screening Night(s)!",
+    lines: [
+      "Free with Open Session drop-in OR membership tally ",
+      "Sunday Feb 08",
+    ],
+    md: "./events/empower/injury-screening.md",
+    link: "",
+  },
     {
     lastActivated: "260108",
     active: true,

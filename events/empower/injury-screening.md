@@ -1,7 +1,8 @@
 ### Next Available Screening Nights:
 
 <!-- - Friday, 7.25: 7:30pm -->
-- 5pm Sunday 11.16
+<!-- - 5pm Sunday 11.16 -->
+Sunday, 2.08: 5:00pm
 
 Dr. Gina is back for Free Injury Screening Night at Axis 45! She is a Physical Therapist and Owner of [Empower Manual Therapy](https://empower-mt.com/) in Shoreline. Her specializations include the following and much more:
 
