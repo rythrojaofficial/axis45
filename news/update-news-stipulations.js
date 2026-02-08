@@ -50,7 +50,7 @@ export { thisWednesdaySesh }
 export function nextFoundationsDate() {
   // let nextFoundations;
   let manualFoundations = {
-    date: "1/8",
+    date: "",
     // message will show ONLY if there is a date
     message:
       "due to 1/1 being New Year's day.",

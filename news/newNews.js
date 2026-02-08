@@ -19,6 +19,18 @@ export let newNews = [
     md: "",
     link: "",
   },
+    {
+    lastActivated: "260207",
+    active: true,
+    expires: 260208,
+    title: "2/8 Superbowl Sunday Schedule!",
+    lines: ["1. Guided Flexibility at 1pm (rather than 3pm)",
+      "2. Around 3pm, we may go upstairs to MVP to catch some of the Superbowl",
+      "3. We will be back by 5pm for normal Open Flipping + Free Injury Screen night with Empower Manual Therapy"
+    ],
+    md: "",
+    link: "",
+  },
   {
     lastActivated: "260203",
     active: true,
@@ -31,16 +43,7 @@ export let newNews = [
     md: "./events/empower/injury-screening.md",
     link: "",
   },
-    {
-    lastActivated: "260108",
-    active: true,
-    expires: 260210,
-    title: "Upcoming Backfip-A-Thon Fundraiser",
-    lines: ["Saturday 1.31, 7pm!", "Click here for pledge form and details!"],
-    md: "",
-    link: "./events/260131/backflip-a-thon.html",
-  },
-    // 5th thursday cancellation
+  // 5th thursday cancellation
   {
     lastActivated: "250720",
     active: true,
@@ -53,6 +56,21 @@ export let newNews = [
     ],
     md: "",
     link: "",
+  },
+  //
+];
+// ===========================================================
+// ==================Archived==================Archived=======
+// ===========================================================
+let archived = [
+    {
+    lastActivated: "260108",
+    active: true,
+    expires: 260210,
+    title: "Upcoming Backfip-A-Thon Fundraiser",
+    lines: ["Saturday 1.31, 7pm!", "Click here for pledge form and details!"],
+    md: "",
+    link: "./events/260131/backflip-a-thon.html",
   },
   // discord announcement 2024
   {
@@ -67,12 +85,6 @@ export let newNews = [
     md: "./discord/discord.md",
     link: "./discord.html",
   }, // december workshops
-  //
-];
-// ===========================================================
-// ==================Archived==================Archived=======
-// ===========================================================
-let archived = [
     {
     lastActivated: "251008",
     active: false,
