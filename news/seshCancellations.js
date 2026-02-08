@@ -1,5 +1,13 @@
 export const noSeshDates = [
     // Emergency Cacncel
+          {
+    dateCancelled: [260208], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["1:00pm Guided Flexibility(as normal, just early)",
+      '3pm go upstairs to check out superbowl stuff at MVP',
+      '5pm Open Flipping/Free injury Screen with Empower Manual Therapy!'
+    ]
+  },
     {
     dateCancelled: [251231, 260101], // sortable dates in number form
     dateExpires: 260102, // sortable date or '' if tomorrow (1 day cancellation)
