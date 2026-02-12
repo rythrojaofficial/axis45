@@ -27,6 +27,7 @@ let hosting = [
       "jc",
       "ab",
       "hs",
+      "mz",
       "other",
     ], // if necessary from type
     required: true, // true or false
