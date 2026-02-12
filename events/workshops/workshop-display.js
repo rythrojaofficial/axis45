@@ -11,6 +11,11 @@ displayUpcoming();
 console.log('setting up workshop Codes Array')
 let workshopCodesArray = [
     {
+        name:'241103backflip',
+        code:'4novbf',
+        mdEl:''
+    },
+    {
         name:'241116technical-sequences',
         code:'4novts',
         mdEl:''
