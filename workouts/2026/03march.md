@@ -57,8 +57,8 @@ seated box jump bounce bounce tuck
 
 ### accessory
 
-1. SL glute bridge, normal/frog
-1. partner back extensions
+1. SL glute bridge, normal/frog 15r
+1. partner back extensions 2x10r 
     1. hands on head pulse, rotation
     1. arms flutter, lift, hold 
 
