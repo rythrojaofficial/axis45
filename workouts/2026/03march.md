@@ -29,16 +29,17 @@
 
 ## Exercises
 ### running drills 
-penguin bounces
-high knees
-scissors
+1. penguin bounces
+1. high knees
+1. scissors
 
 ### sprint
-lateral shuffle (LR/RL), sprint
+1. lateral shuffle (LR/RL), sprint
 
 ### jumping
-penultimate jump
-penultimate bounding, + jump
+1. penultimate jump
+1. walk up with penultimate jump
+1. runup with penultimate jum
 <!-- 1122 bounding -->
 seated box jump bounce bounce tuck
 
