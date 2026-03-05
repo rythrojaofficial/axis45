@@ -34,16 +34,16 @@
 1. scissors
 
 ### sprint
-1. lateral shuffle (LR/RL), sprint
+1. lateral shuffle (LR/RL), sprint (chase)
 
 ### jumping
 1. penultimate jump
-1. walk up with penultimate jump
-1. runup with penultimate jum
+1. walk-up with penultimate jump
+1. run-up with penultimate jum
 <!-- 1122 bounding -->
-seated box jump bounce bounce tuck
+seated box jump + bench bounces
 
-#### bench jumps
+#### 2r bench jumps
 1. Depth drop DL/SL
 1. SL alternating jump stick up
 1. SL stick over DL (90d turn)
@@ -59,6 +59,7 @@ seated box jump bounce bounce tuck
 ### accessory
 
 1. SL glute bridge, normal/frog 15r
+
 1. partner back extensions 2x10r 
     1. hands on head pulse, rotation
     1. arms flutter, lift, hold 
@@ -67,4 +68,5 @@ seated box jump bounce bounce tuck
 1. oblique LL R
 1. oblique LL L
 1. straight LL
-1. 10 Alt LL
+1. arch up
+1. swimmer
