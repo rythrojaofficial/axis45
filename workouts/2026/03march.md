@@ -17,7 +17,7 @@
 1. ankle inv/ever (mind the toes)
 1. horse + twist
 1. reverse nordic cross-body backbend
-1. half frog lunges, half middle lunges
+1. half middle lunges, half frog lunges
 1. hamstring floss up/circle
 <!-- 1. cross body around the world -->
 ### floor
@@ -39,7 +39,7 @@
 ### jumping
 1. penultimate jump
 1. walk-up with penultimate jump
-1. run-up with penultimate jum
+1. run-up with penultimate jump
 <!-- 1122 bounding -->
 seated box jump + bench bounces
 
