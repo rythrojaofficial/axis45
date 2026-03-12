@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -113,6 +113,20 @@
                 <input
                   type="radio"
                   name="tax-category"
+                  value="meals-employees"
+                />meals-employees (100% deductible)
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="tax-category"
+                  value="business-meals"
+                />business-meals (50% deductible)
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="tax-category"
                   value="office-expenses"
                 />office-expenses
               </div>
@@ -183,7 +197,7 @@
         let whoOther = createOtherOption("other-who", "listed-other-who");
         let paymentOther = createOtherOption(
           "other-payment",
-          "listed-other-payment"
+          "listed-other-payment",
         );
       })();
 
@@ -197,7 +211,7 @@
           let requiredFields = Array.from(
             document
               .getElementById("expense-form")
-              .querySelectorAll("[required]")
+              .querySelectorAll("[required]"),
           );
           requiredFields.forEach((element) => {
             if (element.value !== "") {
