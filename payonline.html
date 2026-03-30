@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Online</title>
+    <link rel="preload" href="./styles.css" as="style">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1 class="title">Online Payment</h1>
+    <div class="container"> 
+    <p><em>To avoid duplication, only make a payment here if asked by a facilitator. Thanks for your support!
+    </em> <p>
+
+    
+
+    </p>
+    </div>
+    
+
+    <div class="container" id="contact-form"></div>
+        <div class="container online-payments-container">
+            
+            <script async
+            src="https://js.stripe.com/v3/buy-button.js">
+            </script> 
+            <!-- load <stripe-buy-button> -->
+
+            <!-- drop in tricking $20 -->
+            <stripe-buy-button
+            buy-button-id="buy_btn_1SamplBsl5oBKoQQutWahft8"
+            publishable-key="pk_live_51KlOCjBsl5oBKoQQqyPwvWZMjftHQY1RijceWNoHYfw7Ov9avaij54oDcXihYCOAnCbJo32SQ38qDs7D7iOF3wbP00D1xIE7I4"
+            >
+            </stripe-buy-button>
+
+            <!-- drop in stretch/exercise $20 -->
+            <stripe-buy-button
+            buy-button-id="buy_btn_1TGoR7Bsl5oBKoQQV6b8v8IM"
+            publishable-key="pk_live_51KlOCjBsl5oBKoQQqyPwvWZMjftHQY1RijceWNoHYfw7Ov9avaij54oDcXihYCOAnCbJo32SQ38qDs7D7iOF3wbP00D1xIE7I4"
+            >
+            </stripe-buy-button>
+
+            <!-- drop in tricking foundations $40 -->
+             <stripe-buy-button
+            buy-button-id="buy_btn_1TGoYkBsl5oBKoQQWaZXcmiW"
+            publishable-key="pk_live_51KlOCjBsl5oBKoQQqyPwvWZMjftHQY1RijceWNoHYfw7Ov9avaij54oDcXihYCOAnCbJo32SQ38qDs7D7iOF3wbP00D1xIE7I4"
+            >
+            </stripe-buy-button>
+            <!-- drop in flipping progressions $30 -->
+             <stripe-buy-button
+            buy-button-id="buy_btn_1TGoUaBsl5oBKoQQRqRFLWPv"
+            publishable-key="pk_live_51KlOCjBsl5oBKoQQqyPwvWZMjftHQY1RijceWNoHYfw7Ov9avaij54oDcXihYCOAnCbJo32SQ38qDs7D7iOF3wbP00D1xIE7I4"
+            >
+            </stripe-buy-button>
+
+            <!-- support seattle tricking $5 -->
+            <stripe-buy-button
+            buy-button-id="buy_btn_1RjELrBsl5oBKoQQToBQluJ4"
+            publishable-key="pk_live_51KlOCjBsl5oBKoQQqyPwvWZMjftHQY1RijceWNoHYfw7Ov9avaij54oDcXihYCOAnCbJo32SQ38qDs7D7iOF3wbP00D1xIE7I4"
+            >
+            </stripe-buy-button>
+
+
+            
+        </div>
+        
+    </div>
+
+    </div>
+    </div>
+    </div>
+</body>
+<script type="module" src="./scripts/headscript.js"></script>
+</html>

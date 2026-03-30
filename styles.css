@@ -122,7 +122,11 @@ body{
         .last-line{
             margin-bottom: 0px;
         }
-
+/* online payments */
+.online-payments-container{
+    display:flex;
+    overflow: wrap;
+}
 /*for section titles*/
 .section {
     color: var(--primary-color);
@@ -206,6 +210,9 @@ header :nth-child(3){
     }
     .subtitle{
         font-size: 120%;
+    }
+    .online-payments-container{
+        display: block;
     }
 }
     
@@ -728,3 +735,4 @@ margin: 2em 0;
     display: flex;
     overflow: scroll
 }
+
