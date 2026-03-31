@@ -125,7 +125,7 @@ body{
 /* online payments */
 .online-payments-container{
     display:flex;
-    overflow: wrap;
+    overflow-x: scroll;
 }
 /*for section titles*/
 .section {
