@@ -3,30 +3,33 @@
 
 <!-- daniel wants leg lift activities -->
 ## Warm-up
+
 ### plyo
-1. bouncing
-    1. split f/b
-    1. s/s
-    1. turn hips
-    1. tuck bouncing
-### tkd
-1. round kick A skip
-1. cossack sidekick
-1. lunge stepthrough + pivot (round)
 
-1. stepover swipe
+1. bouncing, hip turns
+1. A March F/S, A Skip F/S
+1. jump stick: straight, tuck, lateral
+1. 5 tuck bounce stick
 
-1. twisting arms 
-1. lateral hop + stick
-### floor hip things
-squat rotation
-floating chest on thigh lunge + twist and hold
-horse squat with shoulder mobility
-1. diagonal table reach over
-SLDL
-1. butterfly stretch (hands back or under inside ankles)
+### upper/lower combo
 
-### compression leg lifts
+1. 45 rainbow lunge squat lunge
+1. twisting arms (figure skating style)
+1. standing pike lifts: needle, circle, circle
+1. SLDL arms up
+1. horse squat + shoulders angel
+1. squat press R/C/L
+1. cossack + rock
+1. low lunge + twist and hold
+1. reach back lunge
+1. table: fig4, reach over
+
+### exercise
+
+1. butterfly stretch: hands back or under inside ankles
+1. alternating plank: alt lift, alt knee, alt kick
+1. pancake
+1. straddle leg lifts: straight, alt, circle, circle, stalder
 
 
 <!-- viv requesting agility -->
