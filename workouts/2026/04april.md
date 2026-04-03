@@ -14,7 +14,7 @@
 ### upper/lower combo
 
 1. 45 rainbow lunge squat lunge
-1. needle kick R/L: curl, lift, circle r/l, arms up SLDL
+1. needle kick R/L: curled lift, curl, lift, arms up SLDL
 1. horse squat + shoulders angel
 1. squat + reach
 1. cossack + rock
