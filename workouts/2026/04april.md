@@ -6,30 +6,30 @@
 
 ### plyo
 
-1. bouncing, hip turns
-1. A March F/S, A Skip F/S
-1. jump stick: straight, tuck, lateral
+1. A March F/S, A Skip F/S, C Skip
+1. hip turns: 3 bounce switch, alt switch
+1. jump stick: straight, lateral
 1. 5 tuck bounce stick
 
 ### upper/lower combo
 
 1. 45 rainbow lunge squat lunge
-1. twisting arms (figure skating style)
-1. standing pike lifts: needle, circle, circle
-1. SLDL arms up
+1. needle kick R/L: curl, lift, circle r/l, arms up SLDL
 1. horse squat + shoulders angel
-1. squat press R/C/L
+1. squat + reach
 1. cossack + rock
-1. low lunge + twist and hold
-1. reach back lunge
-1. table: fig4, reach over
 
-### exercise
+### Active Lunge Sequence
+1. chest on thigh : T, outside, inside, Up
+1. 90d Wide twisting arms (figure skating style)
+1. long reach back
 
+### floor
+
+1. table reach over
 1. butterfly stretch: hands back or under inside ankles
 1. alternating plank: alt lift, alt knee, alt kick
-1. pancake
-1. straddle leg lifts: straight, alt, circle, circle, stalder
+1. pancake + LL: straight, alt, circle, circle, stalder
 
 
 <!-- viv requesting agility -->
