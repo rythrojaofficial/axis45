@@ -195,7 +195,7 @@ export function populateInputs(inputObject, parentElement) {
       let newSelect = new HtmlElement("select", parentElement, {
         name: theName,
         id: `select-${theName}`,
-        label: inputObject.label,
+        label: `select-${inputObject.label}`,
         placeholder: inputObject.placeholder,
       });
       if (inputObject.required) {
@@ -210,6 +210,9 @@ export function populateInputs(inputObject, parentElement) {
           option
         );
       });
+      if (inputObject.startBlank === true){
+        newSelect.element.selectedIndex = -1;
+      }
       break;
     case "radio":
       let newRadioLabel = new HtmlElement("label", parentElement, {}, theName);
