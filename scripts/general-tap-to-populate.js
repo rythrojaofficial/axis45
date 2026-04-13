@@ -2,15 +2,18 @@ import { capitalizeWords, clearTarget, ButtonElement } from "./htmlElement.js";
 import { State, populateTarget } from "./state-instance.js";
 
 export function generalTapToPopulate(arrOfkvPairs, buttonWrapper, displayTarget, templates = '', showFirst = false){
+    // console.log('generalTapToPopulate() called. . .')
     let state = new State;
     let placeHolderParent = document.createElement('div');
     arrOfkvPairs.forEach( pair => {
+        // console.log({kvpair: pair})
         if(templates !== ''){ // if templates exists
             if(templates.classes.length > 0){ // if the array is not empty
                 templates.classes.forEach( className => {
                     pair.element.classList.add(className)
                 })
             }
+        }
         state.library.push( pair );
         let button = new ButtonElement(
             buttonWrapper,
@@ -20,8 +23,7 @@ export function generalTapToPopulate(arrOfkvPairs, buttonWrapper, displayTarget,
             },
             {},
             capitalizeWords(pair.name)
-            )
-        }
+            )        
 
     });
     if (showFirst === true){

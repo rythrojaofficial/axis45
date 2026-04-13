@@ -1,169 +1,107 @@
 import { populateForm, populateInputs } from "../../../scripts/forms.js";
 import { getMembers } from './get-co-op.js'
 import { getTasks } from "./getTasks.js";
-import { HtmlElement } from "../../scripts/htmlElement.js";
+import { taskmasterForm } from "./populate-add-status-update.js";
+import { addCoOpMemberForm } from "./populate-add-co-op.js";
+import { addCoOpTaskForm } from "./populate-add-tasks.js";
+import { generalTapToPopulate } from "../../scripts/general-tap-to-populate.js";
+// import { preloadForm } from "./populate-preload.js";
 
 
-const formDict = {
-    whoDidTask: 'Taskee',
-    whenTaskDone: 'Task Date'
-}
-
-// let sectionPrompts = [
-//   { legend: "" },
-//   {
-//     // title
-//     question: "", // this will be .name by default
-//     name: "", // if necessary
-//     label: "", // if necessary label or legend
-//     placeholder: "", // if necessary
-//     description: "", // if necessary
-//     type: "text", // text, name, (use text for email)email, (use text for phone nubmers)number, checkbox, date, select, radio, hidden(use placeholder text for value)
-//     appendedOptions: [], // if necessary from type
-//     required: true, // true or false
-//   },
-// ];
-
-
-let sections = [];
-// form sections
-
-let tallyInfo = [
-  { legend: "Day" },
-    {
-    // What neighborhood/area are you leaving from
-    question: formDict.whenTaskDone,
-    name: formDict.whenTaskDone, // if necessary
-    label: formDict.whenTaskDone, // if necessary label
-    placeholder: "", // if necessary
-    description: "", // if necessary
-    type: "date", // text, name, email, number, checkbox, date, select, radio
-    appendedOptions: [], // if necessary from type
-    required: true, // true or false
-  },
-  {
-    question: "Co-Op Members Loading",
-    name: "", // if necessary
-    label: "", // if necessary label
-    placeholder: "Co-Op Members Loading. . .", // if necessary
-    description: "", // if necessary
-    type: "text", // text, name, email, number, checkbox, date, select, radio
-    appendedOptions: [], // if necessary from type
-    required: false, // true or false
-    startBlank: true, // only for select
-  }, // placeholder 
-
+// form wrappers
+// =============
+let formsArray = [
+  taskmasterForm,
+  addCoOpMemberForm,
+  addCoOpTaskForm
 ];
-sections.push(tallyInfo);
+let formWrappersArray = [];
+let preloadInstanceMemberArray = [];
+let preloadInstanceTaskArray = [];
 
 
-let tasksSection = [
-    {legend: "Tasks"},
-  {
-    question: "Tasks Loading",
-    name: "", // if necessary
-    label: "", // if necessary label
-    placeholder: "Tasks Loading. . .", // if necessary
-    description: "", // if necessary
-    type: "text", // text, name, email, number, checkbox, date, select, radio
-    appendedOptions: [], // if necessary from type
-    required: false, // true or false
-    startBlank: true, // only for select
-  }, // placeholder 
-]
-sections.push(tasksSection)
 
-let counter = 0;
-
-
-async function addMembers(){
-    console.log('async addMembers() was just called. . .')
-    let memberFieldset = document.getElementById('Members');
-    populateInputs({
-        question: "person",
-        name: "", // if necessary
-        label: "", // if necessary label
-        placeholder: "", // if necessary
-        description: "", // if necessary
-        type: "select", // text, name, email, number, checkbox, date, select, radio
-        appendedOptions: appendedPriority, // if necessary from type
-        required: false, // true or false
-        class: "priority-member-select",
-    }, priorityDiv.element)
-
-    populateInputs({
-        question: "person",
-        name: "", // if necessary
-        label: "", // if necessary label
-        placeholder: "", // if necessary
-        description: "", // if necessary
-        type: "select", // text, name, email, number, checkbox, date, select, radio
-        appendedOptions: appendedRegular, // if necessary from type
-        required: false, // true or false
-        class: "normal-member-select",
-    }, normalDiv.element)
-}
-
-//  form Information
-let title = "Co-op Taskmaster";
-let taskmasterForm = {
-  method: "POST",
-  action: 
-  "https://script.google.com/macros/s/AKfycby6V44VRmRZXBythAuppb8NIQagK9sR3USfOfCuxkRfHuAROVxnkfDRlSr_9v68T64/exec",
-  styleSheet: "../css-sheets/test.css",
-  font: "https://fonts.google.com/specimen/Fira+Sans?stroke=Sans+Serif",
-  title: title,
-  id: title.replace(/ /g, "-"),
-  description: "",
-  sectionArray: sections,
-  submitWheel: '../../assets/svg-images/ouroboros-load-wheel.svg', // check this
-  submitMessage: "Submitting. . . Please Wait 🙂",
-  submitError: "*Please check fields",
-};
+formsArray.forEach(form=>{
+  const formWrapperEl = document.createElement('div');
+  populateForm(form, formWrapperEl);
+  formWrappersArray.push(
+    {
+      name: form.title,
+      element: formWrapperEl
+    }
+  )
+  let memberloadingInstance = formWrapperEl.querySelector('[name="member-loading"]');
+  let taskloadingInstance = formWrapperEl.querySelector('[name="task-loading"]');
+  if (memberloadingInstance !== null){
+    preloadInstanceMemberArray.push(memberloadingInstance)
+  }
+  if (taskloadingInstance !== null){
+    preloadInstanceTaskArray.push(taskloadingInstance)
+  }
+})
+// console.log({
+//   preloadInstanceMemberArray: preloadInstanceMemberArray
+// })
+const preloadFormWrapperEl = document.createElement('div');
+populateForm(taskmasterForm, preloadFormWrapperEl)
 
 
-populateForm(taskmasterForm, document.querySelector("body"));
 
-let membersArray = await getMembers();
-let allActiveMembersNames = membersArray.allActive.map(obj => obj['Co-Op Member']);
-let tasksArray = await getTasks();
-let allActiveTaskNames = tasksArray.map(obj=> obj["Task Name"]);
+const taskmasterButtonWrapper = document.getElementById('taskmaster-button-wrapper');
+const taskmasterDisplayWrapper = document.getElementById('taskmaster-display-wrapper');
 
-let whoParentEl = document.getElementById('Day');
+generalTapToPopulate(formWrappersArray,taskmasterButtonWrapper,taskmasterDisplayWrapper, '', true)
+
+
 let placeholderWhoDidTask = document.getElementsByName('Co-Op Members Loading')[0];
 
 let tasksParentEl = document.getElementById('Tasks');
 let placeholderTasks = document.getElementsByName('Tasks Loading')[0];
 
+let membersArray = await getMembers();
+const allActiveMembersNames = membersArray.allActive.map(obj => obj['Co-Op Member']);
+let tasksArray = await getTasks();
+const allActiveTaskNames = tasksArray.map(obj=> obj["Task Name"]);
+
+
+let floatingMembersEl = document.createElement('div');
+let floatingTasksEl = document.createElement('div');
+
 populateInputs(
     {
-    question: formDict.whoDidTask,
+    question: "Who did task",
     name: "", // if necessary
-    label: "Who did task", // if necessary label
+    label: "", // if necessary label
     placeholder: "-", // if necessary
     description: "", // if necessary
     type: "select", // text, name, email, number, checkbox, date, select, radio
     appendedOptions: allActiveMembersNames, // if necessary from type
     required: true, // true or false
     startBlank: true, // only for select
-  },whoParentEl
+  },floatingMembersEl
 )
 populateInputs(
     {
     question: "Tasks",
     name: "", // if necessary
     label: "", // if necessary label
-    placeholder: "-", // if necessary
+    placeholder: "test", // if necessary
     description: "", // if necessary
     type: "radio", // text, name, email, number, checkbox, date, select, radio
     appendedOptions: allActiveTaskNames, // if necessary from type
     required: true, // true or false
     startBlank: true, // only for select
-  },tasksParentEl
+  },floatingTasksEl
 )
-
-placeholderWhoDidTask.remove()
-placeholderTasks.remove()
+console.log('replacing preload instances with data. . .')
+preloadInstanceMemberArray.forEach(instance =>{
+  let loadedEl = floatingMembersEl.firstElementChild.cloneNode(true);
+  loadedEl.selectedIndex = -1;
+  instance.replaceWith(loadedEl);
+})
+preloadInstanceTaskArray.forEach(instance =>{
+  instance.replaceWith(floatingTasksEl.lastElementChild)
+})
 
 
 

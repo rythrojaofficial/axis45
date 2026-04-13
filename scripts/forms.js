@@ -1,5 +1,6 @@
 import { HtmlElement } from "./htmlElement.js";
-
+import { todaysDate } from "./preloadDate.js";
+import { sortableDateToKdsObject } from "./parsedate.js";
 // ++++++++++++++++++
 // ==Start Template==
 // ++++++++++++++++++
@@ -17,6 +18,19 @@ let sectionPrompts = [
     required: true, // true or false
   },
 ];
+// =====+++Date+++========
+// {
+//     // title
+//     question: "", // this will be .name by default
+//     name: "", // if necessary
+//     label: "", // if necessary label or legend
+//     placeholder: "", // if necessary
+//     description: "", // if necessary
+//     type: "text", // text, name, (use text for email)email, (use text for phone nubmers)number, checkbox, date, select, radio, hidden(use placeholder text for value)
+//     appendedOptions: [], // if necessary from type
+//     required: true, // true or false
+//     setDate: "today" //  date only: "today" or sortable date number
+//   },
 // ====++++Select and radio options go in appended options +++++++++++================
 let selectOptions = [
   "", //first option is the select placeholder
@@ -170,6 +184,29 @@ export function populateInputs(inputObject, parentElement) {
     );
   }
   switch (inputObject.type) {
+    case "date":
+      let dateInput = new HtmlElement("input", parentElement, {
+        name: theName,
+        type: "date",
+        label: inputObject.label,
+        placeholder:inputObject.placeholder,
+      })
+      if (inputObject.required) {
+        dateInput.element.setAttribute("required", true);
+      }
+      if (inputObject.setDate){
+        if (inputObject.setDate === "today"){
+          dateInput.element.value = todaysDate;
+        }
+        if (inputObject.setDate !== "" 
+          && inputObject.setDate !== "today"
+        ){
+          let theDate = sortableDateToKdsObject(inputObject.setDate);
+          dateInput.element.value = theDate.localString;
+        }
+      }
+      break;
+
     case "textarea":
       let textArea = new HtmlElement("textarea", parentElement, {
         name: theName,
