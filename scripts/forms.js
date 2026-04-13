@@ -234,6 +234,7 @@ export function populateInputs(inputObject, parentElement) {
         id: `select-${theName}`,
         label: `select-${inputObject.label}`,
         placeholder: inputObject.placeholder,
+        value: inputObject.value || "",
       });
       if (inputObject.required) {
         newSelect.element.setAttribute("required", true);
@@ -347,6 +348,7 @@ export function populateInputs(inputObject, parentElement) {
         type: inputObject.type,
         label: inputObject.label,
         placeholder: inputObject.placeholder,
+        value: inputObject.value || "",
       });
       if (inputObject.required) {
         newInput.element.setAttribute("required", true);
