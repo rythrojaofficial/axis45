@@ -34,6 +34,17 @@ const formDict = {
 let memberInfo = [
   { legend: "Member Info" },
     {
+    question: "",
+    name: "action", // if necessary
+    label: "", // if necessary label
+    placeholder: "", // if necessary
+    description: "", // if necessary
+    type: "hidden", // text, name, email, number, checkbox, date, select, radio
+    appendedOptions: [], // if necessary from type
+    required: true, // true or false
+    value: "write"
+    },
+    {
     question: formDict.dateAdded.formName,
     name: formDict.dateAdded.sheetName, // if necessary
     label: formDict.dateAdded.formName, // if necessary label

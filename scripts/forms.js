@@ -222,7 +222,7 @@ export function populateInputs(inputObject, parentElement) {
         type: 'hidden',
         name: theName,
         label: inputObject.label,
-        value: inputObject.placeholder,
+        value: inputObject.value || inputObject.placeholder,
       });
       if (inputObject.required) {
         hidden.element.setAttribute("required", true);
@@ -250,6 +250,9 @@ export function populateInputs(inputObject, parentElement) {
       });
       if (inputObject.startBlank === true){
         newSelect.element.selectedIndex = -1;
+      }
+      if (inputObject.multiple === true){
+        newSelect.element.setAttribute('multiple', true);
       }
       break;
     case "radio":

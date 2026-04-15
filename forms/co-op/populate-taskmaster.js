@@ -45,31 +45,33 @@ formsArray.forEach(form=>{
 const preloadFormWrapperEl = document.createElement('div');
 populateForm(taskmasterForm, preloadFormWrapperEl)
 
-
-
 const taskmasterButtonWrapper = document.getElementById('taskmaster-button-wrapper');
 const taskmasterDisplayWrapper = document.getElementById('taskmaster-display-wrapper');
 
 generalTapToPopulate(formWrappersArray,taskmasterButtonWrapper,taskmasterDisplayWrapper, '', true)
 
 
-let placeholderWhoDidTask = document.getElementsByName('Co-Op Members Loading')[0];
+// let placeholderWhoDidTask = document.getElementsByName('Co-Op Members Loading')[0];
 
-let tasksParentEl = document.getElementById('Tasks');
-let placeholderTasks = document.getElementsByName('Tasks Loading')[0];
+// let tasksParentEl = document.getElementById('Tasks');
+// let placeholderTasks = document.getElementsByName('Tasks Loading')[0];
 
+// get data from sheets
+// =====================
 let membersArray = await getMembers();
 const allActiveMembersNames = membersArray.allActive.map(obj => obj['Co-Op Member']);
 let tasksArray = await getTasks();
 const allActiveTaskNames = tasksArray.map(obj=> obj["Task Name"]);
 
-
+// create replacements from sheet Data
+// ======================
 let floatingMembersEl = document.createElement('div');
 let floatingTasksEl = document.createElement('div');
+let hiddenMultiple = document.querySelector("[name='Co-Op Members who']")
 
 populateInputs(
     {
-    question: "Co-Op Member Submitting",
+    question: "Co-Op Member(s)",
     name: "", // if necessary
     label: "", // if necessary label
     placeholder: "-", // if necessary
@@ -78,6 +80,7 @@ populateInputs(
     appendedOptions: allActiveMembersNames, // if necessary from type
     required: true, // true or false
     startBlank: true, // only for select
+    multiple: true,
   },floatingMembersEl
 )
 populateInputs(
@@ -93,15 +96,45 @@ populateInputs(
     startBlank: true, // only for select
   },floatingTasksEl
 )
-console.log('replacing preload instances with data. . .')
+
+// replacing preloads
+// ==================
+// console.log('replacing preload instances with data. . .')
 preloadInstanceMemberArray.forEach(instance =>{
   let loadedEl = floatingMembersEl.firstElementChild.cloneNode(true);
   loadedEl.selectedIndex = -1;
+  loadedEl.addEventListener('change', e =>{
+    let multiple = Array.from(e.target.selectedOptions).map(option => option.value);
+    hiddenMultiple.value = multiple.join("|")
+  })
   instance.replaceWith(loadedEl);
 })
 preloadInstanceTaskArray.forEach(instance =>{
   instance.replaceWith(floatingTasksEl.lastElementChild)
 })
+
+// event listeners
+// ===============
+let statusUpdateSection = preloadFormWrapperEl.querySelector('#Status-Update');
+document.querySelector('body').addEventListener('change', (event) => {
+    // Check if the clicked element matches a specific selector
+    if (event.target.matches("[name='Tasks']")) {
+        // console.log('Dynamic button clicked:', event.target.value);
+        const data = tasksArray.find(task => event.target.value);
+        // console.log(data["Task Name"])
+        let tempTaskNameField = document.querySelector('[name="Task Name"]')
+        tempTaskNameField.value = data["Task Name"];
+
+        updateField(tempTaskNameField, data["Task Name"])
+      // statusUpdateSection.querySelector('[name="Task Name"]').value = data["Task Name"];
+    }
+});
+
+function updateField(field, updatedData){
+  field.value = updatedData;
+}
+
+// console.log({hiddenMultiple:hiddenMultiple})
 
 
 

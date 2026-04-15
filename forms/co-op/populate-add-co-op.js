@@ -55,7 +55,7 @@ let memberInfo = [
     label: "", // if necessary label
     placeholder: "", // if necessary
     description: "", // if necessary
-    type: "text", // text, name, email, number, checkbox, date, select, radio
+    type: "hidden", // text, name, email, number, checkbox, date, select, radio
     appendedOptions: [], // if necessary from type
     required: false, // true or false
     value: "active"
