@@ -3,7 +3,7 @@ import { getMembers } from './get-co-op.js'
 import { getTasks } from "./getTasks.js";
 import { taskmasterForm } from "./populate-add-status-update.js";
 import { addCoOpMemberForm } from "./populate-add-co-op.js";
-import { addCoOpTaskForm } from "./populate-add-tasks.js";
+import { addCoOpTaskForm, formDict } from "./populate-add-tasks.js";
 import { generalTapToPopulate } from "../../scripts/general-tap-to-populate.js";
 // import { preloadForm } from "./populate-preload.js";
 
@@ -113,28 +113,90 @@ preloadInstanceTaskArray.forEach(instance =>{
   instance.replaceWith(floatingTasksEl.lastElementChild)
 })
 
+
+// fields
+// ==========
+
+let formDictArray = [
+  formDict.newTaskName.sheetName,
+  formDict.taskDetails,
+  formDict.taskUrgency,
+  formDict.taskStatus,
+  formDict.taskCollaborators.sheetName
+]
+let fieldsArray = formDictArray.map(name => {
+  let field = document.querySelector(`[name="${name}"]`) || null;
+  return {
+    name: name,
+    field: field,
+  };
+})
+let fieldsDict = {
+  fieldNamesArr: fieldsArray.map( fieldObj => fieldObj.name),
+  fieldFieldsArr: fieldsArray.map( fieldObj => fieldObj.field),
+}
+
+// function updateField(fieldObj, updatedDataObj){
+//   Object.keys(updatedDataObj).forEach(key => {
+//    if (typeof updatedDataObj[key] !== object){
+//     if (fieldsDict.fieldNamesArr.includes(updatedDataObj[key])){
+//         let i = fieldsDict.fieldNamesArr.findIndex(updatedDataObj[key]);
+//         fieldsDict.fieldFieldsArr[i].value = 
+//       }
+//    }
+// });
+// }
+
 // event listeners
 // ===============
+
 let statusUpdateSection = preloadFormWrapperEl.querySelector('#Status-Update');
 document.querySelector('body').addEventListener('change', (event) => {
+  console.log({clickEvent: event.target.value})
     // Check if the clicked element matches a specific selector
     if (event.target.matches("[name='Tasks']")) {
         // console.log('Dynamic button clicked:', event.target.value);
-        const data = tasksArray.find(task => event.target.value);
-        // console.log(data["Task Name"])
-        let tempTaskNameField = document.querySelector('[name="Task Name"]')
-        tempTaskNameField.value = data["Task Name"];
+        const data = tasksArray.find(taskObj => taskObj['Task Name'] === event.target.value);
+        console.log({data: data})      
+        updateFields(formDictArray, data)
 
-        updateField(tempTaskNameField, data["Task Name"])
-      // statusUpdateSection.querySelector('[name="Task Name"]').value = data["Task Name"];
+        // console.log(data["Task Name"])
+        // let tempTaskNameField = document.querySelector('[name="Task Name"]')
+        // tempTaskNameField.value = data["Task Name"];
+
     }
 });
 
-function updateField(field, updatedData){
-  field.value = updatedData;
+function updateFields(fieldsArr, dataObj){
+  console.log({message:`updating fields. fields arr : ${fieldsArr}`
+    , dataObj:dataObj})
+  let dataKeys = Object.keys(dataObj);
+  console.log({dataKeys: dataKeys,
+    dataObj: dataObj
+  })
+  fieldsArr.forEach((field) =>{
+    console.log({field:field})
+    if (dataKeys.includes(field) === false){
+      return
+    }
+    else {
+      let tempField = document.querySelector(`[name="${field}"]`);
+      let newData = dataObj[field];
+      console.log({newData:newData});
+      updateField(tempField, newData);
+    }
+  })
+}
+function updateField(tempTaskNameField, updatedData){
+
+  if(tempTaskNameField !== null){
+      console.log(`updating task.  temp task: ${tempTaskNameField.value || null}, updated data: ${updatedData}`
+  )
+      tempTaskNameField.value = updatedData
+  }
 }
 
-// console.log({hiddenMultiple:hiddenMultiple})
+
 
 
 

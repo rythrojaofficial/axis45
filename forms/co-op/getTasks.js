@@ -7,9 +7,9 @@ const taskSheetURL ='https://script.google.com/macros/s/AKfycbzG8rBS4-oU1eKuQJEh
 export async function getTasks(){
     ('async getTasks(). . .')
     let data = await readSheetsToJSON(taskSheetURL);
-    // console.log({tasksData: data})
+    console.log({tasksData: data})
     let headers = getHeaders(data);
-    console.log({taskHeaders: headers});
+    // console.log({taskHeaders: headers});
 
     return data;
     
