@@ -5,6 +5,7 @@ import { taskmasterForm } from "./populate-add-status-update.js";
 import { addCoOpMemberForm } from "./populate-add-co-op.js";
 import { addCoOpTaskForm, formDict } from "./populate-add-tasks.js";
 import { generalTapToPopulate } from "../../scripts/general-tap-to-populate.js";
+import { HtmlElement } from "../../scripts/htmlElement.js";
 // import { preloadForm } from "./populate-preload.js";
 
 
@@ -66,17 +67,18 @@ generalTapToPopulate(formWrappersArray,taskmasterButtonWrapper,taskmasterDisplay
 let membersArray = await getMembers();
 const allActiveMembersNames = membersArray.allActive.map(obj => obj['Co-Op Member']);
 let tasksArray = await getTasks();
-const allActiveTaskNames = tasksArray.map(obj=> obj["Task Name"]);
+const allActiveTaskNames = [...new Set(tasksArray.map(obj => obj["Task Name"]))];
+
 
 // create replacements from sheet Data
 // ======================
-let floatingMembersEl = document.createElement('div');
-let floatingTasksEl = document.createElement('div');
+const floatingMembersEl = document.createElement('div');
+const floatingTasksEl = document.createElement('div');
 
 populateInputs(
     {
     question: "Co-Op Member(s)",
-    name: "Co-Op Members who", // if necessary
+    name: "Co-Op Members who last added/updated", // if necessary
     label: "", // if necessary label
     placeholder: "", // if necessary
     description: "", // if necessary
@@ -104,13 +106,24 @@ populateInputs(
 // replacing preloads
 // ==================
 // console.log('replacing preload instances with data. . .')
+
 preloadInstanceMemberArray.forEach((instance, i) =>{
   let loadedEl = floatingMembersEl.firstElementChild.cloneNode(true);
 
-  if (instance.getAttribute('value') === "Task Collaborators"){
+  if (instance.getAttribute('value') === formDict.taskCollaborators.sheetName){
     console.log('collaborators instance')
     console.log({loadedEl:loadedEl});
-    loadedEl.name = "Task Collaborators";
+    loadedEl.name = formDict.taskCollaborators.sheetName;
+    loadedEl.addEventListener('input', (e)=>{
+      let selected = Array.from(e.target.selectedOptions)
+        .map(option => option.value)
+        .join(', ')
+
+      updateFieldTextContent(
+        preloadTaskLabel,
+        formDict.taskCollaborators.sheetName+': '+selected
+      )
+    })
   }
   
   loadedEl.selectedIndex = -1;
@@ -122,25 +135,37 @@ preloadInstanceTaskArray.forEach(instance =>{
   instance.replaceWith(floatingTasksEl.lastElementChild)
 })
 
+const preloadTaskLabel = Array.from(document.querySelectorAll("label[for='member-loading']"))
+  .find(l => l.textContent.includes(formDict.taskCollaborators.sheetName))
+preloadTaskLabel.setAttribute('for', formDict.taskCollaborators.sheetName)
+
 
 // event listeners
 // ===============
+
 
 let formDictArray = [
   formDict.newTaskName.sheetName,
   formDict.taskDetails,
   formDict.taskUrgency,
+  formDict.taskTier,
   formDict.taskStatus,
-  formDict.taskCollaborators.sheetName
+  formDict.taskCollaborators.sheetName,
+  formDict.taskID
 ]
 
-let statusUpdateSection = preloadFormWrapperEl.querySelector('#Status-Update');
+// let statusUpdateSection = preloadFormWrapperEl.querySelector('#Status-Update');
 document.querySelector('body').addEventListener('change', (event) => {
   console.log({clickEvent: event.target.value})
     // Check if the clicked element matches a specific selector
     if (event.target.matches("[name='Tasks']")) {
         // console.log('Dynamic button clicked:', event.target.value);
-        const data = tasksArray.find(taskObj => taskObj['Task Name'] === event.target.value);
+        // const data = tasksArray.find(taskObj => taskObj['Task Name'] === event.target.value);
+        let data = tasksArray.filter(taskObj => taskObj['Task Name'] === event.target.value);
+        if (data.length > 1){
+          data = data.at(-1);
+        }else { data = data[0]}
+
         console.log({data: data})      
         updateFields(formDictArray, data)
 
@@ -155,14 +180,19 @@ function updateFields(fieldsArr, dataObj){
     dataObj: dataObj
   })
   fieldsArr.forEach((field) =>{
-    console.log({field:field})
     if (dataKeys.includes(field) === false){
       return
+    }
+    if (field === formDict.taskCollaborators.sheetName){
+      updateFieldTextContent(
+        document.querySelector(`label[for="${formDict.taskCollaborators.sheetName}"]`),
+        formDict.taskCollaborators.sheetName+': '+dataObj[field]
+      );
     }
     else {
       let tempField = document.querySelector(`[name="${field}"]`);
       let newData = dataObj[field];
-      console.log({newData:newData});
+      console.log({field: field, newData:newData});
       updateField(tempField, newData);
     }
   })
@@ -174,6 +204,10 @@ function updateField(tempTaskNameField, updatedData){
   )
       tempTaskNameField.value = updatedData
   }
+}
+function updateFieldTextContent(labelField, updatedText){
+  if(labelField === null) return;
+  labelField.textContent = updatedText;
 }
 
 

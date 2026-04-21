@@ -17,7 +17,8 @@ let tallyInfo = [
     type: "hidden", // text, name, email, number, checkbox, date, select, radio
     appendedOptions: [], // if necessary from type
     required: true, // true or false
-    value: "update"
+    // value: "update"
+    value: 'write'
     },
     {
     question: formDict.whenTaskDone,
@@ -32,8 +33,8 @@ let tallyInfo = [
   },
   {
     question: "Co-Op Members Loading",
-    name: "member-loading", // if necessary
-    label: "Updated By", // if necessary label
+    name: "member-loading", // if necformNameessary
+    label: addTaskDict.addedBy.formName, // if necessary label
     placeholder: "Co-Op Members Loading. . .", // if necessary
     description: "", // if necessary
     type: "text", // text, name, email, number, checkbox, date, select, radio
@@ -119,7 +120,7 @@ let updateSection = [
 {
     question: addTaskDict.taskCollaborators.formName,
     name: 'member-loading', // if necessary
-    label: addTaskDict.taskCollaborators.formName, // if necessary label
+    label: addTaskDict.taskCollaborators.sheetName, // if necessary label
     placeholder: "", // if necessary
     description: "", // if necessary
     type: "select", // text, name, email, number, checkbox, date, select, radio
@@ -147,7 +148,7 @@ formDict.sections.push(updateSection);
 export const taskmasterForm = {
   method: "POST",
   action: 
-  "https://script.google.com/macros/s/AKfycby6V44VRmRZXBythAuppb8NIQagK9sR3USfOfCuxkRfHuAROVxnkfDRlSr_9v68T64/exec",
+  "https://script.google.com/macros/s/AKfycbx_dWyLTKlg4ABlyewZ58CbO-1RKaOGzxRFrEXoNYG1te02SaF2DKykN5CPCzaYWR_9Og/exec",
   styleSheet: "../css-sheets/test.css",
   font: "https://fonts.google.com/specimen/Fira+Sans?stroke=Sans+Serif",
   title: formDict.title,
