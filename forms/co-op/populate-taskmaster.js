@@ -67,6 +67,16 @@ generalTapToPopulate(formWrappersArray,taskmasterButtonWrapper,taskmasterDisplay
 let membersArray = await getMembers();
 const allActiveMembersNames = membersArray.allActive.map(obj => obj['Co-Op Member']);
 let tasksArray = await getTasks();
+// remove empty tasks
+tasksArray = tasksArray.filter(taskObj =>{
+    if (taskObj['Task Name'] !== '' && taskObj['TaskID'] !== '') 
+      return taskObj
+  });
+// add task Extra
+let addTaskObj = {
+  ['Task Name']: 'Add New Task' 
+}
+tasksArray.push(addTaskObj)
 const allActiveTaskNames = [...new Set(tasksArray.map(obj => obj["Task Name"]))];
 
 
@@ -166,7 +176,7 @@ document.querySelector('body').addEventListener('change', (event) => {
           data = data.at(-1);
         }else { data = data[0]}
 
-        console.log({data: data})      
+        console.log({data: data})     
         updateFields(formDictArray, data)
 
     }
