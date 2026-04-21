@@ -30,11 +30,16 @@ formsArray.forEach(form=>{
       element: formWrapperEl
     }
   )
-  let memberloadingInstance = formWrapperEl.querySelector('[name="member-loading"]');
+
+  let memberloadingInstances = Array.from(formWrapperEl.querySelectorAll('[name="member-loading"]'));
   let taskloadingInstance = formWrapperEl.querySelector('[name="task-loading"]');
-  if (memberloadingInstance !== null){
-    preloadInstanceMemberArray.push(memberloadingInstance)
+  if (memberloadingInstances !== null){
+    memberloadingInstances.forEach(instance=>{
+       preloadInstanceMemberArray.push(instance)
+
+    })
   }
+  console.log({preloadInstanceMemberArray:preloadInstanceMemberArray})
   if (taskloadingInstance !== null){
     preloadInstanceTaskArray.push(taskloadingInstance)
   }
@@ -67,14 +72,13 @@ const allActiveTaskNames = tasksArray.map(obj=> obj["Task Name"]);
 // ======================
 let floatingMembersEl = document.createElement('div');
 let floatingTasksEl = document.createElement('div');
-let hiddenMultiple = document.querySelector("[name='Co-Op Members who']")
 
 populateInputs(
     {
     question: "Co-Op Member(s)",
-    name: "", // if necessary
+    name: "Co-Op Members who", // if necessary
     label: "", // if necessary label
-    placeholder: "-", // if necessary
+    placeholder: "", // if necessary
     description: "", // if necessary
     type: "select", // text, name, email, number, checkbox, date, select, radio
     appendedOptions: allActiveMembersNames, // if necessary from type
@@ -100,22 +104,27 @@ populateInputs(
 // replacing preloads
 // ==================
 // console.log('replacing preload instances with data. . .')
-preloadInstanceMemberArray.forEach(instance =>{
+preloadInstanceMemberArray.forEach((instance, i) =>{
   let loadedEl = floatingMembersEl.firstElementChild.cloneNode(true);
+
+  if (instance.getAttribute('value') === "Task Collaborators"){
+    console.log('collaborators instance')
+    console.log({loadedEl:loadedEl});
+    loadedEl.name = "Task Collaborators";
+  }
+  
   loadedEl.selectedIndex = -1;
-  loadedEl.addEventListener('change', e =>{
-    let multiple = Array.from(e.target.selectedOptions).map(option => option.value);
-    hiddenMultiple.value = multiple.join("|")
-  })
+
   instance.replaceWith(loadedEl);
-})
+  })
+
 preloadInstanceTaskArray.forEach(instance =>{
   instance.replaceWith(floatingTasksEl.lastElementChild)
 })
 
 
-// fields
-// ==========
+// event listeners
+// ===============
 
 let formDictArray = [
   formDict.newTaskName.sheetName,
@@ -124,31 +133,6 @@ let formDictArray = [
   formDict.taskStatus,
   formDict.taskCollaborators.sheetName
 ]
-let fieldsArray = formDictArray.map(name => {
-  let field = document.querySelector(`[name="${name}"]`) || null;
-  return {
-    name: name,
-    field: field,
-  };
-})
-let fieldsDict = {
-  fieldNamesArr: fieldsArray.map( fieldObj => fieldObj.name),
-  fieldFieldsArr: fieldsArray.map( fieldObj => fieldObj.field),
-}
-
-// function updateField(fieldObj, updatedDataObj){
-//   Object.keys(updatedDataObj).forEach(key => {
-//    if (typeof updatedDataObj[key] !== object){
-//     if (fieldsDict.fieldNamesArr.includes(updatedDataObj[key])){
-//         let i = fieldsDict.fieldNamesArr.findIndex(updatedDataObj[key]);
-//         fieldsDict.fieldFieldsArr[i].value = 
-//       }
-//    }
-// });
-// }
-
-// event listeners
-// ===============
 
 let statusUpdateSection = preloadFormWrapperEl.querySelector('#Status-Update');
 document.querySelector('body').addEventListener('change', (event) => {
@@ -159,10 +143,6 @@ document.querySelector('body').addEventListener('change', (event) => {
         const data = tasksArray.find(taskObj => taskObj['Task Name'] === event.target.value);
         console.log({data: data})      
         updateFields(formDictArray, data)
-
-        // console.log(data["Task Name"])
-        // let tempTaskNameField = document.querySelector('[name="Task Name"]')
-        // tempTaskNameField.value = data["Task Name"];
 
     }
 });

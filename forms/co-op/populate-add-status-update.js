@@ -33,7 +33,7 @@ let tallyInfo = [
   {
     question: "Co-Op Members Loading",
     name: "member-loading", // if necessary
-    label: "Who did Task", // if necessary label
+    label: "Updated By", // if necessary label
     placeholder: "Co-Op Members Loading. . .", // if necessary
     description: "", // if necessary
     type: "text", // text, name, email, number, checkbox, date, select, radio
@@ -41,16 +41,6 @@ let tallyInfo = [
     required: false, // true or false
     startBlank: true, // only for select
   }, // placeholder 
-    {
-    question: "Co-Op Members who",
-    name: "", // if necessary
-    label: "", // if necessary label
-    placeholder: "", // if necessary
-    description: "", // if necessary
-    type: "hidden", // text, name, email, number, checkbox, date, select, radio
-    appendedOptions: [], // if necessary from type
-    required: false, // true or false
-  }, // hidden joins  
 
 ];
 formDict.sections.push(tallyInfo);
@@ -126,6 +116,30 @@ let updateSection = [
         "Not Started","In Progress","Complete"], // if necessary from type
     required: true, // true or false
   },
+{
+    question: addTaskDict.taskCollaborators.formName,
+    name: 'member-loading', // if necessary
+    label: addTaskDict.taskCollaborators.formName, // if necessary label
+    placeholder: "", // if necessary
+    description: "", // if necessary
+    type: "select", // text, name, email, number, checkbox, date, select, radio
+    appendedOptions: [], // if necessary from type
+    required: true, // true or false
+    // startBlank: true, // only for select
+    value: addTaskDict.taskCollaborators.sheetName
+
+  },
+{
+    question: addTaskDict.taskCollaborators.sheetName,
+    name: "", // if necessary
+    label: "", // if necessary label
+    placeholder: "", // if necessary
+    description: "", // if necessary
+    type: "hidden", // text, name, email, number, checkbox, date, select, radio
+    appendedOptions: [], // if necessary from type
+    required: false, // true or false
+  }, // hidden joins  
+
 ];
 formDict.sections.push(updateSection);
 

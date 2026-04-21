@@ -1,5 +1,5 @@
 // import { allActiveMembersNames } from "./populate-taskmaster";
-const formDict = {
+export const formDict = {
     // title and sections
     title: "Co-op Add Tasks",
     sections: [],
@@ -65,6 +65,7 @@ let memberInfo = [
     appendedOptions: [], // if necessary from type
     required: true, // true or false
     startBlank: true, // only for select
+    value: formDict.addedBy.formName
 
   },
 ];
@@ -124,18 +125,19 @@ let taskInfo = [
         "Not Started","In Progress","Complete"], // if necessary from type
     required: true, // true or false
   },
-//   {
-//     question: formDict.taskCollaborators.formName,
-//     name: formDict.taskCollaborators.sheetName, // if necessary
-//     label: formDict.taskCollaborators.formName, // if necessary label
-//     placeholder: "", // if necessary
-//     description: "", // if necessary
-//     type: "select", // text, name, email, number, checkbox, date, select, radio
-//     appendedOptions: appendedPriority, // if necessary from type
-//     required: false, // true or false
-//     multiple: true, // select only
-//     class: "priority-member-select",
-//     }
+    {
+    question: formDict.taskCollaborators.formName,
+    name: 'member-loading', // if necessary
+    label: formDict.taskCollaborators.formName, // if necessary label
+    placeholder: "", // if necessary
+    description: "", // if necessary
+    type: "select", // text, name, email, number, checkbox, date, select, radio
+    appendedOptions: [], // if necessary from type
+    required: true, // true or false
+    startBlank: true, // only for select
+    value: formDict.taskCollaborators.sheetName
+
+  },
 
 ]
 formDict.sections.push(taskInfo);
@@ -143,7 +145,7 @@ formDict.sections.push(taskInfo);
 export const addCoOpTaskForm = {
   method: "POST",
   action: 
-  "https://script.google.com/macros/s/AKfycbzg6E3ZvwB1CzCyTIw9EDy_5vS06PBoQEyLe1l7QqeLEAnwUE3XI-TARlrUL6C3hzW7/exec",
+  "https://script.google.com/macros/s/AKfycbz-3UQJAWtzlKVmTNCMQHQEk4oLtD4cK4Hh-9rltZSNw_tCsldZTIqvFlQ-WHTwkAHvHA/exec",
   styleSheet: "../css-sheets/test.css",
   font: "https://fonts.google.com/specimen/Fira+Sans?stroke=Sans+Serif",
   title: formDict.title,
