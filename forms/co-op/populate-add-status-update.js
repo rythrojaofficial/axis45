@@ -46,9 +46,28 @@ let tallyInfo = [
 ];
 formDict.sections.push(tallyInfo);
 
-
+let viewOptionsSection = [
+    {legend: "View"},
+    {
+    question: "",
+    name: "Options", // if necessary
+    label: "", // if necessary label
+    placeholder: "", // if necessary
+    description: "", // if necessary
+    type: "checkbox", // text, name, email, number, checkbox, date, select, radio
+    appendedOptions: [
+        'Not Started',
+        'In Progress',
+        'Complete'
+    ], // if necessary from type
+    required: false, // true or false
+    startBlank: true, // only for select
+  }, // placeholder 
+]
+formDict.sections.push(viewOptionsSection);
 let tasksSection = [
     {legend: "Tasks"},
+
   {
     question: "Tasks Loading",
     name: "task-loading", // if necessary

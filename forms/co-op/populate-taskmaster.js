@@ -45,9 +45,7 @@ formsArray.forEach(form=>{
     preloadInstanceTaskArray.push(taskloadingInstance)
   }
 })
-// console.log({
-//   preloadInstanceMemberArray: preloadInstanceMemberArray
-// })
+
 const preloadFormWrapperEl = document.createElement('div');
 populateForm(taskmasterForm, preloadFormWrapperEl)
 
@@ -56,11 +54,13 @@ const taskmasterDisplayWrapper = document.getElementById('taskmaster-display-wra
 
 generalTapToPopulate(formWrappersArray,taskmasterButtonWrapper,taskmasterDisplayWrapper, '', true)
 
-
-// let placeholderWhoDidTask = document.getElementsByName('Co-Op Members Loading')[0];
-
-// let tasksParentEl = document.getElementById('Tasks');
-// let placeholderTasks = document.getElementsByName('Tasks Loading')[0];
+// pre-fill View
+const viewOptions = document.querySelectorAll("input[name='Options']");
+viewOptions.forEach(option =>{
+  if (option.value !== 'Complete'){
+    option.checked = true;
+  }
+});
 
 // get data from sheets
 // =====================
@@ -106,7 +106,7 @@ populateInputs(
     question: "Tasks",
     name: "", // if necessary
     label: "", // if necessary label
-    placeholder: "test", // if necessary
+    placeholder: "", // if necessary
     description: "", // if necessary
     type: "radio", // text, name, email, number, checkbox, date, select, radio
     appendedOptions: allActiveTaskNames, // if necessary from type
@@ -115,6 +115,46 @@ populateInputs(
   },floatingTasksEl
 )
 
+function addTasksWithStatus(taskStatus){
+  console.log(`checking for tasks with taskStatus: ${taskStatus}`);
+  const status = formDict.taskStatus;
+  const name = formDict.newTaskName.sheetName;
+  let newTaskList = tasksArray.filter(task => task[status] === taskStatus)
+    .map(taskObj => taskObj[name])
+  console.log({newTaskList: newTaskList});
+  return newTaskList;
+
+}
+
+function populateTasks(){
+  let options = Array.from(viewOptions)
+  let newFloatingTasksEl = document.createElement('div');
+  let newTaskList = [];
+  let optionValues = options.filter(options => options.checked === true)
+    .map(option => option.value);
+  optionValues.forEach(option =>{
+      let statusArr = addTasksWithStatus(option);
+      statusArr.forEach(task =>{
+        newTaskList.push(task)
+      })
+  })
+  let addTaskOption = tasksArray.at(-1)["Task Name"];
+  newTaskList.push(addTaskOption)
+  populateInputs(
+    {
+    question: "Tasks",
+    name: "", // if necessary
+    label: "", // if necessary label
+    placeholder: "", // if necessary
+    description: "", // if necessary
+    type: "radio", // text, name, email, number, checkbox, date, select, radio
+    appendedOptions: newTaskList, // if necessary from type
+    required: true, // true or false
+    startBlank: true, // only for select
+  },newFloatingTasksEl
+);
+return newFloatingTasksEl.lastElementChild; // just the div with options (no label)
+}
 // replacing preloads
 // ==================
 // console.log('replacing preload instances with data. . .')
@@ -152,10 +192,8 @@ const preloadTaskLabel = Array.from(document.querySelectorAll("label[for='member
 preloadTaskLabel.setAttribute('for', formDict.taskCollaborators.sheetName)
 
 
-// event listeners
-// ===============
-
-
+// Task fields
+// ==================
 let formDictArray = [
   formDict.newTaskName.sheetName,
   formDict.taskDetails,
@@ -166,34 +204,44 @@ let formDictArray = [
   formDict.taskID
 ]
 
+
+// clear option: 'Add Task'
 formDictArray.forEach(field =>{
   if (!tasksArray.at(-1)[field]){
     tasksArray.at(-1)[field] = '';
   }
 })
 
-// const tasksEl = document.querySelector("[name='Tasks']");
-// const addTaskEl = tasksEl.lastElementChild.firstElementChild;
-// console.log({'addTaskEl?': addTaskEl, 'addTasksObj':tasksArray.at(-1)})
-
-
-
-// let statusUpdateSection = preloadFormWrapperEl.querySelector('#Status-Update');
+// event listeners
+// ===============
 document.querySelector('body').addEventListener('change', (event) => {
   console.log({clickEvent: event.target.value})
-    // Check if the clicked element matches a specific selector
-    if (event.target.matches("[name='Tasks']")) {
-        // console.log('Dynamic button clicked:', event.target.value);
-        // const data = tasksArray.find(taskObj => taskObj['Task Name'] === event.target.value);
-        let data = tasksArray.filter(taskObj => taskObj['Task Name'] === event.target.value);
-        if (data.length > 1){
-          data = data.at(-1);
-        }else { data = data[0]}
+  let data;  
+  // Check if the clicked element matches a specific selector
+  switch(true){
+    case event.target.matches("[name='Tasks']"):
+      // console.log('Dynamic button clicked:', event.target.value);
+      data = tasksArray.filter(taskObj => taskObj['Task Name'] === event.target.value);
+      if (data.length > 1){
+        data = data.at(-1);
+      }else { data = data[0]}
 
-        console.log({data: data})     
-        updateFields(formDictArray, data)
+      console.log({data: data})     
+      updateFields(formDictArray, data);
+      break;
+    case event.target.matches("[name='Options']"):
+      let tasksEl = document.getElementById('Tasks').lastElementChild;
+      // let viewActive = viewOptions.filter(option => option.checked === true)
+      // viewActive.forEach(option =>{
+      //   populateTasks(option['Task Status'])
+      // })
+      tasksEl.replaceWith(populateTasks())
+        break;
+    default:
+      break;
+  }
 
-    }
+
 });
 
 function updateFields(fieldsArr, dataObj){
