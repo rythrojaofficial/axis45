@@ -3,7 +3,7 @@ import { getMembers } from './get-co-op.js'
 import { getTasks } from "./getTasks.js";
 import { taskmasterForm } from "./populate-add-status-update.js";
 import { addCoOpMemberForm } from "./populate-add-co-op.js";
-import { addCoOpTaskForm, formDict } from "./populate-add-tasks.js";
+import { formDict } from "./populate-add-tasks.js";
 import { generalTapToPopulate } from "../../scripts/general-tap-to-populate.js";
 import { HtmlElement } from "../../scripts/htmlElement.js";
 // import { preloadForm } from "./populate-preload.js";
@@ -14,7 +14,7 @@ import { HtmlElement } from "../../scripts/htmlElement.js";
 let formsArray = [
   taskmasterForm,
   addCoOpMemberForm,
-  addCoOpTaskForm
+  // addCoOpTaskForm
 ];
 let formWrappersArray = [];
 let preloadInstanceMemberArray = [];
@@ -76,8 +76,10 @@ tasksArray = tasksArray.filter(taskObj =>{
 let addTaskObj = {
   ['Task Name']: 'Add New Task' 
 }
+
 tasksArray.push(addTaskObj)
 const allActiveTaskNames = [...new Set(tasksArray.map(obj => obj["Task Name"]))];
+// console.log({tasksArray: tasksArray})
 
 
 // create replacements from sheet Data
@@ -164,6 +166,18 @@ let formDictArray = [
   formDict.taskID
 ]
 
+formDictArray.forEach(field =>{
+  if (!tasksArray.at(-1)[field]){
+    tasksArray.at(-1)[field] = '';
+  }
+})
+
+// const tasksEl = document.querySelector("[name='Tasks']");
+// const addTaskEl = tasksEl.lastElementChild.firstElementChild;
+// console.log({'addTaskEl?': addTaskEl, 'addTasksObj':tasksArray.at(-1)})
+
+
+
 // let statusUpdateSection = preloadFormWrapperEl.querySelector('#Status-Update');
 document.querySelector('body').addEventListener('change', (event) => {
   console.log({clickEvent: event.target.value})
@@ -219,10 +233,3 @@ function updateFieldTextContent(labelField, updatedText){
   if(labelField === null) return;
   labelField.textContent = updatedText;
 }
-
-
-
-
-
-
-
