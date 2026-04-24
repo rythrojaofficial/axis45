@@ -43,7 +43,12 @@ let workshopCodesArray = [
     {
         name:'251230tuesday-exercise',
         code:'5dec30ex'
+    },
+    {
+        name:'260425spotting',
+        code:'6apr25sp'
     }
+
 ]
 
 console.log({workshopCodesArray:workshopCodesArray})

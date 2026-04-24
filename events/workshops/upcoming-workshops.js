@@ -8,5 +8,15 @@ export const upcomingWorkshops = [
         prerequisites: ['Butterfly Kick', 'Jumping Vertical 360 Spin '],
         duration: "60",
         // hidden details
+    },
+    {
+        // displayed details
+        name: 'Beginner Spotting',
+        date: 260425,
+        startTime: '6:30pm',
+        description: "Learn and practice Hand Spotting Techniques for Basic Elements",
+        prerequisites: ['none'],
+        duration: "60",
+        // hidden details
     }
 ]
