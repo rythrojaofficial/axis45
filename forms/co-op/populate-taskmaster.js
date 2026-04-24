@@ -163,6 +163,7 @@ preloadInstanceMemberArray.forEach((instance, i) =>{
   let loadedEl = floatingMembersEl.firstElementChild.cloneNode(true);
 
   if (instance.getAttribute('value') === formDict.taskCollaborators.sheetName){
+    instance.removeAttribute('required');
     console.log('collaborators instance')
     console.log({loadedEl:loadedEl});
     loadedEl.name = formDict.taskCollaborators.sheetName;
@@ -230,12 +231,9 @@ document.querySelector('body').addEventListener('change', (event) => {
       updateFields(formDictArray, data);
       break;
     case event.target.matches("[name='Options']"):
-      let tasksEl = document.getElementById('Tasks').lastElementChild;
-      // let viewActive = viewOptions.filter(option => option.checked === true)
-      // viewActive.forEach(option =>{
-      //   populateTasks(option['Task Status'])
-      // })
-      tasksEl.replaceWith(populateTasks())
+      rePopulateTasks();
+      // let tasksEl = document.getElementById('Tasks').lastElementChild;
+      // tasksEl.replaceWith(populateTasks())
         break;
     default:
       break;
@@ -243,6 +241,10 @@ document.querySelector('body').addEventListener('change', (event) => {
 
 
 });
+function rePopulateTasks(){
+    let tasksEl = document.getElementById('Tasks').lastElementChild;
+    tasksEl.replaceWith(populateTasks())
+}
 
 function updateFields(fieldsArr, dataObj){
   console.log({message:`updating fields. fields arr : ${fieldsArr}`
@@ -281,3 +283,7 @@ function updateFieldTextContent(labelField, updatedText){
   if(labelField === null) return;
   labelField.textContent = updatedText;
 }
+
+// to do after load
+// ================
+rePopulateTasks();
