@@ -63,6 +63,7 @@ let viewOptionsSection = [
     required: false, // true or false
     startBlank: true, // only for select
   }, // placeholder 
+  
 ]
 formDict.sections.push(viewOptionsSection);
 let tasksSection = [

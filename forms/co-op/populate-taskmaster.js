@@ -6,7 +6,7 @@ import { addCoOpMemberForm } from "./populate-add-co-op.js";
 import { formDict } from "./populate-add-tasks.js";
 import { generalTapToPopulate } from "../../scripts/general-tap-to-populate.js";
 import { HtmlElement } from "../../scripts/htmlElement.js";
-import { dashifyToLowerCase } from "../../scripts/dashify.js"
+import { dashifyToLowerCase, titleCase } from "../../scripts/text-utils.js"
 // import { preloadForm } from "./populate-preload.js";
 
 
@@ -160,12 +160,29 @@ floatingDivsArray.forEach(div=>{
   div.classList.add('task-option-div');
   let taskObj = tasksArray.findLast(obj => div.firstElementChild.value === obj['Task Name']);
   let currentStatus = taskObj["Task Status"];
-  let statusClass = dashifyToLowerCase(currentStatus);
-  let statusIndicator = new HtmlElement('div', div,
-    {class: `task-status task-status-${statusClass}`},
-    currentStatus
-
+  if (!currentStatus === false){
+    let statusClass = dashifyToLowerCase(currentStatus);
+    const statusIndicator = new HtmlElement('div', div,
+      {class: `task-status task-status-${statusClass}`},
+      currentStatus
   )
+  }
+  let currentTier = taskObj["Task Tier"];
+  if (!currentTier === false){
+     const tierIndicator = new HtmlElement('div', div,
+      {class: `task-tier task-tier-${currentTier}`},
+      `Tier ${currentTier}`
+  )
+  }
+  let currentUrgency = taskObj["Task Urgency"];
+  if(!currentUrgency === false){
+    const urgencyIndicator = new HtmlElement('div', div,
+      { class:  `task-urgency task-urgency-${currentUrgency}`},
+      titleCase(`${currentUrgency} urgency`)
+    )
+  }
+  
+ 
 })
 return newFloatingTasksEl.lastElementChild; // just the div with options (no label)
 }
