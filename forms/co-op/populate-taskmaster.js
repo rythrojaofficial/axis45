@@ -6,6 +6,7 @@ import { addCoOpMemberForm } from "./populate-add-co-op.js";
 import { formDict } from "./populate-add-tasks.js";
 import { generalTapToPopulate } from "../../scripts/general-tap-to-populate.js";
 import { HtmlElement } from "../../scripts/htmlElement.js";
+import { dashifyToLowerCase } from "../../scripts/dashify.js"
 // import { preloadForm } from "./populate-preload.js";
 
 
@@ -127,6 +128,7 @@ function addTasksWithStatus(taskStatus){
 }
 
 function populateTasks(){
+  console.log('populating tasks. . .')
   let options = Array.from(viewOptions)
   let newFloatingTasksEl = document.createElement('div');
   let newTaskList = [];
@@ -153,6 +155,18 @@ function populateTasks(){
     startBlank: true, // only for select
   },newFloatingTasksEl
 );
+let floatingDivsArray = Array.from(newFloatingTasksEl.lastElementChild.childNodes);
+floatingDivsArray.forEach(div=>{
+  div.classList.add('task-option-div');
+  let taskObj = tasksArray.findLast(obj => div.firstElementChild.value === obj['Task Name']);
+  let currentStatus = taskObj["Task Status"];
+  let statusClass = dashifyToLowerCase(currentStatus);
+  let statusIndicator = new HtmlElement('div', div,
+    {class: `task-status task-status-${statusClass}`},
+    currentStatus
+
+  )
+})
 return newFloatingTasksEl.lastElementChild; // just the div with options (no label)
 }
 // replacing preloads
@@ -283,6 +297,8 @@ function updateFieldTextContent(labelField, updatedText){
   if(labelField === null) return;
   labelField.textContent = updatedText;
 }
+
+
 
 // to do after load
 // ================

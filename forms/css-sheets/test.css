@@ -157,3 +157,26 @@ a {
         transform: scaleX(-1) rotate(-360deg);
     }
 }
+
+/* coop taskmaster status updates */
+.task-option-div{
+    /* background-color: lightblue; */
+    display:grid;
+    grid-template-columns: 3rem auto;
+}
+.task-option-div > label {
+    /* grid-column-start: 2; */
+}
+.task-status{
+    grid-column: 2;
+    font-size:.75rem;
+}
+.task-status-not-started{
+    color: red;
+}
+.task-status-in-progress{
+    color: goldenrod;
+}
+.task-status-complete{
+    color: green
+}
