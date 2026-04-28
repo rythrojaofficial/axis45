@@ -27,6 +27,6 @@ export function titleCase(string){
         
 }
 
-console.log({
-    capitalize: titleCase('i come from a lOOONG liNe of HEROES')
-})
+// console.log({
+//     capitalize: titleCase('i come from a lOOONG liNe of HEROES')
+// })

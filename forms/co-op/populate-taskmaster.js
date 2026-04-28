@@ -66,7 +66,7 @@ viewOptions.forEach(option =>{
 // get data from sheets
 // =====================
 let membersArray = await getMembers();
-const allActiveMembersNames = membersArray.allActive.map(obj => obj['Co-Op Member']);
+const allActiveMembersNames = membersArray.allActive.map(obj => obj['Co-Op Member'])
 let tasksArray = await getTasks();
 // remove empty tasks
 tasksArray = tasksArray.filter(taskObj =>{
@@ -97,7 +97,7 @@ populateInputs(
     description: "", // if necessary
     type: "select", // text, name, email, number, checkbox, date, select, radio
     appendedOptions: allActiveMembersNames, // if necessary from type
-    required: true, // true or false
+    required: false, // true or false
     startBlank: true, // only for select
     multiple: true,
   },floatingMembersEl
@@ -194,10 +194,11 @@ preloadInstanceMemberArray.forEach((instance, i) =>{
   let loadedEl = floatingMembersEl.firstElementChild.cloneNode(true);
 
   if (instance.getAttribute('value') === formDict.taskCollaborators.sheetName){
-    instance.removeAttribute('required');
+    // instance.removeAttribute('required');
     console.log('collaborators instance')
     console.log({loadedEl:loadedEl});
     loadedEl.name = formDict.taskCollaborators.sheetName;
+    // loadedEl.removeAttribute('required');
     loadedEl.addEventListener('input', (e)=>{
       let selected = Array.from(e.target.selectedOptions)
         .map(option => option.value)
@@ -211,6 +212,7 @@ preloadInstanceMemberArray.forEach((instance, i) =>{
   }
   
   loadedEl.selectedIndex = -1;
+  loadedEl.removeAttribute('required')
 
   instance.replaceWith(loadedEl);
   })
@@ -263,8 +265,6 @@ document.querySelector('body').addEventListener('change', (event) => {
       break;
     case event.target.matches("[name='Options']"):
       rePopulateTasks();
-      // let tasksEl = document.getElementById('Tasks').lastElementChild;
-      // tasksEl.replaceWith(populateTasks())
         break;
     default:
       break;
