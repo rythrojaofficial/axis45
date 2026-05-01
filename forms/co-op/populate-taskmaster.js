@@ -261,6 +261,7 @@ document.querySelector('body').addEventListener('change', (event) => {
     case event.target.matches("[name='Tasks']"):
       // console.log('Dynamic button clicked:', event.target.value);
       data = tasksArray.filter(taskObj => taskObj['Task Name'] === event.target.value);
+      console.log({clickDataFiltered:data})
       if (data.length > 1){
         data = data.at(-1);
       }else { data = data[0]}
@@ -312,7 +313,11 @@ function updateField(tempTaskNameField, updatedData){
   if(tempTaskNameField !== null){
       console.log(`updating task.  temp task: ${tempTaskNameField.value || null}, updated data: ${updatedData}`
   )
+    if (updatedData === 'Add New Task'){
+      tempTaskNameField.value = ''
+    }else{
       tempTaskNameField.value = updatedData
+    }
   }
 }
 function updateFieldTextContent(labelField, updatedText){
