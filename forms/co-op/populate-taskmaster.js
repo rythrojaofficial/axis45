@@ -70,7 +70,9 @@ const allActiveMembersNames = membersArray.allActive.map(obj => obj['Co-Op Membe
 let tasksArray = await getTasks();
 // remove empty tasks
 tasksArray = tasksArray.filter(taskObj =>{
-    if (taskObj['Task Name'] !== '' && taskObj['TaskID'] !== '') 
+    if (taskObj['Task Name'] !== '' 
+      && taskObj['TaskID'] !== ''
+    ) 
       return taskObj
   });
 // add task Extra
@@ -120,7 +122,10 @@ function addTasksWithStatus(taskStatus){
   console.log(`checking for tasks with taskStatus: ${taskStatus}`);
   const status = formDict.taskStatus;
   const name = formDict.newTaskName.sheetName;
-  let newTaskList = tasksArray.filter(task => task[status] === taskStatus)
+  const latestTasksArray = [...new Map(
+    tasksArray.map(task => [task["Task Name"], task])
+    ).values()]; // re-map the tasks so that we only get the latests values
+  let newTaskList = latestTasksArray.filter(task => task[status] === taskStatus)
     .map(taskObj => taskObj[name])
   console.log({newTaskList: newTaskList});
   return newTaskList;
