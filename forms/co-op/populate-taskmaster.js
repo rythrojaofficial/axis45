@@ -22,8 +22,7 @@ let preloadInstanceMemberArray = [];
 let preloadInstanceTaskArray = [];
 
 
-
-formsArray.forEach(form=>{
+for (const form of formsArray){
   const formWrapperEl = document.createElement('div');
   populateForm(form, formWrapperEl);
   formWrappersArray.push(
@@ -34,18 +33,18 @@ formsArray.forEach(form=>{
   )
 
   let memberloadingInstances = Array.from(formWrapperEl.querySelectorAll('[name="member-loading"]'));
+
   let taskloadingInstance = formWrapperEl.querySelector('[name="task-loading"]');
   if (memberloadingInstances !== null){
-    memberloadingInstances.forEach(instance=>{
-       preloadInstanceMemberArray.push(instance)
-
-    })
+    for (const instance of memberloadingInstances){
+      preloadInstanceMemberArray.push(instance)
+    }
   }
   console.log({preloadInstanceMemberArray:preloadInstanceMemberArray})
   if (taskloadingInstance !== null){
     preloadInstanceTaskArray.push(taskloadingInstance)
   }
-})
+}
 
 const preloadFormWrapperEl = document.createElement('div');
 populateForm(taskmasterForm, preloadFormWrapperEl)
@@ -57,11 +56,11 @@ generalTapToPopulate(formWrappersArray,taskmasterButtonWrapper,taskmasterDisplay
 
 // pre-fill View
 const viewOptions = document.querySelectorAll("input[name='Options']");
-viewOptions.forEach(option =>{
-  if (option.value !== 'Complete'){
+for (const option of viewOptions){
+    if (option.value !== 'Complete'){
     option.checked = true;
   }
-});
+}
 
 // get data from sheets
 // =====================
@@ -139,12 +138,12 @@ function populateTasks(){
   let newTaskList = [];
   let optionValues = options.filter(options => options.checked === true)
     .map(option => option.value);
-  optionValues.forEach(option =>{
+  for (const option of optionValues){
       let statusArr = addTasksWithStatus(option);
-      statusArr.forEach(task =>{
+      for (const task of statusArr){
         newTaskList.push(task)
-      })
-  })
+      }
+  }
   let addTaskOption = tasksArray.at(-1)["Task Name"];
   newTaskList.push(addTaskOption)
   populateInputs(
@@ -160,42 +159,40 @@ function populateTasks(){
     startBlank: true, // only for select
   },newFloatingTasksEl
 );
-let floatingDivsArray = Array.from(newFloatingTasksEl.lastElementChild.childNodes);
-floatingDivsArray.forEach(div=>{
-  div.classList.add('task-option-div');
-  let taskObj = tasksArray.findLast(obj => div.firstElementChild.value === obj['Task Name']);
-  let currentStatus = taskObj["Task Status"];
-  if (!currentStatus === false){
-    let statusClass = dashifyToLowerCase(currentStatus);
-    const statusIndicator = new HtmlElement('div', div,
-      {class: `task-status task-status-${statusClass}`},
-      currentStatus
-  )
-  }
-  let currentTier = taskObj["Task Tier"];
-  if (!currentTier === false){
-     const tierIndicator = new HtmlElement('div', div,
-      {class: `task-tier task-tier-${currentTier}`},
-      `Tier ${currentTier}`
-  )
-  }
-  let currentUrgency = taskObj["Task Urgency"];
-  if(!currentUrgency === false){
-    const urgencyIndicator = new HtmlElement('div', div,
-      { class:  `task-urgency task-urgency-${currentUrgency}`},
-      titleCase(`${currentUrgency} urgency`)
+
+  let floatingDivsArray = Array.from(newFloatingTasksEl.lastElementChild.childNodes);
+  for (const div of floatingDivsArray){
+    div.classList.add('task-option-div');
+    let taskObj = tasksArray.findLast(obj => div.firstElementChild.value === obj['Task Name']);
+    let currentStatus = taskObj["Task Status"];
+    if (!currentStatus === false){
+      let statusClass = dashifyToLowerCase(currentStatus);
+      const statusIndicator = new HtmlElement('div', div,
+        {class: `task-status task-status-${statusClass}`},
+        currentStatus
     )
-  }
-  
- 
-})
-return newFloatingTasksEl.lastElementChild; // just the div with options (no label)
+    }
+    let currentTier = taskObj["Task Tier"];
+    if (!currentTier === false){
+      const tierIndicator = new HtmlElement('div', div,
+        {class: `task-tier task-tier-${currentTier}`},
+        `Tier ${currentTier}`
+    )
+    }
+    let currentUrgency = taskObj["Task Urgency"];
+    if(!currentUrgency === false){
+      const urgencyIndicator = new HtmlElement('div', div,
+        { class:  `task-urgency task-urgency-${currentUrgency}`},
+        titleCase(`${currentUrgency} urgency`)
+        )
+     }
+  };
+  return newFloatingTasksEl.lastElementChild; // just the div with options (no label)
 }
 // replacing preloads
 // ==================
 // console.log('replacing preload instances with data. . .')
-
-preloadInstanceMemberArray.forEach((instance, i) =>{
+for (const instance of preloadInstanceMemberArray){
   let loadedEl = floatingMembersEl.firstElementChild.cloneNode(true);
 
   if (instance.getAttribute('value') === formDict.taskCollaborators.sheetName){
@@ -220,11 +217,10 @@ preloadInstanceMemberArray.forEach((instance, i) =>{
   loadedEl.removeAttribute('required')
 
   instance.replaceWith(loadedEl);
-  })
-
-preloadInstanceTaskArray.forEach(instance =>{
+}
+for (const instance of preloadInstanceTaskArray){
   instance.replaceWith(floatingTasksEl.lastElementChild)
-})
+}
 
 const preloadTaskLabel = Array.from(document.querySelectorAll("label[for='member-loading']"))
   .find(l => l.textContent.includes(formDict.taskCollaborators.sheetName))
@@ -245,11 +241,11 @@ let formDictArray = [
 
 
 // clear option: 'Add Task'
-formDictArray.forEach(field =>{
+for (const field of formDictArray){
   if (!tasksArray.at(-1)[field]){
     tasksArray.at(-1)[field] = '';
   }
-})
+}
 
 // event listeners
 // ===============
@@ -291,7 +287,7 @@ function updateFields(fieldsArr, dataObj){
   console.log({dataKeys: dataKeys,
     dataObj: dataObj
   })
-  fieldsArr.forEach((field) =>{
+  for (const field of fieldsArr){
     if (dataKeys.includes(field) === false){
       return
     }
@@ -307,7 +303,7 @@ function updateFields(fieldsArr, dataObj){
       console.log({field: field, newData:newData});
       updateField(tempField, newData);
     }
-  })
+  }
 }
 function updateField(tempTaskNameField, updatedData){
 
@@ -330,9 +326,8 @@ function updateFieldTextContent(labelField, updatedText){
 
 // to do after load
 // ================
-rePopulateTasks()
+rePopulateTasks();
 let addTasksRadio = document.getElementById("option Tasks Add New Task")
-console.log('where are we')
-console.log({addTasksRadio: addTasksRadio})
+// console.log({addTasksRadio: addTasksRadio})
 addTasksRadio.checked = true; // pre select add new task
 
