@@ -4,7 +4,7 @@
 ### upper
 1. up/out, alt up/out, 
 1. opposite over, same over
-1. hinged flatback series
+1. bent leg pike (hinged flatback series)
     1. single arm: swing f/b, swim f/b, 90d fly+ press, straight fly in/out
 ### lower
 1. releve 
@@ -15,9 +15,9 @@
 1. alt lunge jump OR lunge hop lunge
 1. straight leg arc lift
 ### floor
-1. pidgeon exercise
-1. half middle rock
-1. table rock, side reach
+1. 90/90 lift+lift
+1. half middle rock + lift
+1. table shld circles + stand
 1. serratus push
 1. seal lift
 1. superman arms lift + circles
