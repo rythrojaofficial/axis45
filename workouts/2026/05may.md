@@ -1,24 +1,26 @@
 # May Warm-up/Exercise
 
 ## Warm-Up
-### shoulder things
-1. elbows in press, elbows out press
-1. table rock
-1. serratus push
-### hinged flatback series
-1. single arm: swing f/b, swim f/b, 90d fly+ press, straight fly in/out
-### calf
-1. soleus march
-1. releve
+### upper
+1. up/out, alt up/out, 
+1. opposite over, same over
+1. hinged flatback series
+    1. single arm: swing f/b, swim f/b, 90d fly+ press, straight fly in/out
+### lower
+1. releve 
 1. SL heel raise
-### knees
 1. standing hs curl 3x
-1. cossack/curtsey lunge
-1. lunge stepthrough
-1. lunge hop lunge
-1. straight leg arc
-
-
+1. lunge balance rotation
+1. lunge stepthrough swing
+1. alt lunge jump OR lunge hop lunge
+1. straight leg arc lift
+### floor
+1. pidgeon exercise
+1. half middle rock
+1. table rock, side reach
+1. serratus push
+1. seal lift
+1. superman arms lift + circles
 
 ## Exercise
 ### running
