@@ -279,6 +279,7 @@ document.querySelector('body').addEventListener('change', (event) => {
 
 });
 function rePopulateTasks(){
+    console.log('repopulateTasks() called. . .')
     let tasksEl = document.getElementById('Tasks').lastElementChild;
     tasksEl.replaceWith(populateTasks())
 }
@@ -314,7 +315,7 @@ function updateField(tempTaskNameField, updatedData){
       console.log(`updating task.  temp task: ${tempTaskNameField.value || null}, updated data: ${updatedData}`
   )
     if (updatedData === 'Add New Task'){
-      tempTaskNameField.value = ''
+      tempTaskNameField.value = '';
     }else{
       tempTaskNameField.value = updatedData
     }
@@ -329,4 +330,9 @@ function updateFieldTextContent(labelField, updatedText){
 
 // to do after load
 // ================
-rePopulateTasks();
+rePopulateTasks()
+let addTasksRadio = document.getElementById("option Tasks Add New Task")
+console.log('where are we')
+console.log({addTasksRadio: addTasksRadio})
+addTasksRadio.checked = true; // pre select add new task
+
