@@ -34,17 +34,18 @@
 1. db/trap bar jump
 
 ## strength
+1. hs with forward pressure / low press float /planche
 1. barbell bent over row 
 1. nordic curl
 
 ### circuit
 1. bench bw sled drag
-1. double bench chest dips
+1. paralette chest dips
+1. bench glute abduction
 1. ring support
 1. chin up (easy)
 1. weighted cossack/curtsey?
 1. bw leg extension (prone)
-1. bench glute abduction
 
 <!-- ### core rock
 1. hollow, arch, side, side -->
@@ -55,3 +56,7 @@
 1. kettlebell waiter walk
 1. hanging active, rolls, s/s, single arm?
 1. plate halo, 8, shovel, press out, push press
+
+### bonus
+1. gina abs
+
