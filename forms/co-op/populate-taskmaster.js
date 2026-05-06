@@ -7,7 +7,6 @@ import { formDict } from "./populate-add-tasks.js";
 import { generalTapToPopulate } from "../../scripts/general-tap-to-populate.js";
 import { HtmlElement } from "../../scripts/htmlElement.js";
 import { dashifyToLowerCase, titleCase } from "../../scripts/text-utils.js"
-// import { preloadForm } from "./populate-preload.js";
 
 
 // form wrappers
@@ -15,7 +14,6 @@ import { dashifyToLowerCase, titleCase } from "../../scripts/text-utils.js"
 let formsArray = [
   taskmasterForm,
   addCoOpMemberForm,
-  // addCoOpTaskForm
 ];
 let formWrappersArray = [];
 let preloadInstanceMemberArray = [];
@@ -204,7 +202,7 @@ for (const instance of preloadInstanceMemberArray){
     loadedEl.addEventListener('input', (e)=>{
       let selected = Array.from(e.target.selectedOptions)
         .map(option => option.value)
-        .join(', ')
+        .join(', ');
 
       updateFieldTextContent(
         preloadTaskLabel,

@@ -179,21 +179,3 @@ export const taskmasterForm = {
   submitMessage: "Submitting. . . Please Wait 🙂",
   submitError: "*Please check fields",
 };
-
-// import { HtmlElement } from "../../scripts/htmlElement.js";
-// import { populateInputs } from "../../scripts/forms.js";
-
-// let floatingStatusEl = document.createElement('div');
-// let newSection = new HtmlElement("fieldset", floatingStatusEl, {
-//         id: updateSection[0].legend.replace(/ /g, "-"),
-//       }),
-//       newLegend = new HtmlElement(
-//         "legend",
-//         newSection.element,
-//         {},
-//         updateSection[0].legend
-//       );
-//     updateSection.slice(1).forEach((obj) => {
-//       populateInputs(obj, newSection.element);
-//     });
-// console.log(floatingStatusEl)
