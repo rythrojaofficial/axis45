@@ -27,37 +27,21 @@ export async function getMembers(){
   let headers = getHeaders(data);
   console.log({memberHeaders:headers});
 
-
-  data.forEach(memberRow => {
-          let newMember = new CoopMember();
+  for (const memberRow of data){
+    let newMember = new CoopMember();
           headers.forEach(header =>{
             newMember.addKey(header, memberRow[header])
           })
           membersLibrary.full.push(newMember)
-      //     console.log({
-      //       member: newMember['Co-Op Member'],
-      //       mainMember: newMember['Main Member']
-      // })
-      })
-      // console.log({membersLibraryFull:membersLibrary.full})
-  membersLibrary.full.forEach( member => {
-    if(member['Status'] === 'active'){
-      membersLibrary.allActive.push(member)
-    }
-    if(member['Status'] === 'active'
-      && member['Main Member'] === true
-    ){
-      membersLibrary.priority.push(member)
-    }else if(member['Status'] === 'active'
+  }
+  membersLibrary.allActive = membersLibrary.full.filter(member=> member['Status'] === 'active');
+  membersLibrary.priority = membersLibrary.full.filter(member => member['Status'] === 'active'
+      && member['Main Member'] === true);
+  membersLibrary.regular = membersLibrary.full.filter(member => member['Status'] === 'active'
         && member['Main Member'] === false
-    ){membersLibrary.regular.push(member)}
-  })
-      console.log(membersLibrary)
-
-    return membersLibrary;
+    )
+  return membersLibrary;
 }
-
-// getMembers()
 
 
 
