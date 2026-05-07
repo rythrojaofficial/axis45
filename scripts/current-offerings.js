@@ -219,9 +219,7 @@ export function populateTodaysSessions() {
   for (const session of dateLibrary[todaysDay]){
     let li = new HtmlElement("li", ul.element, {}, session);
   }
-  // dateLibrary[todaysDay].forEach((session) => {
-  //   let li = new HtmlElement("li", ul.element, {}, session);
-  // });
+
   // +++++++++++++++++
   // test with day other than today
   // +++++++++++++++++

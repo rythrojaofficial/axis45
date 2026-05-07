@@ -213,13 +213,13 @@ function createMdLink(yrStr, mStr, target){
     })
 }
 function retrieveMD(yearString, monthString){
-    yearMonthComboArray.forEach(combo =>{
+    for (const combo of yearMonthComboArray){
         if(yearString === combo.year){
             if(monthString === combo.month){
                 head.appendChild(combo.wrapperDiv)
             }
         }
-    })
+    }
 }
 export function populateWorkouts(){
     clearMdElement();

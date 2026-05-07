@@ -55,43 +55,42 @@ class kvPair{
 }
 
 export function tapToPopulate(arrOfObjects, buttonWrapper, displayTarget, templates = '',  showFirst = false){
-        let state = new MdState
-        let placeHolderParent = document.createElement('div');
-        arrOfObjects.forEach(obj => {
-            if (obj.active === true){
-                        let thisMD;
-                        let thisHyphenatedName = hyphenated(obj.name);
-                        if (obj.mdTrueLink !== ''){
-                            thisMD = obj.mdTrueLink;
-                        }else thisMD = `${templates.mdTemplate.before}${thisHyphenatedName}${templates.mdTemplate.after}`; // add template md
-                        // console.log(thisMD)
-                        obj.properties.class +=` ${templates.classes}` // add template classes to class list
-                        if(templates.id !== ''){
-                            obj.properties.id = `${obj.name}${templates.id}`// add template id
-                        }
-                        let newElement = new mdElement(
-                            placeHolderParent,
-                            obj.properties,
-                            thisMD
-                        )
-                let libObject = new kvPair(obj.name, newElement)
-                state.library.push(libObject)
-                if (obj.active === true){
-                    let button = new ButtonElement(
-                        buttonWrapper,
-                        ()=>{
-                            clearTarget(displayTarget);
-                            populateTarget(displayTarget, obj, state, templates)
-                            enableInstagramEmbed();
-                            
-                        },
-                        {},
-                        capitalizeWords(obj.name)
+    let state = new MdState
+    let placeHolderParent = document.createElement('div');
+    for (const obj of arrOfObjects){
+        if (obj.active === true){
+                    let thisMD;
+                    let thisHyphenatedName = hyphenated(obj.name);
+                    if (obj.mdTrueLink !== ''){
+                        thisMD = obj.mdTrueLink;
+                    }else thisMD = `${templates.mdTemplate.before}${thisHyphenatedName}${templates.mdTemplate.after}`; // add template md
+                    // console.log(thisMD)
+                    obj.properties.class +=` ${templates.classes}` // add template classes to class list
+                    if(templates.id !== ''){
+                        obj.properties.id = `${obj.name}${templates.id}`// add template id
+                    }
+                    let newElement = new mdElement(
+                        placeHolderParent,
+                        obj.properties,
+                        thisMD
                     )
-                }
+            let libObject = new kvPair(obj.name, newElement)
+            state.library.push(libObject)
+            if (obj.active === true){
+                let button = new ButtonElement(
+                    buttonWrapper,
+                    ()=>{
+                        clearTarget(displayTarget);
+                        populateTarget(displayTarget, obj, state, templates)
+                        enableInstagramEmbed();
+                        
+                    },
+                    {},
+                    capitalizeWords(obj.name)
+                )
             }
-            
-    });
+        }
+    };
     if (showFirst === true){
         const firstObjName = state.library[0].name;
         const firstObj = state.retrieveElement(firstObjName);

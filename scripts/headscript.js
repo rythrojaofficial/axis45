@@ -16,9 +16,12 @@ function updateFoundations(nextDate) {
   let instancesOfNextFoundationsDate = [
     ...document.querySelectorAll(".next-foundations-date"),
   ];
-  instancesOfNextFoundationsDate.forEach((instance) => {
+  for (const instance of instancesOfNextFoundationsDate){
     instance.textContent = nextDate;
-  });
+  }
+  // instancesOfNextFoundationsDate.forEach((instance) => {
+  //   // instance.textContent = nextDate;
+  // });
 }
 updateFoundations(nextFoundationsDate());
 
@@ -129,10 +132,11 @@ const navVenmo = new NavIcon(
 );
 
 function addNav() {
-  navbarHeaderList.forEach((header) => {
+  for (const header of navbarHeaderList){
     header.classList.add("flex-header");
-  });
-  navbarTextList.forEach((nav) => {
+  };
+
+  for (const nav of navbarTextList){
     let li = document.createElement("li");
     li.id = nav.id;
     let a = document.createElement("a");
@@ -140,9 +144,9 @@ function addNav() {
     a.href = nav.link;
     li.appendChild(a);
     flexHeaderLinks.appendChild(li);
-  });
+  };
 
-  navbarIconList.forEach((nav) => {
+  for (const nav of navbarIconList){
     let li = document.createElement("li");
     let a = document.createElement("a");
     a.href = nav.link;
@@ -153,7 +157,8 @@ function addNav() {
     a.appendChild(icon);
     li.appendChild(a);
     flexHeaderIcons.appendChild(li);
-  });
+  };
+
 
   let reorder = document.createElement("li");
   reorder.id = "reorder-nav";
@@ -166,9 +171,10 @@ function addNav() {
   flexHeaderReorder.appendChild(reorder);
 
   // append the lists to myHeader
-  navbarHeaderList.forEach((header) => {
-    myHeader.appendChild(header);
-  });
+  for (const header of navbarHeaderList){
+    myHeader.appendChild(header);;
+  }
+
   // add header to body
   document.body.prepend(myHeader);
 }

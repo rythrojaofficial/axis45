@@ -16,7 +16,7 @@ export class State{
     }
 
     retrieveElement(elName){
-        for (let i=0; i< this.library.length; i++){
+        for (let i=0; i < this.library.length; i++){
             if (elName === this.library[i].name){
                 return this.library[i].element
             }
