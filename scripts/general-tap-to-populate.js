@@ -5,13 +5,14 @@ export function generalTapToPopulate(arrOfkvPairs, buttonWrapper, displayTarget,
     // console.log('generalTapToPopulate() called. . .')
     let state = new State;
     let placeHolderParent = document.createElement('div');
-    arrOfkvPairs.forEach( pair => {
+
+    for (const pair of arrOfkvPairs){
         // console.log({kvpair: pair})
         if(templates !== ''){ // if templates exists
             if(templates.classes.length > 0){ // if the array is not empty
-                templates.classes.forEach( className => {
-                    pair.element.classList.add(className)
-                })
+                for (const className of templates.classes){
+                  pair.element.classList.add(className)
+                }
             }
         }
         state.library.push( pair );
@@ -24,8 +25,7 @@ export function generalTapToPopulate(arrOfkvPairs, buttonWrapper, displayTarget,
             {},
             capitalizeWords(pair.name)
             )        
-
-    });
+    }
     if (showFirst === true){
         const firstObjName = state.library[0].name;
         const firstObj = state.retrieveElement(firstObjName);

@@ -130,7 +130,7 @@ let noSessionMessage =
 
 export function createOfferingsMDFrames(offeringsArray) {
   console.log('createOfferingsMDFrame')
-  offeringsArray.forEach((li) => {
+  for (const li of offeringsArray){
     if (li.textContent !== noSessionMessage) {
       let currentOffering = offeringsLibrary[li.textContent];
       // get text from li
@@ -174,7 +174,7 @@ export function createOfferingsMDFrames(offeringsArray) {
         currentOffering.mdpage
       );
     }
-  });
+  }
 }
 
 // courtesy of updateNews.js
@@ -216,10 +216,12 @@ export function populateTodaysSessions() {
   let targetElement = document.getElementById("todays-offerings");
   let div = new HtmlElement("div", targetElement, { id: "offerings" });
   let ul = new HtmlElement("ul", div.element, {});
-
-  dateLibrary[todaysDay].forEach((session) => {
+  for (const session of dateLibrary[todaysDay]){
     let li = new HtmlElement("li", ul.element, {}, session);
-  });
+  }
+  // dateLibrary[todaysDay].forEach((session) => {
+  //   let li = new HtmlElement("li", ul.element, {}, session);
+  // });
   // +++++++++++++++++
   // test with day other than today
   // +++++++++++++++++

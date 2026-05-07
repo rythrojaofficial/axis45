@@ -363,7 +363,7 @@ export function populateInputs(inputObject, parentElement) {
 }
 export function populateSections(formObject, parentElement) {
   let sectionArray = formObject.sectionArray;
-  sectionArray.forEach((sec) => {
+  for (const sec of sectionArray){
     let newSection = new HtmlElement("fieldset", parentElement, {
         id: sec[0].legend.replace(/ /g, "-"),
       }),
@@ -373,21 +373,23 @@ export function populateSections(formObject, parentElement) {
         {},
         sec[0].legend
       );
-    sec.slice(1).forEach((obj) => {
+    for (const obj of sec.slice(1)){
       populateInputs(obj, newSection.element);
-    });
-  });
+    }
+  }
+
 }
 function validateForm(formID) {
   let requiredArray = Array.from(
     document.getElementById(formID).querySelectorAll("[required = true]")
   );
   let counter = 0;
-  requiredArray.forEach((element) => {
+  for (const element of requiredArray){
     if (element.checkValidity()) {
       counter++;
     }
-  });
+  }
+
   switch (counter) {
     case requiredArray.length:
       return true;
