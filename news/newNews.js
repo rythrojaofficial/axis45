@@ -20,6 +20,15 @@ export let newNews = [
     link: "",
   },
     {
+    lastActivated: "260523",
+    active: true,
+    expires: 260525,
+    title: "Axis Closed on 5/24: Sunday Stretch and Sesh Cxled!",
+    lines: ["Most of us will be at the Massive Monkeys Breaking Event in Seattle!", "No Stretch or Sesh on Sunday the 24th!"],
+    md: "",
+    link: "",
+  },
+    {
     lastActivated: "260207",
     active: true,
     expires: 260208,

@@ -23,6 +23,14 @@ export const noSeshDates = [
       'The GRAND Quest to 1000 Backflips'
     ]
   },
+  {
+    dateCancelled: [260524], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ['Stretch and Sesh Cancelled for today!',
+      'Most of us will be at the Massive Monkeys Breaking Event in Seattle',
+      'See you all next week!'
+    ]
+  },
 
 ]
 
