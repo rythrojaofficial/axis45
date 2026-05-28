@@ -20,34 +20,22 @@ export let newNews = [
     link: "",
   },
     {
-    lastActivated: "260523",
+    lastActivated: "260528",
     active: true,
-    expires: 260525,
-    title: "Axis Closed on 5/24: Sunday Stretch and Sesh Cxled!",
-    lines: ["Most of us will be at the Massive Monkeys Breaking Event in Seattle!", "No Stretch or Sesh on Sunday the 24th!"],
+    expires: 260801,
+    title: "Summer Hours for Friday Start 5/29!",
+    lines: ["Friday Open 8-10pm!","Unless a keyholder decides to open early! 😉"],
     md: "",
     link: "",
   },
     {
-    lastActivated: "260207",
+    lastActivated: "260528",
     active: true,
-    expires: 260208,
-    title: "2/8 Superbowl Sunday Schedule!",
-    lines: ["1. Guided Flexibility at 1pm (rather than 3pm)",
-      "2. Around 3pm, we may go upstairs to MVP to catch some of the Superbowl",
-      "3. We will be back by 5pm for normal Open Flipping + Free Injury Screen night with Empower Manual Therapy"
-    ],
-    md: "",
-    link: "",
-  },
-  {
-    lastActivated: "260203",
-    active: true,
-    expires: 260209,
+    expires: 260608,
     title: "Free Injury Screening Night(s)!",
     lines: [
       "Free with Open Session drop-in OR membership tally ",
-      "Sunday Feb 08",
+      "Sunday, June 7",
     ],
     md: "./events/empower/injury-screening.md",
     link: "",
@@ -72,6 +60,39 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+      {
+    lastActivated: "260523",
+    active: true,
+    expires: 260525,
+    title: "Axis Closed on 5/24: Sunday Stretch and Sesh Cxled!",
+    lines: ["Most of us will be at the Massive Monkeys Breaking Event in Seattle!", "No Stretch or Sesh on Sunday the 24th!"],
+    md: "",
+    link: "",
+  },
+      {
+    lastActivated: "260207",
+    active: true,
+    expires: 260208,
+    title: "2/8 Superbowl Sunday Schedule!",
+    lines: ["1. Guided Flexibility at 1pm (rather than 3pm)",
+      "2. Around 3pm, we may go upstairs to MVP to catch some of the Superbowl",
+      "3. We will be back by 5pm for normal Open Flipping + Free Injury Screen night with Empower Manual Therapy"
+    ],
+    md: "",
+    link: "",
+  },
+    {
+    lastActivated: "260203",
+    active: true,
+    expires: 260209,
+    title: "Free Injury Screening Night(s)!",
+    lines: [
+      "Free with Open Session drop-in OR membership tally ",
+      "Sunday Feb 08",
+    ],
+    md: "./events/empower/injury-screening.md",
+    link: "",
+  },
     {
     lastActivated: "260108",
     active: true,
