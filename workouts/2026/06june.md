@@ -11,8 +11,8 @@
 1. tornado outside arm + elbow
 1. german swing
 1. side bend + hold
-1. moonkick rainbow
 1. raiz slash
+1. moonkick rainbow
 1. backward swing + rolling heel raise
 1. backbending
 
@@ -42,18 +42,20 @@
 1. final stretch sprint home to Axis
 
 ## stretch
+
 1. calf, achilles, ankles
 1. hammies, quads
 
 ## ROM circuit
+
+1. End range squat to pike
 1. weighted horse squat
+1. ab roller
 1. DB single arm pullover
 1. ATG split squat
 1. Side windmill
 1. rings wide push up to chest fly
 1. Tib Raise
-1. End range squat to pike 
-1. ab roller
 
 ## Pressing
 1. rocking stalder (bench?)
