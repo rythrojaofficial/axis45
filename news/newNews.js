@@ -28,6 +28,15 @@ export let newNews = [
     md: "",
     link: "",
   },
+      {
+    lastActivated: "260701",
+    active: true,
+    expires: 260706,
+    title: "4th of July Weekend Updates!",
+    lines: ["Friday Open 7pm, Ballinger Fireworks at 10pm!","4th Activities at Ella Bailey", "Sunday as normal!"],
+    md: "./events/260704july-4th-weekend.md",
+    link: "",
+  },
     {
     lastActivated: "260528",
     active: true,
