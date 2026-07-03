@@ -8,6 +8,24 @@ export const noSeshDates = [
       '5pm Open Flipping/Free injury Screen with Empower Manual Therapy!'
     ]
   },
+  {
+    dateCancelled: [260703], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Open Tricking will start at 7:00pm",
+      "9:30pm walk down to Ballinger to check out MLT's 10pm 3rd of July Fireworks",
+      'Sesh may possibly resume afterwards',
+      'more details ⬇️'
+    ]
+  },
+    {
+    dateCancelled: [260704], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["4th of July hangout/sesh at Ella Bailey park in Magnolia",
+      'Nice grass and scenic views but limited parking',
+      'so carpool if you can',
+      'more details ⬇️'
+    ]
+  },
     {
     dateCancelled: [251231, 260101], // sortable dates in number form
     dateExpires: 260102, // sortable date or '' if tomorrow (1 day cancellation)

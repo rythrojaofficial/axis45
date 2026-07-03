@@ -19,6 +19,15 @@ export let newNews = [
     md: "",
     link: "",
   },
+  {
+    lastActivated: "260701",
+    active: true,
+    expires: 260706,
+    title: "4th of July Weekend Updates!",
+    lines: ["Friday Open 7pm, Ballinger Fireworks at 10pm!","4th Activities at Ella Bailey", "Sunday as normal!"],
+    md: "./events/260704july-4th-weekend.md",
+    link: "",
+  },
     {
     lastActivated: "260528",
     active: true,
@@ -26,15 +35,6 @@ export let newNews = [
     title: "Summer Hours for Friday Start 5/29!",
     lines: ["Friday Open 8-10pm!","Unless a keyholder decides to open early! 😉"],
     md: "",
-    link: "",
-  },
-      {
-    lastActivated: "260701",
-    active: true,
-    expires: 260706,
-    title: "4th of July Weekend Updates!",
-    lines: ["Friday Open 7pm, Ballinger Fireworks at 10pm!","4th Activities at Ella Bailey", "Sunday as normal!"],
-    md: "./events/260704july-4th-weekend.md",
     link: "",
   },
     {
