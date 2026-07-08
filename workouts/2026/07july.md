@@ -36,27 +36,27 @@
 ### accessory
 
 1. low seal + both leg lift
-1. sideplank + twist
+1. sideplank + twist (shoulder emphasis)
 
 ## Exercise
 ### Painfully Slow run to McAlleer Way
+
 1. Hill Sprints
 1. walk back slowly
 
 ### strength
-1. pull up
-1. abs
-### pressing
-1. push up?
 
-### together activity
+1. push up 6r 3x
+1. pull up 6r 3x
 
+### volume
 
+1. 3 way SLDL 30s ea
+1. hollow rock
+1. arch rock
 
 ### accessories
-1. 3 way SLDL
-1. push up
+
 1. QL walk
-1. 2m squat
-toes to bar
+1. Squat
 
