@@ -46,19 +46,19 @@ class YearMonthCombo{
     }
     validateCombo(){
         // ####create validation logic####
-    // let mdString = `./workouts/${this.year}/${this.month}.md`;
-    // fetch(mdString, { method: 'HEAD' })
-    //     .then(response => {
-    //       if (response.ok) {
-    //         return true
-    //       } else {
-    //         // console.log('File does not exist.');
-    //         return false
-    //       }
-    //     })
-        // .catch(error => {
-        //   console.error('Error checking file:', error);
-        // });
+    let mdString = `./workouts/${this.year}/${this.month}.md`;
+    fetch(mdString, { method: 'HEAD' })
+        .then(response => {
+          if (response.ok) {
+            return true
+          } else {
+            // console.log('File does not exist.');
+            return false
+          }
+        })
+        .catch(error => {
+          console.error('Error checking file:', error);
+        });
         return true
     }
 } 
