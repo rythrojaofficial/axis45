@@ -22,7 +22,6 @@ const nextHeadLower = document.getElementById('workouts-next-previous-lower');
 const head = document.getElementById('display-workout');
 
 // const date = new Date();
-console.log(today)
 const currentYear = today.yy;
 let monthIndex = today.mmZeroIndexed;
 
@@ -40,21 +39,21 @@ class YearMonthCombo{
         this.month = month;
         this.wrapperDiv = document.createElement('div')
         if (this.validateCombo() === true){
-            console.log('validated. creating MDLink')
+            // console.log('validated. creating MDLink')
             createMdLink(this.year, this.month, this.wrapperDiv)
 
         }
     }
     validateCombo(){
     // ####create validation logic####
-        console.log(`validateCombo: ${this.year}/${this.month}`)
+        // console.log(`validateCombo: ${this.year}/${this.month}`)
         const yrNum = parseInt(this.year)
         , moNum = parseInt(this.month.slice(0,2));
         // year bound
-        console.log({
-            thisYear: yrNum,
-            thisMonth:moNum,
-        })
+        // console.log({
+        //     thisYear: yrNum,
+        //     thisMonth:moNum,
+        // })
         if(yrNum > 2023
             && yrNum < currentYear
             )return true;
@@ -66,7 +65,7 @@ class YearMonthCombo{
         )return true;
 
         else{
-            console.log('out of bounds')
+            // console.log('out of bounds')
             return false;
         } 
     }

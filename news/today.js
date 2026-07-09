@@ -32,3 +32,4 @@ export const today = {
   // sortable: sortableToday
   sortable: localDateToSortableDate(utcdate)
 };
+console.log(today)

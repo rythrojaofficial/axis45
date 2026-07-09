@@ -13,7 +13,7 @@ export let noSesh = {
   cancelled: false, // changed by ./seshCancellations.js
   messages: [], // changed by ./seshCancellations.js
 };
-console.log(today.sortable)
+// console.log(today.sortable)
 if(noSeshDates.length > 0){
     // console.log('checking cancellations: ')
   noSeshDates.forEach(cancellation =>{
