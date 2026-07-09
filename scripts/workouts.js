@@ -40,26 +40,35 @@ class YearMonthCombo{
         this.month = month;
         this.wrapperDiv = document.createElement('div')
         if (this.validateCombo() === true){
+            console.log('validated. creating MDLink')
             createMdLink(this.year, this.month, this.wrapperDiv)
 
         }
     }
     validateCombo(){
-        // ####create validation logic####
-    let mdString = `./workouts/${this.year}/${this.month}.md`;
-    fetch(mdString, { method: 'HEAD' })
-        .then(response => {
-          if (response.ok) {
-            return true
-          } else {
-            // console.log('File does not exist.');
-            return false
-          }
+    // ####create validation logic####
+        console.log(`validateCombo: ${this.year}/${this.month}`)
+        const yrNum = parseInt(this.year)
+        , moNum = parseInt(this.month.slice(0,2));
+        // year bound
+        console.log({
+            thisYear: yrNum,
+            thisMonth:moNum,
         })
-        .catch(error => {
-          console.error('Error checking file:', error);
-        });
-        return true
+        if(yrNum > 2023
+            && yrNum < currentYear
+            )return true;
+        else if(yrNum === 2023
+            && moNum > 10
+        )return true;
+        else if (yrNum === currentYear
+            && moNum < parseInt(today.mm+1)
+        )return true;
+
+        else{
+            console.log('out of bounds')
+            return false;
+        } 
     }
 } 
 // console.log(yearMonthComboArray)
@@ -141,15 +150,21 @@ function previousWorkoutLogic(){
     // don't get stuck at index0
     let monthIndex = monthsArray.lastIndexOf(displayedMonth.value);
     displayedMonth.selectedIndex = monthIndex+1;
+    let currentlyDisplayedYearInt = Number(displayedYear.value)
+    
         switch(displayedMonth.selectedIndex){
             case 1:
-                let currentlyDisplayedYearInt = Number(displayedYear.value)
                 if(currentlyDisplayedYearInt >= 2024){
                     // compare the year.  2024 is the last year that can go 1 year lower
                     displayedMonth.selectedIndex = 12;
                     displayedYear.value = (currentlyDisplayedYearInt-1).toString();
                 }
                 break;
+            case 11:
+                // november 2023 was start
+                if (currentlyDisplayedYearInt === 2023){
+                    break;
+                }
             default:
                 displayedMonth.selectedIndex--;
                 break;
@@ -171,6 +186,10 @@ function nextWorkoutLogic(){
                     displayedYear.value = (currentlyDisplayedYearInt+1).toString();
                 }
                 break;
+            case parseInt(today.mm):
+                if(currentlyDisplayedYearInt === parseInt(currentYear)){
+                    break;  
+                }
             default:
                 displayedMonth.selectedIndex++;
                 break;       
