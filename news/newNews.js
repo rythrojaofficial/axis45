@@ -19,21 +19,30 @@ export let newNews = [
     md: "",
     link: "",
   },
-  {
-    lastActivated: "260701",
-    active: true,
-    expires: 260706,
-    title: "4th of July Weekend Updates!",
-    lines: ["Friday Open 7pm, Ballinger Fireworks at 10pm!","4th Activities at Ella Bailey", "Sunday as normal!"],
-    md: "./events/260704july-4th-weekend.md",
-    link: "",
-  },
     {
     lastActivated: "260528",
     active: true,
     expires: 260801,
     title: "Summer Hours for Friday Start 5/29!",
     lines: ["Friday Open 8-10pm!","Unless a keyholder decides to open early! 😉"],
+    md: "",
+    link: "",
+  },
+        {
+    lastActivated: "260714",
+    active: true,
+    expires: 260721,
+    title: "July 19: Sunday Stretch and Sesh Cxled",
+    lines: ["Binniz Partners Breaking Event is in Vancouver BC!", "Many of us will be field-tripping to support the Binniz Boys!"],
+    md: "",
+    link: "",
+  },
+      {
+    lastActivated: "260714",
+    active: true,
+    expires: 260724,
+    title: "July 23rd Thursday classes Cxled!",
+    lines: ["5th Thursday: Tricking foundations is on a 4-week cycle and there are 5 Thursdays in July.","There will be no Foundations nor Flipping on Thursday, July 23rd!", "Week 4 will resume on July 30th!"],
     md: "",
     link: "",
   },
@@ -69,6 +78,15 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+    {
+    lastActivated: "260701",
+    active: true,
+    expires: 260706,
+    title: "4th of July Weekend Updates!",
+    lines: ["Friday Open 7pm, Ballinger Fireworks at 10pm!","4th Activities at Ella Bailey", "Sunday as normal!"],
+    md: "./events/260704july-4th-weekend.md",
+    link: "",
+  },
       {
     lastActivated: "260523",
     active: true,

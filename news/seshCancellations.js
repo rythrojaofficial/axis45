@@ -1,5 +1,14 @@
 export const noSeshDates = [
     // Emergency Cacncel
+              {
+    dateCancelled: [260719], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["July 19: Sunday Stretch and Open Sesh Cxled",
+      "Binniz Partners Breaking Event is in Vancouver BC this weekend!", 
+      "Many of us will be field-tripping to support the Binniz Boys!"
+    
+    ]
+  },
           {
     dateCancelled: [260208], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
