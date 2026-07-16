@@ -1,5 +1,15 @@
 export const noSeshDates = [
     // Emergency Cacncel
+                  {
+    dateCancelled: [260717], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Open Tricking 7:00-10:30pm",
+      "We're headed to BC early Saturday morning,",
+      "We'll be starting at 7pm", 
+      "Looking to close up by 10:30pm!"
+    
+    ]
+  },
               {
     dateCancelled: [260719], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)

@@ -5,7 +5,7 @@ import { localDateToSortableDate, sortableDateToLocalDate } from "../scripts/par
 //        ==vvv fake date vvv==
 const testDate = {
   active: false,
-  date: 260719
+  date: 260717
 }
 let utcdate = '';
 
