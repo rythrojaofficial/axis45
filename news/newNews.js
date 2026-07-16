@@ -56,6 +56,20 @@ export let newNews = [
     link: "",
   },
     {
+    lastActivated: "260717",
+    active: true,
+    expires: 260909,
+    title: "Not A Gathering 4: Labor Day Mini",
+    lines: [
+      // "click for details and registration!",
+      "Saturday: September 7th",
+      "More details coming soon!",
+    ],
+    md: "",
+    link: ""
+    // "./events/2025LaborDayMini/not-a-gathering.html",
+  },
+    {
     lastActivated: "260528",
     active: true,
     expires: 260608,
