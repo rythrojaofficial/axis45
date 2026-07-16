@@ -62,7 +62,7 @@ export let newNews = [
     title: "Not A Gathering 4: Labor Day Mini",
     lines: [
       // "click for details and registration!",
-      "Saturday: September 7th",
+      "Saturday: September 5th",
       "More details coming soon!",
     ],
     md: "",
