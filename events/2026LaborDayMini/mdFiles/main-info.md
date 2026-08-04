@@ -41,6 +41,6 @@ _Target schedule subject to change_
 
 > ### Sideline Coverage
 >
-> Empower Manual Therapy is back to make sure everyone is safe and healthy. Make sure to stop by Dr. Gina's table for any questions, concerns, taping, or otherwise!  If you've got ankle, knee, hip, back, shoulder, neck issues, please see her prior to competing!  She will also be on deck just in case something new comes up over the course of Not a Gatheirng.
+> Empower Manual Therapy is back to make sure everyone is safe and healthy. Make sure to stop by Dr. Gina's table for any questions, concerns, taping, or otherwise!  If you've got ankle, knee, hip, back, shoulder, neck issues, please see her prior to competing!  She will also be on deck just in case something new comes up over the course of Not a Gathering.
 
 
