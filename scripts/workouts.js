@@ -177,9 +177,9 @@ function nextWorkoutLogic(){
     // don't get stuck at index0
     let monthIndex = monthsArray.lastIndexOf(displayedMonth.value);
     displayedMonth.selectedIndex = monthIndex+1;
+    let currentlyDisplayedYearInt = Number(displayedYear.value);
         switch(displayedMonth.selectedIndex){
             case 12:
-                let currentlyDisplayedYearInt = Number(displayedYear.value)
                 if(currentlyDisplayedYearInt < Number(currentYear)){
                     displayedMonth.selectedIndex = 1;
                     displayedYear.value = (currentlyDisplayedYearInt+1).toString();
