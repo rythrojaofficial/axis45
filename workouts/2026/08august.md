@@ -1,14 +1,13 @@
-## August Warm Up and Workout
+# August Warm Up and Workout
 
 ## Warm-up
 
-1. Hand behind back shrug, + F/B + alt F/B
+1. Hand behind back shrug, + F/B
 1. across + backwards
 1. twisting arms
 1. standing sidebend + neck
-1. tdr Arm swing
+1. kneeling cross throw
 1. Hackey lift ER/IR
-1. plyo sticks dl, slL, dl slR
 1. lunge sequence
     1. raiz
     1. run
@@ -27,7 +26,7 @@
 
 1. wrist flexion plyo
 1. beterbiev push-up plyo
-1. prone kneeling oblique hip twist, seal ups
+1. prone kneeling oblique hip twist
 1. ffbb plank arm circles
 1. bridge + leg up walk/hops
 
