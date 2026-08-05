@@ -49,7 +49,7 @@ _30s turns_
 1. 2skater + stick
 1. db thruster
 1. SLDL jump + stick
-1. kneeling over shoulder med ball toss
+1. 1/2 kneeling over shoulder med ball toss
 1. ball hamstring
 1. alt lunge drops
 1. sl pogo (corner)
@@ -59,7 +59,7 @@ _30s turns_
 
 ### 10s ISO 
 _2-3rounds_
-1. bent arm  push
+1. bent arm push
 1. pull up lock offs
 1. dragon press
 1. super push up
