@@ -3,7 +3,7 @@
 ## Warm-up
 
 1. Hand behind back shrug, + F/B + alt F/B
-1. cross + backwards
+1. across + backwards
 1. twisting arms
 1. standing sidebend + neck
 1. tdr Arm swing
@@ -25,8 +25,8 @@
 
 ### wrist/shoulder
 
-1. wrist flexion
-1. beterbiev push-ups
+1. wrist flexion plyo
+1. beterbiev push-up plyo
 1. prone kneeling oblique hip twist, seal ups
 1. ffbb plank arm circles
 1. bridge + leg up walk/hops
