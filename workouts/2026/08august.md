@@ -41,11 +41,11 @@
 1. half kneeling cross body start (1 step)
 
 ### sprinting activity
-1. half kneeling start sprint 
+1. half kneeling start sprint?
 1. half kneeling start change of direction
 
 ### plyo circuit
-
+_30s turns_
 1. 2skater + stick
 1. db thruster
 1. SLDL jump + stick
@@ -57,16 +57,17 @@
 1. plate (or kettlebell) swing (or snatch)
 <!-- 1. AT hamstring hops -->
 
-### 10s ISO
-
-1. bent arm iso push
-1. iso pull up lock offs
+### 10s ISO 
+_2-3rounds_
+1. bent arm  push
+1. pull up lock offs
 1. dragon press
-1. super push up iso
+1. super push up
+1. supinated planche?
 1. nordic?
 
-
 ### Accessory
+
 1. loaded carry [fireman/backpack/farmer] + squat?
 2. Hand walk [handstand/spottedHS/wheelbarrow]
 3. plate loaded hip airplane
