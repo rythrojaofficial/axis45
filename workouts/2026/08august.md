@@ -41,11 +41,14 @@
 1. half kneeling cross body start (1 step)
 
 ### sprinting activity
+
 1. half kneeling start sprint?
 1. half kneeling start change of direction
 
 ### plyo circuit
+
 _30s turns_
+
 1. 2skater + stick
 1. db thruster
 1. SLDL jump + stick
