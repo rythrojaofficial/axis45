@@ -41,7 +41,7 @@
 1. half kneeling cross body start (1 step)
 
 ### sprinting activity
-
+1. half kneeling start sprint 
 1. half kneeling start change of direction
 
 ### plyo circuit
@@ -63,6 +63,7 @@
 1. iso pull up lock offs
 1. dragon press
 1. super push up iso
+1. nordic?
 
 
 ### Accessory
@@ -70,3 +71,4 @@
 2. Hand walk [handstand/spottedHS/wheelbarrow]
 3. plate loaded hip airplane
 4. copenhagen
+
