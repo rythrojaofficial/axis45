@@ -6,8 +6,8 @@
 1. across + backwards
 1. twisting arms
 1. standing sidebend + neck
-1. kneeling cross throw
 1. Hackey lift ER/IR
+1. kneeling cross throw
 1. lunge sequence
     1. raiz
     1. run
