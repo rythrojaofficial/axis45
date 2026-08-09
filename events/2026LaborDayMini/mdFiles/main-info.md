@@ -30,8 +30,7 @@
 _Target schedule subject to change_
 
 > *Schedule based on last year*
-> - **5:45pm** Doors Open, fill out comp cards, get taped, open floor
-> - **6:00pm** 30m Physical Therapy Workshop with Dr. Gina of Empower Manual Therapy
+> - **6:00pm** Doors Open, fill out comp cards, get taped, open floor
 > - **6:30pm** August Warm-Up and open floor
 > - **7:00pm** Competitor meeting
 > - **7:15pm** Competitor General Warm-up
