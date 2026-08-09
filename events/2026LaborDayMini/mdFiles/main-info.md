@@ -7,7 +7,7 @@
 >
 > 🗓️ **Date**: Saturday, September 5, 2026
 >
-> 📍 **Event Address**: [Axis 45](https://maps.app.goo.gl/uLf7qqMzEnnLpuVm7)
+> 📍 **Event Address**: [Axis 45](https://maps.app.goo.gl/uLf7qqMzEnnLpuVm7): 7701 230th St SW, Edmonds,  WA 98026
 >
 > 🎟️ **Ticketing Options**: 
 > - [$40 General admission](#buy-button-wrapper)
@@ -17,7 +17,7 @@
 >
 > 🥔 **Food**: 
 > - Misc snacks, sports drinks for sale
-> - [$5 meal ticket](#buy-button-wrapper) for homecooked foods (🐔🐖🍚🥒)
+> - [$5 meal ticket](#buy-button-wrapper) for homecooked foods (🐔🐄🍚🥒&More)
 >
 > 🛖 **Accomodations**: Gym sleepover available (bring sleeping pad, bag, pillow, blanket, *must be out by 9am Sunday Morning*)
 >
@@ -42,5 +42,3 @@ _Target schedule subject to change_
 > ### Sideline Coverage
 >
 > Empower Manual Therapy is back to make sure everyone is safe and healthy. Make sure to stop by Dr. Gina's table for any questions, concerns, taping, or otherwise!  If you've got ankle, knee, hip, back, shoulder, neck issues, please see her prior to competing!  She will also be on deck just in case something new comes up over the course of Not a Gathering.
-
-

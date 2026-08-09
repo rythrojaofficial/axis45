@@ -28,33 +28,6 @@ export let newNews = [
     md: "",
     link: "",
   },
-          {
-    lastActivated: "260714",
-    active: true,
-    expires: 260718,
-    title: "July 17: Friday Open Tricking Hours adjustment",
-    lines: ["Starting 7pm, closing up by 10:30pm","Many of us are headed to BC in the morning!",],
-    md: "",
-    link: "",
-  },
-        {
-    lastActivated: "260714",
-    active: true,
-    expires: 260721,
-    title: "July 19: Sunday Stretch and Open Sesh Cxled",
-    lines: ["Binniz Partners Breaking Event is in Vancouver BC!", "Many of us will be field-tripping to support the Binniz Boys!"],
-    md: "",
-    link: "",
-  },
-      {
-    lastActivated: "260714",
-    active: true,
-    expires: 260724,
-    title: "July 23rd Thursday classes Cxled!",
-    lines: ["5th Thursday: Tricking foundations is on a 4-week cycle and there are 5 Thursdays in July.","There will be no Foundations nor Flipping on Thursday, July 23rd!", "Week 4 will resume on July 30th!"],
-    md: "",
-    link: "",
-  },
     {
     lastActivated: "260717",
     active: true,
@@ -63,10 +36,10 @@ export let newNews = [
     lines: [
       // "click for details and registration!",
       "Saturday: September 5th",
-      "More details coming soon!",
+      "Click here for Full Details!",
     ],
     md: "",
-    link: ""
+    link: "./events/2026LaborDayMini/not-a-gathering.html"
     // "./events/2025LaborDayMini/not-a-gathering.html",
   },
     {
@@ -101,6 +74,33 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+            {
+    lastActivated: "260714",
+    active: true,
+    expires: 260718,
+    title: "July 17: Friday Open Tricking Hours adjustment",
+    lines: ["Starting 7pm, closing up by 10:30pm","Many of us are headed to BC in the morning!",],
+    md: "",
+    link: "",
+  },
+        {
+    lastActivated: "260714",
+    active: true,
+    expires: 260721,
+    title: "July 19: Sunday Stretch and Open Sesh Cxled",
+    lines: ["Binniz Partners Breaking Event is in Vancouver BC!", "Many of us will be field-tripping to support the Binniz Boys!"],
+    md: "",
+    link: "",
+  },
+      {
+    lastActivated: "260714",
+    active: true,
+    expires: 260724,
+    title: "July 23rd Thursday classes Cxled!",
+    lines: ["5th Thursday: Tricking foundations is on a 4-week cycle and there are 5 Thursdays in July.","There will be no Foundations nor Flipping on Thursday, July 23rd!", "Week 4 will resume on July 30th!"],
+    md: "",
+    link: "",
+  },
     {
     lastActivated: "260701",
     active: true,

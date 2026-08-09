@@ -1,6 +1,6 @@
 ## Competition Format
 
-_Not Battles!_
+_Not Battles!_  
 
 > **Single Pass Comp: Minimum 3 tricks, No maximum**
 >
