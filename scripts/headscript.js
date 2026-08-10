@@ -63,6 +63,11 @@ const navCurrent = new NavText(
   "current-offerings-link",
   "https://www.seattletricking.com/current-offerings"
 );
+const navUpcoming = new NavText(
+  "Not A Gathering 4",
+  "upcoming-link",
+  "https://www.seattletricking.com/events/2026LaborDayMini/not-a-gathering"
+);
 const navWorkouts = new NavText(
   "workouts",
   "workouts-link",
@@ -73,11 +78,6 @@ const navWorkshops = new NavText(
   "workshops-link",
   "https://www.seattletricking.com/workshops"
 );
-// const navUpcoming = new NavText(
-//   "upcoming events",
-//   "upcoming-link",
-//   "https://www.seattletricking.com/upcoming"
-// );
 const navMemberships = new NavText(
   "memberships",
   "memberships-link",
