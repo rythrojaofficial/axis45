@@ -42,6 +42,20 @@ export let newNews = [
     link: "./events/2026LaborDayMini/not-a-gathering.html"
     // "./events/2025LaborDayMini/not-a-gathering.html",
   },
+      {
+    lastActivated: "260817",
+    active: true,
+    expires: 260907,
+    title: "NAG4 Week Schedule!",
+    lines: [
+      "Thursday 9.3: Classes as normal then event configuration", 
+      "Friday 9.4: Open sesh as normal, closing up by 10:30pm",
+      "Saturday 9.5: NAG4 doors open 6pm",
+      "Sunday 9.6: Sunday Stretch and Open Flipping as normal"
+    ],
+    md: "",
+    link: ""
+  },
     {
     lastActivated: "260528",
     active: true,
