@@ -52,6 +52,7 @@ core: sprinter bench sit up
 ### accessory circuit
 
 1. handstand (tap if can)
+1. bench shld Ext (_only if needed_)
 1. weighted side lifts
 1. ring reverse fly
 1. back extension(partner)
