@@ -4,16 +4,16 @@
 
 1. Hand behind back shrug, + F/B
 1. across + backwards
-1. twisting arms
+1. twisting arm punch
 1. standing sidebend + neck
 1. Hackey lift ER/IR
+1. alternating pike + flatback hold
+    1. feet together squat
 1. kneeling cross throw
 1. lunge sequence
     1. raiz
     1. swing
     1. outside crescent
-1. alternating pike + flatback hold
-    1. feet together squat, butterfly squat
 1. side sequence
     1. half middle (elbows down) backwards rock + lift & hook
     1. 90/90 glute, then sidekick
@@ -22,9 +22,7 @@
 
 1. wrist flexion plyo
 1. beterbiev push-up plyo
-1. ffbb plank arm circles
 1. bridge + leg up walk/hops
-<!-- 1. prone kneeling oblique hip twist -->
 
 ## Exercise
 
