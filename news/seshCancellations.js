@@ -10,7 +10,43 @@ export const noSeshDates = [
     
     ]
   },
-              {
+  {
+    dateCancelled: [260904], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Open Tricking 8:00-10:30pm",
+      "unless someone posts in the discord to open earlier/close later",
+      "we'll be closing up a little early due to NAG4 on Saturday :)"
+    ]
+  },
+    {
+    dateCancelled: [260905], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Not a gathering 4 Day!",
+      "Doors open 6pm",
+      "see the gathering page below for more details!"
+    ]
+  },
+      {
+    dateCancelled: [260906], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Guided Flexibility/Open Flipping as normal 3-5, 5-7pm respectively!",
+    ]
+  },
+    {
+    dateCancelled: [260907], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Labor Day Monday!",
+      "No Axis Sesh tonight!",
+      "But Grass sesh if it's not rainy! It'll be on the discord! :)",
+      
+    ]
+  },
+
+
+]
+
+const archived = [
+                {
     dateCancelled: [260719], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
     messages: ["July 19: Sunday Stretch and Open Sesh Cxled",
@@ -68,10 +104,6 @@ export const noSeshDates = [
       'See you all next week!'
     ]
   },
-
-]
-
-const archived = [
   {
     dateCancelled: [251208], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)

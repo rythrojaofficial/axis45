@@ -51,7 +51,8 @@ export let newNews = [
       "Thursday 9.3: Classes as normal then event configuration", 
       "Friday 9.4: Open sesh as normal, closing up by 10:30pm",
       "Saturday 9.5: NAG4 doors open 6pm",
-      "Sunday 9.6: Sunday Stretch and Open Flipping as normal"
+      "Sunday 9.6: Sunday Stretch and Open Flipping as normal",
+      "Monday 9.7: LABOR DAY Grass sesh (if not raining) no gym sesh!"
     ],
     md: "",
     link: ""
