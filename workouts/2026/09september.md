@@ -34,10 +34,10 @@ _Hurdles_ 4low+4med
 4. hurdleOver Pause R/L
 5. 2 hurdle run
 
-### unilateral superset 8/8/15/15
+### unilateral superset 10/10
 
 _2 stations per superset_
-squat: RFE squat trap bar(>50)/Plate (<50)
+squat: RFE squat trap bar(>50) / DB (<50)
 press: SA DB press
 
 hinge: SL barbell hip thrust
@@ -46,7 +46,7 @@ core: sprinter bench sit up
 ### lengthened iso 6c
 
 1. pull up
-2. push up lean (if time)
+2. _push up lean (if time)_
 3. partner resisted SL hamstring
 
 ### accessory circuit
