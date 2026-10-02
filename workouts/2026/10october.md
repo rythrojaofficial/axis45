@@ -28,20 +28,23 @@ Links:
 1. R/L sideseal _with shoulder push_ + downward dog
 1. prone Achilles R/L
 1. 5 mountain climbers + lunge
-   1. elbows, twist, pigeon, cossack
+   1. elbows, glute, cossack
 1. TA lift R/L
 1. dynamic pancake sit up+ pancake
 
 ## Exercise
 
-#### 30-50 Backflips any variation, any surface
+### 30-50 Backflips any variation, any surface
 
-Or sub one of the following:
+#### Flippers that can't flip today:
 
-- 50 backflip sets
-- 50 LegLift+stick
-- 75 hollow rocks
-- 25 dragon flags 4s lowers
+1. 50 concentric dragon flag (any shape) OR Bar Leg lifts
+
+#### Non-flippers:
+
+1. 20 backflip sets
+2. 30 tuck bounce
+4. 30 toes to bars or toes to hands _floor_
 
 <!-- ### Endurance circuit
 
