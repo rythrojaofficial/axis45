@@ -8,26 +8,27 @@ Links:
 [Ukraine National Greco Roman Team](https://www.youtube.com/watch?v=sfL99MqdczI)
  -->
 
-1. Cross body Arm pulse
-1. spinal engine f/b  _figure 8 hands behind head_
-<!-- 1. hands on head shrug _center/R/L_ -->
-1. tornado rainbow arms _R/L/Both_
-1. stirring pot _arms together, apart_
 <!-- 1. Rhythm Single Arm rotation fwd/bkwd
 1. T shoulders open, rot(fwd, bkwd) -->
+<!-- 1. hands on head shrug _center/R/L_ -->
+
+1. Cross body Arm pulse _Same, then alternate_
+1. spinal engine f/b  _figure 8 hands behind head_
+1. tornado rainbow arms _R/L/Both_
+1. stirring pot _arms together, apart_
 1. R/L T3 balance _pump closed/open, rotating_
 1. R/L Grab+ pull, lift _front, side, back_
 1. leg tap(same side, opposite side)
    1. fwd, side, bkwd
 1. squat series
-   1. 5 lunge hop lunge + hold 
+   1. 5 lunge hop lunge + hold
    1. heels up squat pulse, elbows down squat
    1. pike walk+outer reach, flat back arms up pike squat
 1. prone kneeling leg lift _straight back and 90degrees_
 1. R/L sideseal _with shoulder push_ + downward dog
 1. prone Achilles R/L
 1. 5 mountain climbers + lunge
-   1. low/+twist/upright +twist
+   1. elbows, twist, pigeon, cossack
 1. TA lift R/L
 1. dynamic pancake sit up+ pancake
 
