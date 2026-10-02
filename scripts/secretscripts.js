@@ -1,27 +1,4 @@
-let memberListArray  = ['zack snider,1','ryan johnson',					
-    'Shawn Canonizado'  ,										
-    'Scott Jarvis,1'	    ,				
-    'Slava bboy,1'	    ,				
-    'Kevin Semple Bboy'	,				
-    'Justin Won,1'		,			
-    'Ricky Thonglyvong,1'	,				
-    'Daniel Yang BBoy,2'	,				
-    'Dylan Yung bboy,1'	,				
-    'di li,1'				,	
-    'Michael Ko,1'		,								
-    'Grey geppert'		,			
-    'Jonah Mitchell,1'	,				
-    'Julian Lee'		,			
-    'Aslan' 			,		
-    'Grace Lao,1'			,							
-    'Lex Friedman,1'		,								
-    'Merv,1'				,					
-    'Jeremy Denny'		,			
-    'Caleb Pierce,1'		,			
-    'Joey Mushroom,1'		,			
-    'Jake Gallow,2'		,			
-    'Blake Dukowitz,1'
-];
+
 
 // async function load() {
 //     const response = await fetch(
