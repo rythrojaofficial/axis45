@@ -38,27 +38,42 @@ Links:
 
 #### Flippers that can't flip today:
 
-1. 50 concentric dragon flag (any shape) OR Bar Leg lifts
+1. 30-50 concentric dragon flag (any shape) OR Bar Leg lifts
 
 #### Non-flippers:
 
 1. 20 backflip sets
-2. 30 tuck bounce
+2. 10 knee jump + bounce
+3. 20 tuck bounce
 4. 30 toes to bars or toes to hands _floor_
 
-<!-- ### Endurance circuit
+### strength 4-3-1-0
 
-1. Loaded Carry[fireman/backpack/farmers]
-1. Hand Walk[Handstand/wheelbarrow]
-1. Walking[Lunge&HamstringCurl]
-1. Crawl[Bear/AlligatorPushUp]
-1. Drag[PartnerBanded]
+1. 6r b-stance contralateral RDL
+1. 3-6r hspu
+1. 6r row (4-1-3-0)
+1. 6r goblet squat
 
-### Kick circuit
+### yielding iso circuit 30s
 
-1. sticky round sticky side, hook
-1. hop front, hop round
-1. static side, static back
-   1. 2pulse hold
-   1. 8s
-   1. torso lift -->
+1. *straddle hip flexor _panels_
+1. soleus iso _DB, step_
+1. prone bench cross body, _pulse_
+1. copenhagen lift _CBF_, with leg swing?
+1. side plank lift, with circle
+1. Wall sit (double set)
+1. push up _parallettes_
+1. pigeon _bench, plated_ <!-- instead of side plank -->
+1. *bosu skater tap
+1. hang (double set)
+<!-- 1. bosu skater tap -->
+### kick circuit
+
+1. sticky kick (low medium high)
+   1. round, side
+1. hop round
+1. static side
+   1. pulse
+   1. figure 8s
+   1. torso lift
+
