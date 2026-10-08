@@ -53,7 +53,9 @@
 2. HSPU: 1-5 reps for 3 sets
 3. 3 sets of 8 zercher squat(barbell or partner) OR goblet squat
 
+
 ### Accessory
+
 1. squat diagonal walk f/b
 2. squat side step
 3. QL walk
@@ -69,5 +71,3 @@
    1. torso lift
 
 ### Bonus?
-
-
