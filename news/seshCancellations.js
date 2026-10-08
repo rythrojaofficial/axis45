@@ -11,6 +11,14 @@ export const noSeshDates = [
     ]
   },
   {
+    dateCancelled: [261030], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Tricks n' Treats Halloween Sesh tonight!",
+      "See Post below!",
+      "Sesh starts 7pm, Games around 9!"
+    ]
+  },  
+  {
     dateCancelled: [260904], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
     messages: ["Open Tricking 8:00-10:30pm",

@@ -19,7 +19,48 @@ export let newNews = [
     md: "",
     link: "",
   },
+  {
+    lastActivated: "261008",
+    active: true,
+    expires: 261102,
+    title: "Tricks n' Treats",
+    lines: ["🎃 🧡 👻 🧛 ⚰️ 🧟 👽 🛸 🧙️","Halloween costume sesh, games, & potluck","Friday 10/30, 7pm", ""],
+    md: "./events/261030halloweenSesh/page.md",
+    link: "",
+  },  
     {
+    lastActivated: "260528",
+    active: true,
+    expires: 260608,
+    title: "Free Injury Screening Night(s)!",
+    lines: [
+      "Free with Open Session drop-in OR membership tally ",
+      "Sunday, June 7",
+    ],
+    md: "./events/empower/injury-screening.md",
+    link: "",
+  },
+  // 5th thursday cancellation
+  {
+    lastActivated: "250720",
+    active: true,
+    expires: 250801,    
+    title: "[7/31/Thurs] 5th Thurs, No Classes! 🙅",
+    lines: [
+      "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
+      // "It also happens to be Halloween so have fun and stay safe!",
+      "enjoy the day off! :-)"
+    ],
+    md: "",
+    link: "",
+  },
+  //
+];
+// ===========================================================
+// ==================Archived==================Archived=======
+// ===========================================================
+let archived = [
+     {
     lastActivated: "260528",
     active: true,
     expires: 260801,
@@ -57,38 +98,6 @@ export let newNews = [
     md: "",
     link: ""
   },
-    {
-    lastActivated: "260528",
-    active: true,
-    expires: 260608,
-    title: "Free Injury Screening Night(s)!",
-    lines: [
-      "Free with Open Session drop-in OR membership tally ",
-      "Sunday, June 7",
-    ],
-    md: "./events/empower/injury-screening.md",
-    link: "",
-  },
-  // 5th thursday cancellation
-  {
-    lastActivated: "250720",
-    active: true,
-    expires: 250801,    
-    title: "[7/31/Thurs] 5th Thurs, No Classes! 🙅",
-    lines: [
-      "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
-      // "It also happens to be Halloween so have fun and stay safe!",
-      "enjoy the day off! :-)"
-    ],
-    md: "",
-    link: "",
-  },
-  //
-];
-// ===========================================================
-// ==================Archived==================Archived=======
-// ===========================================================
-let archived = [
             {
     lastActivated: "260714",
     active: true,
