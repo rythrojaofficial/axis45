@@ -1,31 +1,14 @@
 export const noSeshDates = [
     // Emergency Cacncel
-                  {
-    dateCancelled: [260717], // sortable dates in number form
-    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
-    messages: ["Open Tricking 7:00-10:30pm",
-      "We're headed to BC early Saturday morning,",
-      "We'll be starting at 7pm", 
-      "Looking to close up by 10:30pm!"
-    
-    ]
-  },
+
   {
     dateCancelled: [261030], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
     messages: ["Tricks n' Treats Halloween Sesh tonight!",
       "See Post below!",
-      "Sesh starts 7pm, Games around 9!"
+      "Doors open 7pm, Games 7:15-8:30pm, Sesh 8:30pm 👻!"
     ]
   },  
-  {
-    dateCancelled: [260904], // sortable dates in number form
-    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
-    messages: ["Open Tricking 8:00-10:30pm",
-      "unless someone posts in the discord to open earlier/close later",
-      "we'll be closing up a little early due to NAG4 on Saturday :)"
-    ]
-  },
     {
     dateCancelled: [260905], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
@@ -54,6 +37,24 @@ export const noSeshDates = [
 ]
 
 const archived = [
+    {
+    dateCancelled: [260904], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Open Tricking 8:00-10:30pm",
+      "unless someone posts in the discord to open earlier/close later",
+      "we'll be closing up a little early due to NAG4 on Saturday :)"
+    ]
+  },
+                    {
+    dateCancelled: [260717], // sortable dates in number form
+    dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
+    messages: ["Open Tricking 7:00-10:30pm",
+      "We're headed to BC early Saturday morning,",
+      "We'll be starting at 7pm", 
+      "Looking to close up by 10:30pm!"
+    
+    ]
+  },
                 {
     dateCancelled: [260719], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)

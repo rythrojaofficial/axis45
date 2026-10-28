@@ -24,7 +24,7 @@ export let newNews = [
     active: true,
     expires: 261102,
     title: "Tricks n' Treats",
-    lines: ["🎃 🧡 👻 🧛 ⚰️ 🧟 👽 🛸 🧙️","Halloween costume sesh, games, & potluck","Friday 10/30, 7pm", ""],
+    lines: ["🎃 🧡 👻 🧛 ⚰️ 🧟 👽 🛸 🧙️","Halloween games, Costume sesh, potluck","Friday 10/30, 7pm", "Schedule below"],
     md: "./events/261030halloweenSesh/page.md",
     link: "",
   },  
@@ -42,14 +42,17 @@ export let newNews = [
   },
   // 5th thursday cancellation
   {
-    lastActivated: "250720",
+    lastActivated: "261029",
     active: true,
-    expires: 250801,    
-    title: "[7/31/Thurs] 5th Thurs, No Classes! 🙅",
+    expires: 261030,    
+    title: "[10/29/Thu] 5th Thurs, No 630pm class",
     lines: [
-      "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
+      "Since there are only 4 classes in each session",
+      "630pm will be beginner friendly open session, welcome to all!",
+      "7:30 Flipping as normal!",
+      // "Axis is closed on the 5th Thursday since we only have 4 classes in each session!",
       // "It also happens to be Halloween so have fun and stay safe!",
-      "enjoy the day off! :-)"
+      // "enjoy the day off! :-)"
     ],
     md: "",
     link: "",

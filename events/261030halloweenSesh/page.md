@@ -1,4 +1,5 @@
 # Schedule
-_TBD, but based off last year. . ._
-- 7pm: Spooky trick sesh (Wear a costume if you have one!)
-- 9pm: Games/Potluck
+
+- 7pm: Doors Open
+- 7:15pm: Games Begin
+- 8:30pm: Costume sesh
