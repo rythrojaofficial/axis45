@@ -9,7 +9,13 @@ export const noSeshDates = [
       "Doors open 7pm, Games 7:15-8:30pm, Sesh 8:30pm 👻!"
     ]
   },  
-    {
+
+
+
+]
+
+const archived = [
+      {
     dateCancelled: [260905], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
     messages: ["Not a gathering 4 Day!",
@@ -32,11 +38,6 @@ export const noSeshDates = [
       
     ]
   },
-
-
-]
-
-const archived = [
     {
     dateCancelled: [260904], // sortable dates in number form
     dateExpires: '', // sortable date or '' if tomorrow (1 day cancellation)
