@@ -19,6 +19,18 @@ export let newNews = [
     md: "",
     link: "",
   },
+  {
+    lastActivated: "261104",
+    active: true,
+    expires: 261207,
+    title: "Holiday Schedule!",
+    lines: [
+      "No Class Thursday, Thanksgiving!",
+      "More details Below"
+    ],
+    md: "./events/2026holiday/schedule.md",
+    link: "",
+  },
     {
     lastActivated: "261104",
     active: true,
@@ -31,18 +43,7 @@ export let newNews = [
     md: "./events/empower/injury-screening.md",
     link: "",
   },
-    {
-    lastActivated: "261104",
-    active: true,
-    expires: 261207,
-    title: "Holiday Schedule!",
-    lines: [
-      "No Class Thursday, Thanksgiving!",
-      "More details Below"
-    ],
-    md: "./events/2026holiday/schedule.md",
-    link: "",
-  },
+
   // 5th thursday cancellation
   {
     lastActivated: "261029",
