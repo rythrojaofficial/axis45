@@ -19,25 +19,28 @@ export let newNews = [
     md: "",
     link: "",
   },
-  {
-    lastActivated: "261008",
-    active: true,
-    expires: 261102,
-    title: "Tricks n' Treats",
-    lines: ["🎃 🧡 👻 🧛 ⚰️ 🧟 👽 🛸 🧙️","Halloween games, Costume sesh, potluck","Friday 10/30, 7pm", "Schedule below"],
-    md: "./events/261030halloweenSesh/page.md",
-    link: "",
-  },  
     {
-    lastActivated: "260528",
+    lastActivated: "261104",
     active: true,
-    expires: 260608,
+    expires: 261207,
     title: "Free Injury Screening Night(s)!",
     lines: [
       "Free with Open Session drop-in OR membership tally ",
-      "Sunday, June 7",
+      "Sunday, December 6",
     ],
     md: "./events/empower/injury-screening.md",
+    link: "",
+  },
+    {
+    lastActivated: "261104",
+    active: true,
+    expires: 261207,
+    title: "Holiday Schedule!",
+    lines: [
+      "No Class Thursday, Thanksgiving!",
+      "More details Below"
+    ],
+    md: "./events/2026holiday/schedule.md",
     link: "",
   },
   // 5th thursday cancellation
@@ -63,6 +66,15 @@ export let newNews = [
 // ==================Archived==================Archived=======
 // ===========================================================
 let archived = [
+    {
+    lastActivated: "261008",
+    active: true,
+    expires: 261102,
+    title: "Tricks n' Treats",
+    lines: ["🎃 🧡 👻 🧛 ⚰️ 🧟 👽 🛸 🧙️","Halloween games, Costume sesh, potluck","Friday 10/30, 7pm", "Schedule below"],
+    md: "./events/261030halloweenSesh/page.md",
+    link: "",
+  },  
      {
     lastActivated: "260528",
     active: true,
