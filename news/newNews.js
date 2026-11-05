@@ -34,6 +34,18 @@ export let newNews = [
     {
     lastActivated: "261104",
     active: true,
+    expires: 261206,
+    title: "PDX FieldTrip: Blizz Battle!",
+    lines: [
+      "Saturday, Dec 5",
+      "More details Below"
+    ],
+    md: "./events/261205fieldtrip/blizzbattle.md",
+    link: "",
+  },
+    {
+    lastActivated: "261104",
+    active: true,
     expires: 261207,
     title: "Free Injury Screening Night(s)!",
     lines: [
