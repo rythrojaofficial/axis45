@@ -5,8 +5,8 @@ _Running on, Skip running Drills_
 1. cross body twist
 1. 2 step reach over + backbending
 1. SL pike slides
-1. bear walk + 45d bear walk
 1. grab knee + lunge + twist + Airplane
+1. bear walk + 45d bear walk
 1. 4 way shoulder hops
 1. swinging rolling heel toe
 1. backwards swing pull
