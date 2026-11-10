@@ -15,7 +15,7 @@ Portland crew has invited us down south for a new event at Superhero Fitness!
 
 345 SE Yamhill St, Portland, OR 97214
 
-🎟️ **Ticketing Options**: [$35 tickets ($10 spectator)](https://www.pdxtricking.org/events) & waivers _(now active)_
+🎟️ **Ticketing Options**: [$35 tickets ($10 spectator)](https://www.pdxtricking.org/events) & waivers _(don't buy yet, there will be a 15% off for a group purchase of 4+)_
 
 </blockquote>
 
