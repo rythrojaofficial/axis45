@@ -1,8 +1,17 @@
+### Friday, Nov 20
+Jared and Krissy Out of Town for New heights.  Open sesh should be as normal with Slava in charge!
+
+### Sunday, Nov 22
+Jared and Krissy Out of Town for New heights.  Stretch and Open sesh should be as normal with Slava in charge!
+
+### Monday, Nov 23
+Jared and Krissy Out of Town for New heights.  Axis Closed unless A keyholder decides to open (check discord!)
+
 ### Thursday, Nov 26
 Axis Closed Due to Thanksgiving, no classes!
 
 ### Friday: Nov 27
-TBD! Check discord for most Up to date info
+Black Friday TBD! Check discord for most Up to date info
 
 ### Sunday: Nov 29
 Stretch and Break as normal
