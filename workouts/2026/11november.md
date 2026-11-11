@@ -31,16 +31,17 @@ IR twisting
 ## Exercise
 
 1. 5 sets of 5 swing exercise _each side_
+    1. OR 3 hop jump/flip
 1. box push: reg, skip, sideways, bounce
 
 ### Contrast Pairings 5+5
 
-1. DB weighted step up + bench step up jump
-1. front squat/DB squat + depth jump box jump
+1. Ipsilateral DB weighted step up _On bench, 5 each_ + step up jump _on step at edge, 5 each_
+1. front squat/DB squat + depth jump box jump _middle step up to green block + pit pillow on the other side_
 <!-- 1. DB bench + push toss OR landmine push press -->
 <!-- 1. DB SL RDL + triple hop -->
 
-### 10s iso Strenth
+### 3x10s iso Strenth
 
 1. Front lever, regressions, else toes to bar
 1. HSPU iso
@@ -49,18 +50,23 @@ IR twisting
 
 ### accessory
 
-1. adductor side bends `2 25s`
-1. SL DB hip thrust `small DBs`
-1. standing splits hamstring slider `slider`
-1. jefferson curl/wall walk backbending `green block + 2 25's & 2 10's`
-1. bosu oblique toss
-1. landmine row/ring push up
-1. seated calf `big DBs bench, step`
-1. Lu Raise/Shoulder bands `5s/10s + Orange band`
+<!-- 1. adductor side bends `2 25s, 2 yoga blocks` -->
+1. elevated cossack `likely no weight`
+1. Lu Raise/Shoulder bands `2 5s/10s + red band`
+1. SL DB hip thrust `small DBs at CBF`
+1. stahl rotations `medball, 5, on green trap, partner holds feet`
+1. jefferson curl `green rectangle + 25's & 10` / wall walk backbending (can be split)
+1. landmine row/rings push up (can be split)
+1. standing splits hamstring slider `slider, hand on green block`
+1. seated calf `big DBs 2 benches, 1 step`
+
+
+<!-- 1. bosu oblique toss -->
 
 
 ### bonus
 
+1. bench hold + windshield wiper
 1. gina abs
 1. Arch up
     1. arch + hold
